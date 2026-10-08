@@ -1,0 +1,3304 @@
+[
+  {
+    "frame": "0001",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 264,
+            "ncc": 0.9999345017806931,
+            "scale": 1.0000043839981887,
+            "rotation_deg": 0.010445331886966452
+          },
+          "cup_ncc": 0.5674374103546143,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 55,
+            "ncc": 0.7576405828607404,
+            "scale": 1.0417490429386789,
+            "rotation_deg": -6.204131465446885
+          },
+          "cup_ncc": 0.5439607501029968,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 42,
+            "ncc": 0.8022039441257011,
+            "scale": 1.014064871380241,
+            "rotation_deg": 7.914519572390308
+          },
+          "cup_ncc": 0.6295332312583923,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 62,
+            "ncc": 0.8484616965906819,
+            "scale": 0.9800371052050829,
+            "rotation_deg": 5.453876573409922
+          },
+          "cup_ncc": 0.44918131828308105,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 164.01
+    }
+  },
+  {
+    "frame": "0002",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 177,
+            "ncc": 0.994436298121143,
+            "scale": 1.0000064304882192,
+            "rotation_deg": 0.009372375231847162
+          },
+          "cup_ncc": 0.5683620572090149,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 45,
+            "ncc": 0.765711124947247,
+            "scale": 1.0054422897712505,
+            "rotation_deg": 8.369197644216676
+          },
+          "cup_ncc": 0.6223152279853821,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 58,
+            "ncc": 0.8281094289151926,
+            "scale": 0.991520739832641,
+            "rotation_deg": 5.835269673768574
+          },
+          "cup_ncc": 0.44886747002601624,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 160.53
+    }
+  },
+  {
+    "frame": "0003",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 171,
+            "ncc": 0.9934249043423077,
+            "scale": 0.9995720082388269,
+            "rotation_deg": 0.05635351826615677
+          },
+          "cup_ncc": 0.5726191401481628,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 56,
+            "ncc": 0.7911991480168791,
+            "scale": 0.9977603454428327,
+            "rotation_deg": 5.780041978600156
+          },
+          "cup_ncc": 0.42634162306785583,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 146.0
+    }
+  },
+  {
+    "frame": "0004",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 161,
+            "ncc": 0.9936389142692391,
+            "scale": 1.0003457017120754,
+            "rotation_deg": 0.0391188828940653
+          },
+          "cup_ncc": 0.5679238438606262,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 37,
+            "ncc": 0.7929267798230706,
+            "scale": 1.0120667868255737,
+            "rotation_deg": 7.9652828136140075
+          },
+          "cup_ncc": 0.6279973387718201,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 57,
+            "ncc": 0.8611627508032554,
+            "scale": 0.982898968173433,
+            "rotation_deg": 5.401197736670371
+          },
+          "cup_ncc": 0.4409763813018799,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 158.88
+    }
+  },
+  {
+    "frame": "0005",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 175,
+            "ncc": 0.9938095459012339,
+            "scale": 1.0007972968942302,
+            "rotation_deg": 0.048678101607046984
+          },
+          "cup_ncc": 0.568848192691803,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 53,
+            "ncc": 0.732327796681849,
+            "scale": 1.0321507814311734,
+            "rotation_deg": -5.9767005684564545
+          },
+          "cup_ncc": 0.5380784869194031,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 53,
+            "ncc": 0.8480287255306022,
+            "scale": 0.9850717041937234,
+            "rotation_deg": 5.7956738721603
+          },
+          "cup_ncc": 0.4458840787410736,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 157.29
+    }
+  },
+  {
+    "frame": "0006",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 184,
+            "ncc": 0.9941771035478659,
+            "scale": 1.0004010057779462,
+            "rotation_deg": -0.02439146476798285
+          },
+          "cup_ncc": 0.5694695115089417,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 46,
+            "ncc": 0.7768040642692754,
+            "scale": 1.0069578087986484,
+            "rotation_deg": 8.344567897260967
+          },
+          "cup_ncc": 0.6224254965782166,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 54,
+            "ncc": 0.8435246519044208,
+            "scale": 0.9895890396046648,
+            "rotation_deg": 6.205866820165182
+          },
+          "cup_ncc": 0.45065754652023315,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 162.13
+    }
+  },
+  {
+    "frame": "0007",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 167,
+            "ncc": 0.9935012861852716,
+            "scale": 1.0001311014046605,
+            "rotation_deg": 0.03969721608782089
+          },
+          "cup_ncc": 0.5684875249862671,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 48,
+            "ncc": 0.7067615663696,
+            "scale": 1.057643053932713,
+            "rotation_deg": -7.08770216481989
+          },
+          "cup_ncc": 0.554093599319458,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 41,
+            "ncc": 0.7842971238537879,
+            "scale": 1.0050358203750258,
+            "rotation_deg": 7.0049719649940645
+          },
+          "cup_ncc": 0.6187830567359924,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 55,
+            "ncc": 0.84811068803941,
+            "scale": 0.9826483542500197,
+            "rotation_deg": 5.3778641811817405
+          },
+          "cup_ncc": 0.44467076659202576,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 168.09
+    }
+  },
+  {
+    "frame": "0008",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 176,
+            "ncc": 0.9933051112808413,
+            "scale": 0.9999299628720075,
+            "rotation_deg": 0.028261024239802514
+          },
+          "cup_ncc": 0.5673988461494446,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 44,
+            "ncc": 0.7799977923829665,
+            "scale": 1.0031894728067956,
+            "rotation_deg": 7.8887265301206355
+          },
+          "cup_ncc": 0.6220245957374573,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 54,
+            "ncc": 0.8506299186477828,
+            "scale": 0.9887838296884301,
+            "rotation_deg": 5.553378460147561
+          },
+          "cup_ncc": 0.44360336661338806,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 159.24
+    }
+  },
+  {
+    "frame": "0009",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 174,
+            "ncc": 0.994174313601332,
+            "scale": 1.0000901306907095,
+            "rotation_deg": 0.010507208964725461
+          },
+          "cup_ncc": 0.5688695907592773,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 40,
+            "ncc": 0.7788695510115485,
+            "scale": 1.011440157119202,
+            "rotation_deg": 8.010894596832925
+          },
+          "cup_ncc": 0.6284052133560181,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 141.82
+    }
+  },
+  {
+    "frame": "0010",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 179,
+            "ncc": 0.9941585309906115,
+            "scale": 1.0003531661798797,
+            "rotation_deg": 0.01878786685038941
+          },
+          "cup_ncc": 0.56777423620224,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 40,
+            "ncc": 0.7896021368693288,
+            "scale": 1.006385990236493,
+            "rotation_deg": 7.301184318173956
+          },
+          "cup_ncc": 0.6201137900352478,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 56,
+            "ncc": 0.848686553507865,
+            "scale": 0.9831219095364289,
+            "rotation_deg": 5.469072329345429
+          },
+          "cup_ncc": 0.44302529096603394,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 162.08
+    }
+  },
+  {
+    "frame": "0011",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 176,
+            "ncc": 0.9942558610385729,
+            "scale": 0.9999388542905493,
+            "rotation_deg": 0.002154318458115812
+          },
+          "cup_ncc": 0.5689365863800049,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 52,
+            "ncc": 0.829153923426467,
+            "scale": 0.9961693821806854,
+            "rotation_deg": 5.574698497706986
+          },
+          "cup_ncc": 0.4313057065010071,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 143.63
+    }
+  },
+  {
+    "frame": "0012",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 164,
+            "ncc": 0.9945882017612709,
+            "scale": 0.9996011636139773,
+            "rotation_deg": -0.004276431645347741
+          },
+          "cup_ncc": 0.5727781057357788,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 49,
+            "ncc": 0.7723483349199011,
+            "scale": 1.0442837229849582,
+            "rotation_deg": -5.988947374708619
+          },
+          "cup_ncc": 0.5491975545883179,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 44,
+            "ncc": 0.7895169745627925,
+            "scale": 1.0070374612826236,
+            "rotation_deg": 8.184594921866854
+          },
+          "cup_ncc": 0.6220187544822693,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 153.69
+    }
+  },
+  {
+    "frame": "0013",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 172,
+            "ncc": 0.9939955205205466,
+            "scale": 1.0003974605821715,
+            "rotation_deg": 0.018050589965782796
+          },
+          "cup_ncc": 0.5702322125434875,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 53,
+            "ncc": 0.7485172026674208,
+            "scale": 1.0428586916953486,
+            "rotation_deg": -6.598396447680299
+          },
+          "cup_ncc": 0.5416790246963501,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 47,
+            "ncc": 0.7982172228975338,
+            "scale": 1.0082386510326131,
+            "rotation_deg": 8.053245051793787
+          },
+          "cup_ncc": 0.6229192614555359,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 59,
+            "ncc": 0.8398303455359385,
+            "scale": 0.9837813184751583,
+            "rotation_deg": 5.53524537037848
+          },
+          "cup_ncc": 0.4482216238975525,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 165.27
+    }
+  },
+  {
+    "frame": "0014",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 175,
+            "ncc": 0.9930186565046414,
+            "scale": 1.000343714569302,
+            "rotation_deg": -0.023025757772050393
+          },
+          "cup_ncc": 0.5676040053367615,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 55,
+            "ncc": 0.855997926154029,
+            "scale": 0.9830201721855707,
+            "rotation_deg": 5.395957085654264
+          },
+          "cup_ncc": 0.4411831796169281,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 147.53
+    }
+  },
+  {
+    "frame": "0015",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 175,
+            "ncc": 0.9938241234343642,
+            "scale": 1.0004730781030322,
+            "rotation_deg": -0.02005305400322131
+          },
+          "cup_ncc": 0.5680640339851379,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 41,
+            "ncc": 0.7371496836562634,
+            "scale": 1.003404084178403,
+            "rotation_deg": 7.682865964211326
+          },
+          "cup_ncc": 0.6260662078857422,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 64,
+            "ncc": 0.8595486595757214,
+            "scale": 0.9850812936638507,
+            "rotation_deg": 5.530080317250779
+          },
+          "cup_ncc": 0.44496622681617737,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 158.92
+    }
+  },
+  {
+    "frame": "0016",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 185,
+            "ncc": 0.9936770715795903,
+            "scale": 1.0001329097027614,
+            "rotation_deg": 0.03806940812084355
+          },
+          "cup_ncc": 0.5669530034065247,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 59,
+            "ncc": 0.8427411112137719,
+            "scale": 0.9791176394564686,
+            "rotation_deg": 5.461290066857988
+          },
+          "cup_ncc": 0.44618669152259827,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 142.72
+    }
+  },
+  {
+    "frame": "0017",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 156,
+            "ncc": 0.9929790172399517,
+            "scale": 1.000014286366491,
+            "rotation_deg": 0.015979235752603575
+          },
+          "cup_ncc": 0.5726894736289978,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 44,
+            "ncc": 0.7793774853260446,
+            "scale": 1.0125709298751546,
+            "rotation_deg": 7.784105291559201
+          },
+          "cup_ncc": 0.6245403289794922,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 143.01
+    }
+  },
+  {
+    "frame": "0018",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 165,
+            "ncc": 0.9928791233845301,
+            "scale": 1.0003614487314412,
+            "rotation_deg": 0.018753121987429566
+          },
+          "cup_ncc": 0.5694230198860168,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 39,
+            "ncc": 0.7958116032362174,
+            "scale": 1.007122684665825,
+            "rotation_deg": 8.45456593922681
+          },
+          "cup_ncc": 0.622628390789032,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 155.0
+    }
+  },
+  {
+    "frame": "0019",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 154,
+            "ncc": 0.9887377221541204,
+            "scale": 1.0005510148604584,
+            "rotation_deg": 0.00988312828263211
+          },
+          "cup_ncc": 0.5695825219154358,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 51,
+            "ncc": 0.7809542557842272,
+            "scale": 1.0512848121118583,
+            "rotation_deg": -5.919046081006254
+          },
+          "cup_ncc": 0.5540104508399963,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 38,
+            "ncc": 0.7912380650697304,
+            "scale": 1.0095042896292947,
+            "rotation_deg": 8.05783449057804
+          },
+          "cup_ncc": 0.6231607794761658,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 54,
+            "ncc": 0.8437887492399029,
+            "scale": 0.9922981531193864,
+            "rotation_deg": 5.665615866681519
+          },
+          "cup_ncc": 0.433016300201416,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 167.34
+    }
+  },
+  {
+    "frame": "0020",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 169,
+            "ncc": 0.9917626405763118,
+            "scale": 1.000375259915014,
+            "rotation_deg": -0.0029954577773343917
+          },
+          "cup_ncc": 0.5672134757041931,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 56,
+            "ncc": 0.7572422300002057,
+            "scale": 1.0443500201449782,
+            "rotation_deg": -6.125323297625473
+          },
+          "cup_ncc": 0.5485228896141052,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 39,
+            "ncc": 0.7619422601807172,
+            "scale": 0.9976194924103833,
+            "rotation_deg": 7.97175422017164
+          },
+          "cup_ncc": 0.6169393658638,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 58,
+            "ncc": 0.8548469534526676,
+            "scale": 0.9815892255019433,
+            "rotation_deg": 5.205295414057818
+          },
+          "cup_ncc": 0.43656203150749207,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 169.78
+    }
+  },
+  {
+    "frame": "0021",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 157,
+            "ncc": 0.9925201804033116,
+            "scale": 1.0009162742580047,
+            "rotation_deg": -0.044331881730129134
+          },
+          "cup_ncc": 0.5736966729164124,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 42,
+            "ncc": 0.7170147207932429,
+            "scale": 1.0273688158934928,
+            "rotation_deg": -6.357626515877991
+          },
+          "cup_ncc": 0.5335668325424194,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 58,
+            "ncc": 0.8513711757066063,
+            "scale": 0.9805642403646768,
+            "rotation_deg": 5.45222454381148
+          },
+          "cup_ncc": 0.4413905739784241,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 150.88
+    }
+  },
+  {
+    "frame": "0022",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 179,
+            "ncc": 0.9934730779067165,
+            "scale": 0.9996493527134187,
+            "rotation_deg": 0.029067432115379273
+          },
+          "cup_ncc": 0.5674313902854919,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 51,
+            "ncc": 0.7430021468946341,
+            "scale": 1.0445619100296448,
+            "rotation_deg": -6.680609626509508
+          },
+          "cup_ncc": 0.5429723262786865,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 142.09
+    }
+  },
+  {
+    "frame": "0023",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 171,
+            "ncc": 0.9939922583691113,
+            "scale": 1.0005682306585657,
+            "rotation_deg": 0.0164902549001918
+          },
+          "cup_ncc": 0.5675391554832458,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 52,
+            "ncc": 0.7821684019077481,
+            "scale": 0.9967294737509385,
+            "rotation_deg": 5.194289311974051
+          },
+          "cup_ncc": 0.4472137987613678,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 144.39
+    }
+  },
+  {
+    "frame": "0024",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 185,
+            "ncc": 0.9935678038729554,
+            "scale": 1.0001137347502338,
+            "rotation_deg": 0.03843087907201449
+          },
+          "cup_ncc": 0.5694244503974915,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 52,
+            "ncc": 0.7149835226699431,
+            "scale": 1.0271234580298856,
+            "rotation_deg": -6.133567728113048
+          },
+          "cup_ncc": 0.5381253957748413,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 62,
+            "ncc": 0.8166879624586392,
+            "scale": 0.9773927806524842,
+            "rotation_deg": 5.215223157930353
+          },
+          "cup_ncc": 0.44376009702682495,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 159.55
+    }
+  },
+  {
+    "frame": "0025",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 160,
+            "ncc": 0.9932838838019916,
+            "scale": 1.0001664998677433,
+            "rotation_deg": -0.005091365310575169
+          },
+          "cup_ncc": 0.5703080892562866,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 137.63
+    }
+  },
+  {
+    "frame": "0026",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 183,
+            "ncc": 0.9930990872366524,
+            "scale": 1.0008224697558799,
+            "rotation_deg": 0.02425582314485485
+          },
+          "cup_ncc": 0.5683323740959167,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 55,
+            "ncc": 0.7384128589192032,
+            "scale": 1.0515457071095675,
+            "rotation_deg": -5.811700907606956
+          },
+          "cup_ncc": 0.5489524602890015,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 46,
+            "ncc": 0.7856227252255082,
+            "scale": 1.0099828734073972,
+            "rotation_deg": 8.086138153823303
+          },
+          "cup_ncc": 0.6261036992073059,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 56,
+            "ncc": 0.8370958181590091,
+            "scale": 0.9818688934989096,
+            "rotation_deg": 5.136335225787476
+          },
+          "cup_ncc": 0.4358517527580261,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 173.36
+    }
+  },
+  {
+    "frame": "0027",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 169,
+            "ncc": 0.9926294531802149,
+            "scale": 1.0008696015058494,
+            "rotation_deg": 0.0058534559418682835
+          },
+          "cup_ncc": 0.5704764127731323,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 136.47
+    }
+  },
+  {
+    "frame": "0028",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 165,
+            "ncc": 0.9934522700223511,
+            "scale": 1.0007025406184005,
+            "rotation_deg": 0.03897615599243336
+          },
+          "cup_ncc": 0.5690867304801941,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 41,
+            "ncc": 0.7826632234532518,
+            "scale": 1.0042512751269363,
+            "rotation_deg": 7.860011746076198
+          },
+          "cup_ncc": 0.6186578273773193,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 57,
+            "ncc": 0.848912065776635,
+            "scale": 0.9815156220816748,
+            "rotation_deg": 5.423522506334396
+          },
+          "cup_ncc": 0.4435800611972809,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 161.68
+    }
+  },
+  {
+    "frame": "0029",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 174,
+            "ncc": 0.9931281244370925,
+            "scale": 0.9997756344811931,
+            "rotation_deg": 0.04989146620091795
+          },
+          "cup_ncc": 0.5708943605422974,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 58,
+            "ncc": 0.7460246399412961,
+            "scale": 1.0462539722157282,
+            "rotation_deg": -7.041851485252253
+          },
+          "cup_ncc": 0.5406508445739746,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 143.13
+    }
+  },
+  {
+    "frame": "0030",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 174,
+            "ncc": 0.9936033318713678,
+            "scale": 1.0001211891379478,
+            "rotation_deg": 0.027190391600897115
+          },
+          "cup_ncc": 0.5701513290405273,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 136.41
+    }
+  },
+  {
+    "frame": "0031",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 62,
+            "ncc": 0.7600903325428011,
+            "scale": 0.9754680773154933,
+            "rotation_deg": 0.8864472232427335
+          },
+          "cup_ncc": 0.542333722114563,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 52,
+            "ncc": 0.7328583139281521,
+            "scale": 1.0320230110000999,
+            "rotation_deg": -6.040121301353646
+          },
+          "cup_ncc": 0.5070273280143738,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 160.87
+    }
+  },
+  {
+    "frame": "0033",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 240,
+            "ncc": 0.9999951603577227,
+            "scale": 1.0000006283420901,
+            "rotation_deg": -0.0014317861112803263
+          },
+          "cup_ncc": 0.6051961779594421,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 89,
+            "ncc": 0.803847776291313,
+            "scale": 0.9595607377072323,
+            "rotation_deg": 14.791786736043845
+          },
+          "cup_ncc": 0.702732264995575,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 28,
+            "ncc": 0.7180836006500141,
+            "scale": 0.924912432589732,
+            "rotation_deg": 12.834054856253944
+          },
+          "cup_ncc": 0.4595155715942383,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 178.43
+    }
+  },
+  {
+    "frame": "0034",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 32,
+            "ncc": 0.7037345799860698,
+            "scale": 1.0322379073888535,
+            "rotation_deg": -9.31437246093586
+          },
+          "cup_ncc": 0.44645416736602783,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "station": {
+            "inliers": 321,
+            "ncc": 0.9999966621248698,
+            "scale": 0.9999936155475051,
+            "rotation_deg": 0.0006030761524722369
+          },
+          "cup_ncc": 0.5439241528511047,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 155.37
+    }
+  },
+  {
+    "frame": "0035",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "station": {
+            "inliers": 169,
+            "ncc": 0.9752900165026642,
+            "scale": 0.9902806085802424,
+            "rotation_deg": 0.8566462587804929
+          },
+          "cup_ncc": 0.5463512539863586,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 140.16
+    }
+  },
+  {
+    "frame": "0036",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 44,
+            "ncc": 0.7127500177910714,
+            "scale": 1.0439677643286425,
+            "rotation_deg": -8.102595291702368
+          },
+          "cup_ncc": 0.40384456515312195,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 37,
+            "ncc": 0.7339722793147705,
+            "scale": 0.9859123038026808,
+            "rotation_deg": 6.67256789966105
+          },
+          "cup_ncc": 0.436787486076355,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "station": {
+            "inliers": 81,
+            "ncc": 0.8419202461970953,
+            "scale": 0.9881226596288737,
+            "rotation_deg": 1.2290812620050287
+          },
+          "cup_ncc": 0.5526995658874512,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 151.51
+    }
+  },
+  {
+    "frame": "0037",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 69,
+            "ncc": 0.8189108317252066,
+            "scale": 1.0317946593143026,
+            "rotation_deg": -6.473973670467832
+          },
+          "cup_ncc": 0.5404125452041626,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 57,
+            "ncc": 0.8324868635441618,
+            "scale": 0.9867586478119801,
+            "rotation_deg": 8.20546514832695
+          },
+          "cup_ncc": 0.6126396656036377,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 165.43
+    }
+  },
+  {
+    "frame": "0039",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 35,
+            "ncc": 0.7300860390173795,
+            "scale": 1.0059449333963737,
+            "rotation_deg": -7.263655607229227
+          },
+          "cup_ncc": 0.572268545627594,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "station": {
+            "inliers": 41,
+            "ncc": 0.8013437216182154,
+            "scale": 0.9390738204680921,
+            "rotation_deg": -8.410100366602833
+          },
+          "cup_ncc": 0.491229772567749,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 152.69
+    }
+  },
+  {
+    "frame": "0040",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "station": {
+            "inliers": 262,
+            "ncc": 0.9999982870571378,
+            "scale": 0.9999950052730312,
+            "rotation_deg": -0.0002894115303066196
+          },
+          "cup_ncc": 0.4762556552886963,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0043",
+          "station": {
+            "inliers": 56,
+            "ncc": 0.846275777568251,
+            "scale": 1.0222595400841497,
+            "rotation_deg": 6.80908701692393
+          },
+          "cup_ncc": 0.46830376982688904,
+          "reason": "cup_patch_or_rim_not_verified"
+        }
+      ],
+      "inference_ms": 167.83
+    }
+  },
+  {
+    "frame": "0041",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 90,
+            "ncc": 0.9363686428752646,
+            "scale": 1.0416770200712366,
+            "rotation_deg": -15.321589159922459
+          },
+          "cup_ncc": 0.5338228940963745,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 282,
+            "ncc": 0.999990241551199,
+            "scale": 1.0000358440796444,
+            "rotation_deg": 0.004098024703601742
+          },
+          "cup_ncc": 0.6361740231513977,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 29,
+            "ncc": 0.7306441383268639,
+            "scale": 0.9754306963027621,
+            "rotation_deg": -3.025028147306449
+          },
+          "cup_ncc": 0.4595224857330322,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 149.66
+    }
+  },
+  {
+    "frame": "0042",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "station": {
+            "inliers": 39,
+            "ncc": 0.7561244937351971,
+            "scale": 0.9735779519526743,
+            "rotation_deg": -5.373447124961286
+          },
+          "cup_ncc": 0.5236600637435913,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0043",
+          "station": {
+            "inliers": 75,
+            "ncc": 0.9150731169390214,
+            "scale": 1.0007088415791583,
+            "rotation_deg": 2.129727437432115
+          },
+          "cup_ncc": 0.5237944722175598,
+          "reason": "cup_patch_or_rim_not_verified"
+        }
+      ],
+      "inference_ms": 167.29
+    }
+  },
+  {
+    "frame": "0043",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "station": {
+            "inliers": 55,
+            "ncc": 0.8352926693757272,
+            "scale": 0.9811827909144538,
+            "rotation_deg": -7.6231058309898625
+          },
+          "cup_ncc": 0.5334190130233765,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0043",
+          "station": {
+            "inliers": 264,
+            "ncc": 0.9999976160502987,
+            "scale": 0.9999953766607788,
+            "rotation_deg": 0.0008794160910305058
+          },
+          "cup_ncc": 0.532479465007782,
+          "reason": "cup_patch_or_rim_not_verified"
+        }
+      ],
+      "inference_ms": 164.81
+    }
+  },
+  {
+    "frame": "0044",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "station": {
+            "inliers": 84,
+            "ncc": 0.9259117355364257,
+            "scale": 1.0151492979917751,
+            "rotation_deg": -4.284408459167525
+          },
+          "cup_ncc": 0.5924323201179504,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 53,
+            "ncc": 0.7902186867047465,
+            "scale": 1.0213762603931018,
+            "rotation_deg": 3.6774107780846172
+          },
+          "cup_ncc": 0.5949887037277222,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 149.02
+    }
+  },
+  {
+    "frame": "0046",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0041",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0046",
+          "station": {
+            "inliers": 280,
+            "ncc": 0.9999836355597352,
+            "scale": 1.0000777352350805,
+            "rotation_deg": -0.001551328297461956
+          },
+          "cup_ncc": 0.5080916881561279,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "station": {
+            "inliers": 35,
+            "ncc": 0.7640582090300784,
+            "scale": 1.024435302664826,
+            "rotation_deg": -6.576160143907579
+          },
+          "cup_ncc": 0.5378238558769226,
+          "reason": "cup_patch_or_rim_not_verified"
+        }
+      ],
+      "inference_ms": 145.46
+    }
+  },
+  {
+    "frame": "0048",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 42,
+            "ncc": 0.724462912024228,
+            "scale": 1.0297470532260142,
+            "rotation_deg": -7.166780555792937
+          },
+          "cup_ncc": 0.40527087450027466,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 42,
+            "ncc": 0.7268600383580056,
+            "scale": 0.9873103124050363,
+            "rotation_deg": 7.811012619891532
+          },
+          "cup_ncc": 0.48117339611053467,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "station": {
+            "inliers": 55,
+            "ncc": 0.714641095339542,
+            "scale": 0.9819866395066223,
+            "rotation_deg": 2.4964885181365597
+          },
+          "cup_ncc": 0.5408850908279419,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 171.66
+    }
+  },
+  {
+    "frame": "0050",
+    "test": "synthetic_cup_removed_table_cups_retained",
+    "passed": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "reference-bank-20261008",
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": false,
+      "stable_2d": false,
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "visible_cup_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {},
+      "reasons": [
+        "station_or_actual_cup_not_verified"
+      ],
+      "reference_attempts": [
+        {
+          "reference": "0001",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0033",
+          "station": {
+            "inliers": 74,
+            "ncc": 0.8792358706847807,
+            "scale": 1.024493646396529,
+            "rotation_deg": -3.2339675210003365
+          },
+          "cup_ncc": 0.6111432313919067,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0041",
+          "station": {
+            "inliers": 78,
+            "ncc": 0.8315477491495031,
+            "scale": 0.9668385087957412,
+            "rotation_deg": 12.290496285992644
+          },
+          "cup_ncc": 0.6308110356330872,
+          "reason": "cup_patch_or_rim_not_verified"
+        },
+        {
+          "reference": "0046",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0034",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0040",
+          "reason": "station_not_verified"
+        },
+        {
+          "reference": "0043",
+          "reason": "station_not_verified"
+        }
+      ],
+      "inference_ms": 186.24
+    }
+  },
+  {
+    "test": "wrong_camera",
+    "passed": true
+  },
+  {
+    "test": "no_camera_identity",
+    "passed": true
+  },
+  {
+    "test": "wrong_resolution",
+    "passed": true
+  },
+  {
+    "test": "black",
+    "passed": true
+  },
+  {
+    "test": "white",
+    "passed": true
+  },
+  {
+    "test": "noise",
+    "passed": true
+  },
+  {
+    "test": "upside_down",
+    "passed": true
+  },
+  {
+    "test": "other_view_negative-camera-a.jpg",
+    "passed": true
+  },
+  {
+    "test": "other_view_negative-camera-b.jpg",
+    "passed": true
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "dataset": "CCF数据集-20261008-120100",
+  "frames": 50,
+  "integrity_pass": 50,
+  "references": [
+    "0001",
+    "0033",
+    "0034",
+    "0040",
+    "0041",
+    "0043",
+    "0046"
+  ],
+  "detected": 45,
+  "fixed_view_first_30_detected": 30,
+  "nonreference_frames": 43,
+  "nonreference_detected": 38,
+  "rejected_frames": [
+    "0032",
+    "0038",
+    "0045",
+    "0047",
+    "0049"
+  ],
+  "negative_checks": 54,
+  "negative_passed": 54,
+  "negative_failures": [],
+  "median_inference_ms": 157.45999999999998,
+  "qualification": "Same-session development replay, not independent accuracy. References selected during development. No real absent-cup images. No 3D grasp output."
+}

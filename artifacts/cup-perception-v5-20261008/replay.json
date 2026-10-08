@@ -1,0 +1,6857 @@
+[
+  {
+    "frame": "0001",
+    "used_as_reference": true,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.9989192011519,
+      265.0012304473773
+    ],
+    "visible_cup_center_uv": [
+      171.99889403518742,
+      257.50117785194533
+    ],
+    "cup_bbox_xyxy_px": [
+      145.99810582369284,
+      244.0008503984454,
+      197.99954086278922,
+      271.00156253126664
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.99810582369284,
+            244.00134462483928
+          ],
+          [
+            197.9993790483378,
+            244.0008503984454
+          ],
+          [
+            197.99954086278922,
+            271.00093767131625
+          ],
+          [
+            145.99829880996117,
+            271.00156253126664
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 265,
+          "ncc": 0.9999973640449242,
+          "scale": 1.000001348057787,
+          "rotation_deg": -2.2115950055410245e-05
+        },
+        "cup_ncc": 1.0,
+        "reason": null,
+        "edge_ncc": 0.9999999999999999,
+        "rim_edge_ncc": 1.0,
+        "quality": 0.9999999999999999,
+        "polygon": [
+          [
+            145.99810582369284,
+            244.00134462483928
+          ],
+          [
+            197.9993790483378,
+            244.0008503984454
+          ],
+          [
+            197.99954086278922,
+            271.00093767131625
+          ],
+          [
+            145.99829880996117,
+            271.00156253126664
+          ]
+        ],
+        "rim_anchor": [
+          170.9989192011519,
+          265.0012304473773
+        ],
+        "center": [
+          171.99889403518742,
+          257.50117785194533
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 55,
+          "ncc": 0.7576405828607404,
+          "scale": 1.0417490429386789,
+          "rotation_deg": -6.204131465446885
+        },
+        "cup_ncc": 0.7381775379180908,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 53,
+          "ncc": 0.8474503505162494,
+          "scale": 0.9856946051813165,
+          "rotation_deg": 5.559635981422817
+        },
+        "cup_ncc": 0.8034342527389526,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 157.5
+  },
+  {
+    "frame": "0002",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.04695169287874,
+      264.92160550511187
+    ],
+    "visible_cup_center_uv": [
+      172.0448991414923,
+      257.4292347220276
+    ],
+    "cup_bbox_xyxy_px": [
+      146.07406409463812,
+      243.91998016741323,
+      198.02252174926406,
+      270.94201996358646
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.07406409463812,
+            243.91998016741323
+          ],
+          [
+            198.01973090624153,
+            243.96203258084324
+          ],
+          [
+            198.02252174926406,
+            270.94201996358646
+          ],
+          [
+            146.0783292024916,
+            270.8921533445188
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 178,
+          "ncc": 0.994460969681788,
+          "scale": 0.9999968214799664,
+          "rotation_deg": 0.015089923848882388
+        },
+        "cup_ncc": 0.9944379329681396,
+        "reason": null,
+        "edge_ncc": 0.9945858805436305,
+        "rim_edge_ncc": 0.9951067618946404,
+        "quality": 0.9944379329681396,
+        "polygon": [
+          [
+            146.07406409463812,
+            243.91998016741323
+          ],
+          [
+            198.01973090624153,
+            243.96203258084324
+          ],
+          [
+            198.02252174926406,
+            270.94201996358646
+          ],
+          [
+            146.0783292024916,
+            270.8921533445188
+          ]
+        ],
+        "rim_anchor": [
+          171.04695169287874,
+          264.92160550511187
+        ],
+        "center": [
+          172.0448991414923,
+          257.4292347220276
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 51,
+          "ncc": 0.7695713678727114,
+          "scale": 1.0563463277653868,
+          "rotation_deg": -5.986396720393113
+        },
+        "cup_ncc": 0.7356561422348022,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 42,
+          "ncc": 0.7901773596559123,
+          "scale": 1.0093933238616681,
+          "rotation_deg": 7.8562538421758505
+        },
+        "cup_ncc": 0.8455568552017212,
+        "reason": null,
+        "edge_ncc": 0.7655218322295844,
+        "rim_edge_ncc": 0.8191390066872921,
+        "quality": 0.7655218322295844,
+        "polygon": [
+          [
+            147.0861539027971,
+            247.46592462143929
+          ],
+          [
+            195.77386634263016,
+            246.6659341459154
+          ],
+          [
+            196.68743299991905,
+            269.4205193940824
+          ],
+          [
+            148.16082274670666,
+            269.71611626518717
+          ]
+        ],
+        "rim_anchor": [
+          172.37463541861143,
+          264.5810102814751
+        ],
+        "center": [
+          171.656737937552,
+          258.34139448087524
+        ]
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 58,
+          "ncc": 0.8281094289151926,
+          "scale": 0.991520739832641,
+          "rotation_deg": 5.835269673768574
+        },
+        "cup_ncc": 0.7894633412361145,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 172.39
+  },
+  {
+    "frame": "0003",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.15502112108945,
+      264.8042080786302
+    ],
+    "visible_cup_center_uv": [
+      172.14902144018018,
+      257.3210345659042
+    ],
+    "cup_bbox_xyxy_px": [
+      146.2017015599533,
+      243.80981235412207,
+      198.10434980164064,
+      270.83642693360315
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.2017015599533,
+            243.80981235412207
+          ],
+          [
+            198.0938115496074,
+            243.88445470022904
+          ],
+          [
+            198.10434980164064,
+            270.83642693360315
+          ],
+          [
+            146.21866815523694,
+            270.7501377264541
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 171,
+          "ncc": 0.9936908634085655,
+          "scale": 0.9995847249869212,
+          "rotation_deg": 0.03566947398132762
+        },
+        "cup_ncc": 0.987221896648407,
+        "reason": null,
+        "edge_ncc": 0.9807770124224612,
+        "rim_edge_ncc": 0.9798489414339501,
+        "quality": 0.9798489414339501,
+        "polygon": [
+          [
+            146.2017015599533,
+            243.80981235412207
+          ],
+          [
+            198.0938115496074,
+            243.88445470022904
+          ],
+          [
+            198.10434980164064,
+            270.83642693360315
+          ],
+          [
+            146.21866815523694,
+            270.7501377264541
+          ]
+        ],
+        "rim_anchor": [
+          171.15502112108945,
+          264.8042080786302
+        ],
+        "center": [
+          172.14902144018018,
+          257.3210345659042
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 56,
+          "ncc": 0.7911991480168791,
+          "scale": 0.9977603454428327,
+          "rotation_deg": 5.780041978600156
+        },
+        "cup_ncc": 0.7992802858352661,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 145.44
+  },
+  {
+    "frame": "0004",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.97841741004382,
+      264.9698414174008
+    ],
+    "visible_cup_center_uv": [
+      171.9800126972056,
+      257.4725059237496
+    ],
+    "cup_bbox_xyxy_px": [
+      145.9829226338936,
+      243.96110675782373,
+      197.98148688124022,
+      270.9861970126628
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.98922405234757,
+            243.96110675782373
+          ],
+          [
+            197.98148688124022,
+            243.99118229226275
+          ],
+          [
+            197.9752101294306,
+            270.9861970126628
+          ],
+          [
+            145.9829226338936,
+            270.95155646295404
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 162,
+          "ncc": 0.9938592265857,
+          "scale": 1.0003145533239195,
+          "rotation_deg": 0.014884042594907297
+        },
+        "cup_ncc": 0.9944097399711609,
+        "reason": null,
+        "edge_ncc": 0.9951002574693492,
+        "rim_edge_ncc": 0.9964508311210587,
+        "quality": 0.9944097399711609,
+        "polygon": [
+          [
+            145.98922405234757,
+            243.96110675782373
+          ],
+          [
+            197.98148688124022,
+            243.99118229226275
+          ],
+          [
+            197.9752101294306,
+            270.9861970126628
+          ],
+          [
+            145.9829226338936,
+            270.95155646295404
+          ]
+        ],
+        "rim_anchor": [
+          170.97841741004382,
+          264.9698414174008
+        ],
+        "center": [
+          171.9800126972056,
+          257.4725059237496
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 44,
+          "ncc": 0.7568509287242962,
+          "scale": 1.0473801977409938,
+          "rotation_deg": -6.576889063702585
+        },
+        "cup_ncc": 0.7346361875534058,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 41,
+          "ncc": 0.7829166703987096,
+          "scale": 1.007893067328413,
+          "rotation_deg": 7.01404619628102
+        },
+        "cup_ncc": 0.8353113532066345,
+        "reason": null,
+        "edge_ncc": 0.7639264209935401,
+        "rim_edge_ncc": 0.7790970623374247,
+        "quality": 0.7639264209935401,
+        "polygon": [
+          [
+            146.5442100504647,
+            246.75907111690773
+          ],
+          [
+            196.3810306445854,
+            245.8343874346586
+          ],
+          [
+            197.64269423022085,
+            269.9090730810675
+          ],
+          [
+            148.08305417900993,
+            270.0415057241509
+          ]
+        ],
+        "rim_anchor": [
+          172.5918791812778,
+          264.7397819493517
+        ],
+        "center": [
+          171.75112730711666,
+          258.1789829473469
+        ]
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 55,
+          "ncc": 0.8492462094011551,
+          "scale": 0.984151722584582,
+          "rotation_deg": 5.835798066185167
+        },
+        "cup_ncc": 0.8115246295928955,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 171.95
+  },
+  {
+    "frame": "0005",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.09695803495683,
+      265.03653760082057
+    ],
+    "visible_cup_center_uv": [
+      172.09574402989912,
+      257.5371936733716
+    ],
+    "cup_bbox_xyxy_px": [
+      146.12238075971229,
+      244.03048260152863,
+      198.07727171352673,
+      271.0484622910101
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.1229802903251,
+            244.03048260152863
+          ],
+          [
+            198.07432284621802,
+            244.04622192616412
+          ],
+          [
+            198.07727171352673,
+            271.0484622910101
+          ],
+          [
+            146.12238075971229,
+            271.0254569280933
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 175,
+          "ncc": 0.9941797250491119,
+          "scale": 1.000187152157272,
+          "rotation_deg": -0.011712152979898636
+        },
+        "cup_ncc": 0.9951974749565125,
+        "reason": null,
+        "edge_ncc": 0.9970813108138774,
+        "rim_edge_ncc": 0.9981741447093406,
+        "quality": 0.9951974749565125,
+        "polygon": [
+          [
+            146.1229802903251,
+            244.03048260152863
+          ],
+          [
+            198.07432284621802,
+            244.04622192616412
+          ],
+          [
+            198.07727171352673,
+            271.0484622910101
+          ],
+          [
+            146.12238075971229,
+            271.0254569280933
+          ]
+        ],
+        "rim_anchor": [
+          171.09695803495683,
+          265.03653760082057
+        ],
+        "center": [
+          172.09574402989912,
+          257.5371936733716
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 45,
+          "ncc": 0.7701510292173055,
+          "scale": 1.0057236871640816,
+          "rotation_deg": 7.318574251749585
+        },
+        "cup_ncc": 0.8426064848899841,
+        "reason": null,
+        "edge_ncc": 0.8013141139175233,
+        "rim_edge_ncc": 0.8343218365814251,
+        "quality": 0.8013141139175233,
+        "polygon": [
+          [
+            145.91273513991723,
+            246.35076401844015
+          ],
+          [
+            196.77433173410688,
+            245.24084883985412
+          ],
+          [
+            198.17735370273152,
+            269.3466726887836
+          ],
+          [
+            147.66702725412043,
+            269.76986299957383
+          ]
+        ],
+        "rim_anchor": [
+          172.67190523133274,
+          264.3086759568184
+        ],
+        "center": [
+          171.77294627313896,
+          257.72899789382274
+        ]
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 145.05
+  },
+  {
+    "frame": "0006",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.98369262430052,
+      265.1112079598322
+    ],
+    "visible_cup_center_uv": [
+      171.98389979718056,
+      257.60751728796293
+    ],
+    "cup_bbox_xyxy_px": [
+      145.97248739171945,
+      244.09078406993194,
+      197.99515028618583,
+      271.12483204947097
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.97248739171945,
+            244.11291917267928
+          ],
+          [
+            197.99388307391962,
+            244.09078406993194
+          ],
+          [
+            197.99515028618583,
+            271.10203140175275
+          ],
+          [
+            145.9727974677925,
+            271.12483204947097
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 185,
+          "ncc": 0.9942274569514712,
+          "scale": 1.0003023285297352,
+          "rotation_deg": -0.02172065071627802
+        },
+        "cup_ncc": 0.9946773648262024,
+        "reason": null,
+        "edge_ncc": 0.9958838459970974,
+        "rim_edge_ncc": 0.9963646479887036,
+        "quality": 0.9946773648262024,
+        "polygon": [
+          [
+            145.97248739171945,
+            244.11291917267928
+          ],
+          [
+            197.99388307391962,
+            244.09078406993194
+          ],
+          [
+            197.99515028618583,
+            271.10203140175275
+          ],
+          [
+            145.9727974677925,
+            271.12483204947097
+          ]
+        ],
+        "rim_anchor": [
+          170.98369262430052,
+          265.1112079598322
+        ],
+        "center": [
+          171.98389979718056,
+          257.60751728796293
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 58,
+          "ncc": 0.7522622464151383,
+          "scale": 1.045272603628615,
+          "rotation_deg": -6.384192555866975
+        },
+        "cup_ncc": 0.7311089634895325,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 51,
+          "ncc": 0.7839986477610826,
+          "scale": 0.9952931531236722,
+          "rotation_deg": 5.4242100487316485
+        },
+        "cup_ncc": 0.8160588145256042,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 165.51
+  },
+  {
+    "frame": "0007",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.98062637718135,
+      264.9697920667048
+    ],
+    "visible_cup_center_uv": [
+      171.9811641313119,
+      257.47374235520095
+    ],
+    "cup_bbox_xyxy_px": [
+      145.98642970122015,
+      243.96417928335646,
+      197.979395705933,
+      270.98495857747463
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.98889068376553,
+            243.96417928335646
+          ],
+          [
+            197.979395705933,
+            243.99507521420693
+          ],
+          [
+            197.97661822487768,
+            270.98495857747463
+          ],
+          [
+            145.98642970122015,
+            270.9505964172198
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 168,
+          "ncc": 0.993617028686268,
+          "scale": 1.0001012461978052,
+          "rotation_deg": 0.020182474291561295
+        },
+        "cup_ncc": 0.9934762120246887,
+        "reason": null,
+        "edge_ncc": 0.9946580678193967,
+        "rim_edge_ncc": 0.9958239122924575,
+        "quality": 0.9934762120246887,
+        "polygon": [
+          [
+            145.98889068376553,
+            243.96417928335646
+          ],
+          [
+            197.979395705933,
+            243.99507521420693
+          ],
+          [
+            197.97661822487768,
+            270.98495857747463
+          ],
+          [
+            145.98642970122015,
+            270.9505964172198
+          ]
+        ],
+        "rim_anchor": [
+          170.98062637718135,
+          264.9697920667048
+        ],
+        "center": [
+          171.9811641313119,
+          257.47374235520095
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 143.33
+  },
+  {
+    "frame": "0008",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.0104496277359,
+      265.15831344141935
+    ],
+    "visible_cup_center_uv": [
+      172.00708229991753,
+      257.65676994195564
+    ],
+    "cup_bbox_xyxy_px": [
+      145.97554711751295,
+      244.14254692156118,
+      198.0302672160605,
+      271.1731732931341
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.97554711751295,
+            244.16571873091982
+          ],
+          [
+            198.0175219995805,
+            244.14254692156118
+          ],
+          [
+            198.0302672160605,
+            271.14349356074734
+          ],
+          [
+            145.9924461797654,
+            271.1731732931341
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 176,
+          "ncc": 0.9930809854066587,
+          "scale": 0.9999134437924745,
+          "rotation_deg": 0.000513991055938639
+        },
+        "cup_ncc": 0.9926967620849609,
+        "reason": null,
+        "edge_ncc": 0.9937539029427369,
+        "rim_edge_ncc": 0.993988033445701,
+        "quality": 0.9926967620849609,
+        "polygon": [
+          [
+            145.97554711751295,
+            244.16571873091982
+          ],
+          [
+            198.0175219995805,
+            244.14254692156118
+          ],
+          [
+            198.0302672160605,
+            271.14349356074734
+          ],
+          [
+            145.9924461797654,
+            271.1731732931341
+          ]
+        ],
+        "rim_anchor": [
+          171.0104496277359,
+          265.15831344141935
+        ],
+        "center": [
+          172.00708229991753,
+          257.65676994195564
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 54,
+          "ncc": 0.8506299186477828,
+          "scale": 0.9887838296884301,
+          "rotation_deg": 5.553378460147561
+        },
+        "cup_ncc": 0.7945541143417358,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 149.5
+  },
+  {
+    "frame": "0009",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.03163977814373,
+      265.0061858729123
+    ],
+    "visible_cup_center_uv": [
+      172.02984639274527,
+      257.5098364174817
+    ],
+    "cup_bbox_xyxy_px": [
+      146.03853060558708,
+      244.01239543183428,
+      198.02495891527462,
+      271.0092490698209
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.03853060558708,
+            244.01239543183428
+          ],
+          [
+            198.02002143860938,
+            244.0195362892611
+          ],
+          [
+            198.02495891527462,
+            271.0092490698209
+          ],
+          [
+            146.0438772408477,
+            270.99795346029356
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 175,
+          "ncc": 0.9942172196423192,
+          "scale": 1.0000881444348764,
+          "rotation_deg": -0.008751991520919404
+        },
+        "cup_ncc": 0.9950807690620422,
+        "reason": null,
+        "edge_ncc": 0.9972238368117285,
+        "rim_edge_ncc": 0.998144794914295,
+        "quality": 0.9950807690620422,
+        "polygon": [
+          [
+            146.03853060558708,
+            244.01239543183428
+          ],
+          [
+            198.02002143860938,
+            244.0195362892611
+          ],
+          [
+            198.02495891527462,
+            271.0092490698209
+          ],
+          [
+            146.0438772408477,
+            270.99795346029356
+          ]
+        ],
+        "rim_anchor": [
+          171.03163977814373,
+          265.0061858729123
+        ],
+        "center": [
+          172.02984639274527,
+          257.5098364174817
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 127.35
+  },
+  {
+    "frame": "0010",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.9427610417289,
+      264.96776053622614
+    ],
+    "visible_cup_center_uv": [
+      171.94655145030444,
+      257.4649916309303
+    ],
+    "cup_bbox_xyxy_px": [
+      145.92936718177975,
+      243.95650092254078,
+      197.96291337686478,
+      270.97562729448765
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.94390996052195,
+            243.95650092254078
+          ],
+          [
+            197.96291337686478,
+            243.96484411947583
+          ],
+          [
+            197.95332178774623,
+            270.97562729448765
+          ],
+          [
+            145.92936718177975,
+            270.9655658637632
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 180,
+          "ncc": 0.9942819282060781,
+          "scale": 1.000349594152933,
+          "rotation_deg": 0.002327194388220472
+        },
+        "cup_ncc": 0.9958598017692566,
+        "reason": null,
+        "edge_ncc": 0.9973722692598513,
+        "rim_edge_ncc": 0.9984380251464966,
+        "quality": 0.9958598017692566,
+        "polygon": [
+          [
+            145.94390996052195,
+            243.95650092254078
+          ],
+          [
+            197.96291337686478,
+            243.96484411947583
+          ],
+          [
+            197.95332178774623,
+            270.97562729448765
+          ],
+          [
+            145.92936718177975,
+            270.9655658637632
+          ]
+        ],
+        "rim_anchor": [
+          170.9427610417289,
+          264.96776053622614
+        ],
+        "center": [
+          171.94655145030444,
+          257.4649916309303
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 56,
+          "ncc": 0.8486871867142715,
+          "scale": 0.9831219420527841,
+          "rotation_deg": 5.469071725143595
+        },
+        "cup_ncc": 0.7981000542640686,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 148.19
+  },
+  {
+    "frame": "0011",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.02759263972635,
+      265.0092519100151
+    ],
+    "visible_cup_center_uv": [
+      172.02812850329704,
+      257.5073972728888
+    ],
+    "cup_bbox_xyxy_px": [
+      146.02553384808877,
+      244.0013121262451,
+      198.02913101217146,
+      271.0143094516418
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.02883782268296,
+            244.0085731925253
+          ],
+          [
+            198.02913101217146,
+            244.0013121262451
+          ],
+          [
+            198.0289543541164,
+            271.00701841317164
+          ],
+          [
+            146.02553384808877,
+            271.0143094516418
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 177,
+          "ncc": 0.9942926059614041,
+          "scale": 0.9999700387738821,
+          "rotation_deg": -0.007882421948968061
+        },
+        "cup_ncc": 0.9962119460105896,
+        "reason": null,
+        "edge_ncc": 0.9975139305772729,
+        "rim_edge_ncc": 0.9983441885870401,
+        "quality": 0.9962119460105896,
+        "polygon": [
+          [
+            146.02883782268296,
+            244.0085731925253
+          ],
+          [
+            198.02913101217146,
+            244.0013121262451
+          ],
+          [
+            198.0289543541164,
+            271.00701841317164
+          ],
+          [
+            146.02553384808877,
+            271.0143094516418
+          ]
+        ],
+        "rim_anchor": [
+          171.02759263972635,
+          265.0092519100151
+        ],
+        "center": [
+          172.02812850329704,
+          257.5073972728888
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 52,
+          "ncc": 0.829155872932859,
+          "scale": 0.9961693821806854,
+          "rotation_deg": 5.574699450509216
+        },
+        "cup_ncc": 0.805365800857544,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 146.07
+  },
+  {
+    "frame": "0012",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.04812881171003,
+      265.1317806864043
+    ],
+    "visible_cup_center_uv": [
+      172.05037168048634,
+      257.6241676264777
+    ],
+    "cup_bbox_xyxy_px": [
+      146.0469839336083,
+      244.09319591818715,
+      198.0507174857783,
+      271.156722407003
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.05794368112782,
+            244.1326466002172
+          ],
+          [
+            198.0507174857783,
+            244.09319591818715
+          ],
+          [
+            198.04510637500348,
+            271.1168859562848
+          ],
+          [
+            146.0469839336083,
+            271.156722407003
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 165,
+          "ncc": 0.994651348525757,
+          "scale": 1.0000972703450204,
+          "rotation_deg": -0.041948554916556476
+        },
+        "cup_ncc": 0.9915831685066223,
+        "reason": null,
+        "edge_ncc": 0.9879895739300757,
+        "rim_edge_ncc": 0.9885072931239433,
+        "quality": 0.9879895739300757,
+        "polygon": [
+          [
+            146.05794368112782,
+            244.1326466002172
+          ],
+          [
+            198.0507174857783,
+            244.09319591818715
+          ],
+          [
+            198.04510637500348,
+            271.1168859562848
+          ],
+          [
+            146.0469839336083,
+            271.156722407003
+          ]
+        ],
+        "rim_anchor": [
+          171.04812881171003,
+          265.1317806864043
+        ],
+        "center": [
+          172.05037168048634,
+          257.6241676264777
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 132.05
+  },
+  {
+    "frame": "0013",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.8724569186721,
+      265.06948812323446
+    ],
+    "visible_cup_center_uv": [
+      171.87960966617973,
+      257.5598721503394
+    ],
+    "cup_bbox_xyxy_px": [
+      145.8292488777299,
+      244.03093357371395,
+      197.9222516726164,
+      271.0928205708091
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.853399372495,
+            244.0592644204354
+          ],
+          [
+            197.9222516726164,
+            244.03093357371395
+          ],
+          [
+            197.9052255039585,
+            271.060171517408
+          ],
+          [
+            145.8292488777299,
+            271.0928205708091
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 173,
+          "ncc": 0.9941531183713548,
+          "scale": 1.000440360420811,
+          "rotation_deg": -0.013956699406591585
+        },
+        "cup_ncc": 0.99492347240448,
+        "reason": null,
+        "edge_ncc": 0.9952577145757189,
+        "rim_edge_ncc": 0.9956091939699838,
+        "quality": 0.99492347240448,
+        "polygon": [
+          [
+            145.853399372495,
+            244.0592644204354
+          ],
+          [
+            197.9222516726164,
+            244.03093357371395
+          ],
+          [
+            197.9052255039585,
+            271.060171517408
+          ],
+          [
+            145.8292488777299,
+            271.0928205708091
+          ]
+        ],
+        "rim_anchor": [
+          170.8724569186721,
+          265.06948812323446
+        ],
+        "center": [
+          171.87960966617973,
+          257.5598721503394
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 47,
+          "ncc": 0.7680740752158669,
+          "scale": 1.048415797341006,
+          "rotation_deg": -6.249488976633994
+        },
+        "cup_ncc": 0.7356010675430298,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 46,
+          "ncc": 0.7475310948027664,
+          "scale": 1.0172789077725235,
+          "rotation_deg": 7.2300292277730405
+        },
+        "cup_ncc": 0.8395475745201111,
+        "reason": null,
+        "edge_ncc": 0.7710747007412502,
+        "rim_edge_ncc": 0.8123359835941824,
+        "quality": 0.7710747007412502,
+        "polygon": [
+          [
+            146.4631945240184,
+            247.16849659952038
+          ],
+          [
+            197.86383659590751,
+            244.53001808104236
+          ],
+          [
+            198.9581736857149,
+            267.94659479154393
+          ],
+          [
+            147.8292988888721,
+            270.31188173300274
+          ]
+        ],
+        "rim_anchor": [
+          173.44462499453667,
+          263.9629730316669
+        ],
+        "center": [
+          172.63760976150598,
+          257.5286220554829
+        ]
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 59,
+          "ncc": 0.8398303610767841,
+          "scale": 0.9837813506362825,
+          "rotation_deg": 5.535245324052021
+        },
+        "cup_ncc": 0.8094409704208374,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 167.78
+  },
+  {
+    "frame": "0014",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.99436857002624,
+      265.11428600123
+    ],
+    "visible_cup_center_uv": [
+      171.99782908466273,
+      257.6029888710928
+    ],
+    "cup_bbox_xyxy_px": [
+      145.95042838903294,
+      244.05405853145575,
+      198.03549068878348,
+      271.1569870341941
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.96053973447147,
+            244.1186842303691
+          ],
+          [
+            198.03549068878348,
+            244.05405853145575
+          ],
+          [
+            198.03178783094617,
+            271.08556864418057
+          ],
+          [
+            145.95042838903294,
+            271.1569870341941
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 176,
+          "ncc": 0.9929356939074215,
+          "scale": 1.000311669327097,
+          "rotation_deg": -0.04402855869350927
+        },
+        "cup_ncc": 0.9897691607475281,
+        "reason": null,
+        "edge_ncc": 0.9850213167409387,
+        "rim_edge_ncc": 0.9851217211746582,
+        "quality": 0.9850213167409387,
+        "polygon": [
+          [
+            145.96053973447147,
+            244.1186842303691
+          ],
+          [
+            198.03549068878348,
+            244.05405853145575
+          ],
+          [
+            198.03178783094617,
+            271.08556864418057
+          ],
+          [
+            145.95042838903294,
+            271.1569870341941
+          ]
+        ],
+        "rim_anchor": [
+          170.99436857002624,
+          265.11428600123
+        ],
+        "center": [
+          171.99782908466273,
+          257.6029888710928
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 49,
+          "ncc": 0.8427679786413341,
+          "scale": 0.9935118675224215,
+          "rotation_deg": 5.657746108029372
+        },
+        "cup_ncc": 0.8173356652259827,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 156.81
+  },
+  {
+    "frame": "0015",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.9716569449194,
+      265.00949003820875
+    ],
+    "visible_cup_center_uv": [
+      171.97614837179262,
+      257.49989648549223
+    ],
+    "cup_bbox_xyxy_px": [
+      145.93447896970977,
+      243.9832510341665,
+      198.01032701170217,
+      271.0204310541915
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.94918048959173,
+            243.98487543186133
+          ],
+          [
+            198.01032701170217,
+            243.9832510341665
+          ],
+          [
+            198.00185000081154,
+            271.01426001195784
+          ],
+          [
+            145.93447896970977,
+            271.0204310541915
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 176,
+          "ncc": 0.9938308139505702,
+          "scale": 1.0004135605155111,
+          "rotation_deg": 0.0163612249381767
+        },
+        "cup_ncc": 0.9949976205825806,
+        "reason": null,
+        "edge_ncc": 0.9960221963201128,
+        "rim_edge_ncc": 0.9967556186366553,
+        "quality": 0.9949976205825806,
+        "polygon": [
+          [
+            145.94918048959173,
+            243.98487543186133
+          ],
+          [
+            198.01032701170217,
+            243.9832510341665
+          ],
+          [
+            198.00185000081154,
+            271.01426001195784
+          ],
+          [
+            145.93447896970977,
+            271.0204310541915
+          ]
+        ],
+        "rim_anchor": [
+          170.9716569449194,
+          265.00949003820875
+        ],
+        "center": [
+          171.97614837179262,
+          257.49989648549223
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 52,
+          "ncc": 0.7654535595228555,
+          "scale": 1.0596748399513187,
+          "rotation_deg": -5.78643107858229
+        },
+        "cup_ncc": 0.7362939715385437,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 64,
+          "ncc": 0.8595507213120145,
+          "scale": 0.9850813197245838,
+          "rotation_deg": 5.530080044575901
+        },
+        "cup_ncc": 0.7982195615768433,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 157.42
+  },
+  {
+    "frame": "0016",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.9688269727564,
+      264.96706113217186
+    ],
+    "visible_cup_center_uv": [
+      171.97073420359862,
+      257.46290642296015
+    ],
+    "cup_bbox_xyxy_px": [
+      145.93725651880234,
+      243.95422624965616,
+      197.99828295598937,
+      270.97073212262734
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.941957016501,
+            243.95422624965616
+          ],
+          [
+            197.99828295598937,
+            243.95815703090298
+          ],
+          [
+            197.99749203198238,
+            270.97053856888937
+          ],
+          [
+            145.93725651880234,
+            270.97073212262734
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 186,
+          "ncc": 0.9938684114921617,
+          "scale": 1.000166491252101,
+          "rotation_deg": 0.020797143795699708
+        },
+        "cup_ncc": 0.9957060217857361,
+        "reason": null,
+        "edge_ncc": 0.9969317949443609,
+        "rim_edge_ncc": 0.9981617127773625,
+        "quality": 0.9957060217857361,
+        "polygon": [
+          [
+            145.941957016501,
+            243.95422624965616
+          ],
+          [
+            197.99828295598937,
+            243.95815703090298
+          ],
+          [
+            197.99749203198238,
+            270.97053856888937
+          ],
+          [
+            145.93725651880234,
+            270.97073212262734
+          ]
+        ],
+        "rim_anchor": [
+          170.9688269727564,
+          264.96706113217186
+        ],
+        "center": [
+          171.97073420359862,
+          257.46290642296015
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 43,
+          "ncc": 0.7476022925749384,
+          "scale": 0.9994498098878029,
+          "rotation_deg": 8.066183548547125
+        },
+        "cup_ncc": 0.7785451412200928,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 59,
+          "ncc": 0.8427412920317431,
+          "scale": 0.9791176394564686,
+          "rotation_deg": 5.461290289212034
+        },
+        "cup_ncc": 0.8053503632545471,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 156.68
+  },
+  {
+    "frame": "0017",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.11367606977024,
+      265.1192007313893
+    ],
+    "visible_cup_center_uv": [
+      172.1132299969656,
+      257.615025306901
+    ],
+    "cup_bbox_xyxy_px": [
+      146.10861147405254,
+      244.1003967874144,
+      198.11988930651893,
+      271.12975576545216
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.10861147405254,
+            244.11659554450335
+          ],
+          [
+            198.1165007935205,
+            244.1003967874144
+          ],
+          [
+            198.11988930651893,
+            271.11451439709083
+          ],
+          [
+            146.10976306116106,
+            271.12975576545216
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 157,
+          "ncc": 0.9928740581065234,
+          "scale": 1.0003416399680631,
+          "rotation_deg": -0.021675902463513363
+        },
+        "cup_ncc": 0.993209958076477,
+        "reason": null,
+        "edge_ncc": 0.9940243095803305,
+        "rim_edge_ncc": 0.9938363664919249,
+        "quality": 0.993209958076477,
+        "polygon": [
+          [
+            146.10861147405254,
+            244.11659554450335
+          ],
+          [
+            198.1165007935205,
+            244.1003967874144
+          ],
+          [
+            198.11988930651893,
+            271.11451439709083
+          ],
+          [
+            146.10976306116106,
+            271.12975576545216
+          ]
+        ],
+        "rim_anchor": [
+          171.11367606977024,
+          265.1192007313893
+        ],
+        "center": [
+          172.1132299969656,
+          257.615025306901
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 50,
+          "ncc": 0.7072843033912192,
+          "scale": 1.0236613289488659,
+          "rotation_deg": -6.139615561529843
+        },
+        "cup_ncc": 0.7362260222434998,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 42,
+          "ncc": 0.793848901343521,
+          "scale": 1.0074187141467084,
+          "rotation_deg": 8.096009523977388
+        },
+        "cup_ncc": 0.7902596592903137,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 153.24
+  },
+  {
+    "frame": "0018",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.9790907956784,
+      265.03699168082085
+    ],
+    "visible_cup_center_uv": [
+      171.97794447858485,
+      257.5376464437302
+    ],
+    "cup_bbox_xyxy_px": [
+      145.99933543360345,
+      244.02934757399078,
+      197.96558970977188,
+      271.05064392930774
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.99933543360345,
+            244.02934757399078
+          ],
+          [
+            197.96255619856922,
+            244.04767954163287
+          ],
+          [
+            197.96558970977188,
+            271.05064392930774
+          ],
+          [
+            145.9997089016939,
+            271.0243031574661
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 166,
+          "ncc": 0.9931409351811413,
+          "scale": 1.0004320124755979,
+          "rotation_deg": -0.01182589156049234
+        },
+        "cup_ncc": 0.9935334920883179,
+        "reason": null,
+        "edge_ncc": 0.9961500850278917,
+        "rim_edge_ncc": 0.9977046543038401,
+        "quality": 0.9935334920883179,
+        "polygon": [
+          [
+            145.99933543360345,
+            244.02934757399078
+          ],
+          [
+            197.96255619856922,
+            244.04767954163287
+          ],
+          [
+            197.96558970977188,
+            271.05064392930774
+          ],
+          [
+            145.9997089016939,
+            271.0243031574661
+          ]
+        ],
+        "rim_anchor": [
+          170.9790907956784,
+          265.03699168082085
+        ],
+        "center": [
+          171.97794447858485,
+          257.5376464437302
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 43,
+          "ncc": 0.7976706968383797,
+          "scale": 1.0091657057249186,
+          "rotation_deg": 8.85603896761655
+        },
+        "cup_ncc": 0.8477733135223389,
+        "reason": null,
+        "edge_ncc": 0.7741820376722405,
+        "rim_edge_ncc": 0.7957174775106723,
+        "quality": 0.7741820376722405,
+        "polygon": [
+          [
+            145.79659908056038,
+            247.26647702509135
+          ],
+          [
+            196.33956193004246,
+            246.31440645966703
+          ],
+          [
+            197.5446182211891,
+            269.3600388805011
+          ],
+          [
+            147.30764757742028,
+            270.0201584487388
+          ]
+        ],
+        "rim_anchor": [
+          172.42597582221694,
+          264.6222917656465
+        ],
+        "center": [
+          171.59151825466438,
+          258.2794906977426
+        ]
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 56,
+          "ncc": 0.8423028978097986,
+          "scale": 0.9871032722059865,
+          "rotation_deg": 5.697984804313111
+        },
+        "cup_ncc": 0.8012300133705139,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 167.27
+  },
+  {
+    "frame": "0019",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.0276026468679,
+      264.85078938791145
+    ],
+    "visible_cup_center_uv": [
+      172.03902523579904,
+      257.3461215930803
+    ],
+    "cup_bbox_xyxy_px": [
+      146.0285726604957,
+      243.83297559507164,
+      198.05219329364044,
+      270.8674278617247
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.07722986898696,
+            243.83297559507164
+          ],
+          [
+            198.05219329364044,
+            243.84627544730355
+          ],
+          [
+            198.016498319437,
+            270.8674278617247
+          ],
+          [
+            146.0285726604957,
+            270.8445585065639
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 155,
+          "ncc": 0.9890251148477913,
+          "scale": 1.0005993739649683,
+          "rotation_deg": -0.02356109492264353
+        },
+        "cup_ncc": 0.9902103543281555,
+        "reason": null,
+        "edge_ncc": 0.9928198005045824,
+        "rim_edge_ncc": 0.9959085727788716,
+        "quality": 0.9902103543281555,
+        "polygon": [
+          [
+            146.07722986898696,
+            243.83297559507164
+          ],
+          [
+            198.05219329364044,
+            243.84627544730355
+          ],
+          [
+            198.016498319437,
+            270.8674278617247
+          ],
+          [
+            146.0285726604957,
+            270.8445585065639
+          ]
+        ],
+        "rim_anchor": [
+          171.0276026468679,
+          264.85078938791145
+        ],
+        "center": [
+          172.03902523579904,
+          257.3461215930803
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 44,
+          "ncc": 0.7867395681349976,
+          "scale": 1.0050453460016355,
+          "rotation_deg": 7.471632631040133
+        },
+        "cup_ncc": 0.8470844030380249,
+        "reason": null,
+        "edge_ncc": 0.7977018716301907,
+        "rim_edge_ncc": 0.8328818272220213,
+        "quality": 0.7977018716301907,
+        "polygon": [
+          [
+            146.536316345446,
+            246.17208513142563
+          ],
+          [
+            196.3426117303645,
+            245.67298696191781
+          ],
+          [
+            197.58794124758887,
+            269.61197727381665
+          ],
+          [
+            148.0806372745161,
+            269.33233078842613
+          ]
+        ],
+        "rim_anchor": [
+          172.56804125622938,
+          264.2672434539253
+        ],
+        "center": [
+          171.72918593328887,
+          257.7391634962824
+        ]
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 147.11
+  },
+  {
+    "frame": "0020",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.9486917657466,
+      264.96627947744594
+    ],
+    "visible_cup_center_uv": [
+      171.95287315515188,
+      257.4647755427352
+    ],
+    "cup_bbox_xyxy_px": [
+      145.93120663735064,
+      243.95402424402442,
+      197.97382707663417,
+      270.9758968398585
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.94554962386965,
+            243.97247944990812
+          ],
+          [
+            197.97382707663417,
+            243.95402424402442
+          ],
+          [
+            197.9622769831248,
+            270.9581508692204
+          ],
+          [
+            145.93120663735064,
+            270.9758968398585
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 170,
+          "ncc": 0.991774727336894,
+          "scale": 1.000302360475158,
+          "rotation_deg": -0.02316165550981228
+        },
+        "cup_ncc": 0.9916763305664062,
+        "reason": null,
+        "edge_ncc": 0.9927852466424814,
+        "rim_edge_ncc": 0.9939969823432101,
+        "quality": 0.9916763305664062,
+        "polygon": [
+          [
+            145.94554962386965,
+            243.97247944990812
+          ],
+          [
+            197.97382707663417,
+            243.95402424402442
+          ],
+          [
+            197.9622769831248,
+            270.9581508692204
+          ],
+          [
+            145.93120663735064,
+            270.9758968398585
+          ]
+        ],
+        "rim_anchor": [
+          170.9486917657466,
+          264.96627947744594
+        ],
+        "center": [
+          171.95287315515188,
+          257.4647755427352
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 51,
+          "ncc": 0.7620250834627409,
+          "scale": 1.042091466152034,
+          "rotation_deg": -5.8922693389651375
+        },
+        "cup_ncc": 0.7397355437278748,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 41,
+          "ncc": 0.7893078311693715,
+          "scale": 1.0002008787274999,
+          "rotation_deg": 7.323402121003933
+        },
+        "cup_ncc": 0.7715803384780884,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 58,
+          "ncc": 0.8544687374608921,
+          "scale": 0.9912524045433649,
+          "rotation_deg": 5.5457666800878
+        },
+        "cup_ncc": 0.8015718460083008,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 168.67
+  },
+  {
+    "frame": "0021",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.90474685700698,
+      265.09881806626555
+    ],
+    "visible_cup_center_uv": [
+      171.9074365975064,
+      257.58847149078144
+    ],
+    "cup_bbox_xyxy_px": [
+      145.84958002366184,
+      244.0431886153291,
+      197.95473059593718,
+      271.13924718525294
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.8535918503238,
+            244.10234223126423
+          ],
+          [
+            197.95473059593718,
+            244.0431886153291
+          ],
+          [
+            197.95375395934119,
+            271.07070438518355
+          ],
+          [
+            145.84958002366184,
+            271.13924718525294
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 158,
+          "ncc": 0.9929939627018638,
+          "scale": 1.0003607367080252,
+          "rotation_deg": -0.02760037384033468
+        },
+        "cup_ncc": 0.9905139207839966,
+        "reason": null,
+        "edge_ncc": 0.9861221306978805,
+        "rim_edge_ncc": 0.9853964542798328,
+        "quality": 0.9853964542798328,
+        "polygon": [
+          [
+            145.8535918503238,
+            244.10234223126423
+          ],
+          [
+            197.95473059593718,
+            244.0431886153291
+          ],
+          [
+            197.95375395934119,
+            271.07070438518355
+          ],
+          [
+            145.84958002366184,
+            271.13924718525294
+          ]
+        ],
+        "rim_anchor": [
+          170.90474685700698,
+          265.09881806626555
+        ],
+        "center": [
+          171.9074365975064,
+          257.58847149078144
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 43,
+          "ncc": 0.7121342602107236,
+          "scale": 1.0249010239094498,
+          "rotation_deg": -6.250480499774521
+        },
+        "cup_ncc": 0.7089757919311523,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 38,
+          "ncc": 0.8095864647836443,
+          "scale": 1.014525268569029,
+          "rotation_deg": 7.944143214701005
+        },
+        "cup_ncc": 0.839616060256958,
+        "reason": null,
+        "edge_ncc": 0.7474479109397164,
+        "rim_edge_ncc": 0.781765744574209,
+        "quality": 0.7474479109397164,
+        "polygon": [
+          [
+            147.13993279389837,
+            247.2100931907897
+          ],
+          [
+            196.30237753893942,
+            246.44892671799286
+          ],
+          [
+            197.06546434071407,
+            269.55762872938465
+          ],
+          [
+            147.96795701700236,
+            269.82036829912454
+          ]
+        ],
+        "rim_anchor": [
+          172.5195343457348,
+          264.61436231697036
+        ],
+        "center": [
+          171.85191968116888,
+          258.27160797255453
+        ]
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 52,
+          "ncc": 0.8108232800134302,
+          "scale": 0.9839179311773364,
+          "rotation_deg": 5.844235531085649
+        },
+        "cup_ncc": 0.8137783408164978,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 162.53
+  },
+  {
+    "frame": "0022",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.99629323217877,
+      264.9232882640826
+    ],
+    "visible_cup_center_uv": [
+      171.9962088846222,
+      257.4284022651687
+    ],
+    "cup_bbox_xyxy_px": [
+      145.98998392192894,
+      243.9368428996837,
+      197.99926470589313,
+      270.9201468352035
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.98998392192894,
+            243.9368428996837
+          ],
+          [
+            197.99926470589313,
+            243.93686736623633
+          ],
+          [
+            197.99796794209547,
+            270.917644799761
+          ],
+          [
+            145.9927489514826,
+            270.9201468352035
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 180,
+          "ncc": 0.9935524956301018,
+          "scale": 0.9996419999711242,
+          "rotation_deg": 0.010133769820595792
+        },
+        "cup_ncc": 0.9951946139335632,
+        "reason": null,
+        "edge_ncc": 0.9969669860821164,
+        "rim_edge_ncc": 0.9984407371000878,
+        "quality": 0.9951946139335632,
+        "polygon": [
+          [
+            145.98998392192894,
+            243.9368428996837
+          ],
+          [
+            197.99926470589313,
+            243.93686736623633
+          ],
+          [
+            197.99796794209547,
+            270.917644799761
+          ],
+          [
+            145.9927489514826,
+            270.9201468352035
+          ]
+        ],
+        "rim_anchor": [
+          170.99629323217877,
+          264.9232882640826
+        ],
+        "center": [
+          171.9962088846222,
+          257.4284022651687
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 51,
+          "ncc": 0.7430021468946341,
+          "scale": 1.0445619100296448,
+          "rotation_deg": -6.680609626509508
+        },
+        "cup_ncc": 0.7385125756263733,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 50,
+          "ncc": 0.738071254873301,
+          "scale": 1.0013529196888173,
+          "rotation_deg": 7.619526800406182
+        },
+        "cup_ncc": 0.8336924314498901,
+        "reason": null,
+        "edge_ncc": 0.7716902476692663,
+        "rim_edge_ncc": 0.8170780493753175,
+        "quality": 0.7716902476692663,
+        "polygon": [
+          [
+            146.7159880343224,
+            246.16981314919852
+          ],
+          [
+            197.00849181673857,
+            245.47350191092318
+          ],
+          [
+            198.44080075429045,
+            269.2197270778717
+          ],
+          [
+            148.583321792952,
+            269.21071750323034
+          ]
+        ],
+        "rim_anchor": [
+          173.22857850772405,
+          264.0554548837642
+        ],
+        "center": [
+          172.31547818454993,
+          257.57760785258796
+        ]
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 154.8
+  },
+  {
+    "frame": "0023",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.95261839808344,
+      265.0384191738251
+    ],
+    "visible_cup_center_uv": [
+      171.95802048638754,
+      257.5321211242685
+    ],
+    "cup_bbox_xyxy_px": [
+      145.93980789710616,
+      244.01874299927195,
+      197.97540273423976,
+      271.04858168709876
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.96130109129646,
+            244.01874299927195
+          ],
+          [
+            197.97540273423976,
+            244.0249838412606
+          ],
+          [
+            197.96066980297394,
+            271.04858168709876
+          ],
+          [
+            145.93980789710616,
+            271.03968948583645
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 172,
+          "ncc": 0.9941578755433979,
+          "scale": 1.0005598180303616,
+          "rotation_deg": -0.003715095764103373
+        },
+        "cup_ncc": 0.9954216480255127,
+        "reason": null,
+        "edge_ncc": 0.9971741892699333,
+        "rim_edge_ncc": 0.998304037855939,
+        "quality": 0.9954216480255127,
+        "polygon": [
+          [
+            145.96130109129646,
+            244.01874299927195
+          ],
+          [
+            197.97540273423976,
+            244.0249838412606
+          ],
+          [
+            197.96066980297394,
+            271.04858168709876
+          ],
+          [
+            145.93980789710616,
+            271.03968948583645
+          ]
+        ],
+        "rim_anchor": [
+          170.95261839808344,
+          265.0384191738251
+        ],
+        "center": [
+          171.95802048638754,
+          257.5321211242685
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 49,
+          "ncc": 0.7510321183825127,
+          "scale": 1.0541433540563037,
+          "rotation_deg": -6.840169364498583
+        },
+        "cup_ncc": 0.7340949773788452,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 38,
+          "ncc": 0.7745280422174037,
+          "scale": 1.007503901941845,
+          "rotation_deg": 8.697747938071352
+        },
+        "cup_ncc": 0.8395892977714539,
+        "reason": null,
+        "edge_ncc": 0.7367906384239208,
+        "rim_edge_ncc": 0.7600031327578528,
+        "quality": 0.7367906384239208,
+        "polygon": [
+          [
+            146.20975817718022,
+            247.50224446108936
+          ],
+          [
+            195.89574694291173,
+            246.80557292581506
+          ],
+          [
+            197.07213390674625,
+            269.6304030973418
+          ],
+          [
+            147.66815065691483,
+            269.95537315977106
+          ]
+        ],
+        "rim_anchor": [
+          172.3275194250127,
+          264.78388656198763
+        ],
+        "center": [
+          171.511810928648,
+          258.5101423242213
+        ]
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 157.52
+  },
+  {
+    "frame": "0024",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.0522533696695,
+      264.90666218162613
+    ],
+    "visible_cup_center_uv": [
+      172.05420145091284,
+      257.4111939275341
+    ],
+    "cup_bbox_xyxy_px": [
+      146.07413757244007,
+      243.89592339262063,
+      198.04042166141903,
+      270.93001971823406
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.08452221203072,
+            243.89592339262063
+          ],
+          [
+            198.04042166141903,
+            243.93966634266906
+          ],
+          [
+            198.0307121366499,
+            270.93001971823406
+          ],
+          [
+            146.07413757244007,
+            270.8795300056643
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 186,
+          "ncc": 0.9936733512051884,
+          "scale": 1.0000809322893693,
+          "rotation_deg": 0.02123790585708486
+        },
+        "cup_ncc": 0.994642436504364,
+        "reason": null,
+        "edge_ncc": 0.9954593347334366,
+        "rim_edge_ncc": 0.9968419306102061,
+        "quality": 0.994642436504364,
+        "polygon": [
+          [
+            146.08452221203072,
+            243.89592339262063
+          ],
+          [
+            198.04042166141903,
+            243.93966634266906
+          ],
+          [
+            198.0307121366499,
+            270.93001971823406
+          ],
+          [
+            146.07413757244007,
+            270.8795300056643
+          ]
+        ],
+        "rim_anchor": [
+          171.0522533696695,
+          264.90666218162613
+        ],
+        "center": [
+          172.05420145091284,
+          257.4111939275341
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 52,
+          "ncc": 0.7143005872161954,
+          "scale": 1.0264030282923748,
+          "rotation_deg": -6.135793383239702
+        },
+        "cup_ncc": 0.7280274629592896,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 63,
+          "ncc": 0.8434792971032083,
+          "scale": 0.9825594815481951,
+          "rotation_deg": 5.590415362275656
+        },
+        "cup_ncc": 0.7885311245918274,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 160.51
+  },
+  {
+    "frame": "0025",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.91108932004488,
+      265.1508925941808
+    ],
+    "visible_cup_center_uv": [
+      171.91815382196012,
+      257.6411425291616
+    ],
+    "cup_bbox_xyxy_px": [
+      145.8542301436212,
+      244.09530769787125,
+      197.9705417770082,
+      271.1929753136002
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.87331025812998,
+            244.15715758116275
+          ],
+          [
+            197.9705417770082,
+            244.09530769787125
+          ],
+          [
+            197.95237737986338,
+            271.1196292679001
+          ],
+          [
+            145.8542301436212,
+            271.1929753136002
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 161,
+          "ncc": 0.9933121281477052,
+          "scale": 1.000133110667785,
+          "rotation_deg": -0.022139876384935916
+        },
+        "cup_ncc": 0.9900364279747009,
+        "reason": null,
+        "edge_ncc": 0.9859430793940017,
+        "rim_edge_ncc": 0.984929654762723,
+        "quality": 0.984929654762723,
+        "polygon": [
+          [
+            145.87331025812998,
+            244.15715758116275
+          ],
+          [
+            197.9705417770082,
+            244.09530769787125
+          ],
+          [
+            197.95237737986338,
+            271.1196292679001
+          ],
+          [
+            145.8542301436212,
+            271.1929753136002
+          ]
+        ],
+        "rim_anchor": [
+          170.91108932004488,
+          265.1508925941808
+        ],
+        "center": [
+          171.91815382196012,
+          257.6411425291616
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 58,
+          "ncc": 0.7614393323445655,
+          "scale": 1.0503985839781351,
+          "rotation_deg": -6.304388274487915
+        },
+        "cup_ncc": 0.735808253288269,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 45,
+          "ncc": 0.7942588025174535,
+          "scale": 1.0069046910247048,
+          "rotation_deg": 7.330402741935679
+        },
+        "cup_ncc": 0.8365780711174011,
+        "reason": null,
+        "edge_ncc": 0.7841343853458566,
+        "rim_edge_ncc": 0.8241568529513823,
+        "quality": 0.7841343853458566,
+        "polygon": [
+          [
+            146.6742086240252,
+            246.0108145564043
+          ],
+          [
+            196.79305486638066,
+            245.27376349840097
+          ],
+          [
+            197.97237102379984,
+            269.3589516232831
+          ],
+          [
+            148.14459875051426,
+            269.32870271067105
+          ]
+        ],
+        "rim_anchor": [
+          172.817370830284,
+          264.10400438013477
+        ],
+        "center": [
+          171.99506349104445,
+          257.5354922920011
+        ]
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 65,
+          "ncc": 0.84342860664036,
+          "scale": 0.9805125425640845,
+          "rotation_deg": 5.25295943230295
+        },
+        "cup_ncc": 0.7987523674964905,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 172.18
+  },
+  {
+    "frame": "0026",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.99510389846432,
+      264.96224562077435
+    ],
+    "visible_cup_center_uv": [
+      172.00227285732637,
+      257.45536069472956
+    ],
+    "cup_bbox_xyxy_px": [
+      146.003702867035,
+      243.92121795314478,
+      198.0057905567123,
+      270.9979379111448
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.0366865733915,
+            243.92121795314478
+          ],
+          [
+            198.0057905567123,
+            243.96560903516644
+          ],
+          [
+            197.9840408890196,
+            270.9979379111448
+          ],
+          [
+            146.003702867035,
+            270.9425456489822
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 184,
+          "ncc": 0.9932515296982751,
+          "scale": 1.0009752508002974,
+          "rotation_deg": 0.005010056240594327
+        },
+        "cup_ncc": 0.9955739378929138,
+        "reason": null,
+        "edge_ncc": 0.9970061474273987,
+        "rim_edge_ncc": 0.9984351439167873,
+        "quality": 0.9955739378929138,
+        "polygon": [
+          [
+            146.0366865733915,
+            243.92121795314478
+          ],
+          [
+            198.0057905567123,
+            243.96560903516644
+          ],
+          [
+            197.9840408890196,
+            270.9979379111448
+          ],
+          [
+            146.003702867035,
+            270.9425456489822
+          ]
+        ],
+        "rim_anchor": [
+          170.99510389846432,
+          264.96224562077435
+        ],
+        "center": [
+          172.00227285732637,
+          257.45536069472956
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 54,
+          "ncc": 0.76744823473475,
+          "scale": 1.0587530982212616,
+          "rotation_deg": -6.047012394710756
+        },
+        "cup_ncc": 0.7279855608940125,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 46,
+          "ncc": 0.718416251252588,
+          "scale": 0.9992603849608598,
+          "rotation_deg": 7.534203506596704
+        },
+        "cup_ncc": 0.8427066206932068,
+        "reason": null,
+        "edge_ncc": 0.793027960807766,
+        "rim_edge_ncc": 0.8221158000677147,
+        "quality": 0.793027960807766,
+        "polygon": [
+          [
+            145.5543551865638,
+            246.5591072633303
+          ],
+          [
+            196.34010718607786,
+            245.4594776712866
+          ],
+          [
+            197.8944239391907,
+            269.30920625581615
+          ],
+          [
+            147.55513176438527,
+            269.7692997167175
+          ]
+        ],
+        "rim_anchor": [
+          172.4535938505402,
+          264.34859181429954
+        ],
+        "center": [
+          171.50087484680594,
+          257.83700400379576
+        ]
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 160.17
+  },
+  {
+    "frame": "0027",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.95723004263942,
+      264.98994691281405
+    ],
+    "visible_cup_center_uv": [
+      171.9628518656639,
+      257.483643831985
+    ],
+    "cup_bbox_xyxy_px": [
+      145.92879377925826,
+      243.9647474389719,
+      197.99467691429487,
+      271.0037861084767
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.9478566815734,
+            243.9647474389719
+          ],
+          [
+            197.99467691429487,
+            243.98061571790495
+          ],
+          [
+            197.9802445570475,
+            271.0037861084767
+          ],
+          [
+            145.92879377925826,
+            270.9878302502483
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 170,
+          "ncc": 0.9927848395950848,
+          "scale": 1.00068816983604,
+          "rotation_deg": 0.01712448030773221
+        },
+        "cup_ncc": 0.994356632232666,
+        "reason": null,
+        "edge_ncc": 0.9954149895385526,
+        "rim_edge_ncc": 0.9974935887239637,
+        "quality": 0.994356632232666,
+        "polygon": [
+          [
+            145.9478566815734,
+            243.9647474389719
+          ],
+          [
+            197.99467691429487,
+            243.98061571790495
+          ],
+          [
+            197.9802445570475,
+            271.0037861084767
+          ],
+          [
+            145.92879377925826,
+            270.9878302502483
+          ]
+        ],
+        "rim_anchor": [
+          170.95723004263942,
+          264.98994691281405
+        ],
+        "center": [
+          171.9628518656639,
+          257.483643831985
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 63,
+          "ncc": 0.8348874778130808,
+          "scale": 0.9777557606303358,
+          "rotation_deg": 5.272329376783228
+        },
+        "cup_ncc": 0.8165598511695862,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 147.61
+  },
+  {
+    "frame": "0028",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      170.93262850170368,
+      265.0078157278945
+    ],
+    "visible_cup_center_uv": [
+      171.93784383218537,
+      257.50240333136867
+    ],
+    "cup_bbox_xyxy_px": [
+      145.8925789230119,
+      243.98851503795683,
+      197.97937756776778,
+      271.0164242787264
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            145.908200358822,
+            243.98851503795683
+          ],
+          [
+            197.97937756776778,
+            243.9978649339319
+          ],
+          [
+            197.96774281564615,
+            271.0164242787264
+          ],
+          [
+            145.8925789230119,
+            271.0088766293201
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 166,
+          "ncc": 0.9935082708771045,
+          "scale": 1.0006653571244934,
+          "rotation_deg": 0.017485615027330315
+        },
+        "cup_ncc": 0.9951146841049194,
+        "reason": null,
+        "edge_ncc": 0.995317601023252,
+        "rim_edge_ncc": 0.9972709450056103,
+        "quality": 0.9951146841049194,
+        "polygon": [
+          [
+            145.908200358822,
+            243.98851503795683
+          ],
+          [
+            197.97937756776778,
+            243.9978649339319
+          ],
+          [
+            197.96774281564615,
+            271.0164242787264
+          ],
+          [
+            145.8925789230119,
+            271.0088766293201
+          ]
+        ],
+        "rim_anchor": [
+          170.93262850170368,
+          265.0078157278945
+        ],
+        "center": [
+          171.93784383218537,
+          257.50240333136867
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 54,
+          "ncc": 0.7581003204337148,
+          "scale": 1.0450637443780222,
+          "rotation_deg": -6.097303723697005
+        },
+        "cup_ncc": 0.7320128083229065,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 151.51
+  },
+  {
+    "frame": "0029",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.11028745788562,
+      264.86596790821767
+    ],
+    "visible_cup_center_uv": [
+      172.10975035684325,
+      257.3683409093484
+    ],
+    "cup_bbox_xyxy_px": [
+      146.11813370122272,
+      243.86065627137606,
+      198.1042284757432,
+      270.8777266121384
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.1185453913755,
+            243.86065627137606
+          ],
+          [
+            198.1019673910532,
+            243.8839290422438
+          ],
+          [
+            198.1042284757432,
+            270.8777266121384
+          ],
+          [
+            146.11813370122272,
+            270.8524413081329
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 175,
+          "ncc": 0.99348317086783,
+          "scale": 0.9998224337053383,
+          "rotation_deg": 0.017606960604083673
+        },
+        "cup_ncc": 0.9939405918121338,
+        "reason": null,
+        "edge_ncc": 0.9953535457322643,
+        "rim_edge_ncc": 0.9965767340560269,
+        "quality": 0.9939405918121338,
+        "polygon": [
+          [
+            146.1185453913755,
+            243.86065627137606
+          ],
+          [
+            198.1019673910532,
+            243.8839290422438
+          ],
+          [
+            198.1042284757432,
+            270.8777266121384
+          ],
+          [
+            146.11813370122272,
+            270.8524413081329
+          ]
+        ],
+        "rim_anchor": [
+          171.11028745788562,
+          264.86596790821767
+        ],
+        "center": [
+          172.10975035684325,
+          257.3683409093484
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 58,
+          "ncc": 0.7722444563537718,
+          "scale": 1.0500369586092844,
+          "rotation_deg": -6.304061167301178
+        },
+        "cup_ncc": 0.7403960824012756,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 58,
+          "ncc": 0.7834623048292664,
+          "scale": 0.998066257355282,
+          "rotation_deg": 5.829089389006574
+        },
+        "cup_ncc": 0.8034698963165283,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 160.19
+  },
+  {
+    "frame": "0030",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      171.04034310113886,
+      264.93011187630464
+    ],
+    "visible_cup_center_uv": [
+      172.0416368850915,
+      257.4347201118563
+    ],
+    "cup_bbox_xyxy_px": [
+      146.06659964589977,
+      243.92174752229835,
+      198.02372696031972,
+      270.95221161125505
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            146.07559641701937,
+            243.92174752229835
+          ],
+          [
+            198.02372696031972,
+            243.96173931279722
+          ],
+          [
+            198.01636072723394,
+            270.95221161125505
+          ],
+          [
+            146.06659964589977,
+            270.90404367147755
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 174,
+          "ncc": 0.9938012815748191,
+          "scale": 1.0001179298704652,
+          "rotation_deg": 0.01138810664976457
+        },
+        "cup_ncc": 0.9937554597854614,
+        "reason": null,
+        "edge_ncc": 0.9939102446307592,
+        "rim_edge_ncc": 0.9953681075481999,
+        "quality": 0.9937554597854614,
+        "polygon": [
+          [
+            146.07559641701937,
+            243.92174752229835
+          ],
+          [
+            198.02372696031972,
+            243.96173931279722
+          ],
+          [
+            198.01636072723394,
+            270.95221161125505
+          ],
+          [
+            146.06659964589977,
+            270.90404367147755
+          ]
+        ],
+        "rim_anchor": [
+          171.04034310113886,
+          264.93011187630464
+        ],
+        "center": [
+          172.0416368850915,
+          257.4347201118563
+        ]
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 134.99
+  },
+  {
+    "frame": "0031",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      155.66161920814056,
+      245.66861943487
+    ],
+    "visible_cup_center_uv": [
+      155.71055618615057,
+      237.08445510098588
+    ],
+    "cup_bbox_xyxy_px": [
+      126.9689913463136,
+      219.8399346171123,
+      185.10224889967648,
+      254.2408771401822
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            126.9689913463136,
+            223.86061738112568
+          ],
+          [
+            181.2397902830093,
+            219.8399346171123
+          ],
+          [
+            185.10224889967648,
+            250.60741312089687
+          ],
+          [
+            130.31174530516714,
+            254.2408771401822
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 63,
+          "ncc": 0.7729192674833257,
+          "scale": 0.9778239366759096,
+          "rotation_deg": 0.7615466009988132
+        },
+        "cup_ncc": 0.8272678256034851,
+        "reason": null,
+        "edge_ncc": 0.7494589168902813,
+        "rim_edge_ncc": 0.8069491156383852,
+        "quality": 0.7494589168902813,
+        "polygon": [
+          [
+            126.9689913463136,
+            223.86061738112568
+          ],
+          [
+            181.2397902830093,
+            219.8399346171123
+          ],
+          [
+            185.10224889967648,
+            250.60741312089687
+          ],
+          [
+            130.31174530516714,
+            254.2408771401822
+          ]
+        ],
+        "rim_anchor": [
+          155.66161920814056,
+          245.66861943487
+        ],
+        "center": [
+          155.71055618615057,
+          237.08445510098588
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 53,
+          "ncc": 0.7278018092510595,
+          "scale": 1.0299905368945435,
+          "rotation_deg": -6.252453565760832
+        },
+        "cup_ncc": 0.7488784790039062,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 161.58
+  },
+  {
+    "frame": "0032",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": false,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": null,
+    "visible_cup_center_uv": null,
+    "cup_bbox_xyxy_px": null,
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {},
+    "reasons": [
+      "station_or_actual_cup_not_verified"
+    ],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 42,
+          "ncc": 0.7114046657913058,
+          "scale": 1.0632793075206495,
+          "rotation_deg": -7.939938134290583
+        },
+        "cup_ncc": 0.7157579660415649,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 37,
+          "ncc": 0.7126270979707214,
+          "scale": 1.0040925333038686,
+          "rotation_deg": 6.261462415083606
+        },
+        "cup_ncc": 0.7479620575904846,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "inference_ms": 153.39
+  },
+  {
+    "frame": "0033",
+    "used_as_reference": true,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      248.99755163020066,
+      203.00127238702822
+    ],
+    "visible_cup_center_uv": [
+      248.99756332348016,
+      195.50109703879306
+    ],
+    "cup_bbox_xyxy_px": [
+      225.9963810002066,
+      183.0006883280401,
+      271.9985211229824,
+      208.00162777224307
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            225.9964389365558,
+            183.0009377417488
+          ],
+          [
+            271.9985211229824,
+            183.0006883280401
+          ],
+          [
+            271.9985011038152,
+            208.00115492287796
+          ],
+          [
+            225.9963810002066,
+            208.00162777224307
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 242,
+          "ncc": 0.9999957874570597,
+          "scale": 1.000003573867715,
+          "rotation_deg": 0.00032385262690717923
+        },
+        "cup_ncc": 0.9999977946281433,
+        "reason": null,
+        "edge_ncc": 0.9999936845266041,
+        "rim_edge_ncc": 0.999992731358674,
+        "quality": 0.999992731358674,
+        "polygon": [
+          [
+            225.9964389365558,
+            183.0009377417488
+          ],
+          [
+            271.9985211229824,
+            183.0006883280401
+          ],
+          [
+            271.9985011038152,
+            208.00115492287796
+          ],
+          [
+            225.9963810002066,
+            208.00162777224307
+          ]
+        ],
+        "rim_anchor": [
+          248.99755163020066,
+          203.00127238702822
+        ],
+        "center": [
+          248.99756332348016,
+          195.50109703879306
+        ]
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 89,
+          "ncc": 0.8038132182063153,
+          "scale": 0.9595607377072323,
+          "rotation_deg": 14.791786736043845
+        },
+        "cup_ncc": 0.8284874558448792,
+        "reason": null,
+        "edge_ncc": 0.7058522786696437,
+        "rim_edge_ncc": 0.8025864960039479,
+        "quality": 0.7058522786696437,
+        "polygon": [
+          [
+            230.64031848222564,
+            180.61938391988105
+          ],
+          [
+            273.65186662784936,
+            188.89763750912783
+          ],
+          [
+            267.741476778145,
+            211.697543658967
+          ],
+          [
+            224.86973353568717,
+            202.898120782046
+          ]
+        ],
+        "rim_anchor": [
+          247.74501251907174,
+          202.31817039932656
+        ],
+        "center": [
+          248.97703516887094,
+          195.9793197400143
+        ]
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 27,
+          "ncc": 0.7295245801239784,
+          "scale": 0.9394332831569684,
+          "rotation_deg": 10.533071560968423
+        },
+        "cup_ncc": 0.6482955813407898,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0033",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 180.46
+  },
+  {
+    "frame": "0034",
+    "used_as_reference": true,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      83.00045400709277,
+      240.00120140689222
+    ],
+    "visible_cup_center_uv": [
+      83.0004093663543,
+      230.00111660433336
+    ],
+    "cup_bbox_xyxy_px": [
+      55.0001153058943,
+      215.0009050834093,
+      111.00065610974477,
+      245.00136243617408
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            55.0001153058943,
+            215.00108118632494
+          ],
+          [
+            111.00051382290401,
+            215.0009050834093
+          ],
+          [
+            111.00065610974477,
+            245.00112667411798
+          ],
+          [
+            55.000240863424374,
+            245.00136243617408
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 32,
+          "ncc": 0.7037345799860698,
+          "scale": 1.0322379073888535,
+          "rotation_deg": -9.31437246093586
+        },
+        "cup_ncc": 0.6710551977157593,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "station": {
+          "inliers": 322,
+          "ncc": 0.9999966621248698,
+          "scale": 1.0000008663214253,
+          "rotation_deg": 2.9405626134041445e-06
+        },
+        "cup_ncc": 1.0,
+        "reason": null,
+        "edge_ncc": 0.9999999999999998,
+        "rim_edge_ncc": 0.9999999999999999,
+        "quality": 0.9999999999999998,
+        "polygon": [
+          [
+            55.0001153058943,
+            215.00108118632494
+          ],
+          [
+            111.00051382290401,
+            215.0009050834093
+          ],
+          [
+            111.00065610974477,
+            245.00112667411798
+          ],
+          [
+            55.000240863424374,
+            245.00136243617408
+          ]
+        ],
+        "rim_anchor": [
+          83.00045400709277,
+          240.00120140689222
+        ],
+        "center": [
+          83.0004093663543,
+          230.00111660433336
+        ]
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0034",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 143.68
+  },
+  {
+    "frame": "0035",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      95.25039020757745,
+      237.21900857924328
+    ],
+    "visible_cup_center_uv": [
+      95.50830855570457,
+      227.3261135203143
+    ],
+    "cup_bbox_xyxy_px": [
+      67.70396587615646,
+      212.00831260968778,
+      123.36304694631801,
+      242.6632204231725
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            68.46964551201818,
+            212.00831260968778
+          ],
+          [
+            123.36304694631801,
+            212.959140818131
+          ],
+          [
+            122.58105013466658,
+            242.6632204231725
+          ],
+          [
+            67.70396587615646,
+            241.6670930218066
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 41,
+          "ncc": 0.7044237333246486,
+          "scale": 0.9792361714519003,
+          "rotation_deg": 6.541254312322187
+        },
+        "cup_ncc": 0.7009800672531128,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "station": {
+          "inliers": 168,
+          "ncc": 0.9754462695118963,
+          "scale": 0.9903315571450443,
+          "rotation_deg": 0.8494607107394699
+        },
+        "cup_ncc": 0.9781145453453064,
+        "reason": null,
+        "edge_ncc": 0.9765924566179826,
+        "rim_edge_ncc": 0.9863813624890182,
+        "quality": 0.9765924566179826,
+        "polygon": [
+          [
+            68.46964551201818,
+            212.00831260968778
+          ],
+          [
+            123.36304694631801,
+            212.959140818131
+          ],
+          [
+            122.58105013466658,
+            242.6632204231725
+          ],
+          [
+            67.70396587615646,
+            241.6670930218066
+          ]
+        ],
+        "rim_anchor": [
+          95.25039020757745,
+          237.21900857924328
+        ],
+        "center": [
+          95.50830855570457,
+          227.3261135203143
+        ]
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0034",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 148.34
+  },
+  {
+    "frame": "0036",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      111.57778280289982,
+      243.94571158314045
+    ],
+    "visible_cup_center_uv": [
+      112.24876044336283,
+      234.3164817219607
+    ],
+    "cup_bbox_xyxy_px": [
+      84.48182839569017,
+      218.9965038767473,
+      140.23490296589898,
+      249.6927151838041
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            86.43430454624101,
+            218.9965038767473
+          ],
+          [
+            140.23490296589898,
+            220.70310782271244
+          ],
+          [
+            138.1580081312519,
+            249.6927151838041
+          ],
+          [
+            84.48182839569017,
+            247.82322448565515
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 44,
+          "ncc": 0.7127500177910714,
+          "scale": 1.0439677643286425,
+          "rotation_deg": -8.102595291702368
+        },
+        "cup_ncc": 0.7087048292160034,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 37,
+          "ncc": 0.7274703007737418,
+          "scale": 0.9885505917348646,
+          "rotation_deg": 6.604511502318102
+        },
+        "cup_ncc": 0.7360117435455322,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "station": {
+          "inliers": 81,
+          "ncc": 0.8319259229019451,
+          "scale": 0.984920009585861,
+          "rotation_deg": 1.2609199627980887
+        },
+        "cup_ncc": 0.9038839340209961,
+        "reason": null,
+        "edge_ncc": 0.8546996063126514,
+        "rim_edge_ncc": 0.8791865534578753,
+        "quality": 0.8546996063126514,
+        "polygon": [
+          [
+            86.43430454624101,
+            218.9965038767473
+          ],
+          [
+            140.23490296589898,
+            220.70310782271244
+          ],
+          [
+            138.1580081312519,
+            249.6927151838041
+          ],
+          [
+            84.48182839569017,
+            247.82322448565515
+          ]
+        ],
+        "rim_anchor": [
+          111.57778280289982,
+          243.94571158314045
+        ],
+        "center": [
+          112.24876044336283,
+          234.3164817219607
+        ]
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0034",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 149.3
+  },
+  {
+    "frame": "0037",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      160.0677442001962,
+      247.16831681253979
+    ],
+    "visible_cup_center_uv": [
+      159.85233998986627,
+      240.27681001128332
+    ],
+    "cup_bbox_xyxy_px": [
+      134.33956745811403,
+      225.89318217852662,
+      185.9701477401038,
+      254.9488707250773
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            135.1704583152659,
+            225.89318217852662
+          ],
+          [
+            185.9701477401038,
+            230.00933422660538
+          ],
+          [
+            185.02916399220234,
+            254.9488707250773
+          ],
+          [
+            134.33956745811403,
+            250.3064333500714
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 69,
+          "ncc": 0.8204292507948872,
+          "scale": 1.0314216365941797,
+          "rotation_deg": -6.5242322759915075
+        },
+        "cup_ncc": 0.7883200645446777,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 57,
+          "ncc": 0.8324852894580073,
+          "scale": 0.9867585777515067,
+          "rotation_deg": 8.205463852709778
+        },
+        "cup_ncc": 0.8280364871025085,
+        "reason": null,
+        "edge_ncc": 0.7544726270545741,
+        "rim_edge_ncc": 0.7802336468385903,
+        "quality": 0.7544726270545741,
+        "polygon": [
+          [
+            135.1704583152659,
+            225.89318217852662
+          ],
+          [
+            185.9701477401038,
+            230.00933422660538
+          ],
+          [
+            185.02916399220234,
+            254.9488707250773
+          ],
+          [
+            134.33956745811403,
+            250.3064333500714
+          ]
+        ],
+        "rim_anchor": [
+          160.0677442001962,
+          247.16831681253979
+        ],
+        "center": [
+          159.85233998986627,
+          240.27681001128332
+        ]
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0041",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 175.19
+  },
+  {
+    "frame": "0038",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": false,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": null,
+    "visible_cup_center_uv": null,
+    "cup_bbox_xyxy_px": null,
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {},
+    "reasons": [
+      "station_or_actual_cup_not_verified"
+    ],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 44,
+          "ncc": 0.7219745539309457,
+          "scale": 0.9303386531484993,
+          "rotation_deg": 0.056350212620960065
+        },
+        "cup_ncc": 0.7144708633422852,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 64,
+          "ncc": 0.8331174483883867,
+          "scale": 0.9843508157479648,
+          "rotation_deg": -6.862975422201374
+        },
+        "cup_ncc": 0.6843855977058411,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 73,
+          "ncc": 0.9077141381592676,
+          "scale": 0.9451970907944859,
+          "rotation_deg": 8.665917361349399
+        },
+        "cup_ncc": 0.8037744164466858,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "inference_ms": 171.84
+  },
+  {
+    "frame": "0039",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      240.54942019632895,
+      227.6867998233106
+    ],
+    "visible_cup_center_uv": [
+      237.1495834010227,
+      222.74995204264425
+    ],
+    "cup_bbox_xyxy_px": [
+      210.3102766527851,
+      204.9145448535071,
+      263.378070444509,
+      240.97730530414862
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            210.3102766527851,
+            218.2517230395486
+          ],
+          [
+            255.23423384134415,
+            204.9145448535071
+          ],
+          [
+            263.378070444509,
+            227.1458085464296
+          ],
+          [
+            218.66750958622777,
+            240.97730530414862
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 36,
+          "ncc": 0.7076649924676183,
+          "scale": 1.025644484539285,
+          "rotation_deg": -6.781490825560325
+        },
+        "cup_ncc": 0.6382057666778564,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 43,
+          "ncc": 0.766548499910725,
+          "scale": 0.9737388601077871,
+          "rotation_deg": 7.964927914757819
+        },
+        "cup_ncc": 0.7280890941619873,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "station": {
+          "inliers": 41,
+          "ncc": 0.8013329153576552,
+          "scale": 0.9390734771918275,
+          "rotation_deg": -8.410121974151766
+        },
+        "cup_ncc": 0.8947275876998901,
+        "reason": null,
+        "edge_ncc": 0.8820102010652839,
+        "rim_edge_ncc": 0.9267128766897204,
+        "quality": 0.8820102010652839,
+        "polygon": [
+          [
+            210.3102766527851,
+            218.2517230395486
+          ],
+          [
+            255.23423384134415,
+            204.9145448535071
+          ],
+          [
+            263.378070444509,
+            227.1458085464296
+          ],
+          [
+            218.66750958622777,
+            240.97730530414862
+          ]
+        ],
+        "rim_anchor": [
+          240.54942019632895,
+          227.6867998233106
+        ],
+        "center": [
+          237.1495834010227,
+          222.74995204264425
+        ]
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0040",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 169.67
+  },
+  {
+    "frame": "0040",
+    "used_as_reference": true,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      329.0005237977082,
+      231.00017840088054
+    ],
+    "visible_cup_center_uv": [
+      327.50047705591663,
+      225.5002773050376
+    ],
+    "cup_bbox_xyxy_px": [
+      304.0005696853395,
+      214.00040547301003,
+      351.00040145148444,
+      237.00011242849158
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            304.0005696853395,
+            214.00052963392747
+          ],
+          [
+            351.0001772802793,
+            214.00040547301003
+          ],
+          [
+            351.00040145148444,
+            237.00003330737624
+          ],
+          [
+            304.0008518446054,
+            237.00011242849158
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "station": {
+          "inliers": 263,
+          "ncc": 0.9999982870571378,
+          "scale": 0.9999953814077284,
+          "rotation_deg": -0.00032324292629779997
+        },
+        "cup_ncc": 0.9999997019767761,
+        "reason": null,
+        "edge_ncc": 1.0000000000000002,
+        "rim_edge_ncc": 1.0,
+        "quality": 0.9999997019767761,
+        "polygon": [
+          [
+            304.0005696853395,
+            214.00052963392747
+          ],
+          [
+            351.0001772802793,
+            214.00040547301003
+          ],
+          [
+            351.00040145148444,
+            237.00003330737624
+          ],
+          [
+            304.0008518446054,
+            237.00011242849158
+          ]
+        ],
+        "rim_anchor": [
+          329.0005237977082,
+          231.00017840088054
+        ],
+        "center": [
+          327.50047705591663,
+          225.5002773050376
+        ]
+      },
+      {
+        "reference": "0043",
+        "station": {
+          "inliers": 56,
+          "ncc": 0.8462844995871011,
+          "scale": 1.022256149519238,
+          "rotation_deg": 6.809042783210428
+        },
+        "cup_ncc": 0.8259596824645996,
+        "reason": null,
+        "edge_ncc": 0.7737309184433003,
+        "rim_edge_ncc": 0.802019026563178,
+        "quality": 0.7737309184433003,
+        "polygon": [
+          [
+            305.616639266496,
+            202.31655969810595
+          ],
+          [
+            355.2121031272506,
+            216.09468936279464
+          ],
+          [
+            346.1817502043084,
+            242.52147309937013
+          ],
+          [
+            296.77672679794716,
+            228.06131098764058
+          ]
+        ],
+        "rim_anchor": [
+          324.5196364495569,
+          228.4470575695558
+        ],
+        "center": [
+          325.6303466000121,
+          222.15255549794028
+        ]
+      }
+    ],
+    "selected_reference": "0040",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 172.28
+  },
+  {
+    "frame": "0041",
+    "used_as_reference": true,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      112.00110136700883,
+      238.99816615899826
+    ],
+    "visible_cup_center_uv": [
+      111.50118674461004,
+      231.4983246533642
+    ],
+    "cup_bbox_xyxy_px": [
+      84.00239174673946,
+      217.9983624337661,
+      139.0003053212914,
+      244.99847100808157
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            84.00264964700523,
+            217.9983624337661
+          ],
+          [
+            139.0003053212914,
+            217.99890355830007
+          ],
+          [
+            139.00009891336887,
+            244.99847100808157
+          ],
+          [
+            84.00239174673946,
+            244.99758690236888
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 91,
+          "ncc": 0.9344247040225668,
+          "scale": 1.0412268919810779,
+          "rotation_deg": -15.303276058524148
+        },
+        "cup_ncc": 0.8371833562850952,
+        "reason": null,
+        "edge_ncc": 0.7559354319279061,
+        "rim_edge_ncc": 0.8483163590630991,
+        "quality": 0.7559354319279061,
+        "polygon": [
+          [
+            77.37932040127642,
+            222.2979234582019
+          ],
+          [
+            137.720678125827,
+            208.96758204827148
+          ],
+          [
+            145.11289000547166,
+            237.81159422612382
+          ],
+          [
+            85.26555141002771,
+            252.46037746039374
+          ]
+        ],
+        "rim_anchor": [
+          114.35055144173751,
+          239.08196228026816
+        ],
+        "center": [
+          112.06262516186482,
+          230.24177425985727
+        ]
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 282,
+          "ncc": 0.9999969285520288,
+          "scale": 0.9999997068814234,
+          "rotation_deg": -0.000719935316958545
+        },
+        "cup_ncc": 0.9999995231628418,
+        "reason": null,
+        "edge_ncc": 0.9999992141342493,
+        "rim_edge_ncc": 0.9999996014987557,
+        "quality": 0.9999992141342493,
+        "polygon": [
+          [
+            84.00264964700523,
+            217.9983624337661
+          ],
+          [
+            139.0003053212914,
+            217.99890355830007
+          ],
+          [
+            139.00009891336887,
+            244.99847100808157
+          ],
+          [
+            84.00239174673946,
+            244.99758690236888
+          ]
+        ],
+        "rim_anchor": [
+          112.00110136700883,
+          238.99816615899826
+        ],
+        "center": [
+          111.50118674461004,
+          231.4983246533642
+        ]
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 29,
+          "ncc": 0.7306441383268639,
+          "scale": 0.9754306963027621,
+          "rotation_deg": -3.025028147306449
+        },
+        "cup_ncc": 0.6671045422554016,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0041",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 155.42
+  },
+  {
+    "frame": "0042",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      249.3835215140038,
+      234.59426350704626
+    ],
+    "visible_cup_center_uv": [
+      246.165016231811,
+      229.550254597743
+    ],
+    "cup_bbox_xyxy_px": [
+      219.4104151634893,
+      213.39638547422072,
+      272.6890922864429,
+      245.78132010678797
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            219.4104151634893,
+            223.28018057781085
+          ],
+          [
+            265.42096443756816,
+            213.39638547422072
+          ],
+          [
+            272.6890922864429,
+            235.76630393251583
+          ],
+          [
+            226.81704737205894,
+            245.78132010678797
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "station": {
+          "inliers": 35,
+          "ncc": 0.7998485518565356,
+          "scale": 0.9863307601559629,
+          "rotation_deg": -5.416789581136934
+        },
+        "cup_ncc": 0.8424389958381653,
+        "reason": null,
+        "edge_ncc": 0.8340571672666348,
+        "rim_edge_ncc": 0.8477208044023298,
+        "quality": 0.8340571672666348,
+        "polygon": [
+          [
+            219.4104151634893,
+            223.28018057781085
+          ],
+          [
+            265.42096443756816,
+            213.39638547422072
+          ],
+          [
+            272.6890922864429,
+            235.76630393251583
+          ],
+          [
+            226.81704737205894,
+            245.78132010678797
+          ]
+        ],
+        "rim_anchor": [
+          249.3835215140038,
+          234.59426350704626
+        ],
+        "center": [
+          246.165016231811,
+          229.550254597743
+        ]
+      },
+      {
+        "reference": "0043",
+        "station": {
+          "inliers": 74,
+          "ncc": 0.9219843201734946,
+          "scale": 1.000847748941072,
+          "rotation_deg": 2.095654358855386
+        },
+        "cup_ncc": 0.8427693247795105,
+        "reason": null,
+        "edge_ncc": 0.786487868603013,
+        "rim_edge_ncc": 0.9124556249778324,
+        "quality": 0.786487868603013,
+        "polygon": [
+          [
+            219.26817623915736,
+            215.05815254051421
+          ],
+          [
+            269.2252820823297,
+            212.16669981279105
+          ],
+          [
+            271.4265256598864,
+            238.1648168910245
+          ],
+          [
+            221.31368866261994,
+            240.87676794851396
+          ]
+        ],
+        "rim_anchor": [
+          246.66969403455005,
+          232.48305365971504
+        ],
+        "center": [
+          245.21646916074522,
+          226.55350278964545
+        ]
+      }
+    ],
+    "selected_reference": "0040",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 166.06
+  },
+  {
+    "frame": "0043",
+    "used_as_reference": true,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      241.99967268819242,
+      242.00058294525064
+    ],
+    "visible_cup_center_uv": [
+      240.99958769268923,
+      236.00058690904206
+    ],
+    "cup_bbox_xyxy_px": [
+      214.99879677352146,
+      223.00050688184552,
+      267.0001755012418,
+      249.0007256356352
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            214.99879677352146,
+            223.0006325644077
+          ],
+          [
+            266.9999395397647,
+            223.00050688184552
+          ],
+          [
+            267.0001755012418,
+            249.00043970181468
+          ],
+          [
+            214.99911844595445,
+            249.0007256356352
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "station": {
+          "inliers": 55,
+          "ncc": 0.8352928299797845,
+          "scale": 0.981182672843099,
+          "rotation_deg": -7.62311168402056
+        },
+        "cup_ncc": 0.8981640338897705,
+        "reason": null,
+        "edge_ncc": 0.8881890711326785,
+        "rim_edge_ncc": 0.9750438342891551,
+        "quality": 0.8881890711326785,
+        "polygon": [
+          [
+            215.35857968635946,
+            233.95098942488465
+          ],
+          [
+            263.2552196008699,
+            221.135238484391
+          ],
+          [
+            271.42425756900707,
+            243.17460789304982
+          ],
+          [
+            223.92817656157825,
+            256.2827473493485
+          ]
+        ],
+        "rim_anchor": [
+          247.2150195018479,
+          243.49565876868897
+        ],
+        "center": [
+          243.69871120900297,
+          238.61335275258082
+        ]
+      },
+      {
+        "reference": "0043",
+        "station": {
+          "inliers": 265,
+          "ncc": 0.9999976160502987,
+          "scale": 0.9999950904145454,
+          "rotation_deg": 0.000479513984547566
+        },
+        "cup_ncc": 1.0,
+        "reason": null,
+        "edge_ncc": 0.9999999999999999,
+        "rim_edge_ncc": 0.9999999999999997,
+        "quality": 0.9999999999999997,
+        "polygon": [
+          [
+            214.99879677352146,
+            223.0006325644077
+          ],
+          [
+            266.9999395397647,
+            223.00050688184552
+          ],
+          [
+            267.0001755012418,
+            249.00043970181468
+          ],
+          [
+            214.99911844595445,
+            249.0007256356352
+          ]
+        ],
+        "rim_anchor": [
+          241.99967268819242,
+          242.00058294525064
+        ],
+        "center": [
+          240.99958769268923,
+          236.00058690904206
+        ]
+      }
+    ],
+    "selected_reference": "0043",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 164.74
+  },
+  {
+    "frame": "0044",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      126.0511414456333,
+      273.47444530210106
+    ],
+    "visible_cup_center_uv": [
+      126.05935047961594,
+      264.97059928619916
+    ],
+    "cup_bbox_xyxy_px": [
+      94.40331489755035,
+      247.18397933844335,
+      157.4011150617728,
+      283.00031917773913
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            94.40331489755035,
+            252.61317493256533
+          ],
+          [
+            153.32115604109933,
+            247.18397933844335
+          ],
+          [
+            157.4011150617728,
+            277.205343081876
+          ],
+          [
+            98.42494217410818,
+            283.00031917773913
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 82,
+          "ncc": 0.9322623377303089,
+          "scale": 1.0147661784540993,
+          "rotation_deg": -4.160330954754333
+        },
+        "cup_ncc": 0.856472373008728,
+        "reason": null,
+        "edge_ncc": 0.8205142828435059,
+        "rim_edge_ncc": 0.8112703319821565,
+        "quality": 0.8112703319821565,
+        "polygon": [
+          [
+            94.40331489755035,
+            252.61317493256533
+          ],
+          [
+            153.32115604109933,
+            247.18397933844335
+          ],
+          [
+            157.4011150617728,
+            277.205343081876
+          ],
+          [
+            98.42494217410818,
+            283.00031917773913
+          ]
+        ],
+        "rim_anchor": [
+          126.0511414456333,
+          273.47444530210106
+        ],
+        "center": [
+          126.05935047961594,
+          264.97059928619916
+        ]
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 65,
+          "ncc": 0.7778577245822719,
+          "scale": 1.068211061665795,
+          "rotation_deg": -10.592668344231576
+        },
+        "cup_ncc": 0.7449201941490173,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 56,
+          "ncc": 0.773587007593965,
+          "scale": 1.0113206514448427,
+          "rotation_deg": 3.500517735389535
+        },
+        "cup_ncc": 0.8077592253684998,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0001",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 156.39
+  },
+  {
+    "frame": "0045",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": false,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": null,
+    "visible_cup_center_uv": null,
+    "cup_bbox_xyxy_px": null,
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {},
+    "reasons": [
+      "station_or_actual_cup_not_verified"
+    ],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 113,
+          "ncc": 0.8900387579385565,
+          "scale": 0.9997547636563825,
+          "rotation_deg": 0.3657530858511638
+        },
+        "cup_ncc": 0.7898972630500793,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 68,
+          "ncc": 0.9053468569405,
+          "scale": 0.9976336104964676,
+          "rotation_deg": 5.733079309614929
+        },
+        "cup_ncc": 0.7707870006561279,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "inference_ms": 161.5
+  },
+  {
+    "frame": "0046",
+    "used_as_reference": true,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      161.0002426074357,
+      300.00134241406107
+    ],
+    "visible_cup_center_uv": [
+      159.50019279184872,
+      292.50130503806804
+    ],
+    "cup_bbox_xyxy_px": [
+      131.99987066057727,
+      280.0009248050759,
+      187.00042822051284,
+      305.00172460213605
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            131.99987066057727,
+            280.0015023872486
+          ],
+          [
+            187.00030092986847,
+            280.0009248050759
+          ],
+          [
+            187.00042822051284,
+            305.0010682796953
+          ],
+          [
+            131.9999981277539,
+            305.00172460213605
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 280,
+          "ncc": 0.9999983713426076,
+          "scale": 0.9999975020248711,
+          "rotation_deg": -0.00021124109417782657
+        },
+        "cup_ncc": 1.0,
+        "reason": null,
+        "edge_ncc": 1.0000000000000002,
+        "rim_edge_ncc": 1.0,
+        "quality": 1.0,
+        "polygon": [
+          [
+            131.99987066057727,
+            280.0015023872486
+          ],
+          [
+            187.00030092986847,
+            280.0009248050759
+          ],
+          [
+            187.00042822051284,
+            305.0010682796953
+          ],
+          [
+            131.9999981277539,
+            305.00172460213605
+          ]
+        ],
+        "rim_anchor": [
+          161.0002426074357,
+          300.00134241406107
+        ],
+        "center": [
+          159.50019279184872,
+          292.50130503806804
+        ]
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "station": {
+          "inliers": 34,
+          "ncc": 0.7879168030395816,
+          "scale": 1.0202476261338107,
+          "rotation_deg": -5.940025928259326
+        },
+        "cup_ncc": 0.5686973333358765,
+        "reason": "cup_patch_or_rim_not_verified"
+      }
+    ],
+    "selected_reference": "0046",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 149.68
+  },
+  {
+    "frame": "0047",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": false,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": null,
+    "visible_cup_center_uv": null,
+    "cup_bbox_xyxy_px": null,
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {},
+    "reasons": [
+      "station_or_actual_cup_not_verified"
+    ],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "station": {
+          "inliers": 44,
+          "ncc": 0.7805798978746403,
+          "scale": 0.9656122824642159,
+          "rotation_deg": -0.34578047242139853
+        },
+        "cup_ncc": 0.7751259207725525,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0033",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0041",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "inference_ms": 148.2
+  },
+  {
+    "frame": "0048",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      127.93778671019643,
+      234.02285206773877
+    ],
+    "visible_cup_center_uv": [
+      129.7752946884712,
+      225.36338785577107
+    ],
+    "cup_bbox_xyxy_px": [
+      103.46805376784455,
+      208.34934132683162,
+      156.40468101343234,
+      242.478890530282
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            108.88829534240107,
+            208.34934132683162
+          ],
+          [
+            156.40468101343234,
+            216.36792188785682
+          ],
+          [
+            150.7868449132875,
+            242.478890530282
+          ],
+          [
+            103.46805376784455,
+            234.25003238912234
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 42,
+          "ncc": 0.724462912024228,
+          "scale": 1.0297470532260142,
+          "rotation_deg": -7.166780555792937
+        },
+        "cup_ncc": 0.7252428531646729,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 39,
+          "ncc": 0.7133630542167073,
+          "scale": 0.9617477503763547,
+          "rotation_deg": 8.215805781403041
+        },
+        "cup_ncc": 0.7383483648300171,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "station": {
+          "inliers": 58,
+          "ncc": 0.7779760501544492,
+          "scale": 0.980749863940013,
+          "rotation_deg": 2.362822533175731
+        },
+        "cup_ncc": 0.8950737714767456,
+        "reason": null,
+        "edge_ncc": 0.8477400994751447,
+        "rim_edge_ncc": 0.9245045460436179,
+        "quality": 0.8477400994751447,
+        "polygon": [
+          [
+            108.88829534240107,
+            208.34934132683162
+          ],
+          [
+            156.40468101343234,
+            216.36792188785682
+          ],
+          [
+            150.7868449132875,
+            242.478890530282
+          ],
+          [
+            103.46805376784455,
+            234.25003238912234
+          ]
+        ],
+        "rim_anchor": [
+          127.93778671019643,
+          234.02285206773877
+        ],
+        "center": [
+          129.7752946884712,
+          225.36338785577107
+        ]
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0034",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 166.9
+  },
+  {
+    "frame": "0049",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": false,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": null,
+    "visible_cup_center_uv": null,
+    "cup_bbox_xyxy_px": null,
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {},
+    "reasons": [
+      "station_or_actual_cup_not_verified"
+    ],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 47,
+          "ncc": 0.7211182637600068,
+          "scale": 0.9595783231794888,
+          "rotation_deg": -6.419478294157654
+        },
+        "cup_ncc": 0.5816829204559326,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 46,
+          "ncc": 0.7683179427996916,
+          "scale": 0.9292060080281238,
+          "rotation_deg": 9.90091876930144
+        },
+        "cup_ncc": 0.6439447999000549,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0046",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "inference_ms": 167.04
+  },
+  {
+    "frame": "0050",
+    "used_as_reference": false,
+    "ok": true,
+    "recognition_revision": "reference-bank-20261008",
+    "camera_serial": "CP2L863000RG",
+    "candidate_valid_2d": true,
+    "stable_2d": false,
+    "coordinate_frame": "color_image_pixels",
+    "visible_lower_rim_uv": [
+      226.2090383535147,
+      215.1517186416843
+    ],
+    "visible_cup_center_uv": [
+      226.77276431539642,
+      208.40049091682815
+    ],
+    "cup_bbox_xyxy_px": [
+      202.75626803565552,
+      191.8600581492789,
+      252.23419457994933,
+      225.54339230205207
+    ],
+    "camera_surface_xyz_m": null,
+    "robot_surface_xyz_m": null,
+    "grasp_pose": null,
+    "robot_motion_ready": false,
+    "objects": {
+      "exposed_cup": {
+        "detected": true,
+        "polygon_px": [
+          [
+            205.9641505604683,
+            191.8600581492789
+          ],
+          [
+            252.23419457994933,
+            200.9639075409668
+          ],
+          [
+            248.33931088507245,
+            225.54339230205207
+          ],
+          [
+            202.75626803565552,
+            215.41504882361633
+          ]
+        ],
+        "method": "station_registered_independent_cup_and_rim"
+      }
+    },
+    "reasons": [],
+    "reference_attempts": [
+      {
+        "reference": "0001",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0033",
+        "station": {
+          "inliers": 76,
+          "ncc": 0.8780331792482325,
+          "scale": 1.0279905737806843,
+          "rotation_deg": -3.135032745764728
+        },
+        "cup_ncc": 0.8348193168640137,
+        "reason": null,
+        "edge_ncc": 0.7742727669479228,
+        "rim_edge_ncc": 0.7705800345768519,
+        "quality": 0.7705800345768519,
+        "polygon": [
+          [
+            204.01247352853727,
+            198.25566483913374
+          ],
+          [
+            251.12967322726138,
+            194.8512073472322
+          ],
+          [
+            252.89905091213024,
+            218.5451184766077
+          ],
+          [
+            206.09593306810152,
+            222.22935337944736
+          ]
+        ],
+        "rim_anchor": [
+          229.26211719738288,
+          215.6324989648947
+        ],
+        "center": [
+          228.6858367629374,
+          208.49587976555085
+        ]
+      },
+      {
+        "reference": "0041",
+        "station": {
+          "inliers": 78,
+          "ncc": 0.8315477611521607,
+          "scale": 0.9668385087957412,
+          "rotation_deg": 12.290496069089519
+        },
+        "cup_ncc": 0.8793802857398987,
+        "reason": null,
+        "edge_ncc": 0.8315887846045555,
+        "rim_edge_ncc": 0.8228907101146201,
+        "quality": 0.8228907101146201,
+        "polygon": [
+          [
+            205.9641505604683,
+            191.8600581492789
+          ],
+          [
+            252.23419457994933,
+            200.9639075409668
+          ],
+          [
+            248.33931088507245,
+            225.54339230205207
+          ],
+          [
+            202.75626803565552,
+            215.41504882361633
+          ]
+        ],
+        "rim_anchor": [
+          226.2090383535147,
+          215.1517186416843
+        ],
+        "center": [
+          226.77276431539642,
+          208.40049091682815
+        ]
+      },
+      {
+        "reference": "0046",
+        "station": {
+          "inliers": 47,
+          "ncc": 0.7370197233318309,
+          "scale": 0.9656675320565002,
+          "rotation_deg": 8.707058293506494
+        },
+        "cup_ncc": 0.7674638032913208,
+        "reason": "cup_patch_or_rim_not_verified"
+      },
+      {
+        "reference": "0034",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0040",
+        "reason": "station_not_verified"
+      },
+      {
+        "reference": "0043",
+        "reason": "station_not_verified"
+      }
+    ],
+    "selected_reference": "0041",
+    "annotation_uncertainty_px": 5.0,
+    "anchor_semantics": "Approximate visible lower rim, not cup-bottom center or grasp pose",
+    "inference_ms": 175.0
+  }
+]

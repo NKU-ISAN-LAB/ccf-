@@ -1,0 +1,152 @@
+{
+  "camera_serial": "CP2L863000RG",
+  "image_size_wh": [
+    640,
+    480
+  ],
+  "target": "Only the exposed blue lower cup and its lower rim at the dispenser outlet; exclude the printed upper region, holder, and table cups",
+  "annotated_by": "assistant_visual_review",
+  "semantic_basis": "User's earlier red-box target definition; these new pixel boxes are assistant annotations, not new user-reviewed coordinates",
+  "references": [
+    {
+      "frame": "0001",
+      "cup_bbox": [
+        146,
+        244,
+        198,
+        271
+      ],
+      "rim_anchor": [
+        171,
+        265
+      ],
+      "station_bbox": [
+        213,
+        146,
+        346,
+        279
+      ],
+      "sha256": "7f57c753ae9da0d71f9a5476c5011d6484611dcf2ae16fec3b147ffa64231b11"
+    },
+    {
+      "frame": "0033",
+      "cup_bbox": [
+        226,
+        183,
+        272,
+        208
+      ],
+      "rim_anchor": [
+        249,
+        203
+      ],
+      "station_bbox": [
+        296,
+        126,
+        411,
+        247
+      ],
+      "sha256": "43a614214377e38b9b4fb4ddd5cf7d3d511ec5b3328d87be3b76ba984bca4195"
+    },
+    {
+      "frame": "0041",
+      "cup_bbox": [
+        84,
+        218,
+        139,
+        245
+      ],
+      "rim_anchor": [
+        112,
+        239
+      ],
+      "station_bbox": [
+        145,
+        121,
+        277,
+        247
+      ],
+      "sha256": "141f4481493be3dafcc28f1bd6da3124bcddd1b4a8f9ab0e10e8e9d58bfe014d"
+    },
+    {
+      "frame": "0046",
+      "cup_bbox": [
+        132,
+        280,
+        187,
+        305
+      ],
+      "rim_anchor": [
+        161,
+        300
+      ],
+      "station_bbox": [
+        211,
+        161,
+        343,
+        298
+      ],
+      "sha256": "608e533eddaa298bbbbc6de39a890404b7f121f11aea2ac56ca596dc755bef5d"
+    },
+    {
+      "frame": "0034",
+      "cup_bbox": [
+        55,
+        215,
+        111,
+        245
+      ],
+      "rim_anchor": [
+        83,
+        240
+      ],
+      "station_bbox": [
+        128,
+        125,
+        275,
+        254
+      ],
+      "sha256": "334320824aff0ac2dfa1ed44f1265cf0222d365f556538099c0243a22eaae64c"
+    },
+    {
+      "frame": "0040",
+      "cup_bbox": [
+        304,
+        214,
+        351,
+        237
+      ],
+      "rim_anchor": [
+        329,
+        231
+      ],
+      "station_bbox": [
+        375,
+        142,
+        506,
+        274
+      ],
+      "sha256": "ceefd5cf96ac85dd1fe1e202230f9224118f0cc96f80ee4ce27c31fc4da5b451"
+    },
+    {
+      "frame": "0043",
+      "cup_bbox": [
+        215,
+        223,
+        267,
+        249
+      ],
+      "rim_anchor": [
+        242,
+        242
+      ],
+      "station_bbox": [
+        291,
+        132,
+        410,
+        261
+      ],
+      "sha256": "49a9f767716ffb32d62fa45cda51416ac8697814b697f61487e8e4a240a407c1"
+    }
+  ]
+}
