@@ -1,0 +1,7 @@
+{
+  "completed_epochs": 60,
+  "best_logged_epoch": 52,
+  "best_logged_validation_map50_95": 0.85459,
+  "total_training_seconds": 669.72,
+  "device": "cpu"
+}

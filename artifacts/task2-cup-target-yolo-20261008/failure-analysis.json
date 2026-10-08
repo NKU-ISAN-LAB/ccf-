@@ -1,0 +1,18 @@
+{
+  "filename": "018_old_s02_episode_000083_f00338.jpg",
+  "ground_truth_target": [
+    346.91776,
+    242.05488,
+    398.69888,
+    288.08208
+  ],
+  "predicted_target": [
+    351.31732177734375,
+    263.43646240234375,
+    393.296142578125,
+    283.77215576171875
+  ],
+  "target_iou": 0.35818156008142304,
+  "required_iou": 0.5,
+  "conclusion": "Target box is smaller and lower than the user annotation; counted as failed localization. Cup is correct. No annotation changed and no sample moved into training."
+}

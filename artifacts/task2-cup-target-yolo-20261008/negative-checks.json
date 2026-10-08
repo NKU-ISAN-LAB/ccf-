@@ -1,0 +1,353 @@
+[
+  {
+    "filename": "001_old_s02_episode_000000_f00045.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "002_old_s02_episode_000000_f00249.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "003_old_s02_episode_000010_f00121.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "004_old_s02_episode_000010_f00382.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "005_old_s02_episode_000020_f00180.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "007_old_s02_episode_000031_f00042.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "008_old_s02_episode_000031_f00354.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "009_old_s02_episode_000041_f00254.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "011_old_s02_episode_000052_f00042.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "012_old_s02_episode_000052_f00234.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "013_old_s02_episode_000062_f00098.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "014_old_s02_episode_000062_f00322.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "015_old_s02_episode_000073_f00174.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "016_old_s02_episode_000073_f00453.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "017_old_s02_episode_000083_f00037.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "018_old_s02_episode_000083_f00338.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "019_old_s02_episode_000094_f00244.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "020_old_s02_episode_000094_f00314.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "021_old_s02_episode_000104_f00040.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "022_old_s02_episode_000104_f00224.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "023_old_s02_episode_000115_f00084.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "024_old_s02_episode_000115_f00287.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "025_old_s02_episode_000125_f00160.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "027_old_s02_episode_000136_f00031.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "028_old_s02_episode_000136_f00283.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "029_old_s02_episode_000146_f00208.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "030_old_s02_episode_000146_f00275.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "031_old_s02_episode_000157_f00040.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "032_old_s02_episode_000157_f00244.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "033_old_s02_episode_000167_f00092.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "034_old_s02_episode_000167_f00308.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "035_old_s02_episode_000178_f00140.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "036_old_s02_episode_000178_f00286.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "037_old_s02_episode_000188_f00032.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "038_old_s02_episode_000188_f00282.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "039_old_s02_episode_000199_f00220.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "041_new_20261008_0001.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "042_new_20261008_0031.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "043_new_20261008_0032.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "044_new_20261008_0033.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "045_new_20261008_0034.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "046_new_20261008_0035.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "047_new_20261008_0036.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "048_new_20261008_0037.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "049_new_20261008_0038.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "050_new_20261008_0039.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "051_new_20261008_0040.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "052_new_20261008_0041.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "053_new_20261008_0042.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "054_new_20261008_0043.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "055_new_20261008_0044.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "056_new_20261008_0045.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "057_new_20261008_0046.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "058_new_20261008_0047.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "059_new_20261008_0049.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "filename": "060_new_20261008_0050.jpg",
+    "kind": "synthetic_both_objects_removed",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "kind": "black",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "kind": "white",
+    "passed": true,
+    "detections": []
+  },
+  {
+    "kind": "noise",
+    "passed": true,
+    "detections": []
+  }
+]

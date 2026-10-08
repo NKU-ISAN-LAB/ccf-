@@ -1,0 +1,13 @@
+{
+  "confidence_thresholds": {
+    "cup": 0.2,
+    "target": 0.25
+  },
+  "weights_sha256": "f51e8527d8caec8f2608c2d4eb1c60c49bc5a6693b60e3ebddf1f6453af9fec5",
+  "compatible_weights_sha256": [
+    "4b5037677b555a73b41f6d344cde0d5b2813f28c1cda0399589e85c9cfe838e1"
+  ],
+  "source": "Training-only per-class F1 threshold selection; not probability calibration",
+  "agnostic_nms": false,
+  "nms_iou": 0.45
+}

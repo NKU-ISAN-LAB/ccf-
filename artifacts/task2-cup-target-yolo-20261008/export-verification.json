@@ -1,0 +1,410 @@
+{
+  "frames": 56,
+  "passed": 56,
+  "pt": {
+    "weights_sha256": "f51e8527d8caec8f2608c2d4eb1c60c49bc5a6693b60e3ebddf1f6453af9fec5",
+    "recognize_sha256": "ac2b7fa4ebff23979bee65d62a78602da7cfc1504084ea25c9ee18f1448f1394",
+    "torch": "2.12.1+cu130",
+    "opencv": "5.0.0"
+  },
+  "onnx": {
+    "weights_sha256": "4b5037677b555a73b41f6d344cde0d5b2813f28c1cda0399589e85c9cfe838e1",
+    "recognize_sha256": "ac2b7fa4ebff23979bee65d62a78602da7cfc1504084ea25c9ee18f1448f1394",
+    "torch": "2.12.1+cu130",
+    "opencv": "5.0.0"
+  },
+  "records": [
+    {
+      "filename": "001_old_s02_episode_000000_f00045.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "002_old_s02_episode_000000_f00249.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "filename": "003_old_s02_episode_000010_f00121.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "filename": "004_old_s02_episode_000010_f00382.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "filename": "005_old_s02_episode_000020_f00180.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 3.5762786865234375e-07,
+      "passed": true
+    },
+    {
+      "filename": "007_old_s02_episode_000031_f00042.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "filename": "008_old_s02_episode_000031_f00354.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.4901161193847656e-06,
+      "passed": true
+    },
+    {
+      "filename": "009_old_s02_episode_000041_f00254.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "filename": "011_old_s02_episode_000052_f00042.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "012_old_s02_episode_000052_f00234.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "filename": "013_old_s02_episode_000062_f00098.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "014_old_s02_episode_000062_f00322.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "015_old_s02_episode_000073_f00174.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "filename": "016_old_s02_episode_000073_f00453.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "017_old_s02_episode_000083_f00037.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "018_old_s02_episode_000083_f00338.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 2.86102294921875e-06,
+      "passed": true
+    },
+    {
+      "filename": "019_old_s02_episode_000094_f00244.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "020_old_s02_episode_000094_f00314.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 3.5762786865234375e-07,
+      "passed": true
+    },
+    {
+      "filename": "021_old_s02_episode_000104_f00040.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "filename": "022_old_s02_episode_000104_f00224.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "filename": "023_old_s02_episode_000115_f00084.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "filename": "024_old_s02_episode_000115_f00287.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 5.364418029785156e-07,
+      "passed": true
+    },
+    {
+      "filename": "025_old_s02_episode_000125_f00160.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "027_old_s02_episode_000136_f00031.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "filename": "028_old_s02_episode_000136_f00283.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "filename": "029_old_s02_episode_000146_f00208.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 0.0,
+      "passed": true
+    },
+    {
+      "filename": "030_old_s02_episode_000146_f00275.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 6.556510925292969e-07,
+      "passed": true
+    },
+    {
+      "filename": "031_old_s02_episode_000157_f00040.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "032_old_s02_episode_000157_f00244.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "filename": "033_old_s02_episode_000167_f00092.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 0.0,
+      "passed": true
+    },
+    {
+      "filename": "034_old_s02_episode_000167_f00308.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "filename": "035_old_s02_episode_000178_f00140.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "filename": "036_old_s02_episode_000178_f00286.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "037_old_s02_episode_000188_f00032.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "038_old_s02_episode_000188_f00282.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "filename": "039_old_s02_episode_000199_f00220.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "041_new_20261008_0001.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "042_new_20261008_0031.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "filename": "043_new_20261008_0032.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "044_new_20261008_0033.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "filename": "045_new_20261008_0034.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "filename": "046_new_20261008_0035.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "filename": "047_new_20261008_0036.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "048_new_20261008_0037.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "049_new_20261008_0038.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "050_new_20261008_0039.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "051_new_20261008_0040.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "052_new_20261008_0041.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "filename": "053_new_20261008_0042.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 4.76837158203125e-07,
+      "passed": true
+    },
+    {
+      "filename": "054_new_20261008_0043.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "filename": "055_new_20261008_0044.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "filename": "056_new_20261008_0045.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "filename": "057_new_20261008_0046.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "filename": "058_new_20261008_0047.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "filename": "059_new_20261008_0049.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 0.0,
+      "max_confidence_difference": 3.5762786865234375e-07,
+      "passed": true
+    },
+    {
+      "filename": "060_new_20261008_0050.jpg",
+      "same_class_sequence": true,
+      "max_box_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    }
+  ]
+}

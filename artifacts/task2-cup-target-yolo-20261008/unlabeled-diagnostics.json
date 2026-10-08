@@ -1,0 +1,242 @@
+[
+  {
+    "filename": "006_old_s02_episode_000020_f00481.jpg",
+    "result": {
+      "ok": true,
+      "algorithm": "task2-direct-cup-target-yolo11n-20261008",
+      "requires_station_registration": false,
+      "camera_serial": null,
+      "detections": [],
+      "objects": {
+        "cup": {
+          "detected": false,
+          "count": 0,
+          "unique": false,
+          "bbox_xyxy_px": null,
+          "center_uv": null,
+          "candidates": []
+        },
+        "target": {
+          "detected": false,
+          "count": 0,
+          "unique": false,
+          "bbox_xyxy_px": null,
+          "center_uv": null,
+          "candidates": []
+        }
+      },
+      "cup_center_uv": null,
+      "target_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "target_bbox_xyxy_px": null,
+      "both_unique_2d": false,
+      "stable_2d": false,
+      "cup_target_bbox_iou": null,
+      "placement_confirmed": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "2D bounding-box centers, not actual cup/holder geometric centers or 3D grasp poses",
+      "confidence_thresholds": {
+        "cup": 0.2,
+        "target": 0.25
+      },
+      "implementation": {
+        "weights_sha256": "f51e8527d8caec8f2608c2d4eb1c60c49bc5a6693b60e3ebddf1f6453af9fec5",
+        "recognize_sha256": "ac2b7fa4ebff23979bee65d62a78602da7cfc1504084ea25c9ee18f1448f1394",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "cup_not_detected",
+        "target_not_detected"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 37.35
+    },
+    "qualification": "No user labels; not scored and not assumed negative"
+  },
+  {
+    "filename": "010_old_s02_episode_000041_f00508.jpg",
+    "result": {
+      "ok": true,
+      "algorithm": "task2-direct-cup-target-yolo11n-20261008",
+      "requires_station_registration": false,
+      "camera_serial": null,
+      "detections": [],
+      "objects": {
+        "cup": {
+          "detected": false,
+          "count": 0,
+          "unique": false,
+          "bbox_xyxy_px": null,
+          "center_uv": null,
+          "candidates": []
+        },
+        "target": {
+          "detected": false,
+          "count": 0,
+          "unique": false,
+          "bbox_xyxy_px": null,
+          "center_uv": null,
+          "candidates": []
+        }
+      },
+      "cup_center_uv": null,
+      "target_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "target_bbox_xyxy_px": null,
+      "both_unique_2d": false,
+      "stable_2d": false,
+      "cup_target_bbox_iou": null,
+      "placement_confirmed": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "2D bounding-box centers, not actual cup/holder geometric centers or 3D grasp poses",
+      "confidence_thresholds": {
+        "cup": 0.2,
+        "target": 0.25
+      },
+      "implementation": {
+        "weights_sha256": "f51e8527d8caec8f2608c2d4eb1c60c49bc5a6693b60e3ebddf1f6453af9fec5",
+        "recognize_sha256": "ac2b7fa4ebff23979bee65d62a78602da7cfc1504084ea25c9ee18f1448f1394",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "cup_not_detected",
+        "target_not_detected"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 36.54
+    },
+    "qualification": "No user labels; not scored and not assumed negative"
+  },
+  {
+    "filename": "026_old_s02_episode_000125_f00430.jpg",
+    "result": {
+      "ok": true,
+      "algorithm": "task2-direct-cup-target-yolo11n-20261008",
+      "requires_station_registration": false,
+      "camera_serial": null,
+      "detections": [],
+      "objects": {
+        "cup": {
+          "detected": false,
+          "count": 0,
+          "unique": false,
+          "bbox_xyxy_px": null,
+          "center_uv": null,
+          "candidates": []
+        },
+        "target": {
+          "detected": false,
+          "count": 0,
+          "unique": false,
+          "bbox_xyxy_px": null,
+          "center_uv": null,
+          "candidates": []
+        }
+      },
+      "cup_center_uv": null,
+      "target_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "target_bbox_xyxy_px": null,
+      "both_unique_2d": false,
+      "stable_2d": false,
+      "cup_target_bbox_iou": null,
+      "placement_confirmed": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "2D bounding-box centers, not actual cup/holder geometric centers or 3D grasp poses",
+      "confidence_thresholds": {
+        "cup": 0.2,
+        "target": 0.25
+      },
+      "implementation": {
+        "weights_sha256": "f51e8527d8caec8f2608c2d4eb1c60c49bc5a6693b60e3ebddf1f6453af9fec5",
+        "recognize_sha256": "ac2b7fa4ebff23979bee65d62a78602da7cfc1504084ea25c9ee18f1448f1394",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "cup_not_detected",
+        "target_not_detected"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 35.73
+    },
+    "qualification": "No user labels; not scored and not assumed negative"
+  },
+  {
+    "filename": "040_old_s02_episode_000199_f00440.jpg",
+    "result": {
+      "ok": true,
+      "algorithm": "task2-direct-cup-target-yolo11n-20261008",
+      "requires_station_registration": false,
+      "camera_serial": null,
+      "detections": [],
+      "objects": {
+        "cup": {
+          "detected": false,
+          "count": 0,
+          "unique": false,
+          "bbox_xyxy_px": null,
+          "center_uv": null,
+          "candidates": []
+        },
+        "target": {
+          "detected": false,
+          "count": 0,
+          "unique": false,
+          "bbox_xyxy_px": null,
+          "center_uv": null,
+          "candidates": []
+        }
+      },
+      "cup_center_uv": null,
+      "target_center_uv": null,
+      "cup_bbox_xyxy_px": null,
+      "target_bbox_xyxy_px": null,
+      "both_unique_2d": false,
+      "stable_2d": false,
+      "cup_target_bbox_iou": null,
+      "placement_confirmed": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "2D bounding-box centers, not actual cup/holder geometric centers or 3D grasp poses",
+      "confidence_thresholds": {
+        "cup": 0.2,
+        "target": 0.25
+      },
+      "implementation": {
+        "weights_sha256": "f51e8527d8caec8f2608c2d4eb1c60c49bc5a6693b60e3ebddf1f6453af9fec5",
+        "recognize_sha256": "ac2b7fa4ebff23979bee65d62a78602da7cfc1504084ea25c9ee18f1448f1394",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "cup_not_detected",
+        "target_not_detected"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 37.04
+    },
+    "qualification": "No user labels; not scored and not assumed negative"
+  }
+]

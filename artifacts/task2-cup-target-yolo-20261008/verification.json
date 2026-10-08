@@ -1,0 +1,356 @@
+{
+  "implementation": {
+    "weights_sha256": "f51e8527d8caec8f2608c2d4eb1c60c49bc5a6693b60e3ebddf1f6453af9fec5",
+    "recognize_sha256": "ac2b7fa4ebff23979bee65d62a78602da7cfc1504084ea25c9ee18f1448f1394",
+    "torch": "2.12.1+cu130",
+    "opencv": "5.0.0"
+  },
+  "confidence_thresholds": {
+    "cup": 0.2,
+    "target": 0.25
+  },
+  "iou_match_threshold": 0.5,
+  "original_replay": {
+    "frames": 56,
+    "per_class": {
+      "cup": {
+        "tp": 56,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "mean_matched_iou": 0.9426995542763861,
+        "failures": []
+      },
+      "target": {
+        "tp": 55,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9821428571428571,
+        "recall": 0.9821428571428571,
+        "mean_matched_iou": 0.9410268554740915,
+        "failures": [
+          "018_old_s02_episode_000083_f00338.jpg"
+        ]
+      }
+    },
+    "both_classes_correct": 55
+  },
+  "train_replay": {
+    "frames": 43,
+    "per_class": {
+      "cup": {
+        "tp": 43,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "mean_matched_iou": 0.9483352007495629,
+        "failures": []
+      },
+      "target": {
+        "tp": 43,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "mean_matched_iou": 0.9467749996130745,
+        "failures": []
+      }
+    },
+    "both_classes_correct": 43
+  },
+  "development_validation": {
+    "frames": 13,
+    "per_class": {
+      "cup": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "mean_matched_iou": 0.9240585697881856,
+        "failures": []
+      },
+      "target": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9230769230769231,
+        "recall": 0.9230769230769231,
+        "mean_matched_iou": 0.9204293389760695,
+        "failures": [
+          "018_old_s02_episode_000083_f00338.jpg"
+        ]
+      }
+    },
+    "both_classes_correct": 12
+  },
+  "validation_by_source": {
+    "old_step02": {
+      "frames": 8,
+      "per_class": {
+        "cup": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9114263290835154,
+          "failures": []
+        },
+        "target": {
+          "tp": 7,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.875,
+          "recall": 0.875,
+          "mean_matched_iou": 0.918040928654025,
+          "failures": [
+            "018_old_s02_episode_000083_f00338.jpg"
+          ]
+        }
+      },
+      "both_classes_correct": 7
+    },
+    "new_20261008": {
+      "frames": 5,
+      "per_class": {
+        "cup": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9442701549156576,
+          "failures": []
+        },
+        "target": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9237731134269319,
+          "failures": []
+        }
+      },
+      "both_classes_correct": 5
+    }
+  },
+  "validation_by_overlap": {
+    "False": {
+      "frames": 9,
+      "per_class": {
+        "cup": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9405048010983301,
+          "failures": []
+        },
+        "target": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9309860456996988,
+          "failures": []
+        }
+      },
+      "both_classes_correct": 9
+    },
+    "True": {
+      "frames": 4,
+      "per_class": {
+        "cup": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.8870545493403601,
+          "failures": []
+        },
+        "target": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.75,
+          "recall": 0.75,
+          "mean_matched_iou": 0.8887592188051822,
+          "failures": [
+            "018_old_s02_episode_000083_f00338.jpg"
+          ]
+        }
+      },
+      "both_classes_correct": 3
+    }
+  },
+  "synthetic_validation_variants": {
+    "context_removed": {
+      "frames": 13,
+      "per_class": {
+        "cup": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9254103120483028,
+          "failures": []
+        },
+        "target": {
+          "tp": 12,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "mean_matched_iou": 0.9191534902258934,
+          "failures": [
+            "018_old_s02_episode_000083_f00338.jpg"
+          ]
+        }
+      },
+      "both_classes_correct": 12
+    },
+    "dim": {
+      "frames": 13,
+      "per_class": {
+        "cup": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9231552274040955,
+          "failures": []
+        },
+        "target": {
+          "tp": 12,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "mean_matched_iou": 0.9104603226519554,
+          "failures": [
+            "018_old_s02_episode_000083_f00338.jpg"
+          ]
+        }
+      },
+      "both_classes_correct": 12
+    },
+    "bright": {
+      "frames": 13,
+      "per_class": {
+        "cup": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9249256272281551,
+          "failures": []
+        },
+        "target": {
+          "tp": 12,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "mean_matched_iou": 0.9226191489254404,
+          "failures": [
+            "018_old_s02_episode_000083_f00338.jpg"
+          ]
+        }
+      },
+      "both_classes_correct": 12
+    },
+    "blur": {
+      "frames": 13,
+      "per_class": {
+        "cup": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9184465572091078,
+          "failures": []
+        },
+        "target": {
+          "tp": 12,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "mean_matched_iou": 0.9163479563327609,
+          "failures": [
+            "018_old_s02_episode_000083_f00338.jpg"
+          ]
+        }
+      },
+      "both_classes_correct": 12
+    },
+    "jpeg65": {
+      "frames": 13,
+      "per_class": {
+        "cup": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.922490828917814,
+          "failures": []
+        },
+        "target": {
+          "tp": 12,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "mean_matched_iou": 0.9191168116857319,
+          "failures": [
+            "018_old_s02_episode_000083_f00338.jpg"
+          ]
+        }
+      },
+      "both_classes_correct": 12
+    },
+    "shift": {
+      "frames": 13,
+      "per_class": {
+        "cup": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "mean_matched_iou": 0.9323715586949177,
+          "failures": []
+        },
+        "target": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "mean_matched_iou": 0.9213074758880797,
+          "failures": [
+            "018_old_s02_episode_000083_f00338.jpg"
+          ]
+        }
+      },
+      "both_classes_correct": 12
+    }
+  },
+  "negative_checks": 59,
+  "negative_passed": 59,
+  "negative_failures": [],
+  "median_inference_ms": 36.55,
+  "qualification": "Development evaluation, not independent field accuracy. Thresholds fit training only; validation selects checkpoint. Missing-label images excluded from metrics. Synthetic negatives are not true empty-scene validation. 2D boxes and overlap are not grasp or placement proof."
+}

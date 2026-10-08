@@ -1,0 +1,2169 @@
+{
+  "classes": {
+    "0": "cup",
+    "1": "target"
+  },
+  "label_archive_sha256": "0048690569e998c0f5d34dcc9ad0f0de720756f5c6e26e6734c8d43d4525370c",
+  "source_manifest_sha256": "cae7a8dbc49f194f0c407072b45bda61195c88b7fa700653f7a5f5286c86c7e4",
+  "source_image_directory": "task2-cup-sealing-60-20261008/images",
+  "labeled_images": 56,
+  "excluded_missing_labels": [
+    "006_old_s02_episode_000020_f00481.jpg",
+    "010_old_s02_episode_000041_f00508.jpg",
+    "026_old_s02_episode_000125_f00430.jpg",
+    "040_old_s02_episode_000199_f00440.jpg"
+  ],
+  "removed_invalid_boxes": [
+    {
+      "file": "024_old_s02_episode_000115_f00287.txt",
+      "line": 3,
+      "original": "1 0.650257 0.625000 0.000642 0.000000",
+      "reason": "non_positive_width_or_height"
+    }
+  ],
+  "split_counts": {
+    "train": 43,
+    "val": 13
+  },
+  "class_counts": {
+    "cup": 56,
+    "target": 56
+  },
+  "training_images_with_augmentation": 97,
+  "validation_episodes": [
+    "episode_000010",
+    "episode_000083",
+    "episode_000136",
+    "episode_000188"
+  ],
+  "validation_new_originals": [
+    "0033.jpg",
+    "0038.jpg",
+    "0040.jpg",
+    "0049.jpg",
+    "0050.jpg"
+  ],
+  "split_qualification": "Old videos split by entire episode. New oblique-view group held together, but still same capture session with possible similar views. Development validation for checkpoint selection, NOT independent field accuracy.",
+  "records": [
+    {
+      "filename": "001_old_s02_episode_000000_f00045.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000000",
+      "original_name": null,
+      "visual_stage_note": "tabletop_ready",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            423.35648000000003,
+            367.39752,
+            480.89056,
+            430.27416
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            353.49312000000003,
+            244.93152,
+            399.52064,
+            281.09568
+          ]
+        }
+      ],
+      "source_image_sha256": "c73df2823e68c3beacd1fc556b1fed3c292f7a51825e091f2c9f80e1649af073",
+      "source_label_sha256": "20e8215b8a2d50ba96fe9a2440f226e38b04f0d68353411a61178ff769e14323",
+      "clean_label": "0 0.706443 0.830908 0.089897 0.130993\n1 0.588292 0.547945 0.071918 0.075342\n"
+    },
+    {
+      "filename": "002_old_s02_episode_000000_f00249.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000000",
+      "original_name": null,
+      "visual_stage_note": "grasp_or_early_lift",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            423.76671999999996,
+            358.35624,
+            478.83552,
+            416.71224
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            353.904,
+            244.52088,
+            399.93152,
+            283.1508
+          ]
+        }
+      ],
+      "source_image_sha256": "eabcd930fbbab149df7dcf0a92e44008d37ed29ddf4952893763a62c442711c3",
+      "source_label_sha256": "ecff695be4ad4879063a9ab53f157ebc378ef7f1fbf5e8a3576ebffe5378f617",
+      "clean_label": "0 0.705158 0.807363 0.086045 0.121575\n1 0.588934 0.549658 0.071918 0.080479\n"
+    },
+    {
+      "filename": "003_old_s02_episode_000010_f00121.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000010",
+      "original_name": null,
+      "visual_stage_note": "grasp_or_early_lift",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            433.21888,
+            384.24672000000004,
+            482.9449599999999,
+            445.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            353.49312000000003,
+            244.93127999999996,
+            399.93152000000003,
+            281.91768
+          ]
+        }
+      ],
+      "source_image_sha256": "feebb89454c40c052c24e5ea6bc621d5683bddd93a4974c69a080811ece514f0",
+      "source_label_sha256": "9b3f397fe36beb60a53458560efb368e17ec91b307c0de94ecf2b3ea2fbcada9",
+      "clean_label": "0 0.715753 0.863870 0.077697 0.126712\n1 0.588613 0.548801 0.072560 0.077055\n"
+    },
+    {
+      "filename": "004_old_s02_episode_000010_f00382.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000010",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            360.06848,
+            220.27392,
+            405.68512,
+            279.45216000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            353.904,
+            249.04080000000002,
+            399.93152,
+            283.15056
+          ]
+        }
+      ],
+      "source_image_sha256": "07cac96e80378f7440683b51008e77c147b28b3535ccfaec3438329103abc3d7",
+      "source_label_sha256": "bf94455c13f20ed77bc1bb740a89a93ed71e91a42a39eaed8a0bdf6e55d0ca41",
+      "clean_label": "0 0.598245 0.520548 0.071276 0.123288\n1 0.588934 0.554366 0.071918 0.071062\n"
+    },
+    {
+      "filename": "005_old_s02_episode_000020_f00180.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000020",
+      "original_name": null,
+      "visual_stage_note": "grasp_or_early_lift",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            409.38368,
+            387.53448,
+            463.2192,
+            440.95896
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.54816000000005,
+            244.5204,
+            402.39744,
+            281.50680000000006
+          ]
+        }
+      ],
+      "source_image_sha256": "0039abfbdef5e0f53ca7d9cdd938dbc05860f76796bfcd3b5aa82031152c5615",
+      "source_label_sha256": "20e1a99468fdc2f73dc4343e500fa0a6f37ba5043960da61271b39cce556be9a",
+      "clean_label": "0 0.681721 0.863014 0.084118 0.111301\n1 0.592145 0.547945 0.073202 0.077055\n"
+    },
+    {
+      "filename": "007_old_s02_episode_000031_f00042.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000031",
+      "original_name": null,
+      "visual_stage_note": "tabletop_ready",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            403.21952,
+            389.58912000000004,
+            460.7536,
+            454.52063999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.13728000000003,
+            245.75352,
+            401.98656,
+            282.32903999999996
+          ]
+        }
+      ],
+      "source_image_sha256": "fe92471d9a8656cf9fbbfa814ed3d1999a39326ff897bd41420819f95749bc36",
+      "source_label_sha256": "e41d1a420e8a60d1db028c743a8fc164bd10995563321302d8c9ad569ff4b4fb",
+      "clean_label": "0 0.674979 0.879281 0.089897 0.135274\n1 0.591503 0.550086 0.073202 0.076199\n"
+    },
+    {
+      "filename": "008_old_s02_episode_000031_f00354.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000031",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            358.83552,
+            240.822,
+            402.808,
+            273.28776
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            356.36992,
+            258.90408,
+            402.39743999999996,
+            281.91767999999996
+          ]
+        }
+      ],
+      "source_image_sha256": "40a5ab853bc54f33a4211faf972faa42d5078fcad7ceb01ed1fd3b91217e4613",
+      "source_label_sha256": "a17b35d19a34a3b0acad89efbd8fe3aa5d616cc45c8cd72e05a03781d6af0acc",
+      "clean_label": "0 0.595034 0.535531 0.068707 0.067637\n1 0.592787 0.563356 0.071918 0.047945\n"
+    },
+    {
+      "filename": "009_old_s02_episode_000041_f00254.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000041",
+      "original_name": null,
+      "visual_stage_note": "transport_toward_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            396.64416000000006,
+            200.54784,
+            467.32895999999994,
+            260.95872
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.9590400000001,
+            244.5204,
+            401.98656,
+            281.91768
+          ]
+        }
+      ],
+      "source_image_sha256": "e8afa47c47554db6c7840239ae7ceaf1f4e79a683ad804d3f72a769029d21573",
+      "source_label_sha256": "1159395cbda9f055ccc1ea8ac09554992e65686864b030e59dfff3a17a9b8682",
+      "clean_label": "0 0.674979 0.480736 0.110445 0.125856\n1 0.592145 0.548373 0.071918 0.077911\n"
+    },
+    {
+      "filename": "011_old_s02_episode_000052_f00042.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000052",
+      "original_name": null,
+      "visual_stage_note": "tabletop_ready",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            416.36959999999993,
+            371.09567999999996,
+            473.4928,
+            436.0272
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.13695999999993,
+            244.10976,
+            403.6304,
+            283.56192
+          ]
+        }
+      ],
+      "source_image_sha256": "4c48ce57e9478c981f6de62b0a82f920d16f30bc1325eb16dd25f54bc8a72c9a",
+      "source_label_sha256": "54636d30edebe2dfb3d71ae35eddf6b879899cbb3c4f53aaa29b63d16555f7ab",
+      "clean_label": "0 0.695205 0.840753 0.089255 0.135274\n1 0.592787 0.549658 0.075771 0.082192\n"
+    },
+    {
+      "filename": "012_old_s02_episode_000052_f00234.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000052",
+      "original_name": null,
+      "visual_stage_note": "transport_toward_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            382.67103999999995,
+            218.63040000000004,
+            452.94496000000004,
+            274.10976000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            356.37023999999997,
+            244.93127999999996,
+            400.7536,
+            282.32856
+          ]
+        }
+      ],
+      "source_image_sha256": "6854a6362a42ddb34801804dde9a3d0a1d16154e2a00ab989ca0211c5bb1c145",
+      "source_label_sha256": "469283655e34403fc85bb5f5443a5e00e777a2d99020eae70ce5c5609dc4a70c",
+      "clean_label": "0 0.652825 0.513271 0.109803 0.115582\n1 0.591503 0.549229 0.069349 0.077911\n"
+    },
+    {
+      "filename": "013_old_s02_episode_000062_f00098.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000062",
+      "original_name": null,
+      "visual_stage_note": "grasp_or_early_lift",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            404.04128000000003,
+            396.98663999999997,
+            454.17823999999996,
+            440.54808
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.13695999999993,
+            244.52088,
+            403.6304,
+            283.1508
+          ]
+        }
+      ],
+      "source_image_sha256": "fe837e59d25c1b665d496d97777bc39cabb3d4083d45a3be7e6fad502dcbf860",
+      "source_label_sha256": "6c3797ed762013cb08aaec8e24962a3afc6b81369f23b6dfafb0918e016599ea",
+      "clean_label": "0 0.670484 0.872432 0.078339 0.090753\n1 0.592787 0.549658 0.075771 0.080479\n"
+    },
+    {
+      "filename": "014_old_s02_episode_000062_f00322.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000062",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            365.82176,
+            218.62992,
+            414.72608,
+            273.28752
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.54783999999995,
+            247.39727999999997,
+            404.04128000000003,
+            283.56144
+          ]
+        }
+      ],
+      "source_image_sha256": "fa85ad2e52ebfa226ea4b2b6efb1f6055c980e9b68eb73f004b53272b147a859",
+      "source_label_sha256": "bf338064225fdda36068354bb2cf6fb7c27d6491c80db62450f92560fc9cba8b",
+      "clean_label": "0 0.609803 0.512414 0.076413 0.113870\n1 0.593429 0.553082 0.075771 0.075342\n"
+    },
+    {
+      "filename": "015_old_s02_episode_000073_f00174.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000073",
+      "original_name": null,
+      "visual_stage_note": "grasp_or_early_lift",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            420.47968,
+            387.53448000000003,
+            476.78112,
+            445.89048
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            356.36992,
+            244.5204,
+            402.80832,
+            281.91768
+          ]
+        }
+      ],
+      "source_image_sha256": "0f101e49f608698a3f11eaf3f8b12e807c89b900283855d9b1c357a5be4f5c25",
+      "source_label_sha256": "7c8b1a4be1f11d20d2c3e3cbed7289944162c5647e9e4eae6a6fbc38b5c2183e",
+      "clean_label": "0 0.700985 0.868151 0.087971 0.121575\n1 0.593108 0.548373 0.072560 0.077911\n"
+    },
+    {
+      "filename": "016_old_s02_episode_000073_f00453.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000073",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            364.58912,
+            228.49320000000003,
+            407.73983999999996,
+            280.27416000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.54816000000005,
+            248.21904,
+            402.39744,
+            283.1505599999999
+          ]
+        }
+      ],
+      "source_image_sha256": "4cc08c9757e5cc1ed2a985d5edfcd9db0b5e3e0d550cc02f6cbae74c61eca646",
+      "source_label_sha256": "d8fdd6d2d4fd0bc1cd0f3d6572d6e4fa2576a79f39702e9a7ea28bfe2b51f733",
+      "clean_label": "0 0.603382 0.529966 0.067423 0.107877\n1 0.592145 0.553510 0.073202 0.072774\n"
+    },
+    {
+      "filename": "017_old_s02_episode_000083_f00037.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000083",
+      "original_name": null,
+      "visual_stage_note": "tabletop_ready",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            411.84928,
+            374.79456,
+            468.15072,
+            438.90432
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.54816000000005,
+            244.10927999999996,
+            402.80832000000004,
+            283.15056
+          ]
+        }
+      ],
+      "source_image_sha256": "5b859825f9566ee5b95d5e74339fd6dc2923d08a52cd3ee2466a9260a0108cb5",
+      "source_label_sha256": "99e3150f24901915ab19f40a7eb011732ce5b0d3bd8597e643345fff994b05eb",
+      "clean_label": "0 0.687500 0.847603 0.087971 0.133562\n1 0.592466 0.549229 0.073844 0.081336\n"
+    },
+    {
+      "filename": "018_old_s02_episode_000083_f00338.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000083",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            349.79424,
+            245.75351999999995,
+            392.1232,
+            279.04104
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            346.91776,
+            242.05488,
+            398.69888,
+            288.08208
+          ]
+        }
+      ],
+      "source_image_sha256": "4bac12a2590e0357e6f15f3502df5f8a7237a7d81c83e194dbf8c7110ffb097a",
+      "source_label_sha256": "da2d70acfc2b475b425790aca9bd0636b234ca48d27963c840fbfb86776633f2",
+      "clean_label": "0 0.579623 0.546661 0.066139 0.069349\n1 0.582513 0.552226 0.080908 0.095890\n"
+    },
+    {
+      "filename": "019_old_s02_episode_000094_f00244.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000094",
+      "original_name": null,
+      "visual_stage_note": "transport_toward_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            439.38367999999997,
+            293.42448,
+            512.5344,
+            348.08208
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            356.36992,
+            245.3424,
+            403.2192,
+            281.09568
+          ]
+        }
+      ],
+      "source_image_sha256": "1b9ffab013b7baf8c08380ed5b6e8f29b9289dbf7338fb8178b458389c883256",
+      "source_label_sha256": "3af37b9dadcaf9c8702e65508748e731bfb299a132939d9ad23c211d2bdb579a",
+      "clean_label": "0 0.743686 0.668236 0.114298 0.113870\n1 0.593429 0.548373 0.073202 0.074486\n"
+    },
+    {
+      "filename": "020_old_s02_episode_000094_f00314.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000094",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            362.94528,
+            216.98615999999998,
+            409.79456,
+            274.10952
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.54815999999994,
+            248.62992000000003,
+            403.2192,
+            283.15056
+          ]
+        }
+      ],
+      "source_image_sha256": "bafca61e3223b9bec1e93b8ae6612dc7a2f963aaf70129900ee4e6e0eca6f6eb",
+      "source_label_sha256": "4386cfcebbe8c7d0825886337f1c9639c52767299b47978d38ac712486cbf5a6",
+      "clean_label": "0 0.603703 0.511558 0.073202 0.119007\n1 0.592787 0.553938 0.074486 0.071918\n"
+    },
+    {
+      "filename": "021_old_s02_episode_000104_f00040.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000104",
+      "original_name": null,
+      "visual_stage_note": "tabletop_ready",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            421.30143999999996,
+            360.41112000000004,
+            478.42464,
+            423.28776
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.54816000000005,
+            244.93127999999996,
+            402.80832000000004,
+            281.91768
+          ]
+        }
+      ],
+      "source_image_sha256": "44449a4b2bb76dbb679f7057fb791620cf97cad071d9bc13193f129826e8bcca",
+      "source_label_sha256": "a9d2c546caccf3de2c5a8f6f2b2bb95471322f2cb4f890ba9aaf008c2e854d52",
+      "clean_label": "0 0.702911 0.816353 0.089255 0.130993\n1 0.592466 0.548801 0.073844 0.077055\n"
+    },
+    {
+      "filename": "022_old_s02_episode_000104_f00224.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000104",
+      "original_name": null,
+      "visual_stage_note": "transport_toward_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            434.04128000000003,
+            276.98616000000004,
+            505.54783999999995,
+            334.52040000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.95903999999996,
+            244.52063999999996,
+            403.63008,
+            283.56192
+          ]
+        }
+      ],
+      "source_image_sha256": "e7b59bb350bcccd27c228a49d3c7fc833dcc07f9f492a69a6e778e7a93a26fc3",
+      "source_label_sha256": "d0d4320112e3169d8f89126829843c0ed2c84b27bfd720eef7c8ca037fe037ac",
+      "clean_label": "0 0.734054 0.636986 0.111729 0.119863\n1 0.593429 0.550086 0.074486 0.081336\n"
+    },
+    {
+      "filename": "023_old_s02_episode_000115_f00084.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000115",
+      "original_name": null,
+      "visual_stage_note": "grasp_or_early_lift",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            418.01376000000005,
+            373.9728,
+            473.49344,
+            433.56192
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.54815999999994,
+            244.5204,
+            403.63008,
+            282.73944
+          ]
+        }
+      ],
+      "source_image_sha256": "7811ef060d7cfd576718e7d31e5ada4f0d358d6ae41d2bb9a5d3f83da9aec79d",
+      "source_label_sha256": "b6b6cb372dd974bfa2632f8b09a6acc91554ffd219f5f9b2b7df4058b982d552",
+      "clean_label": "0 0.696490 0.841182 0.086687 0.124144\n1 0.593108 0.549229 0.075128 0.079623\n"
+    },
+    {
+      "filename": "024_old_s02_episode_000115_f00287.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000115",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            361.30176,
+            227.26031999999998,
+            409.38368,
+            281.09616
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            356.7808,
+            250.68480000000002,
+            403.2192,
+            284.79456
+          ]
+        }
+      ],
+      "source_image_sha256": "148a807fac09dc6acb49feefbfc0887f14774aafa54777a2e6066510c8f5281b",
+      "source_label_sha256": "6f926b6ef8627188d656bc20bdbaa63719e84e54ae4f08183baa17fd6c199cbd",
+      "clean_label": "0 0.602098 0.529538 0.075128 0.112158\n1 0.593750 0.557791 0.072560 0.071062\n"
+    },
+    {
+      "filename": "025_old_s02_episode_000125_f00160.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000125",
+      "original_name": null,
+      "visual_stage_note": "grasp_or_early_lift",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            392.12288,
+            389.178,
+            443.904,
+            440.95896
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            356.36992,
+            244.5204,
+            403.2192,
+            282.73944
+          ]
+        }
+      ],
+      "source_image_sha256": "913cb3484ca187f7dfc19e4a9245cebf5f5d56eb2fbf20f5c03952d4c33bccf0",
+      "source_label_sha256": "d76b7fb24e0acbe665ce8a50c304c0827af5f248ec20e821264b2e4789330301",
+      "clean_label": "0 0.653146 0.864726 0.080908 0.107877\n1 0.593429 0.549229 0.073202 0.079623\n"
+    },
+    {
+      "filename": "027_old_s02_episode_000136_f00031.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000136",
+      "original_name": null,
+      "visual_stage_note": "tabletop_ready",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            391.712,
+            367.8084,
+            444.72576000000004,
+            430.27416
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            356.36992,
+            245.34216,
+            402.80832,
+            281.91767999999996
+          ]
+        }
+      ],
+      "source_image_sha256": "c774927efff27bd16f43dce60ac86e3bb212ace69c8120bca164ac6ea1f25162",
+      "source_label_sha256": "b846563ea0d62f0a90044987791297119bf14711f1be04fd76d063b6920c290d",
+      "clean_label": "0 0.653467 0.831336 0.082834 0.130137\n1 0.593108 0.549229 0.072560 0.076199\n"
+    },
+    {
+      "filename": "028_old_s02_episode_000136_f00283.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000136",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            356.7808,
+            237.94512,
+            403.2192,
+            278.62991999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            356.36992,
+            258.90408,
+            402.39743999999996,
+            280.68504
+          ]
+        }
+      ],
+      "source_image_sha256": "bd534162003f65fb50e2401894fd74d3c8b54c61393635f7abe4bf4969cbdd59",
+      "source_label_sha256": "0eb938db7ab7bec4a37b7a94025ec4c7a6746e4446d0225f447cfeda531558a4",
+      "clean_label": "0 0.593750 0.538099 0.072560 0.084760\n1 0.592787 0.562072 0.071918 0.045377\n"
+    },
+    {
+      "filename": "029_old_s02_episode_000146_f00208.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000146",
+      "original_name": null,
+      "visual_stage_note": "transport_toward_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            371.16416000000004,
+            210.0,
+            425.41056,
+            269.58912000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.95903999999996,
+            247.39727999999997,
+            402.80832,
+            283.15056
+          ]
+        }
+      ],
+      "source_image_sha256": "d9965cf250076f117bbf5b23ac9b81ff378220f8181fdacba63d75d8d805b1b8",
+      "source_label_sha256": "a3438d53b13fada93ca59056d92d293aedd79a6a897b94b6368e88997a8277e5",
+      "clean_label": "0 0.622324 0.499572 0.084760 0.124144\n1 0.592787 0.552654 0.073202 0.074486\n"
+    },
+    {
+      "filename": "030_old_s02_episode_000146_f00275.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000146",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            357.60256,
+            239.58888000000005,
+            404.86271999999997,
+            281.91768
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            353.4928,
+            260.5476,
+            402.39712000000003,
+            281.91768
+          ]
+        }
+      ],
+      "source_image_sha256": "62e8e1538e22ed6c17b2135851350ee44578128efba660d35a2f18c2aa24e47a",
+      "source_label_sha256": "e74048a9dd5c92c3cd906da9c7f0c3862ecfefb3f74b8504923eba9e200ae18b",
+      "clean_label": "0 0.595676 0.543236 0.073844 0.088185\n1 0.590539 0.565068 0.076413 0.044521\n"
+    },
+    {
+      "filename": "031_old_s02_episode_000157_f00040.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000157",
+      "original_name": null,
+      "visual_stage_note": "tabletop_ready",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            411.43840000000006,
+            360.822,
+            466.91808000000003,
+            424.52040000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.95903999999996,
+            244.5204,
+            402.80832,
+            282.73944
+          ]
+        }
+      ],
+      "source_image_sha256": "e7af3f83f64ec73cc4b3b025aecbb5c7dcc9f113e1591485cb87ba27a2e0e920",
+      "source_label_sha256": "91c7a88b767f6de0fba0e30e03b6e1448f9e6fe76603bbd46af5f4dce9c33cea",
+      "clean_label": "0 0.686216 0.818065 0.086687 0.132705\n1 0.592787 0.549229 0.073202 0.079623\n"
+    },
+    {
+      "filename": "032_old_s02_episode_000157_f00244.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000157",
+      "original_name": null,
+      "visual_stage_note": "transport_toward_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            406.50656000000004,
+            350.95872,
+            469.38336,
+            410.95872
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.95903999999996,
+            244.93127999999996,
+            403.2192,
+            281.91768
+          ]
+        }
+      ],
+      "source_image_sha256": "385e6e091ddd90c2e8daa9547f372c19e11d53453a41104373a53f9a1f6ea06d",
+      "source_label_sha256": "5379ade44a56c77b39afed35158ad7e3ffa592cfe488dd114b152e92c5c753a7",
+      "clean_label": "0 0.684289 0.793664 0.098245 0.125000\n1 0.593108 0.548801 0.073844 0.077055\n"
+    },
+    {
+      "filename": "033_old_s02_episode_000167_f00092.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000167",
+      "original_name": null,
+      "visual_stage_note": "grasp_or_early_lift",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            382.26016000000004,
+            385.47936,
+            437.32895999999994,
+            440.95872
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.95903999999996,
+            244.93127999999996,
+            403.63008,
+            281.91768
+          ]
+        }
+      ],
+      "source_image_sha256": "0923fb87af795960344a1f43a688c6f92d5a4bf97f54cbb2f82c96f5b7b3580c",
+      "source_label_sha256": "e943416864c1be7fa4de8c83dbd74b118ee678e70713b50e11d2f5aa5b5dbfa3",
+      "clean_label": "0 0.640304 0.860873 0.086045 0.115582\n1 0.593429 0.548801 0.074486 0.077055\n"
+    },
+    {
+      "filename": "034_old_s02_episode_000167_f00308.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000167",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            355.13696000000004,
+            237.12312,
+            404.86303999999996,
+            278.63016000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            354.31488,
+            258.08208,
+            401.9859200000001,
+            282.73967999999996
+          ]
+        }
+      ],
+      "source_image_sha256": "3d92e37a19979229f8248b80931ac6be4e62b28fba6da500bde7233978a5e3e6",
+      "source_label_sha256": "8353c7d7877d90394222522c221b4193153c89e95c73517e6c28a6d368a0abf2",
+      "clean_label": "0 0.593750 0.537243 0.077697 0.086473\n1 0.590860 0.563356 0.074486 0.051370\n"
+    },
+    {
+      "filename": "035_old_s02_episode_000178_f00140.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000178",
+      "original_name": null,
+      "visual_stage_note": "grasp_or_early_lift",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            388.42496000000006,
+            375.20568,
+            442.67136,
+            422.87687999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.95903999999996,
+            244.10952,
+            403.2192,
+            282.32856
+          ]
+        }
+      ],
+      "source_image_sha256": "f9b7a4e0598c5488d81976c41c98e15933f3c451ec6415656c86db3e3cb8c500",
+      "source_label_sha256": "7f2f8f61c42f247bb268edb974141bc360755f4cb14d276fa689b63b1f70c109",
+      "clean_label": "0 0.649294 0.831336 0.084760 0.099315\n1 0.593108 0.548373 0.073844 0.079623\n"
+    },
+    {
+      "filename": "036_old_s02_episode_000178_f00286.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000178",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            355.13728000000003,
+            238.35599999999997,
+            403.21920000000006,
+            282.73967999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            354.3152,
+            259.72608,
+            403.21952000000005,
+            284.38367999999997
+          ]
+        }
+      ],
+      "source_image_sha256": "31003820152019dffc67ffdfda316ee51367d8e620a4a3d30f524139621ed7a5",
+      "source_label_sha256": "5c1ce3d77f5198987ad31f82ab8b041af91cff3590e54f8e278f75ca031a1003",
+      "clean_label": "0 0.592466 0.542808 0.075128 0.092466\n1 0.591824 0.566781 0.076413 0.051370\n"
+    },
+    {
+      "filename": "037_old_s02_episode_000188_f00032.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000188",
+      "original_name": null,
+      "visual_stage_note": "tabletop_ready",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            380.20544,
+            371.91767999999996,
+            432.80832000000004,
+            435.2052
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.9590400000001,
+            244.5204,
+            402.39744,
+            281.50680000000006
+          ]
+        }
+      ],
+      "source_image_sha256": "78fcf6e29e3374c024f8999145e5928438441a0532105914f8d92580c19b86ee",
+      "source_label_sha256": "ca630dd858105da492ba1611e949c7751289412b8ec132f126835a622f4e7386",
+      "clean_label": "0 0.635167 0.840753 0.082192 0.131849\n1 0.592466 0.547945 0.072560 0.077055\n"
+    },
+    {
+      "filename": "038_old_s02_episode_000188_f00282.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000188",
+      "original_name": null,
+      "visual_stage_note": "near_or_in_cup_holder",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            365.82176,
+            230.95896,
+            417.19136,
+            278.63016000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            355.95871999999997,
+            245.75351999999995,
+            399.10944,
+            282.73992
+          ]
+        }
+      ],
+      "source_image_sha256": "1d6dde02164147b42989a9e53064ff204190a4c2a689fd4e75ea037d7b5c7377",
+      "source_label_sha256": "188274a61009b90fabf50665a46c1499f830129176d5f3e4733408741e132a12",
+      "clean_label": "0 0.611729 0.530822 0.080265 0.099315\n1 0.589897 0.550514 0.067423 0.077055\n"
+    },
+    {
+      "filename": "039_old_s02_episode_000199_f00220.jpg",
+      "source_group": "old_step02",
+      "episode": "episode_000199",
+      "original_name": null,
+      "visual_stage_note": "transport_toward_holder",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            376.91776000000004,
+            216.57528,
+            449.24672,
+            279.45192
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            356.3699200000001,
+            244.93127999999996,
+            397.05472,
+            281.91768
+          ]
+        }
+      ],
+      "source_image_sha256": "d6a05739f387b9e35127b6ba3132ff78a8a9602d969e36c12a6383a18c752ec2",
+      "source_label_sha256": "a466ed1de2bbc45a07efb04513c67d6e2a8758fa88dd6563e9e33693972446ea",
+      "clean_label": "0 0.645441 0.516695 0.113014 0.130993\n1 0.588613 0.548801 0.063570 0.077055\n"
+    },
+    {
+      "filename": "041_new_20261008_0001.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0001.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            224.86304,
+            332.05464,
+            275.41087999999996,
+            389.99976000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            351.43872,
+            217.39704000000003,
+            399.10976000000005,
+            254.79432000000003
+          ]
+        }
+      ],
+      "source_image_sha256": "7f57c753ae9da0d71f9a5476c5011d6484611dcf2ae16fec3b147ffa64231b11",
+      "source_label_sha256": "ecf2c866956fdf23e37056ae39416b0506c75a75484a974ba5ceddee323e6287",
+      "clean_label": "0 0.390839 0.752140 0.078981 0.120719\n1 0.586366 0.491866 0.074486 0.077911\n"
+    },
+    {
+      "filename": "042_new_20261008_0031.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0031.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            208.01376000000002,
+            316.8492,
+            257.32896,
+            375.2052
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            334.58943999999997,
+            208.76736,
+            382.26048,
+            244.52064000000001
+          ]
+        }
+      ],
+      "source_image_sha256": "3be0f1f5871e621d689d93eadc46c46de9b22deafc12b4f35f0842b78b90299a",
+      "source_label_sha256": "51873e9ff1555fb6943209184c7eb121b51d82f7cc75dda5d240fe7e0d42dd10",
+      "clean_label": "0 0.363549 0.720890 0.077055 0.121575\n1 0.560039 0.472175 0.074486 0.074486\n"
+    },
+    {
+      "filename": "043_new_20261008_0032.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0032.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            189.93152000000003,
+            331.23264,
+            242.94528,
+            390.41088
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            313.6304,
+            213.28776,
+            363.35648,
+            250.68504000000001
+          ]
+        }
+      ],
+      "source_image_sha256": "f5b430b4b447c6eb8151a576326909a2fa2425c49a6bd048eb416664ccd26295",
+      "source_label_sha256": "fba7f6276d3caf72df6cf6c3001dbc58e00fa42faa5d683ad93c69fc70ab86b3",
+      "clean_label": "0 0.338185 0.751712 0.082834 0.123288\n1 0.528896 0.483305 0.077697 0.077911\n"
+    },
+    {
+      "filename": "044_new_20261008_0033.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0033.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            273.76736,
+            285.2052,
+            318.15072,
+            341.91767999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            406.096,
+            201.78096,
+            454.1779200000001,
+            237.94512
+          ]
+        }
+      ],
+      "source_image_sha256": "43a614214377e38b9b4fb4ddd5cf7d3d511ec5b3328d87be3b76ba984bca4195",
+      "source_label_sha256": "8913603917e5c1ac059891198e4b3aab3b3493c564dd4d9c64a09c7d7f8809fd",
+      "clean_label": "0 0.462436 0.653253 0.069349 0.118151\n1 0.672089 0.458048 0.075128 0.075342\n"
+    },
+    {
+      "filename": "045_new_20261008_0034.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0034.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            158.69888,
+            307.80816,
+            212.94528,
+            366.57552
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            281.57568000000003,
+            195.61632,
+            328.42496000000006,
+            230.13696000000002
+          ]
+        }
+      ],
+      "source_image_sha256": "334320824aff0ac2dfa1ed44f1265cf0222d365f556538099c0243a22eaae64c",
+      "source_label_sha256": "9f0d5a4a6ec17a2057d8b3afbf7800eff63b0de497ca53a94fb23e507607e7d9",
+      "clean_label": "0 0.290347 0.702483 0.084760 0.122432\n1 0.476563 0.443493 0.073202 0.071918\n"
+    },
+    {
+      "filename": "046_new_20261008_0035.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0035.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            166.096,
+            306.9864,
+            220.75328,
+            366.16464
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            291.0272,
+            196.43856000000002,
+            338.69824,
+            231.78096
+          ]
+        }
+      ],
+      "source_image_sha256": "b7e0bc31ff659cdab3fdae1985c25a6f1088170daed622cd76e5c7d47f0131b3",
+      "source_label_sha256": "0ca96009ece4b29c47242ac98c5b24eafe8528a96441f0383ab46f645ee4e981",
+      "clean_label": "0 0.302226 0.701199 0.085402 0.123288\n1 0.491973 0.446062 0.074486 0.073630\n"
+    },
+    {
+      "filename": "047_new_20261008_0036.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0036.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            178.42464,
+            312.73967999999996,
+            233.49344000000002,
+            371.91792
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            303.35616,
+            203.42448,
+            351.43808,
+            238.356
+          ]
+        }
+      ],
+      "source_image_sha256": "688b92689427b2934cd4adcc7b0b9f39368620c3093b91d7b289bfdc95f5fb04",
+      "source_label_sha256": "a9622f6d7476ad9093fd9089336f1a4d8317808ac881ee37bdcd6304cc96035e",
+      "clean_label": "0 0.321811 0.713185 0.086045 0.123288\n1 0.511558 0.460188 0.075128 0.072774\n"
+    },
+    {
+      "filename": "048_new_20261008_0037.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0037.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            213.76736,
+            317.26032,
+            263.49344,
+            376.84944
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            336.64383999999995,
+            207.12336,
+            384.72576000000004,
+            243.28752
+          ]
+        }
+      ],
+      "source_image_sha256": "87db2abe2ada92186686792f0699a608d8559dd45513e8768c0238a1252b24f5",
+      "source_label_sha256": "eff7273a7ea90dc730fd4b6b72ef09a0df6a600a58e2c178f8b5e6db6e4f35ba",
+      "clean_label": "0 0.372860 0.723031 0.077697 0.124144\n1 0.563570 0.469178 0.075128 0.075342\n"
+    },
+    {
+      "filename": "049_new_20261008_0038.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0038.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            254.86272,
+            281.5068,
+            300.89024,
+            339.04104
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            366.64416000000006,
+            182.87663999999998,
+            411.02752,
+            213.69840000000002
+          ]
+        }
+      ],
+      "source_image_sha256": "59256403e014d0d2cd676c18b5e2b64fe0dafc88cc1298af68c475aa714ee880",
+      "source_label_sha256": "3360cd504c328da07d7911b9a57e0bfc8a8b4d3abec336d1ff21fa243cae4cb7",
+      "clean_label": "0 0.434182 0.646404 0.071918 0.119863\n1 0.607556 0.413099 0.069349 0.064212\n"
+    },
+    {
+      "filename": "050_new_20261008_0039.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0039.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            270.06847999999997,
+            300.0,
+            317.73952,
+            359.17824
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            384.31488,
+            193.56144,
+            430.3424,
+            227.6712
+          ]
+        }
+      ],
+      "source_image_sha256": "dcae037773d823f472f2b654e0eed2775c2150654f791b10e16174582a20a92d",
+      "source_label_sha256": "16d418d6e137be857f247711eed017cf4c74516e86d90721505a190e352601f0",
+      "clean_label": "0 0.459225 0.686644 0.074486 0.123288\n1 0.636451 0.438784 0.071918 0.071062\n"
+    },
+    {
+      "filename": "051_new_20261008_0040.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0040.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            337.05472,
+            308.21904,
+            385.13664000000006,
+            368.21904
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            475.95903999999996,
+            218.21928,
+            528.15104,
+            260.1372
+          ]
+        }
+      ],
+      "source_image_sha256": "ceefd5cf96ac85dd1fe1e202230f9224118f0cc96f80ee4ce27c31fc4da5b451",
+      "source_label_sha256": "76f26dc3ac7f8d2e9cf7614d4411d0a2fec9e1daccd86722765ecc6b3117a3d7",
+      "clean_label": "0 0.564212 0.704623 0.075128 0.125000\n1 0.784461 0.498288 0.081550 0.087329\n"
+    },
+    {
+      "filename": "052_new_20261008_0041.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0041.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            184.17824,
+            300.00023999999996,
+            235.54784,
+            358.35623999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            278.69888,
+            177.12336,
+            325.54816000000005,
+            211.644
+          ]
+        }
+      ],
+      "source_image_sha256": "141f4481493be3dafcc28f1bd6da3124bcddd1b4a8f9ab0e10e8e9d58bfe014d",
+      "source_label_sha256": "2594374507ff72467a3671a3ca6e4ad492047da0d13d50573791e079ba4a91ef",
+      "clean_label": "0 0.327911 0.685788 0.080265 0.121575\n1 0.472068 0.404966 0.073202 0.071918\n"
+    },
+    {
+      "filename": "053_new_20261008_0042.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0042.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            277.05472,
+            306.98616000000004,
+            325.13664,
+            364.93128
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            402.39712000000003,
+            202.60296,
+            452.1232,
+            240.41112
+          ]
+        }
+      ],
+      "source_image_sha256": "0c78d065ae24a64f938444b29ee8d3c54fa7638b248e9eb1f85c8da2abbd6dce",
+      "source_label_sha256": "7593a011c8def14cce2be3e03f3a5b6d7f3ae12f300c7ffd396e24afdeb48e73",
+      "clean_label": "0 0.470462 0.699914 0.075128 0.120719\n1 0.667594 0.461473 0.077697 0.078767\n"
+    },
+    {
+      "filename": "054_new_20261008_0043.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0043.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            277.05440000000004,
+            311.09568,
+            325.95871999999997,
+            370.68480000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            397.0544,
+            200.95896,
+            445.54783999999995,
+            238.76712
+          ]
+        }
+      ],
+      "source_image_sha256": "49a9f767716ffb32d62fa45cda51416ac8697814b697f61487e8e4a240a407c1",
+      "source_label_sha256": "792c5fe3835d66cb0e52210d2d45e394789b15a66fc10ccbc74a78503e28a5d5",
+      "clean_label": "0 0.471104 0.710188 0.076413 0.124144\n1 0.658283 0.458048 0.075771 0.078767\n"
+    },
+    {
+      "filename": "055_new_20261008_0044.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0044.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            193.63008000000002,
+            333.6984,
+            246.64383999999998,
+            393.6984
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            309.9312,
+            209.178,
+            359.65728,
+            246.98616
+          ]
+        }
+      ],
+      "source_image_sha256": "f0e696793536deb690eed56e8d983217472c8a31133733548634a80940a39c75",
+      "source_label_sha256": "45d9ff0c6a9c629c47b0ea9afd15b84b0fa33b632ec648d3d76f4bc42880bcc4",
+      "clean_label": "0 0.343964 0.757705 0.082834 0.125000\n1 0.523116 0.475171 0.077697 0.078767\n"
+    },
+    {
+      "filename": "056_new_20261008_0045.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0045.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            230.20576000000003,
+            340.27392000000003,
+            280.7536,
+            401.50656
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            360.89056,
+            225.61631999999997,
+            411.84928,
+            265.47936
+          ]
+        }
+      ],
+      "source_image_sha256": "c1566a0decfed49ba7b47916954a9ded4b7798d9f91e96b7d2df962d6d53afa8",
+      "source_label_sha256": "b88458d456478d029f7d816ea0feeffa5d45555ee7eec986c234c385b478d98a",
+      "clean_label": "0 0.399187 0.772688 0.078981 0.127568\n1 0.603703 0.511558 0.079623 0.083048\n"
+    },
+    {
+      "filename": "057_new_20261008_0046.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0046.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            220.75328,
+            353.8356,
+            273.35616000000005,
+            415.89048
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            334.58912000000004,
+            220.68480000000002,
+            384.72608,
+            260.95872
+          ]
+        }
+      ],
+      "source_image_sha256": "608e533eddaa298bbbbc6de39a890404b7f121f11aea2ac56ca596dc755bef5d",
+      "source_label_sha256": "660e515985e70d5e4dc6ef3ceb25c9400b2656ed5a2b9d96f2f7bee5e1d3eebd",
+      "clean_label": "0 0.386023 0.801798 0.082192 0.129281\n1 0.561965 0.501712 0.078339 0.083904\n"
+    },
+    {
+      "filename": "058_new_20261008_0047.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0047.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            199.38335999999998,
+            306.1644,
+            249.52032000000003,
+            364.10952
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            322.67136,
+            200.95896,
+            370.34240000000005,
+            234.65735999999998
+          ]
+        }
+      ],
+      "source_image_sha256": "0929116a9a176ebe217e91f53b9de0dd1a0b3f07f36124783c9e42a7b80b5632",
+      "source_label_sha256": "89d3f10fa3d354d4f518dadf976b1bfea3b4fb4ed9049645c47276b8ee6d27e4",
+      "clean_label": "0 0.350706 0.698202 0.078339 0.120719\n1 0.541417 0.453767 0.074486 0.070205\n"
+    },
+    {
+      "filename": "059_new_20261008_0049.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0049.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            277.05504,
+            263.0136,
+            321.4384,
+            318.90384
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            386.37023999999997,
+            171.3696,
+            430.34272,
+            200.95872000000003
+          ]
+        }
+      ],
+      "source_image_sha256": "b04040eaef2383754ccb85661d0a9936aaa3ca61fe3a63b7e158396fada81faf",
+      "source_label_sha256": "ab73892bf99b67cd7463935a7298fea108eac5d2ccc765e4e06f52243c553ed9",
+      "clean_label": "0 0.467573 0.606164 0.069349 0.116438\n1 0.638057 0.387842 0.068707 0.061644\n"
+    },
+    {
+      "filename": "060_new_20261008_0050.jpg",
+      "source_group": "new_20261008",
+      "episode": null,
+      "original_name": "0050.jpg",
+      "visual_stage_note": "new_view_tabletop_cups",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "cup",
+          "bbox_xyxy_px": [
+            263.08224,
+            292.60296,
+            309.93152,
+            350.1372
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "target",
+          "bbox_xyxy_px": [
+            390.0681599999999,
+            196.02720000000002,
+            439.38336,
+            231.3696
+          ]
+        }
+      ],
+      "source_image_sha256": "5f65d2228379ecd6c402af3e8060bcdd702a38c503a90335f88066b9facffbfe",
+      "source_label_sha256": "c8d60921cddba9e30aca448a40ddda3282a028c94798ba645ea7b1beaddc9e06",
+      "clean_label": "0 0.447667 0.669521 0.073202 0.119863\n1 0.648009 0.445205 0.077055 0.073630\n"
+    }
+  ],
+  "derived_training_images": [
+    {
+      "source": "001_old_s02_episode_000000_f00045.jpg",
+      "name": "001_old_s02_episode_000000_f00045_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "001_old_s02_episode_000000_f00045.jpg",
+      "name": "001_old_s02_episode_000000_f00045_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "002_old_s02_episode_000000_f00249.jpg",
+      "name": "002_old_s02_episode_000000_f00249_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "005_old_s02_episode_000020_f00180.jpg",
+      "name": "005_old_s02_episode_000020_f00180_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "007_old_s02_episode_000031_f00042.jpg",
+      "name": "007_old_s02_episode_000031_f00042_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "008_old_s02_episode_000031_f00354.jpg",
+      "name": "008_old_s02_episode_000031_f00354_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "008_old_s02_episode_000031_f00354.jpg",
+      "name": "008_old_s02_episode_000031_f00354_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "009_old_s02_episode_000041_f00254.jpg",
+      "name": "009_old_s02_episode_000041_f00254_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "011_old_s02_episode_000052_f00042.jpg",
+      "name": "011_old_s02_episode_000052_f00042_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "012_old_s02_episode_000052_f00234.jpg",
+      "name": "012_old_s02_episode_000052_f00234_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "013_old_s02_episode_000062_f00098.jpg",
+      "name": "013_old_s02_episode_000062_f00098_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "013_old_s02_episode_000062_f00098.jpg",
+      "name": "013_old_s02_episode_000062_f00098_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "014_old_s02_episode_000062_f00322.jpg",
+      "name": "014_old_s02_episode_000062_f00322_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "015_old_s02_episode_000073_f00174.jpg",
+      "name": "015_old_s02_episode_000073_f00174_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "016_old_s02_episode_000073_f00453.jpg",
+      "name": "016_old_s02_episode_000073_f00453_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "019_old_s02_episode_000094_f00244.jpg",
+      "name": "019_old_s02_episode_000094_f00244_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "019_old_s02_episode_000094_f00244.jpg",
+      "name": "019_old_s02_episode_000094_f00244_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "020_old_s02_episode_000094_f00314.jpg",
+      "name": "020_old_s02_episode_000094_f00314_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "021_old_s02_episode_000104_f00040.jpg",
+      "name": "021_old_s02_episode_000104_f00040_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "022_old_s02_episode_000104_f00224.jpg",
+      "name": "022_old_s02_episode_000104_f00224_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "023_old_s02_episode_000115_f00084.jpg",
+      "name": "023_old_s02_episode_000115_f00084_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "023_old_s02_episode_000115_f00084.jpg",
+      "name": "023_old_s02_episode_000115_f00084_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "024_old_s02_episode_000115_f00287.jpg",
+      "name": "024_old_s02_episode_000115_f00287_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "025_old_s02_episode_000125_f00160.jpg",
+      "name": "025_old_s02_episode_000125_f00160_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "029_old_s02_episode_000146_f00208.jpg",
+      "name": "029_old_s02_episode_000146_f00208_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "030_old_s02_episode_000146_f00275.jpg",
+      "name": "030_old_s02_episode_000146_f00275_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "030_old_s02_episode_000146_f00275.jpg",
+      "name": "030_old_s02_episode_000146_f00275_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "031_old_s02_episode_000157_f00040.jpg",
+      "name": "031_old_s02_episode_000157_f00040_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "032_old_s02_episode_000157_f00244.jpg",
+      "name": "032_old_s02_episode_000157_f00244_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "033_old_s02_episode_000167_f00092.jpg",
+      "name": "033_old_s02_episode_000167_f00092_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "034_old_s02_episode_000167_f00308.jpg",
+      "name": "034_old_s02_episode_000167_f00308_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "034_old_s02_episode_000167_f00308.jpg",
+      "name": "034_old_s02_episode_000167_f00308_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "035_old_s02_episode_000178_f00140.jpg",
+      "name": "035_old_s02_episode_000178_f00140_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "036_old_s02_episode_000178_f00286.jpg",
+      "name": "036_old_s02_episode_000178_f00286_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "039_old_s02_episode_000199_f00220.jpg",
+      "name": "039_old_s02_episode_000199_f00220_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "041_new_20261008_0001.jpg",
+      "name": "041_new_20261008_0001_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "041_new_20261008_0001.jpg",
+      "name": "041_new_20261008_0001_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "042_new_20261008_0031.jpg",
+      "name": "042_new_20261008_0031_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "043_new_20261008_0032.jpg",
+      "name": "043_new_20261008_0032_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "045_new_20261008_0034.jpg",
+      "name": "045_new_20261008_0034_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "046_new_20261008_0035.jpg",
+      "name": "046_new_20261008_0035_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "046_new_20261008_0035.jpg",
+      "name": "046_new_20261008_0035_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "047_new_20261008_0036.jpg",
+      "name": "047_new_20261008_0036_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "048_new_20261008_0037.jpg",
+      "name": "048_new_20261008_0037_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "050_new_20261008_0039.jpg",
+      "name": "050_new_20261008_0039_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "052_new_20261008_0041.jpg",
+      "name": "052_new_20261008_0041_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "052_new_20261008_0041.jpg",
+      "name": "052_new_20261008_0041_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "053_new_20261008_0042.jpg",
+      "name": "053_new_20261008_0042_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "054_new_20261008_0043.jpg",
+      "name": "054_new_20261008_0043_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "055_new_20261008_0044.jpg",
+      "name": "055_new_20261008_0044_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "056_new_20261008_0045.jpg",
+      "name": "056_new_20261008_0045_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "056_new_20261008_0045.jpg",
+      "name": "056_new_20261008_0045_synthetic_absent.jpg",
+      "kind": "synthetic_both_objects_removed"
+    },
+    {
+      "source": "057_new_20261008_0046.jpg",
+      "name": "057_new_20261008_0046_objects_only.jpg",
+      "kind": "context_removed_positive"
+    },
+    {
+      "source": "058_new_20261008_0047.jpg",
+      "name": "058_new_20261008_0047_objects_only.jpg",
+      "kind": "context_removed_positive"
+    }
+  ]
+}
