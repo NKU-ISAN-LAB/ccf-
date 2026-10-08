@@ -1,0 +1,116 @@
+{
+  "implementation": {
+    "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+    "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+    "torch": "2.12.1+cu130",
+    "opencv": "5.0.0"
+  },
+  "confidence_threshold": 0.05,
+  "iou_threshold": 0.5,
+  "original_replay": {
+    "frames": 50,
+    "true_positives": 50,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "unique_correct_candidates": 50,
+    "failures": [],
+    "mean_best_iou": 0.8721345940248122
+  },
+  "train_replay": {
+    "frames": 40,
+    "true_positives": 40,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "unique_correct_candidates": 40,
+    "failures": [],
+    "mean_best_iou": 0.8720155793841536
+  },
+  "development_validation": {
+    "frames": 10,
+    "true_positives": 10,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "unique_correct_candidates": 10,
+    "failures": [],
+    "mean_best_iou": 0.8726106525874471
+  },
+  "synthetic_validation_variants": {
+    "machine_context_removed": {
+      "frames": 10,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "unique_correct_candidates": 10,
+      "failures": [],
+      "mean_best_iou": 0.8838979707879944
+    },
+    "dim": {
+      "frames": 10,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "unique_correct_candidates": 10,
+      "failures": [],
+      "mean_best_iou": 0.8733462296208435
+    },
+    "bright": {
+      "frames": 10,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "unique_correct_candidates": 10,
+      "failures": [],
+      "mean_best_iou": 0.8707188734264484
+    },
+    "blur": {
+      "frames": 10,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "unique_correct_candidates": 10,
+      "failures": [],
+      "mean_best_iou": 0.8722535646117452
+    },
+    "jpeg65": {
+      "frames": 10,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "unique_correct_candidates": 10,
+      "failures": [],
+      "mean_best_iou": 0.8537118517538722
+    },
+    "shift": {
+      "frames": 10,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "unique_correct_candidates": 10,
+      "failures": [],
+      "mean_best_iou": 0.8737204880608556
+    }
+  },
+  "negative_checks": 53,
+  "negative_passed": 53,
+  "negative_failures": [],
+  "median_inference_ms": 35.095,
+  "qualification": "Same-session development validation, NOT independent field accuracy. Last 10 frames excluded from training, but used for checkpoint selection. Synthetic negatives are not real absent-cup validation. Box centers are not measured rims or grasp poses."
+}

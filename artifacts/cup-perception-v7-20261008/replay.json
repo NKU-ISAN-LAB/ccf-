@@ -1,0 +1,5402 @@
+[
+  {
+    "frame": "0001",
+    "split": "train",
+    "best_iou": 0.7985123694034916,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.265841007232666,
+          "bbox_xyxy_px": [
+            148.40792846679688,
+            237.92340087890625,
+            200.24169921875,
+            269.14141845703125
+          ],
+          "center_uv": [
+            174.32481384277344,
+            253.53240966796875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.40792846679688,
+        237.92340087890625,
+        200.24169921875,
+        269.14141845703125
+      ],
+      "cup_center_uv": [
+        174.32481384277344,
+        253.53240966796875
+      ],
+      "visible_cup_center_uv": [
+        174.32481384277344,
+        253.53240966796875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.265841007232666,
+          "bbox_xyxy_px": [
+            148.40792846679688,
+            237.92340087890625,
+            200.24169921875,
+            269.14141845703125
+          ],
+          "center_uv": [
+            174.32481384277344,
+            253.53240966796875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.40792846679688,
+              237.92340087890625
+            ],
+            [
+              200.24169921875,
+              237.92340087890625
+            ],
+            [
+              200.24169921875,
+              269.14141845703125
+            ],
+            [
+              148.40792846679688,
+              269.14141845703125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "08c85d79fcfe572a19093b83f0b263271d27cf2929be67a73291962965d0a8d8"
+      },
+      "inference_ms": 847.61
+    }
+  },
+  {
+    "frame": "0002",
+    "split": "train",
+    "best_iou": 0.7836919676268643,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.3125494718551636,
+          "bbox_xyxy_px": [
+            148.32666015625,
+            237.86297607421875,
+            200.43734741210938,
+            268.86907958984375
+          ],
+          "center_uv": [
+            174.3820037841797,
+            253.36602783203125
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.32666015625,
+        237.86297607421875,
+        200.43734741210938,
+        268.86907958984375
+      ],
+      "cup_center_uv": [
+        174.3820037841797,
+        253.36602783203125
+      ],
+      "visible_cup_center_uv": [
+        174.3820037841797,
+        253.36602783203125
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.3125494718551636,
+          "bbox_xyxy_px": [
+            148.32666015625,
+            237.86297607421875,
+            200.43734741210938,
+            268.86907958984375
+          ],
+          "center_uv": [
+            174.3820037841797,
+            253.36602783203125
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.32666015625,
+              237.86297607421875
+            ],
+            [
+              200.43734741210938,
+              237.86297607421875
+            ],
+            [
+              200.43734741210938,
+              268.86907958984375
+            ],
+            [
+              148.32666015625,
+              268.86907958984375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "7407635729e21d6b7eb94fd00cca76a2a83660cfdf43a4fa6c20f454d32a4397"
+      },
+      "inference_ms": 38.18
+    }
+  },
+  {
+    "frame": "0003",
+    "split": "train",
+    "best_iou": 0.8394050013857635,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2879108190536499,
+          "bbox_xyxy_px": [
+            148.27072143554688,
+            237.93344116210938,
+            200.42135620117188,
+            269.0507507324219
+          ],
+          "center_uv": [
+            174.34603881835938,
+            253.49209594726562
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.27072143554688,
+        237.93344116210938,
+        200.42135620117188,
+        269.0507507324219
+      ],
+      "cup_center_uv": [
+        174.34603881835938,
+        253.49209594726562
+      ],
+      "visible_cup_center_uv": [
+        174.34603881835938,
+        253.49209594726562
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2879108190536499,
+          "bbox_xyxy_px": [
+            148.27072143554688,
+            237.93344116210938,
+            200.42135620117188,
+            269.0507507324219
+          ],
+          "center_uv": [
+            174.34603881835938,
+            253.49209594726562
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.27072143554688,
+              237.93344116210938
+            ],
+            [
+              200.42135620117188,
+              237.93344116210938
+            ],
+            [
+              200.42135620117188,
+              269.0507507324219
+            ],
+            [
+              148.27072143554688,
+              269.0507507324219
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "51631dce759fea5743a138f722c47d2f18858605deb91d5903b62c80e1d4ee5e"
+      },
+      "inference_ms": 33.08
+    }
+  },
+  {
+    "frame": "0004",
+    "split": "train",
+    "best_iou": 0.8677637444653482,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.28725236654281616,
+          "bbox_xyxy_px": [
+            148.3140869140625,
+            237.76568603515625,
+            200.25140380859375,
+            268.95050048828125
+          ],
+          "center_uv": [
+            174.28274536132812,
+            253.35809326171875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.3140869140625,
+        237.76568603515625,
+        200.25140380859375,
+        268.95050048828125
+      ],
+      "cup_center_uv": [
+        174.28274536132812,
+        253.35809326171875
+      ],
+      "visible_cup_center_uv": [
+        174.28274536132812,
+        253.35809326171875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.28725236654281616,
+          "bbox_xyxy_px": [
+            148.3140869140625,
+            237.76568603515625,
+            200.25140380859375,
+            268.95050048828125
+          ],
+          "center_uv": [
+            174.28274536132812,
+            253.35809326171875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.3140869140625,
+              237.76568603515625
+            ],
+            [
+              200.25140380859375,
+              237.76568603515625
+            ],
+            [
+              200.25140380859375,
+              268.95050048828125
+            ],
+            [
+              148.3140869140625,
+              268.95050048828125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "5b69346735bf55662c66eb72888a49fb608ffa4a6e823dc0147d68db221fadac"
+      },
+      "inference_ms": 34.35
+    }
+  },
+  {
+    "frame": "0005",
+    "split": "train",
+    "best_iou": 0.8806425181561893,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.24650855362415314,
+          "bbox_xyxy_px": [
+            148.40371704101562,
+            237.84600830078125,
+            200.35794067382812,
+            269.11138916015625
+          ],
+          "center_uv": [
+            174.38082885742188,
+            253.47869873046875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.40371704101562,
+        237.84600830078125,
+        200.35794067382812,
+        269.11138916015625
+      ],
+      "cup_center_uv": [
+        174.38082885742188,
+        253.47869873046875
+      ],
+      "visible_cup_center_uv": [
+        174.38082885742188,
+        253.47869873046875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.24650855362415314,
+          "bbox_xyxy_px": [
+            148.40371704101562,
+            237.84600830078125,
+            200.35794067382812,
+            269.11138916015625
+          ],
+          "center_uv": [
+            174.38082885742188,
+            253.47869873046875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.40371704101562,
+              237.84600830078125
+            ],
+            [
+              200.35794067382812,
+              237.84600830078125
+            ],
+            [
+              200.35794067382812,
+              269.11138916015625
+            ],
+            [
+              148.40371704101562,
+              269.11138916015625
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "d4de7a45634b052b0ca1861c8d067cabb71dd3a9fd66c620a28d027c754383c5"
+      },
+      "inference_ms": 34.95
+    }
+  },
+  {
+    "frame": "0006",
+    "split": "train",
+    "best_iou": 0.840232018535945,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2874281108379364,
+          "bbox_xyxy_px": [
+            148.40155029296875,
+            237.92852783203125,
+            200.41885375976562,
+            269.16009521484375
+          ],
+          "center_uv": [
+            174.4102020263672,
+            253.5443115234375
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.40155029296875,
+        237.92852783203125,
+        200.41885375976562,
+        269.16009521484375
+      ],
+      "cup_center_uv": [
+        174.4102020263672,
+        253.5443115234375
+      ],
+      "visible_cup_center_uv": [
+        174.4102020263672,
+        253.5443115234375
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2874281108379364,
+          "bbox_xyxy_px": [
+            148.40155029296875,
+            237.92852783203125,
+            200.41885375976562,
+            269.16009521484375
+          ],
+          "center_uv": [
+            174.4102020263672,
+            253.5443115234375
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.40155029296875,
+              237.92852783203125
+            ],
+            [
+              200.41885375976562,
+              237.92852783203125
+            ],
+            [
+              200.41885375976562,
+              269.16009521484375
+            ],
+            [
+              148.40155029296875,
+              269.16009521484375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "648ae8a432635699dfd7182bcadee066f92a4f7d10831ab4e4d52fb9c0a7ee52"
+      },
+      "inference_ms": 33.91
+    }
+  },
+  {
+    "frame": "0007",
+    "split": "train",
+    "best_iou": 0.8158216979777954,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.29773908853530884,
+          "bbox_xyxy_px": [
+            148.46743774414062,
+            238.35360717773438,
+            200.19491577148438,
+            269.1051330566406
+          ],
+          "center_uv": [
+            174.3311767578125,
+            253.7293701171875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.46743774414062,
+        238.35360717773438,
+        200.19491577148438,
+        269.1051330566406
+      ],
+      "cup_center_uv": [
+        174.3311767578125,
+        253.7293701171875
+      ],
+      "visible_cup_center_uv": [
+        174.3311767578125,
+        253.7293701171875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.29773908853530884,
+          "bbox_xyxy_px": [
+            148.46743774414062,
+            238.35360717773438,
+            200.19491577148438,
+            269.1051330566406
+          ],
+          "center_uv": [
+            174.3311767578125,
+            253.7293701171875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.46743774414062,
+              238.35360717773438
+            ],
+            [
+              200.19491577148438,
+              238.35360717773438
+            ],
+            [
+              200.19491577148438,
+              269.1051330566406
+            ],
+            [
+              148.46743774414062,
+              269.1051330566406
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "1e8ba27b5d174585f8e3495489b823ae1f179f678881ff5d497915fd3eb4f578"
+      },
+      "inference_ms": 33.97
+    }
+  },
+  {
+    "frame": "0008",
+    "split": "train",
+    "best_iou": 0.8428326755112926,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2995249032974243,
+          "bbox_xyxy_px": [
+            148.35264587402344,
+            237.87664794921875,
+            200.4226837158203,
+            269.20941162109375
+          ],
+          "center_uv": [
+            174.38766479492188,
+            253.54302978515625
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.35264587402344,
+        237.87664794921875,
+        200.4226837158203,
+        269.20941162109375
+      ],
+      "cup_center_uv": [
+        174.38766479492188,
+        253.54302978515625
+      ],
+      "visible_cup_center_uv": [
+        174.38766479492188,
+        253.54302978515625
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2995249032974243,
+          "bbox_xyxy_px": [
+            148.35264587402344,
+            237.87664794921875,
+            200.4226837158203,
+            269.20941162109375
+          ],
+          "center_uv": [
+            174.38766479492188,
+            253.54302978515625
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.35264587402344,
+              237.87664794921875
+            ],
+            [
+              200.4226837158203,
+              237.87664794921875
+            ],
+            [
+              200.4226837158203,
+              269.20941162109375
+            ],
+            [
+              148.35264587402344,
+              269.20941162109375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "4a8e1dbddb92c717ef615d544413a891f876b88e0f6325150266f5d9bac2a8a2"
+      },
+      "inference_ms": 34.75
+    }
+  },
+  {
+    "frame": "0009",
+    "split": "train",
+    "best_iou": 0.7884791181226606,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.273296058177948,
+          "bbox_xyxy_px": [
+            148.40972900390625,
+            237.778564453125,
+            200.3193359375,
+            269.158935546875
+          ],
+          "center_uv": [
+            174.36453247070312,
+            253.46875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.40972900390625,
+        237.778564453125,
+        200.3193359375,
+        269.158935546875
+      ],
+      "cup_center_uv": [
+        174.36453247070312,
+        253.46875
+      ],
+      "visible_cup_center_uv": [
+        174.36453247070312,
+        253.46875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.273296058177948,
+          "bbox_xyxy_px": [
+            148.40972900390625,
+            237.778564453125,
+            200.3193359375,
+            269.158935546875
+          ],
+          "center_uv": [
+            174.36453247070312,
+            253.46875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.40972900390625,
+              237.778564453125
+            ],
+            [
+              200.3193359375,
+              237.778564453125
+            ],
+            [
+              200.3193359375,
+              269.158935546875
+            ],
+            [
+              148.40972900390625,
+              269.158935546875
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "0769d3106c2fda8f9c61b4df8558381ff05c31e86151c51e15c6226b7c820ff5"
+      },
+      "inference_ms": 35.07
+    }
+  },
+  {
+    "frame": "0010",
+    "split": "train",
+    "best_iou": 0.9154180549937465,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.32245463132858276,
+          "bbox_xyxy_px": [
+            148.41592407226562,
+            238.17868041992188,
+            200.12966918945312,
+            268.8277893066406
+          ],
+          "center_uv": [
+            174.27279663085938,
+            253.50323486328125
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.41592407226562,
+        238.17868041992188,
+        200.12966918945312,
+        268.8277893066406
+      ],
+      "cup_center_uv": [
+        174.27279663085938,
+        253.50323486328125
+      ],
+      "visible_cup_center_uv": [
+        174.27279663085938,
+        253.50323486328125
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.32245463132858276,
+          "bbox_xyxy_px": [
+            148.41592407226562,
+            238.17868041992188,
+            200.12966918945312,
+            268.8277893066406
+          ],
+          "center_uv": [
+            174.27279663085938,
+            253.50323486328125
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.41592407226562,
+              238.17868041992188
+            ],
+            [
+              200.12966918945312,
+              238.17868041992188
+            ],
+            [
+              200.12966918945312,
+              268.8277893066406
+            ],
+            [
+              148.41592407226562,
+              268.8277893066406
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "76bdc4e8355abc2a1aa529f642cef30d46a2778db72a5624a0ea907747883aa7"
+      },
+      "inference_ms": 34.97
+    }
+  },
+  {
+    "frame": "0011",
+    "split": "train",
+    "best_iou": 0.8715719662980386,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.292647123336792,
+          "bbox_xyxy_px": [
+            148.34112548828125,
+            237.96893310546875,
+            200.317626953125,
+            269.14825439453125
+          ],
+          "center_uv": [
+            174.32937622070312,
+            253.55859375
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.34112548828125,
+        237.96893310546875,
+        200.317626953125,
+        269.14825439453125
+      ],
+      "cup_center_uv": [
+        174.32937622070312,
+        253.55859375
+      ],
+      "visible_cup_center_uv": [
+        174.32937622070312,
+        253.55859375
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.292647123336792,
+          "bbox_xyxy_px": [
+            148.34112548828125,
+            237.96893310546875,
+            200.317626953125,
+            269.14825439453125
+          ],
+          "center_uv": [
+            174.32937622070312,
+            253.55859375
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.34112548828125,
+              237.96893310546875
+            ],
+            [
+              200.317626953125,
+              237.96893310546875
+            ],
+            [
+              200.317626953125,
+              269.14825439453125
+            ],
+            [
+              148.34112548828125,
+              269.14825439453125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "90336bb93e92810b9cd59f0deeeb3faa31f5f8c372a0f91521c6a49e32db9ede"
+      },
+      "inference_ms": 34.21
+    }
+  },
+  {
+    "frame": "0012",
+    "split": "train",
+    "best_iou": 0.863736695915939,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2842726409435272,
+          "bbox_xyxy_px": [
+            148.4356231689453,
+            237.76394653320312,
+            200.30250549316406,
+            269.0801696777344
+          ],
+          "center_uv": [
+            174.3690643310547,
+            253.42205810546875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.4356231689453,
+        237.76394653320312,
+        200.30250549316406,
+        269.0801696777344
+      ],
+      "cup_center_uv": [
+        174.3690643310547,
+        253.42205810546875
+      ],
+      "visible_cup_center_uv": [
+        174.3690643310547,
+        253.42205810546875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2842726409435272,
+          "bbox_xyxy_px": [
+            148.4356231689453,
+            237.76394653320312,
+            200.30250549316406,
+            269.0801696777344
+          ],
+          "center_uv": [
+            174.3690643310547,
+            253.42205810546875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.4356231689453,
+              237.76394653320312
+            ],
+            [
+              200.30250549316406,
+              237.76394653320312
+            ],
+            [
+              200.30250549316406,
+              269.0801696777344
+            ],
+            [
+              148.4356231689453,
+              269.0801696777344
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "edc0cca7dc1683c15abf815b7652ea59bfff9482fb25db3342cb8e74191158be"
+      },
+      "inference_ms": 34.83
+    }
+  },
+  {
+    "frame": "0013",
+    "split": "train",
+    "best_iou": 0.8834378505515005,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2934053838253021,
+          "bbox_xyxy_px": [
+            148.4333953857422,
+            237.96240234375,
+            200.3603057861328,
+            268.9805908203125
+          ],
+          "center_uv": [
+            174.3968505859375,
+            253.47149658203125
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.4333953857422,
+        237.96240234375,
+        200.3603057861328,
+        268.9805908203125
+      ],
+      "cup_center_uv": [
+        174.3968505859375,
+        253.47149658203125
+      ],
+      "visible_cup_center_uv": [
+        174.3968505859375,
+        253.47149658203125
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2934053838253021,
+          "bbox_xyxy_px": [
+            148.4333953857422,
+            237.96240234375,
+            200.3603057861328,
+            268.9805908203125
+          ],
+          "center_uv": [
+            174.3968505859375,
+            253.47149658203125
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.4333953857422,
+              237.96240234375
+            ],
+            [
+              200.3603057861328,
+              237.96240234375
+            ],
+            [
+              200.3603057861328,
+              268.9805908203125
+            ],
+            [
+              148.4333953857422,
+              268.9805908203125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "f0b9c7e978df062bf862e3af6aa0d8fd76cc6e24a5bb18f8775ce216803226b4"
+      },
+      "inference_ms": 33.74
+    }
+  },
+  {
+    "frame": "0014",
+    "split": "train",
+    "best_iou": 0.9098315008759837,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2683658003807068,
+          "bbox_xyxy_px": [
+            148.38726806640625,
+            238.09033203125,
+            200.41748046875,
+            269.2373046875
+          ],
+          "center_uv": [
+            174.40237426757812,
+            253.663818359375
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.38726806640625,
+        238.09033203125,
+        200.41748046875,
+        269.2373046875
+      ],
+      "cup_center_uv": [
+        174.40237426757812,
+        253.663818359375
+      ],
+      "visible_cup_center_uv": [
+        174.40237426757812,
+        253.663818359375
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2683658003807068,
+          "bbox_xyxy_px": [
+            148.38726806640625,
+            238.09033203125,
+            200.41748046875,
+            269.2373046875
+          ],
+          "center_uv": [
+            174.40237426757812,
+            253.663818359375
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.38726806640625,
+              238.09033203125
+            ],
+            [
+              200.41748046875,
+              238.09033203125
+            ],
+            [
+              200.41748046875,
+              269.2373046875
+            ],
+            [
+              148.38726806640625,
+              269.2373046875
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "d675b63ed85e2c27e882d1484e20fc44059e5cd09ea9a704e0d2572c0e28879c"
+      },
+      "inference_ms": 33.91
+    }
+  },
+  {
+    "frame": "0015",
+    "split": "train",
+    "best_iou": 0.8982663368535474,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.27343764901161194,
+          "bbox_xyxy_px": [
+            148.45037841796875,
+            237.809326171875,
+            200.2835693359375,
+            269.1448974609375
+          ],
+          "center_uv": [
+            174.36697387695312,
+            253.47711181640625
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.45037841796875,
+        237.809326171875,
+        200.2835693359375,
+        269.1448974609375
+      ],
+      "cup_center_uv": [
+        174.36697387695312,
+        253.47711181640625
+      ],
+      "visible_cup_center_uv": [
+        174.36697387695312,
+        253.47711181640625
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.27343764901161194,
+          "bbox_xyxy_px": [
+            148.45037841796875,
+            237.809326171875,
+            200.2835693359375,
+            269.1448974609375
+          ],
+          "center_uv": [
+            174.36697387695312,
+            253.47711181640625
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.45037841796875,
+              237.809326171875
+            ],
+            [
+              200.2835693359375,
+              237.809326171875
+            ],
+            [
+              200.2835693359375,
+              269.1448974609375
+            ],
+            [
+              148.45037841796875,
+              269.1448974609375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "fd7828dbbe188a4cf5c822f14f062750f69e9126e01ba1fa9a8fb50d30052301"
+      },
+      "inference_ms": 34.93
+    }
+  },
+  {
+    "frame": "0016",
+    "split": "train",
+    "best_iou": 0.8454529545070726,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2801988124847412,
+          "bbox_xyxy_px": [
+            148.5909423828125,
+            238.4127197265625,
+            200.43487548828125,
+            268.98675537109375
+          ],
+          "center_uv": [
+            174.51290893554688,
+            253.69973754882812
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.5909423828125,
+        238.4127197265625,
+        200.43487548828125,
+        268.98675537109375
+      ],
+      "cup_center_uv": [
+        174.51290893554688,
+        253.69973754882812
+      ],
+      "visible_cup_center_uv": [
+        174.51290893554688,
+        253.69973754882812
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2801988124847412,
+          "bbox_xyxy_px": [
+            148.5909423828125,
+            238.4127197265625,
+            200.43487548828125,
+            268.98675537109375
+          ],
+          "center_uv": [
+            174.51290893554688,
+            253.69973754882812
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.5909423828125,
+              238.4127197265625
+            ],
+            [
+              200.43487548828125,
+              238.4127197265625
+            ],
+            [
+              200.43487548828125,
+              268.98675537109375
+            ],
+            [
+              148.5909423828125,
+              268.98675537109375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "7abb99c93ce57a8ac26b700a10deb085413119745c25b84a8e886861724b70e0"
+      },
+      "inference_ms": 35.3
+    }
+  },
+  {
+    "frame": "0017",
+    "split": "train",
+    "best_iou": 0.8492133388490378,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.31980806589126587,
+          "bbox_xyxy_px": [
+            148.39871215820312,
+            238.07281494140625,
+            200.34609985351562,
+            268.89154052734375
+          ],
+          "center_uv": [
+            174.37240600585938,
+            253.482177734375
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.39871215820312,
+        238.07281494140625,
+        200.34609985351562,
+        268.89154052734375
+      ],
+      "cup_center_uv": [
+        174.37240600585938,
+        253.482177734375
+      ],
+      "visible_cup_center_uv": [
+        174.37240600585938,
+        253.482177734375
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.31980806589126587,
+          "bbox_xyxy_px": [
+            148.39871215820312,
+            238.07281494140625,
+            200.34609985351562,
+            268.89154052734375
+          ],
+          "center_uv": [
+            174.37240600585938,
+            253.482177734375
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.39871215820312,
+              238.07281494140625
+            ],
+            [
+              200.34609985351562,
+              238.07281494140625
+            ],
+            [
+              200.34609985351562,
+              268.89154052734375
+            ],
+            [
+              148.39871215820312,
+              268.89154052734375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "a3e744709a06f679a290059ba3cd267a273f0c30541c41610acaf0ebe10d8aae"
+      },
+      "inference_ms": 36.08
+    }
+  },
+  {
+    "frame": "0018",
+    "split": "train",
+    "best_iou": 0.8892380411415327,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.31510183215141296,
+          "bbox_xyxy_px": [
+            148.25567626953125,
+            238.08013916015625,
+            200.36248779296875,
+            269.10626220703125
+          ],
+          "center_uv": [
+            174.30908203125,
+            253.59320068359375
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.25567626953125,
+        238.08013916015625,
+        200.36248779296875,
+        269.10626220703125
+      ],
+      "cup_center_uv": [
+        174.30908203125,
+        253.59320068359375
+      ],
+      "visible_cup_center_uv": [
+        174.30908203125,
+        253.59320068359375
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.31510183215141296,
+          "bbox_xyxy_px": [
+            148.25567626953125,
+            238.08013916015625,
+            200.36248779296875,
+            269.10626220703125
+          ],
+          "center_uv": [
+            174.30908203125,
+            253.59320068359375
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.25567626953125,
+              238.08013916015625
+            ],
+            [
+              200.36248779296875,
+              238.08013916015625
+            ],
+            [
+              200.36248779296875,
+              269.10626220703125
+            ],
+            [
+              148.25567626953125,
+              269.10626220703125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "c0843cf7ea90324e67301f71fb98b1d05119c529a0080a6234dcf93679ae7ffa"
+      },
+      "inference_ms": 36.2
+    }
+  },
+  {
+    "frame": "0019",
+    "split": "train",
+    "best_iou": 0.9011145673856892,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2673864960670471,
+          "bbox_xyxy_px": [
+            148.3985595703125,
+            237.77139282226562,
+            200.465087890625,
+            269.0415344238281
+          ],
+          "center_uv": [
+            174.43182373046875,
+            253.40646362304688
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.3985595703125,
+        237.77139282226562,
+        200.465087890625,
+        269.0415344238281
+      ],
+      "cup_center_uv": [
+        174.43182373046875,
+        253.40646362304688
+      ],
+      "visible_cup_center_uv": [
+        174.43182373046875,
+        253.40646362304688
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2673864960670471,
+          "bbox_xyxy_px": [
+            148.3985595703125,
+            237.77139282226562,
+            200.465087890625,
+            269.0415344238281
+          ],
+          "center_uv": [
+            174.43182373046875,
+            253.40646362304688
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.3985595703125,
+              237.77139282226562
+            ],
+            [
+              200.465087890625,
+              237.77139282226562
+            ],
+            [
+              200.465087890625,
+              269.0415344238281
+            ],
+            [
+              148.3985595703125,
+              269.0415344238281
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "93d3db63106b202a7a85cc7e6b77c9e581c77286a1dfc2472a4edd3c01428ebb"
+      },
+      "inference_ms": 36.57
+    }
+  },
+  {
+    "frame": "0020",
+    "split": "train",
+    "best_iou": 0.8824876560973921,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.30106106400489807,
+          "bbox_xyxy_px": [
+            148.38623046875,
+            237.44476318359375,
+            200.38665771484375,
+            268.99237060546875
+          ],
+          "center_uv": [
+            174.38644409179688,
+            253.21856689453125
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.38623046875,
+        237.44476318359375,
+        200.38665771484375,
+        268.99237060546875
+      ],
+      "cup_center_uv": [
+        174.38644409179688,
+        253.21856689453125
+      ],
+      "visible_cup_center_uv": [
+        174.38644409179688,
+        253.21856689453125
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.30106106400489807,
+          "bbox_xyxy_px": [
+            148.38623046875,
+            237.44476318359375,
+            200.38665771484375,
+            268.99237060546875
+          ],
+          "center_uv": [
+            174.38644409179688,
+            253.21856689453125
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.38623046875,
+              237.44476318359375
+            ],
+            [
+              200.38665771484375,
+              237.44476318359375
+            ],
+            [
+              200.38665771484375,
+              268.99237060546875
+            ],
+            [
+              148.38623046875,
+              268.99237060546875
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "230bbdfc593e6311afcf672d9756b491586981cf5b5505bafad0cc33fd3b7bee"
+      },
+      "inference_ms": 36.51
+    }
+  },
+  {
+    "frame": "0021",
+    "split": "train",
+    "best_iou": 0.8974819890540473,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.27322277426719666,
+          "bbox_xyxy_px": [
+            148.41989135742188,
+            238.3018798828125,
+            200.2760009765625,
+            269.031005859375
+          ],
+          "center_uv": [
+            174.3479461669922,
+            253.66644287109375
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.41989135742188,
+        238.3018798828125,
+        200.2760009765625,
+        269.031005859375
+      ],
+      "cup_center_uv": [
+        174.3479461669922,
+        253.66644287109375
+      ],
+      "visible_cup_center_uv": [
+        174.3479461669922,
+        253.66644287109375
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.27322277426719666,
+          "bbox_xyxy_px": [
+            148.41989135742188,
+            238.3018798828125,
+            200.2760009765625,
+            269.031005859375
+          ],
+          "center_uv": [
+            174.3479461669922,
+            253.66644287109375
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.41989135742188,
+              238.3018798828125
+            ],
+            [
+              200.2760009765625,
+              238.3018798828125
+            ],
+            [
+              200.2760009765625,
+              269.031005859375
+            ],
+            [
+              148.41989135742188,
+              269.031005859375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "2299e55cb97d38e8773ba36957e8c618010fbdfbf027643b5ac0c4d8517bc2b3"
+      },
+      "inference_ms": 37.82
+    }
+  },
+  {
+    "frame": "0022",
+    "split": "train",
+    "best_iou": 0.9355670416928002,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.29717427492141724,
+          "bbox_xyxy_px": [
+            148.42251586914062,
+            238.04205322265625,
+            200.32467651367188,
+            269.18450927734375
+          ],
+          "center_uv": [
+            174.37359619140625,
+            253.61328125
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.42251586914062,
+        238.04205322265625,
+        200.32467651367188,
+        269.18450927734375
+      ],
+      "cup_center_uv": [
+        174.37359619140625,
+        253.61328125
+      ],
+      "visible_cup_center_uv": [
+        174.37359619140625,
+        253.61328125
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.29717427492141724,
+          "bbox_xyxy_px": [
+            148.42251586914062,
+            238.04205322265625,
+            200.32467651367188,
+            269.18450927734375
+          ],
+          "center_uv": [
+            174.37359619140625,
+            253.61328125
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.42251586914062,
+              238.04205322265625
+            ],
+            [
+              200.32467651367188,
+              238.04205322265625
+            ],
+            [
+              200.32467651367188,
+              269.18450927734375
+            ],
+            [
+              148.42251586914062,
+              269.18450927734375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "667c1c14ef42760673d2acfd2f38874266459da62f88062509baffda5b81924d"
+      },
+      "inference_ms": 33.57
+    }
+  },
+  {
+    "frame": "0023",
+    "split": "train",
+    "best_iou": 0.8597529291637612,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2525660991668701,
+          "bbox_xyxy_px": [
+            148.48336791992188,
+            237.90496826171875,
+            200.32485961914062,
+            269.55218505859375
+          ],
+          "center_uv": [
+            174.40411376953125,
+            253.72857666015625
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.48336791992188,
+        237.90496826171875,
+        200.32485961914062,
+        269.55218505859375
+      ],
+      "cup_center_uv": [
+        174.40411376953125,
+        253.72857666015625
+      ],
+      "visible_cup_center_uv": [
+        174.40411376953125,
+        253.72857666015625
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2525660991668701,
+          "bbox_xyxy_px": [
+            148.48336791992188,
+            237.90496826171875,
+            200.32485961914062,
+            269.55218505859375
+          ],
+          "center_uv": [
+            174.40411376953125,
+            253.72857666015625
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.48336791992188,
+              237.90496826171875
+            ],
+            [
+              200.32485961914062,
+              237.90496826171875
+            ],
+            [
+              200.32485961914062,
+              269.55218505859375
+            ],
+            [
+              148.48336791992188,
+              269.55218505859375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "81483288ad828cc42536d35295f932fc088cafdfbadd10aa5867f2fcd0a349a5"
+      },
+      "inference_ms": 34.02
+    }
+  },
+  {
+    "frame": "0024",
+    "split": "train",
+    "best_iou": 0.83188233016593,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.25594860315322876,
+          "bbox_xyxy_px": [
+            148.36175537109375,
+            237.65084838867188,
+            200.27252197265625,
+            269.2232360839844
+          ],
+          "center_uv": [
+            174.317138671875,
+            253.43704223632812
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.36175537109375,
+        237.65084838867188,
+        200.27252197265625,
+        269.2232360839844
+      ],
+      "cup_center_uv": [
+        174.317138671875,
+        253.43704223632812
+      ],
+      "visible_cup_center_uv": [
+        174.317138671875,
+        253.43704223632812
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.25594860315322876,
+          "bbox_xyxy_px": [
+            148.36175537109375,
+            237.65084838867188,
+            200.27252197265625,
+            269.2232360839844
+          ],
+          "center_uv": [
+            174.317138671875,
+            253.43704223632812
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.36175537109375,
+              237.65084838867188
+            ],
+            [
+              200.27252197265625,
+              237.65084838867188
+            ],
+            [
+              200.27252197265625,
+              269.2232360839844
+            ],
+            [
+              148.36175537109375,
+              269.2232360839844
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "e09325bd9a2641169167b398a1f9ac94a4a36228d33697df293c2525ace84631"
+      },
+      "inference_ms": 35.12
+    }
+  },
+  {
+    "frame": "0025",
+    "split": "train",
+    "best_iou": 0.8824079796372428,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2779395580291748,
+          "bbox_xyxy_px": [
+            148.37930297851562,
+            237.80996704101562,
+            200.44198608398438,
+            268.9212951660156
+          ],
+          "center_uv": [
+            174.41064453125,
+            253.36563110351562
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.37930297851562,
+        237.80996704101562,
+        200.44198608398438,
+        268.9212951660156
+      ],
+      "cup_center_uv": [
+        174.41064453125,
+        253.36563110351562
+      ],
+      "visible_cup_center_uv": [
+        174.41064453125,
+        253.36563110351562
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2779395580291748,
+          "bbox_xyxy_px": [
+            148.37930297851562,
+            237.80996704101562,
+            200.44198608398438,
+            268.9212951660156
+          ],
+          "center_uv": [
+            174.41064453125,
+            253.36563110351562
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.37930297851562,
+              237.80996704101562
+            ],
+            [
+              200.44198608398438,
+              237.80996704101562
+            ],
+            [
+              200.44198608398438,
+              268.9212951660156
+            ],
+            [
+              148.37930297851562,
+              268.9212951660156
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "fb73d935ad93c57cd2ae8f9bf1da68788c0c3fc5b82e37d4b53c1187370db8dc"
+      },
+      "inference_ms": 35.49
+    }
+  },
+  {
+    "frame": "0026",
+    "split": "train",
+    "best_iou": 0.8894396432025816,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.27329397201538086,
+          "bbox_xyxy_px": [
+            148.40353393554688,
+            237.95904541015625,
+            200.38937377929688,
+            269.10211181640625
+          ],
+          "center_uv": [
+            174.39645385742188,
+            253.53057861328125
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.40353393554688,
+        237.95904541015625,
+        200.38937377929688,
+        269.10211181640625
+      ],
+      "cup_center_uv": [
+        174.39645385742188,
+        253.53057861328125
+      ],
+      "visible_cup_center_uv": [
+        174.39645385742188,
+        253.53057861328125
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.27329397201538086,
+          "bbox_xyxy_px": [
+            148.40353393554688,
+            237.95904541015625,
+            200.38937377929688,
+            269.10211181640625
+          ],
+          "center_uv": [
+            174.39645385742188,
+            253.53057861328125
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.40353393554688,
+              237.95904541015625
+            ],
+            [
+              200.38937377929688,
+              237.95904541015625
+            ],
+            [
+              200.38937377929688,
+              269.10211181640625
+            ],
+            [
+              148.40353393554688,
+              269.10211181640625
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "e006ce22c5a9ad9051639b3c04e4ffeaf5d3bf3e7987190079cfe9eae0108a2a"
+      },
+      "inference_ms": 35.59
+    }
+  },
+  {
+    "frame": "0027",
+    "split": "train",
+    "best_iou": 0.9274565872025582,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2921069860458374,
+          "bbox_xyxy_px": [
+            148.3201904296875,
+            237.61737060546875,
+            200.34909057617188,
+            269.09417724609375
+          ],
+          "center_uv": [
+            174.3346405029297,
+            253.35577392578125
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.3201904296875,
+        237.61737060546875,
+        200.34909057617188,
+        269.09417724609375
+      ],
+      "cup_center_uv": [
+        174.3346405029297,
+        253.35577392578125
+      ],
+      "visible_cup_center_uv": [
+        174.3346405029297,
+        253.35577392578125
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2921069860458374,
+          "bbox_xyxy_px": [
+            148.3201904296875,
+            237.61737060546875,
+            200.34909057617188,
+            269.09417724609375
+          ],
+          "center_uv": [
+            174.3346405029297,
+            253.35577392578125
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.3201904296875,
+              237.61737060546875
+            ],
+            [
+              200.34909057617188,
+              237.61737060546875
+            ],
+            [
+              200.34909057617188,
+              269.09417724609375
+            ],
+            [
+              148.3201904296875,
+              269.09417724609375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "aba21a1fdc629a39aeea4e02bc3374c3e10bfbcf8ccdbb9ab8814547cc81e2b8"
+      },
+      "inference_ms": 35.02
+    }
+  },
+  {
+    "frame": "0028",
+    "split": "train",
+    "best_iou": 0.939684426773446,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.30162474513053894,
+          "bbox_xyxy_px": [
+            148.3382568359375,
+            237.90090942382812,
+            200.38055419921875,
+            269.0514221191406
+          ],
+          "center_uv": [
+            174.35940551757812,
+            253.47616577148438
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.3382568359375,
+        237.90090942382812,
+        200.38055419921875,
+        269.0514221191406
+      ],
+      "cup_center_uv": [
+        174.35940551757812,
+        253.47616577148438
+      ],
+      "visible_cup_center_uv": [
+        174.35940551757812,
+        253.47616577148438
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.30162474513053894,
+          "bbox_xyxy_px": [
+            148.3382568359375,
+            237.90090942382812,
+            200.38055419921875,
+            269.0514221191406
+          ],
+          "center_uv": [
+            174.35940551757812,
+            253.47616577148438
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.3382568359375,
+              237.90090942382812
+            ],
+            [
+              200.38055419921875,
+              237.90090942382812
+            ],
+            [
+              200.38055419921875,
+              269.0514221191406
+            ],
+            [
+              148.3382568359375,
+              269.0514221191406
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "6095abcd13aa0150d312e5365ff9afdde2aaf3a36d36ba77cc10e74787353cd7"
+      },
+      "inference_ms": 35.83
+    }
+  },
+  {
+    "frame": "0029",
+    "split": "train",
+    "best_iou": 0.8218115782293605,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.289217084646225,
+          "bbox_xyxy_px": [
+            148.457275390625,
+            237.62017822265625,
+            200.4346923828125,
+            268.91253662109375
+          ],
+          "center_uv": [
+            174.44598388671875,
+            253.266357421875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.457275390625,
+        237.62017822265625,
+        200.4346923828125,
+        268.91253662109375
+      ],
+      "cup_center_uv": [
+        174.44598388671875,
+        253.266357421875
+      ],
+      "visible_cup_center_uv": [
+        174.44598388671875,
+        253.266357421875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.289217084646225,
+          "bbox_xyxy_px": [
+            148.457275390625,
+            237.62017822265625,
+            200.4346923828125,
+            268.91253662109375
+          ],
+          "center_uv": [
+            174.44598388671875,
+            253.266357421875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.457275390625,
+              237.62017822265625
+            ],
+            [
+              200.4346923828125,
+              237.62017822265625
+            ],
+            [
+              200.4346923828125,
+              268.91253662109375
+            ],
+            [
+              148.457275390625,
+              268.91253662109375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "3012585b0debfc96a62447c5d6f138e7e42524600791fcba97614ac0f74c784f"
+      },
+      "inference_ms": 41.56
+    }
+  },
+  {
+    "frame": "0030",
+    "split": "train",
+    "best_iou": 0.8356701633456782,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.27865535020828247,
+          "bbox_xyxy_px": [
+            148.3235321044922,
+            238.0347900390625,
+            200.4661102294922,
+            268.9644775390625
+          ],
+          "center_uv": [
+            174.3948211669922,
+            253.4996337890625
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        148.3235321044922,
+        238.0347900390625,
+        200.4661102294922,
+        268.9644775390625
+      ],
+      "cup_center_uv": [
+        174.3948211669922,
+        253.4996337890625
+      ],
+      "visible_cup_center_uv": [
+        174.3948211669922,
+        253.4996337890625
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.27865535020828247,
+          "bbox_xyxy_px": [
+            148.3235321044922,
+            238.0347900390625,
+            200.4661102294922,
+            268.9644775390625
+          ],
+          "center_uv": [
+            174.3948211669922,
+            253.4996337890625
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              148.3235321044922,
+              238.0347900390625
+            ],
+            [
+              200.4661102294922,
+              238.0347900390625
+            ],
+            [
+              200.4661102294922,
+              268.9644775390625
+            ],
+            [
+              148.3235321044922,
+              268.9644775390625
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "52379de3591492799a83deab1b157877c2cbb10db4c073685846e2660a4612df"
+      },
+      "inference_ms": 34.61
+    }
+  },
+  {
+    "frame": "0031",
+    "split": "train",
+    "best_iou": 0.8997393855553268,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2145071178674698,
+          "bbox_xyxy_px": [
+            129.93072509765625,
+            216.4713134765625,
+            183.04635620117188,
+            250.1143798828125
+          ],
+          "center_uv": [
+            156.48854064941406,
+            233.2928466796875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        129.93072509765625,
+        216.4713134765625,
+        183.04635620117188,
+        250.1143798828125
+      ],
+      "cup_center_uv": [
+        156.48854064941406,
+        233.2928466796875
+      ],
+      "visible_cup_center_uv": [
+        156.48854064941406,
+        233.2928466796875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2145071178674698,
+          "bbox_xyxy_px": [
+            129.93072509765625,
+            216.4713134765625,
+            183.04635620117188,
+            250.1143798828125
+          ],
+          "center_uv": [
+            156.48854064941406,
+            233.2928466796875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              129.93072509765625,
+              216.4713134765625
+            ],
+            [
+              183.04635620117188,
+              216.4713134765625
+            ],
+            [
+              183.04635620117188,
+              250.1143798828125
+            ],
+            [
+              129.93072509765625,
+              250.1143798828125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "59ffa07a00b44d66deae41a397930ce542eaa51a68c9534e3174a3c6d3cf91fe"
+      },
+      "inference_ms": 39.4
+    }
+  },
+  {
+    "frame": "0032",
+    "split": "train",
+    "best_iou": 0.893635387311466,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.1796206831932068,
+          "bbox_xyxy_px": [
+            100.05482482910156,
+            234.32473754882812,
+            155.029052734375,
+            269.6980895996094
+          ],
+          "center_uv": [
+            127.54193878173828,
+            252.01141357421875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        100.05482482910156,
+        234.32473754882812,
+        155.029052734375,
+        269.6980895996094
+      ],
+      "cup_center_uv": [
+        127.54193878173828,
+        252.01141357421875
+      ],
+      "visible_cup_center_uv": [
+        127.54193878173828,
+        252.01141357421875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.1796206831932068,
+          "bbox_xyxy_px": [
+            100.05482482910156,
+            234.32473754882812,
+            155.029052734375,
+            269.6980895996094
+          ],
+          "center_uv": [
+            127.54193878173828,
+            252.01141357421875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              100.05482482910156,
+              234.32473754882812
+            ],
+            [
+              155.029052734375,
+              234.32473754882812
+            ],
+            [
+              155.029052734375,
+              269.6980895996094
+            ],
+            [
+              100.05482482910156,
+              269.6980895996094
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "857a8a137fb804d8bdcd75d0623efd7c7542d09656cf3200c26197f0f89a80ef"
+      },
+      "inference_ms": 35.73
+    }
+  },
+  {
+    "frame": "0033",
+    "split": "train",
+    "best_iou": 0.8876749375074857,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.14723938703536987,
+          "bbox_xyxy_px": [
+            230.17202758789062,
+            179.98626708984375,
+            272.4532775878906,
+            207.08331298828125
+          ],
+          "center_uv": [
+            251.31265258789062,
+            193.5347900390625
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        230.17202758789062,
+        179.98626708984375,
+        272.4532775878906,
+        207.08331298828125
+      ],
+      "cup_center_uv": [
+        251.31265258789062,
+        193.5347900390625
+      ],
+      "visible_cup_center_uv": [
+        251.31265258789062,
+        193.5347900390625
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.14723938703536987,
+          "bbox_xyxy_px": [
+            230.17202758789062,
+            179.98626708984375,
+            272.4532775878906,
+            207.08331298828125
+          ],
+          "center_uv": [
+            251.31265258789062,
+            193.5347900390625
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              230.17202758789062,
+              179.98626708984375
+            ],
+            [
+              272.4532775878906,
+              179.98626708984375
+            ],
+            [
+              272.4532775878906,
+              207.08331298828125
+            ],
+            [
+              230.17202758789062,
+              207.08331298828125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "bccb142ec1c1e98edb29dd139ff6427a6469e26f1ac876b0e412d74fdd68f869"
+      },
+      "inference_ms": 35.05
+    }
+  },
+  {
+    "frame": "0034",
+    "split": "train",
+    "best_iou": 0.8695659852157578,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.25193580985069275,
+          "bbox_xyxy_px": [
+            55.0766716003418,
+            205.49176025390625,
+            114.96830749511719,
+            244.016845703125
+          ],
+          "center_uv": [
+            85.02248954772949,
+            224.75430297851562
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        55.0766716003418,
+        205.49176025390625,
+        114.96830749511719,
+        244.016845703125
+      ],
+      "cup_center_uv": [
+        85.02248954772949,
+        224.75430297851562
+      ],
+      "visible_cup_center_uv": [
+        85.02248954772949,
+        224.75430297851562
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.25193580985069275,
+          "bbox_xyxy_px": [
+            55.0766716003418,
+            205.49176025390625,
+            114.96830749511719,
+            244.016845703125
+          ],
+          "center_uv": [
+            85.02248954772949,
+            224.75430297851562
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              55.0766716003418,
+              205.49176025390625
+            ],
+            [
+              114.96830749511719,
+              205.49176025390625
+            ],
+            [
+              114.96830749511719,
+              244.016845703125
+            ],
+            [
+              55.0766716003418,
+              244.016845703125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "182d5be35e1251387368fc25f7cb7cadbde84d4d8de56884ff14ff32310ca656"
+      },
+      "inference_ms": 34.91
+    }
+  },
+  {
+    "frame": "0035",
+    "split": "train",
+    "best_iou": 0.9118067233111261,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2262343317270279,
+          "bbox_xyxy_px": [
+            70.71913146972656,
+            204.948486328125,
+            127.43870544433594,
+            241.3997802734375
+          ],
+          "center_uv": [
+            99.07891845703125,
+            223.17413330078125
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        70.71913146972656,
+        204.948486328125,
+        127.43870544433594,
+        241.3997802734375
+      ],
+      "cup_center_uv": [
+        99.07891845703125,
+        223.17413330078125
+      ],
+      "visible_cup_center_uv": [
+        99.07891845703125,
+        223.17413330078125
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2262343317270279,
+          "bbox_xyxy_px": [
+            70.71913146972656,
+            204.948486328125,
+            127.43870544433594,
+            241.3997802734375
+          ],
+          "center_uv": [
+            99.07891845703125,
+            223.17413330078125
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              70.71913146972656,
+              204.948486328125
+            ],
+            [
+              127.43870544433594,
+              204.948486328125
+            ],
+            [
+              127.43870544433594,
+              241.3997802734375
+            ],
+            [
+              70.71913146972656,
+              241.3997802734375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "82f366decbf3198b82613e5feb659747cc43c9d0742cbe8b296beba9c09a5d4b"
+      },
+      "inference_ms": 37.81
+    }
+  },
+  {
+    "frame": "0036",
+    "split": "train",
+    "best_iou": 0.8743902020925042,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.17332087457180023,
+          "bbox_xyxy_px": [
+            88.867431640625,
+            210.77597045898438,
+            144.77139282226562,
+            249.04037475585938
+          ],
+          "center_uv": [
+            116.81941223144531,
+            229.90817260742188
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        88.867431640625,
+        210.77597045898438,
+        144.77139282226562,
+        249.04037475585938
+      ],
+      "cup_center_uv": [
+        116.81941223144531,
+        229.90817260742188
+      ],
+      "visible_cup_center_uv": [
+        116.81941223144531,
+        229.90817260742188
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.17332087457180023,
+          "bbox_xyxy_px": [
+            88.867431640625,
+            210.77597045898438,
+            144.77139282226562,
+            249.04037475585938
+          ],
+          "center_uv": [
+            116.81941223144531,
+            229.90817260742188
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              88.867431640625,
+              210.77597045898438
+            ],
+            [
+              144.77139282226562,
+              210.77597045898438
+            ],
+            [
+              144.77139282226562,
+              249.04037475585938
+            ],
+            [
+              88.867431640625,
+              249.04037475585938
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "b222b2422506ec6fe6d9654e3ee3091e18df98b47242e1966553cd3f60c14de3"
+      },
+      "inference_ms": 33.98
+    }
+  },
+  {
+    "frame": "0037",
+    "split": "train",
+    "best_iou": 0.8631501079400286,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.3051956593990326,
+          "bbox_xyxy_px": [
+            137.68167114257812,
+            218.8492431640625,
+            188.61148071289062,
+            252.5037841796875
+          ],
+          "center_uv": [
+            163.14657592773438,
+            235.676513671875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        137.68167114257812,
+        218.8492431640625,
+        188.61148071289062,
+        252.5037841796875
+      ],
+      "cup_center_uv": [
+        163.14657592773438,
+        235.676513671875
+      ],
+      "visible_cup_center_uv": [
+        163.14657592773438,
+        235.676513671875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.3051956593990326,
+          "bbox_xyxy_px": [
+            137.68167114257812,
+            218.8492431640625,
+            188.61148071289062,
+            252.5037841796875
+          ],
+          "center_uv": [
+            163.14657592773438,
+            235.676513671875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              137.68167114257812,
+              218.8492431640625
+            ],
+            [
+              188.61148071289062,
+              218.8492431640625
+            ],
+            [
+              188.61148071289062,
+              252.5037841796875
+            ],
+            [
+              137.68167114257812,
+              252.5037841796875
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "d3dca7f7be1c9f9ee72938679368979ccacd9db7269408528bd0f57ad5183452"
+      },
+      "inference_ms": 35.61
+    }
+  },
+  {
+    "frame": "0038",
+    "split": "train",
+    "best_iou": 0.8795003184007173,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.21867939829826355,
+          "bbox_xyxy_px": [
+            197.23304748535156,
+            181.77642822265625,
+            241.6311798095703,
+            211.01434326171875
+          ],
+          "center_uv": [
+            219.43211364746094,
+            196.3953857421875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        197.23304748535156,
+        181.77642822265625,
+        241.6311798095703,
+        211.01434326171875
+      ],
+      "cup_center_uv": [
+        219.43211364746094,
+        196.3953857421875
+      ],
+      "visible_cup_center_uv": [
+        219.43211364746094,
+        196.3953857421875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.21867939829826355,
+          "bbox_xyxy_px": [
+            197.23304748535156,
+            181.77642822265625,
+            241.6311798095703,
+            211.01434326171875
+          ],
+          "center_uv": [
+            219.43211364746094,
+            196.3953857421875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              197.23304748535156,
+              181.77642822265625
+            ],
+            [
+              241.6311798095703,
+              181.77642822265625
+            ],
+            [
+              241.6311798095703,
+              211.01434326171875
+            ],
+            [
+              197.23304748535156,
+              211.01434326171875
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "a5da5de08de9eebcde1b1be6f938b56fc23d4660ddd5ca0899d552a3185a0309"
+      },
+      "inference_ms": 34.36
+    }
+  },
+  {
+    "frame": "0039",
+    "split": "train",
+    "best_iou": 0.9553896138085889,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.1642138808965683,
+          "bbox_xyxy_px": [
+            213.1287841796875,
+            205.74932861328125,
+            258.68585205078125,
+            233.24676513671875
+          ],
+          "center_uv": [
+            235.90731811523438,
+            219.498046875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        213.1287841796875,
+        205.74932861328125,
+        258.68585205078125,
+        233.24676513671875
+      ],
+      "cup_center_uv": [
+        235.90731811523438,
+        219.498046875
+      ],
+      "visible_cup_center_uv": [
+        235.90731811523438,
+        219.498046875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.1642138808965683,
+          "bbox_xyxy_px": [
+            213.1287841796875,
+            205.74932861328125,
+            258.68585205078125,
+            233.24676513671875
+          ],
+          "center_uv": [
+            235.90731811523438,
+            219.498046875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              213.1287841796875,
+              205.74932861328125
+            ],
+            [
+              258.68585205078125,
+              205.74932861328125
+            ],
+            [
+              258.68585205078125,
+              233.24676513671875
+            ],
+            [
+              213.1287841796875,
+              233.24676513671875
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "a63e01736603445822411285f96d815edf2bd6163d1539934af2f9237e845d05"
+      },
+      "inference_ms": 42.31
+    }
+  },
+  {
+    "frame": "0040",
+    "split": "train",
+    "best_iou": 0.8574657711009092,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.08700592070817947,
+          "bbox_xyxy_px": [
+            308.46783447265625,
+            211.0728759765625,
+            349.6376953125,
+            235.995849609375
+          ],
+          "center_uv": [
+            329.0527648925781,
+            223.53436279296875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        308.46783447265625,
+        211.0728759765625,
+        349.6376953125,
+        235.995849609375
+      ],
+      "cup_center_uv": [
+        329.0527648925781,
+        223.53436279296875
+      ],
+      "visible_cup_center_uv": [
+        329.0527648925781,
+        223.53436279296875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.08700592070817947,
+          "bbox_xyxy_px": [
+            308.46783447265625,
+            211.0728759765625,
+            349.6376953125,
+            235.995849609375
+          ],
+          "center_uv": [
+            329.0527648925781,
+            223.53436279296875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              308.46783447265625,
+              211.0728759765625
+            ],
+            [
+              349.6376953125,
+              211.0728759765625
+            ],
+            [
+              349.6376953125,
+              235.995849609375
+            ],
+            [
+              308.46783447265625,
+              235.995849609375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "4644c0858ef59239ecadd17ca26521fb841aeef9c91efe7c1f809276a4a6e57c"
+      },
+      "inference_ms": 38.54
+    }
+  },
+  {
+    "frame": "0041",
+    "split": "val",
+    "best_iou": 0.9153158640939593,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2939751148223877,
+          "bbox_xyxy_px": [
+            88.08657836914062,
+            208.2161865234375,
+            141.94723510742188,
+            244.66754150390625
+          ],
+          "center_uv": [
+            115.01690673828125,
+            226.44186401367188
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        88.08657836914062,
+        208.2161865234375,
+        141.94723510742188,
+        244.66754150390625
+      ],
+      "cup_center_uv": [
+        115.01690673828125,
+        226.44186401367188
+      ],
+      "visible_cup_center_uv": [
+        115.01690673828125,
+        226.44186401367188
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2939751148223877,
+          "bbox_xyxy_px": [
+            88.08657836914062,
+            208.2161865234375,
+            141.94723510742188,
+            244.66754150390625
+          ],
+          "center_uv": [
+            115.01690673828125,
+            226.44186401367188
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              88.08657836914062,
+              208.2161865234375
+            ],
+            [
+              141.94723510742188,
+              208.2161865234375
+            ],
+            [
+              141.94723510742188,
+              244.66754150390625
+            ],
+            [
+              88.08657836914062,
+              244.66754150390625
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "6353d25908b0e9bf61be34463359092e0a5fa7f4862460a39ecb777eee891bff"
+      },
+      "inference_ms": 40.67
+    }
+  },
+  {
+    "frame": "0042",
+    "split": "val",
+    "best_iou": 0.9709997567030814,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.15532705187797546,
+          "bbox_xyxy_px": [
+            222.84814453125,
+            212.552490234375,
+            268.79925537109375,
+            239.20025634765625
+          ],
+          "center_uv": [
+            245.82369995117188,
+            225.87637329101562
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        222.84814453125,
+        212.552490234375,
+        268.79925537109375,
+        239.20025634765625
+      ],
+      "cup_center_uv": [
+        245.82369995117188,
+        225.87637329101562
+      ],
+      "visible_cup_center_uv": [
+        245.82369995117188,
+        225.87637329101562
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.15532705187797546,
+          "bbox_xyxy_px": [
+            222.84814453125,
+            212.552490234375,
+            268.79925537109375,
+            239.20025634765625
+          ],
+          "center_uv": [
+            245.82369995117188,
+            225.87637329101562
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              222.84814453125,
+              212.552490234375
+            ],
+            [
+              268.79925537109375,
+              212.552490234375
+            ],
+            [
+              268.79925537109375,
+              239.20025634765625
+            ],
+            [
+              222.84814453125,
+              239.20025634765625
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "fefbcb4b7332242393261fb308a4500292227a75c8492677ddff0309529e0a12"
+      },
+      "inference_ms": 34.97
+    }
+  },
+  {
+    "frame": "0043",
+    "split": "val",
+    "best_iou": 0.8826028102328964,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.1269490271806717,
+          "bbox_xyxy_px": [
+            220.75091552734375,
+            221.30352783203125,
+            268.1749572753906,
+            249.51953125
+          ],
+          "center_uv": [
+            244.4629364013672,
+            235.41152954101562
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        220.75091552734375,
+        221.30352783203125,
+        268.1749572753906,
+        249.51953125
+      ],
+      "cup_center_uv": [
+        244.4629364013672,
+        235.41152954101562
+      ],
+      "visible_cup_center_uv": [
+        244.4629364013672,
+        235.41152954101562
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.1269490271806717,
+          "bbox_xyxy_px": [
+            220.75091552734375,
+            221.30352783203125,
+            268.1749572753906,
+            249.51953125
+          ],
+          "center_uv": [
+            244.4629364013672,
+            235.41152954101562
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              220.75091552734375,
+              221.30352783203125
+            ],
+            [
+              268.1749572753906,
+              221.30352783203125
+            ],
+            [
+              268.1749572753906,
+              249.51953125
+            ],
+            [
+              220.75091552734375,
+              249.51953125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "c1728c2e871c99370c74f4482a6a69797aa098088008326b7949941efb384555"
+      },
+      "inference_ms": 35.99
+    }
+  },
+  {
+    "frame": "0044",
+    "split": "val",
+    "best_iou": 0.9033847604943436,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.25049734115600586,
+          "bbox_xyxy_px": [
+            101.0933609008789,
+            242.66122436523438,
+            155.10751342773438,
+            278.5013122558594
+          ],
+          "center_uv": [
+            128.10043716430664,
+            260.5812683105469
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        101.0933609008789,
+        242.66122436523438,
+        155.10751342773438,
+        278.5013122558594
+      ],
+      "cup_center_uv": [
+        128.10043716430664,
+        260.5812683105469
+      ],
+      "visible_cup_center_uv": [
+        128.10043716430664,
+        260.5812683105469
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.25049734115600586,
+          "bbox_xyxy_px": [
+            101.0933609008789,
+            242.66122436523438,
+            155.10751342773438,
+            278.5013122558594
+          ],
+          "center_uv": [
+            128.10043716430664,
+            260.5812683105469
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              101.0933609008789,
+              242.66122436523438
+            ],
+            [
+              155.10751342773438,
+              242.66122436523438
+            ],
+            [
+              155.10751342773438,
+              278.5013122558594
+            ],
+            [
+              101.0933609008789,
+              278.5013122558594
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "3d21734998f8954e0fa9145527501ba26292b98d86ff0e934773d20e018d2530"
+      },
+      "inference_ms": 34.99
+    }
+  },
+  {
+    "frame": "0045",
+    "split": "val",
+    "best_iou": 0.8602966137655426,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.18356725573539734,
+          "bbox_xyxy_px": [
+            156.13995361328125,
+            250.94927978515625,
+            207.66632080078125,
+            281.18096923828125
+          ],
+          "center_uv": [
+            181.90313720703125,
+            266.06512451171875
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        156.13995361328125,
+        250.94927978515625,
+        207.66632080078125,
+        281.18096923828125
+      ],
+      "cup_center_uv": [
+        181.90313720703125,
+        266.06512451171875
+      ],
+      "visible_cup_center_uv": [
+        181.90313720703125,
+        266.06512451171875
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.18356725573539734,
+          "bbox_xyxy_px": [
+            156.13995361328125,
+            250.94927978515625,
+            207.66632080078125,
+            281.18096923828125
+          ],
+          "center_uv": [
+            181.90313720703125,
+            266.06512451171875
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              156.13995361328125,
+              250.94927978515625
+            ],
+            [
+              207.66632080078125,
+              250.94927978515625
+            ],
+            [
+              207.66632080078125,
+              281.18096923828125
+            ],
+            [
+              156.13995361328125,
+              281.18096923828125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "7e8f670efddbe1a5791040fd8dd0a836b4e49d920258fa18578814395fff60e7"
+      },
+      "inference_ms": 35.03
+    }
+  },
+  {
+    "frame": "0046",
+    "split": "val",
+    "best_iou": 0.8557820591980585,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.1590966135263443,
+          "bbox_xyxy_px": [
+            138.32015991210938,
+            275.98321533203125,
+            186.96743774414062,
+            305.7950439453125
+          ],
+          "center_uv": [
+            162.643798828125,
+            290.8891296386719
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        138.32015991210938,
+        275.98321533203125,
+        186.96743774414062,
+        305.7950439453125
+      ],
+      "cup_center_uv": [
+        162.643798828125,
+        290.8891296386719
+      ],
+      "visible_cup_center_uv": [
+        162.643798828125,
+        290.8891296386719
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.1590966135263443,
+          "bbox_xyxy_px": [
+            138.32015991210938,
+            275.98321533203125,
+            186.96743774414062,
+            305.7950439453125
+          ],
+          "center_uv": [
+            162.643798828125,
+            290.8891296386719
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              138.32015991210938,
+              275.98321533203125
+            ],
+            [
+              186.96743774414062,
+              275.98321533203125
+            ],
+            [
+              186.96743774414062,
+              305.7950439453125
+            ],
+            [
+              138.32015991210938,
+              305.7950439453125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "573d1187b743a055b30046927e7d6bfbc906fe7d5888a4f6e0d3315b4058cb83"
+      },
+      "inference_ms": 36.11
+    }
+  },
+  {
+    "frame": "0047",
+    "split": "val",
+    "best_iou": 0.8902008600894632,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2239360809326172,
+          "bbox_xyxy_px": [
+            118.29391479492188,
+            204.766845703125,
+            170.1781005859375,
+            237.69921875
+          ],
+          "center_uv": [
+            144.2360076904297,
+            221.2330322265625
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        118.29391479492188,
+        204.766845703125,
+        170.1781005859375,
+        237.69921875
+      ],
+      "cup_center_uv": [
+        144.2360076904297,
+        221.2330322265625
+      ],
+      "visible_cup_center_uv": [
+        144.2360076904297,
+        221.2330322265625
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2239360809326172,
+          "bbox_xyxy_px": [
+            118.29391479492188,
+            204.766845703125,
+            170.1781005859375,
+            237.69921875
+          ],
+          "center_uv": [
+            144.2360076904297,
+            221.2330322265625
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              118.29391479492188,
+              204.766845703125
+            ],
+            [
+              170.1781005859375,
+              204.766845703125
+            ],
+            [
+              170.1781005859375,
+              237.69921875
+            ],
+            [
+              118.29391479492188,
+              237.69921875
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "53d06cec70aac2cb7f27147eb5d7970f74f4b1ec0de3722dbbb3b070ce204817"
+      },
+      "inference_ms": 35.96
+    }
+  },
+  {
+    "frame": "0048",
+    "split": "val",
+    "best_iou": 0.8288086734530631,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.2818932831287384,
+          "bbox_xyxy_px": [
+            107.6909408569336,
+            202.2813720703125,
+            161.38955688476562,
+            238.9990234375
+          ],
+          "center_uv": [
+            134.5402488708496,
+            220.64019775390625
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        107.6909408569336,
+        202.2813720703125,
+        161.38955688476562,
+        238.9990234375
+      ],
+      "cup_center_uv": [
+        134.5402488708496,
+        220.64019775390625
+      ],
+      "visible_cup_center_uv": [
+        134.5402488708496,
+        220.64019775390625
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.2818932831287384,
+          "bbox_xyxy_px": [
+            107.6909408569336,
+            202.2813720703125,
+            161.38955688476562,
+            238.9990234375
+          ],
+          "center_uv": [
+            134.5402488708496,
+            220.64019775390625
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              107.6909408569336,
+              202.2813720703125
+            ],
+            [
+              161.38955688476562,
+              202.2813720703125
+            ],
+            [
+              161.38955688476562,
+              238.9990234375
+            ],
+            [
+              107.6909408569336,
+              238.9990234375
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "cbf5c97fa9be9bddeef539d362bc560f673cbc4e2a12c902a2a749f7f85a269a"
+      },
+      "inference_ms": 34.88
+    }
+  },
+  {
+    "frame": "0049",
+    "split": "val",
+    "best_iou": 0.8173182937595587,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.1732693612575531,
+          "bbox_xyxy_px": [
+            228.6094970703125,
+            162.049560546875,
+            270.0041809082031,
+            189.844482421875
+          ],
+          "center_uv": [
+            249.3068389892578,
+            175.947021484375
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        228.6094970703125,
+        162.049560546875,
+        270.0041809082031,
+        189.844482421875
+      ],
+      "cup_center_uv": [
+        249.3068389892578,
+        175.947021484375
+      ],
+      "visible_cup_center_uv": [
+        249.3068389892578,
+        175.947021484375
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.1732693612575531,
+          "bbox_xyxy_px": [
+            228.6094970703125,
+            162.049560546875,
+            270.0041809082031,
+            189.844482421875
+          ],
+          "center_uv": [
+            249.3068389892578,
+            175.947021484375
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              228.6094970703125,
+              162.049560546875
+            ],
+            [
+              270.0041809082031,
+              162.049560546875
+            ],
+            [
+              270.0041809082031,
+              189.844482421875
+            ],
+            [
+              228.6094970703125,
+              189.844482421875
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "e949344fd9b1103ab3a094a5f1c927ed48f85c964f99e30cd41bc429526a0a2a"
+      },
+      "inference_ms": 35.38
+    }
+  },
+  {
+    "frame": "0050",
+    "split": "val",
+    "best_iou": 0.8013968340845025,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "result": {
+      "ok": true,
+      "recognition_revision": "v7-direct-exposed-cup-yolo11n-20261008",
+      "algorithm": "direct_yolo_detection",
+      "requires_station_registration": false,
+      "camera_serial": "CP2L863000RG",
+      "candidate_valid_2d": true,
+      "stable_2d": false,
+      "detections": [
+        {
+          "label": "exposed_cup",
+          "confidence": 0.1931619495153427,
+          "bbox_xyxy_px": [
+            207.5047149658203,
+            189.49237060546875,
+            252.65931701660156,
+            220.55694580078125
+          ],
+          "center_uv": [
+            230.08201599121094,
+            205.024658203125
+          ]
+        }
+      ],
+      "cup_bbox_xyxy_px": [
+        207.5047149658203,
+        189.49237060546875,
+        252.65931701660156,
+        220.55694580078125
+      ],
+      "cup_center_uv": [
+        230.08201599121094,
+        205.024658203125
+      ],
+      "visible_cup_center_uv": [
+        230.08201599121094,
+        205.024658203125
+      ],
+      "coordinate_frame": "color_image_pixels",
+      "visible_lower_rim_uv": null,
+      "camera_surface_xyz_m": null,
+      "robot_surface_xyz_m": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "objects": {
+        "exposed_cup": {
+          "label": "exposed_cup",
+          "confidence": 0.1931619495153427,
+          "bbox_xyxy_px": [
+            207.5047149658203,
+            189.49237060546875,
+            252.65931701660156,
+            220.55694580078125
+          ],
+          "center_uv": [
+            230.08201599121094,
+            205.024658203125
+          ],
+          "detected": true,
+          "polygon_px": [
+            [
+              207.5047149658203,
+              189.49237060546875
+            ],
+            [
+              252.65931701660156,
+              189.49237060546875
+            ],
+            [
+              252.65931701660156,
+              220.55694580078125
+            ],
+            [
+              207.5047149658203,
+              220.55694580078125
+            ]
+          ],
+          "method": "yolo11n_user_manual_labels"
+        }
+      },
+      "reasons": [],
+      "confidence_threshold": 0.05,
+      "implementation": {
+        "weights_sha256": "ca5276a1acebe1bde8626ac0693201f5a1232ef3c3d8e395b70758625f58610c",
+        "recognize_sha256": "192f7f7adc9ed5b42bd13e4af338c4ae027742bca67c7d6761a658dc0de8556d",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "coordinate_semantics": "bbox center in original RGB pixels; not a measured rim or 3D grasp",
+      "calibration_status": "no_verified_aligned_depth_or_robot_extrinsics",
+      "input_diagnostics": {
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "decoded_bgr_sha256": "c024bbe03adc4503f59836fa260ccc8e2ab1471ac17b7fa7fcd6756c95d8d530"
+      },
+      "inference_ms": 37.54
+    }
+  }
+]

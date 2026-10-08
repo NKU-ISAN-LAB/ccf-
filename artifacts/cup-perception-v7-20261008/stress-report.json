@@ -1,0 +1,1502 @@
+[
+  {
+    "frame": "0041",
+    "kind": "machine_context_removed",
+    "best_iou": 0.9237621530602821,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.28465667366981506,
+        "bbox_xyxy_px": [
+          86.84141540527344,
+          207.30340576171875,
+          141.07711791992188,
+          244.14910888671875
+        ],
+        "center_uv": [
+          113.95926666259766,
+          225.72625732421875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0041",
+    "kind": "dim",
+    "best_iou": 0.9122746221224727,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.29326847195625305,
+        "bbox_xyxy_px": [
+          87.96102905273438,
+          207.9781494140625,
+          141.87567138671875,
+          244.69384765625
+        ],
+        "center_uv": [
+          114.91835021972656,
+          226.33599853515625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0041",
+    "kind": "bright",
+    "best_iou": 0.9156928997287332,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.2851307690143585,
+        "bbox_xyxy_px": [
+          88.22929382324219,
+          208.3553466796875,
+          142.01336669921875,
+          244.6424560546875
+        ],
+        "center_uv": [
+          115.12133026123047,
+          226.4989013671875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0041",
+    "kind": "blur",
+    "best_iou": 0.9103082730367427,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.29165223240852356,
+        "bbox_xyxy_px": [
+          88.6966552734375,
+          208.31961059570312,
+          141.81227111816406,
+          244.61880493164062
+        ],
+        "center_uv": [
+          115.25446319580078,
+          226.46920776367188
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0041",
+    "kind": "jpeg65",
+    "best_iou": 0.8923277284944199,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.23218481242656708,
+        "bbox_xyxy_px": [
+          88.22607421875,
+          208.97879028320312,
+          142.63821411132812,
+          244.58517456054688
+        ],
+        "center_uv": [
+          115.43214416503906,
+          226.781982421875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0041",
+    "kind": "shift",
+    "best_iou": 0.9149168387679797,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.3148180842399597,
+        "bbox_xyxy_px": [
+          100.47236633300781,
+          201.212890625,
+          152.46731567382812,
+          236.6865234375
+        ],
+        "center_uv": [
+          126.46984100341797,
+          218.94970703125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0042",
+    "kind": "machine_context_removed",
+    "best_iou": 0.9379473635407617,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.2565201222896576,
+        "bbox_xyxy_px": [
+          221.7896728515625,
+          213.36309814453125,
+          268.73876953125,
+          238.95843505859375
+        ],
+        "center_uv": [
+          245.26422119140625,
+          226.1607666015625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0042",
+    "kind": "dim",
+    "best_iou": 0.9691558430687174,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.15617689490318298,
+        "bbox_xyxy_px": [
+          222.83889770507812,
+          212.40948486328125,
+          268.6396179199219,
+          239.19561767578125
+        ],
+        "center_uv": [
+          245.7392578125,
+          225.80255126953125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0042",
+    "kind": "bright",
+    "best_iou": 0.9652901206629064,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.15219342708587646,
+        "bbox_xyxy_px": [
+          222.7486572265625,
+          212.54736328125,
+          268.94659423828125,
+          239.20953369140625
+        ],
+        "center_uv": [
+          245.84762573242188,
+          225.87844848632812
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0042",
+    "kind": "blur",
+    "best_iou": 0.9571881874400225,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.15200133621692657,
+        "bbox_xyxy_px": [
+          222.58724975585938,
+          212.1865234375,
+          268.5666809082031,
+          239.2021484375
+        ],
+        "center_uv": [
+          245.57696533203125,
+          225.6943359375
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0042",
+    "kind": "jpeg65",
+    "best_iou": 0.9533360412203143,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.14798171818256378,
+        "bbox_xyxy_px": [
+          222.65414428710938,
+          212.50204467773438,
+          269.3357238769531,
+          239.21884155273438
+        ],
+        "center_uv": [
+          245.99493408203125,
+          225.86044311523438
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0042",
+    "kind": "shift",
+    "best_iou": 0.922428086259075,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.18619416654109955,
+        "bbox_xyxy_px": [
+          236.39999389648438,
+          204.74700927734375,
+          279.8280944824219,
+          232.183837890625
+        ],
+        "center_uv": [
+          258.1140441894531,
+          218.46542358398438
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0043",
+    "kind": "machine_context_removed",
+    "best_iou": 0.8215574055988393,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.18979284167289734,
+        "bbox_xyxy_px": [
+          220.9608154296875,
+          219.72906494140625,
+          267.67535400390625,
+          250.24700927734375
+        ],
+        "center_uv": [
+          244.31808471679688,
+          234.988037109375
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0043",
+    "kind": "dim",
+    "best_iou": 0.8900832460771113,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.1344226598739624,
+        "bbox_xyxy_px": [
+          220.78756713867188,
+          221.33709716796875,
+          267.9425964355469,
+          249.43560791015625
+        ],
+        "center_uv": [
+          244.36508178710938,
+          235.3863525390625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0043",
+    "kind": "bright",
+    "best_iou": 0.8756234552796437,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.12348289787769318,
+        "bbox_xyxy_px": [
+          220.70138549804688,
+          221.25192260742188,
+          268.3973693847656,
+          249.53067016601562
+        ],
+        "center_uv": [
+          244.54937744140625,
+          235.39129638671875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0043",
+    "kind": "blur",
+    "best_iou": 0.8877429770392679,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.12944237887859344,
+        "bbox_xyxy_px": [
+          220.8033447265625,
+          221.15228271484375,
+          268.0478515625,
+          249.253173828125
+        ],
+        "center_uv": [
+          244.42559814453125,
+          235.20272827148438
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0043",
+    "kind": "jpeg65",
+    "best_iou": 0.8483555050339904,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.11285439133644104,
+        "bbox_xyxy_px": [
+          220.809326171875,
+          220.53509521484375,
+          268.781005859375,
+          249.4891357421875
+        ],
+        "center_uv": [
+          244.795166015625,
+          235.01211547851562
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0043",
+    "kind": "shift",
+    "best_iou": 0.9167474656744006,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.13205905258655548,
+        "bbox_xyxy_px": [
+          233.25799560546875,
+          214.2796630859375,
+          278.2933349609375,
+          242.1868896484375
+        ],
+        "center_uv": [
+          255.77566528320312,
+          228.2332763671875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0044",
+    "kind": "machine_context_removed",
+    "best_iou": 0.918541673336279,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.19790767133235931,
+        "bbox_xyxy_px": [
+          100.260009765625,
+          243.61785888671875,
+          154.68844604492188,
+          277.96514892578125
+        ],
+        "center_uv": [
+          127.47422790527344,
+          260.79150390625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0044",
+    "kind": "dim",
+    "best_iou": 0.9087534633734762,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.2558844983577728,
+        "bbox_xyxy_px": [
+          100.85700988769531,
+          242.69921875,
+          155.17726135253906,
+          278.5616455078125
+        ],
+        "center_uv": [
+          128.0171356201172,
+          260.63043212890625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0044",
+    "kind": "bright",
+    "best_iou": 0.9078295361999035,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.2441948801279068,
+        "bbox_xyxy_px": [
+          100.99197387695312,
+          242.62796020507812,
+          155.05877685546875,
+          278.6119079589844
+        ],
+        "center_uv": [
+          128.02537536621094,
+          260.61993408203125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0044",
+    "kind": "blur",
+    "best_iou": 0.8969459425419102,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.25181135535240173,
+        "bbox_xyxy_px": [
+          100.63189697265625,
+          242.5736083984375,
+          155.00828552246094,
+          277.94140625
+        ],
+        "center_uv": [
+          127.8200912475586,
+          260.25750732421875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0044",
+    "kind": "jpeg65",
+    "best_iou": 0.8826973646030674,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.2050250619649887,
+        "bbox_xyxy_px": [
+          101.23101806640625,
+          242.5107421875,
+          155.6004638671875,
+          279.8765869140625
+        ],
+        "center_uv": [
+          128.41574096679688,
+          261.19366455078125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0044",
+    "kind": "shift",
+    "best_iou": 0.8896441526951449,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.21663375198841095,
+        "bbox_xyxy_px": [
+          113.66780090332031,
+          234.434326171875,
+          167.39573669433594,
+          270.75775146484375
+        ],
+        "center_uv": [
+          140.53176879882812,
+          252.59603881835938
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0045",
+    "kind": "machine_context_removed",
+    "best_iou": 0.9179931418551082,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.14794348180294037,
+        "bbox_xyxy_px": [
+          156.98468017578125,
+          252.35202026367188,
+          206.35638427734375,
+          280.2296447753906
+        ],
+        "center_uv": [
+          181.6705322265625,
+          266.29083251953125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0045",
+    "kind": "dim",
+    "best_iou": 0.8594918597644592,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.18331484496593475,
+        "bbox_xyxy_px": [
+          156.11801147460938,
+          250.9976806640625,
+          207.72711181640625,
+          281.20916748046875
+        ],
+        "center_uv": [
+          181.9225616455078,
+          266.1034240722656
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0045",
+    "kind": "bright",
+    "best_iou": 0.8610606172522823,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.18030919134616852,
+        "bbox_xyxy_px": [
+          156.14617919921875,
+          250.894775390625,
+          207.6114501953125,
+          281.135498046875
+        ],
+        "center_uv": [
+          181.87881469726562,
+          266.01513671875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0045",
+    "kind": "blur",
+    "best_iou": 0.8594882215192079,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.18568424880504608,
+        "bbox_xyxy_px": [
+          155.88674926757812,
+          250.86386108398438,
+          207.51724243164062,
+          281.0629577636719
+        ],
+        "center_uv": [
+          181.70199584960938,
+          265.9634094238281
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0045",
+    "kind": "jpeg65",
+    "best_iou": 0.8426342607612629,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.16437901556491852,
+        "bbox_xyxy_px": [
+          156.17208862304688,
+          250.26962280273438,
+          207.77276611328125,
+          281.0905456542969
+        ],
+        "center_uv": [
+          181.97242736816406,
+          265.6800842285156
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0045",
+    "kind": "shift",
+    "best_iou": 0.9263840696197121,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.15941819548606873,
+        "bbox_xyxy_px": [
+          169.4690704345703,
+          243.27386474609375,
+          218.9730682373047,
+          272.49578857421875
+        ],
+        "center_uv": [
+          194.2210693359375,
+          257.88482666015625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0046",
+    "kind": "machine_context_removed",
+    "best_iou": 0.8136209297624749,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.17867258191108704,
+        "bbox_xyxy_px": [
+          138.27418518066406,
+          277.13702392578125,
+          187.36927795410156,
+          305.98736572265625
+        ],
+        "center_uv": [
+          162.8217315673828,
+          291.56219482421875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0046",
+    "kind": "dim",
+    "best_iou": 0.8502859372164085,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.1614302694797516,
+        "bbox_xyxy_px": [
+          138.228271484375,
+          276.05499267578125,
+          187.1221923828125,
+          305.89825439453125
+        ],
+        "center_uv": [
+          162.67523193359375,
+          290.97662353515625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0046",
+    "kind": "bright",
+    "best_iou": 0.855113532576349,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.1535327434539795,
+        "bbox_xyxy_px": [
+          138.60626220703125,
+          276.03955078125,
+          186.773193359375,
+          305.679443359375
+        ],
+        "center_uv": [
+          162.68972778320312,
+          290.8594970703125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0046",
+    "kind": "blur",
+    "best_iou": 0.8379039254030145,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.15527664124965668,
+        "bbox_xyxy_px": [
+          138.5810546875,
+          276.39398193359375,
+          186.95697021484375,
+          305.86895751953125
+        ],
+        "center_uv": [
+          162.76901245117188,
+          291.1314697265625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0046",
+    "kind": "jpeg65",
+    "best_iou": 0.8656707257800508,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.1462860405445099,
+        "bbox_xyxy_px": [
+          138.37197875976562,
+          274.7328186035156,
+          187.48004150390625,
+          306.3650817871094
+        ],
+        "center_uv": [
+          162.92601013183594,
+          290.5489501953125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0046",
+    "kind": "shift",
+    "best_iou": 0.8420244888289888,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.09048566967248917,
+        "bbox_xyxy_px": [
+          152.4518280029297,
+          267.58905029296875,
+          198.19346618652344,
+          297.70050048828125
+        ],
+        "center_uv": [
+          175.32264709472656,
+          282.644775390625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0047",
+    "kind": "machine_context_removed",
+    "best_iou": 0.8545066990028132,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.32109129428863525,
+        "bbox_xyxy_px": [
+          117.6976547241211,
+          204.31072998046875,
+          170.32687377929688,
+          237.23223876953125
+        ],
+        "center_uv": [
+          144.01226425170898,
+          220.771484375
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0047",
+    "kind": "dim",
+    "best_iou": 0.8919891339393058,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.2339199185371399,
+        "bbox_xyxy_px": [
+          118.17521667480469,
+          204.77459716796875,
+          170.11668395996094,
+          237.798583984375
+        ],
+        "center_uv": [
+          144.1459503173828,
+          221.28659057617188
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0047",
+    "kind": "bright",
+    "best_iou": 0.8830585467542822,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.2222851663827896,
+        "bbox_xyxy_px": [
+          118.16595458984375,
+          204.67193603515625,
+          170.1689453125,
+          237.59576416015625
+        ],
+        "center_uv": [
+          144.16744995117188,
+          221.13385009765625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0047",
+    "kind": "blur",
+    "best_iou": 0.9107901562436312,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.20480915904045105,
+        "bbox_xyxy_px": [
+          118.01846313476562,
+          205.1279296875,
+          169.63827514648438,
+          237.9427490234375
+        ],
+        "center_uv": [
+          143.828369140625,
+          221.53533935546875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0047",
+    "kind": "jpeg65",
+    "best_iou": 0.9021955618446025,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.20621125400066376,
+        "bbox_xyxy_px": [
+          118.09150695800781,
+          205.24295043945312,
+          170.45021057128906,
+          237.98147583007812
+        ],
+        "center_uv": [
+          144.27085876464844,
+          221.61221313476562
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0047",
+    "kind": "shift",
+    "best_iou": 0.8032274958447295,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.31596070528030396,
+        "bbox_xyxy_px": [
+          130.79347229003906,
+          194.47174072265625,
+          184.14942932128906,
+          231.3565673828125
+        ],
+        "center_uv": [
+          157.47145080566406,
+          212.91415405273438
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0048",
+    "kind": "machine_context_removed",
+    "best_iou": 0.9088048734115741,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.24382692575454712,
+        "bbox_xyxy_px": [
+          108.04724884033203,
+          203.8199462890625,
+          160.5133056640625,
+          237.788330078125
+        ],
+        "center_uv": [
+          134.28027725219727,
+          220.80413818359375
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0048",
+    "kind": "dim",
+    "best_iou": 0.8248716901881264,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.284963995218277,
+        "bbox_xyxy_px": [
+          107.55049133300781,
+          202.33291625976562,
+          161.41648864746094,
+          239.11117553710938
+        ],
+        "center_uv": [
+          134.48348999023438,
+          220.7220458984375
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0048",
+    "kind": "bright",
+    "best_iou": 0.8334164027266805,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.27626538276672363,
+        "bbox_xyxy_px": [
+          107.78471374511719,
+          202.26373291015625,
+          161.31993103027344,
+          238.88983154296875
+        ],
+        "center_uv": [
+          134.5523223876953,
+          220.5767822265625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0048",
+    "kind": "blur",
+    "best_iou": 0.8279930922765988,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.25837066769599915,
+        "bbox_xyxy_px": [
+          107.58690643310547,
+          202.3076171875,
+          161.3782958984375,
+          238.998046875
+        ],
+        "center_uv": [
+          134.48260116577148,
+          220.65283203125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0048",
+    "kind": "jpeg65",
+    "best_iou": 0.8262289854601486,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.21183830499649048,
+        "bbox_xyxy_px": [
+          107.96194458007812,
+          202.12908935546875,
+          161.7247314453125,
+          238.91741943359375
+        ],
+        "center_uv": [
+          134.8433380126953,
+          220.52325439453125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0048",
+    "kind": "shift",
+    "best_iou": 0.8924926747205011,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.300983190536499,
+        "bbox_xyxy_px": [
+          121.65919494628906,
+          195.01507568359375,
+          173.9966583251953,
+          229.88824462890625
+        ],
+        "center_uv": [
+          147.8279266357422,
+          212.45166015625
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0049",
+    "kind": "machine_context_removed",
+    "best_iou": 0.8452856871932825,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.2500835955142975,
+        "bbox_xyxy_px": [
+          228.44097900390625,
+          162.86178588867188,
+          270.19024658203125,
+          189.50881958007812
+        ],
+        "center_uv": [
+          249.31561279296875,
+          176.185302734375
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0049",
+    "kind": "dim",
+    "best_iou": 0.8181670100844399,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.17633260786533356,
+        "bbox_xyxy_px": [
+          228.61834716796875,
+          162.064697265625,
+          269.87939453125,
+          189.92071533203125
+        ],
+        "center_uv": [
+          249.24887084960938,
+          175.99270629882812
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0049",
+    "kind": "bright",
+    "best_iou": 0.814418612378992,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.17441928386688232,
+        "bbox_xyxy_px": [
+          228.58993530273438,
+          162.03521728515625,
+          270.08380126953125,
+          189.8624267578125
+        ],
+        "center_uv": [
+          249.3368682861328,
+          175.94882202148438
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0049",
+    "kind": "blur",
+    "best_iou": 0.8151075874912356,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.14935536682605743,
+        "bbox_xyxy_px": [
+          228.6146240234375,
+          162.06053161621094,
+          269.80426025390625,
+          190.069580078125
+        ],
+        "center_uv": [
+          249.20944213867188,
+          176.06505584716797
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0049",
+    "kind": "jpeg65",
+    "best_iou": 0.7963588927569174,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.1294672042131424,
+        "bbox_xyxy_px": [
+          228.746337890625,
+          161.31158447265625,
+          270.0691833496094,
+          189.88763427734375
+        ],
+        "center_uv": [
+          249.4077606201172,
+          175.599609375
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0049",
+    "kind": "shift",
+    "best_iou": 0.8045175288623124,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.1772143691778183,
+        "bbox_xyxy_px": [
+          241.93301391601562,
+          153.37417602539062,
+          283.1150207519531,
+          181.75717163085938
+        ],
+        "center_uv": [
+          262.5240173339844,
+          167.565673828125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0050",
+    "kind": "machine_context_removed",
+    "best_iou": 0.8969597811185288,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.3663000464439392,
+        "bbox_xyxy_px": [
+          208.86221313476562,
+          191.599609375,
+          252.30722045898438,
+          220.41253662109375
+        ],
+        "center_uv": [
+          230.584716796875,
+          206.00607299804688
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0050",
+    "kind": "dim",
+    "best_iou": 0.8083894903739188,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.19474568963050842,
+        "bbox_xyxy_px": [
+          207.7276611328125,
+          189.48834228515625,
+          252.45880126953125,
+          220.57574462890625
+        ],
+        "center_uv": [
+          230.09323120117188,
+          205.03204345703125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0050",
+    "kind": "bright",
+    "best_iou": 0.7956850107047119,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.2013411819934845,
+        "bbox_xyxy_px": [
+          207.25584411621094,
+          189.48867797851562,
+          252.7738494873047,
+          220.52645874023438
+        ],
+        "center_uv": [
+          230.0148468017578,
+          205.007568359375
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0050",
+    "kind": "blur",
+    "best_iou": 0.8190672831258202,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.16670745611190796,
+        "bbox_xyxy_px": [
+          207.76837158203125,
+          189.56317138671875,
+          252.2420654296875,
+          220.42291259765625
+        ],
+        "center_uv": [
+          230.00521850585938,
+          204.9930419921875
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0050",
+    "kind": "jpeg65",
+    "best_iou": 0.7273134515839476,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.16865608096122742,
+        "bbox_xyxy_px": [
+          208.11280822753906,
+          187.76239013671875,
+          253.80897521972656,
+          221.58551025390625
+        ],
+        "center_uv": [
+          230.9608917236328,
+          204.6739501953125
+        ]
+      }
+    ]
+  },
+  {
+    "frame": "0050",
+    "kind": "shift",
+    "best_iou": 0.8248220793357105,
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unique_correct_candidate": true,
+    "detections": [
+      {
+        "label": "exposed_cup",
+        "confidence": 0.21812036633491516,
+        "bbox_xyxy_px": [
+          220.2418212890625,
+          182.22723388671875,
+          265.21954345703125,
+          212.52825927734375
+        ],
+        "center_uv": [
+          242.73068237304688,
+          197.37774658203125
+        ]
+      }
+    ]
+  }
+]
