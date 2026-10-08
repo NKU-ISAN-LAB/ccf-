@@ -1,0 +1,16 @@
+{
+  "camera_serial": "CP2L863000RG",
+  "image_size_wh": [640, 480],
+  "target": "Only the exposed blue lower cup and its lower rim at the dispenser outlet; exclude the printed upper region, holder, and table cups",
+  "annotated_by": "assistant_visual_review",
+  "semantic_basis": "User's earlier red-box target definition; these new pixel boxes are assistant annotations, not new user-reviewed coordinates",
+  "references": [
+    {"frame": "0001", "cup_bbox": [146,244,198,271], "rim_anchor": [171,265], "station_bbox": [213,146,346,279]},
+    {"frame": "0033", "cup_bbox": [226,183,272,208], "rim_anchor": [249,203], "station_bbox": [296,126,411,247]},
+    {"frame": "0041", "cup_bbox": [84,218,139,245], "rim_anchor": [112,239], "station_bbox": [145,121,277,247]},
+    {"frame": "0046", "cup_bbox": [132,280,187,305], "rim_anchor": [161,300], "station_bbox": [211,161,343,298]},
+    {"frame": "0034", "cup_bbox": [55,215,111,245], "rim_anchor": [83,240], "station_bbox": [128,125,275,254]},
+    {"frame": "0040", "cup_bbox": [304,214,351,237], "rim_anchor": [329,231], "station_bbox": [375,142,506,274]},
+    {"frame": "0043", "cup_bbox": [215,223,267,249], "rim_anchor": [242,242], "station_bbox": [291,132,410,261]}
+  ]
+}

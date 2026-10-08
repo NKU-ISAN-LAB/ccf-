@@ -1,0 +1,588 @@
+{
+  "positive_variants": 48,
+  "v5_detected": 20,
+  "v6_detected": 48,
+  "v6_failures": [],
+  "rim_occlusions": 8,
+  "rim_occlusions_rejected": 8,
+  "max_positive_drift_px": 2.5069197159425616,
+  "qualification": "Synthetic development perturbations of existing data, not field validation.",
+  "records": [
+    {
+      "frame": "0002",
+      "change": "original",
+      "v5": true,
+      "v6": true,
+      "point": [
+        175.5,
+        265.1692669172932
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0002",
+      "change": "dim",
+      "v5": true,
+      "v6": true,
+      "point": [
+        175.0,
+        264.966989503575
+      ],
+      "drift_from_original_px": 0.5393664358305276
+    },
+    {
+      "frame": "0002",
+      "change": "bright",
+      "v5": true,
+      "v6": true,
+      "point": [
+        175.5,
+        265.0487781954887
+      ],
+      "drift_from_original_px": 0.12048872180452008
+    },
+    {
+      "frame": "0002",
+      "change": "blur3",
+      "v5": true,
+      "v6": true,
+      "point": [
+        175.5,
+        264.9775219298246
+      ],
+      "drift_from_original_px": 0.1917449874686099
+    },
+    {
+      "frame": "0002",
+      "change": "jpeg65",
+      "v5": true,
+      "v6": true,
+      "point": [
+        175.5,
+        265.1367481203007
+      ],
+      "drift_from_original_px": 0.03251879699251958
+    },
+    {
+      "frame": "0002",
+      "change": "shift",
+      "v5": true,
+      "v6": true,
+      "point": [
+        180.5,
+        261.1692669172932
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0002",
+      "change": "lower_rim_occluded",
+      "expected": false,
+      "v6": false
+    },
+    {
+      "frame": "0031",
+      "change": "original",
+      "v5": true,
+      "v6": true,
+      "point": [
+        157.5,
+        245.72269736842102
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0031",
+      "change": "dim",
+      "v5": true,
+      "v6": true,
+      "point": [
+        157.5,
+        245.60610902255635
+      ],
+      "drift_from_original_px": 0.11658834586467037
+    },
+    {
+      "frame": "0031",
+      "change": "bright",
+      "v5": true,
+      "v6": true,
+      "point": [
+        158.5,
+        245.35606203007515
+      ],
+      "drift_from_original_px": 1.065092236064085
+    },
+    {
+      "frame": "0031",
+      "change": "blur3",
+      "v5": false,
+      "v6": true,
+      "point": [
+        157.5,
+        245.93533834586466
+      ],
+      "drift_from_original_px": 0.21264097744364108
+    },
+    {
+      "frame": "0031",
+      "change": "jpeg65",
+      "v5": true,
+      "v6": true,
+      "point": [
+        158.0,
+        245.56040839478138
+      ],
+      "drift_from_original_px": 0.5256783341217423
+    },
+    {
+      "frame": "0031",
+      "change": "shift",
+      "v5": true,
+      "v6": true,
+      "point": [
+        162.5,
+        241.72269736842094
+      ],
+      "drift_from_original_px": 8.526512829121202e-14
+    },
+    {
+      "frame": "0031",
+      "change": "lower_rim_occluded",
+      "expected": false,
+      "v6": false
+    },
+    {
+      "frame": "0032",
+      "change": "original",
+      "v5": false,
+      "v6": true,
+      "point": [
+        128.5,
+        265.8403195488722
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0032",
+      "change": "dim",
+      "v5": false,
+      "v6": true,
+      "point": [
+        128.0,
+        265.8659804269561
+      ],
+      "drift_from_original_px": 0.5006580476373466
+    },
+    {
+      "frame": "0032",
+      "change": "bright",
+      "v5": true,
+      "v6": true,
+      "point": [
+        129.0,
+        265.7391247436623
+      ],
+      "drift_from_original_px": 0.5101376173166116
+    },
+    {
+      "frame": "0032",
+      "change": "blur3",
+      "v5": false,
+      "v6": true,
+      "point": [
+        128.5,
+        265.74304511278194
+      ],
+      "drift_from_original_px": 0.09727443609023112
+    },
+    {
+      "frame": "0032",
+      "change": "jpeg65",
+      "v5": true,
+      "v6": true,
+      "point": [
+        129.5,
+        265.51461038961037
+      ],
+      "drift_from_original_px": 1.0517064497411015
+    },
+    {
+      "frame": "0032",
+      "change": "shift",
+      "v5": false,
+      "v6": true,
+      "point": [
+        133.5,
+        261.8403195488722
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0032",
+      "change": "lower_rim_occluded",
+      "expected": false,
+      "v6": false
+    },
+    {
+      "frame": "0038",
+      "change": "original",
+      "v5": false,
+      "v6": true,
+      "point": [
+        219.0,
+        206.71460360399658
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0038",
+      "change": "dim",
+      "v5": false,
+      "v6": true,
+      "point": [
+        217.5,
+        206.79495614035085
+      ],
+      "drift_from_original_px": 1.5021506349559501
+    },
+    {
+      "frame": "0038",
+      "change": "bright",
+      "v5": false,
+      "v6": true,
+      "point": [
+        217.5,
+        207.0409304511278
+      ],
+      "drift_from_original_px": 1.5350860598541691
+    },
+    {
+      "frame": "0038",
+      "change": "blur3",
+      "v5": false,
+      "v6": true,
+      "point": [
+        219.5,
+        206.3085526315789
+      ],
+      "drift_from_original_px": 0.6441097671991554
+    },
+    {
+      "frame": "0038",
+      "change": "jpeg65",
+      "v5": false,
+      "v6": true,
+      "point": [
+        219.5,
+        206.6586674195369
+      ],
+      "drift_from_original_px": 0.503119127773838
+    },
+    {
+      "frame": "0038",
+      "change": "shift",
+      "v5": false,
+      "v6": true,
+      "point": [
+        224.0,
+        202.71460360399658
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0038",
+      "change": "lower_rim_occluded",
+      "expected": false,
+      "v6": false
+    },
+    {
+      "frame": "0045",
+      "change": "original",
+      "v5": false,
+      "v6": true,
+      "point": [
+        182.5,
+        275.9440789473684
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0045",
+      "change": "dim",
+      "v5": false,
+      "v6": true,
+      "point": [
+        182.0,
+        275.9477279477278
+      ],
+      "drift_from_original_px": 0.5000133150263331
+    },
+    {
+      "frame": "0045",
+      "change": "bright",
+      "v5": false,
+      "v6": true,
+      "point": [
+        182.5,
+        276.46875
+      ],
+      "drift_from_original_px": 0.5246710526316178
+    },
+    {
+      "frame": "0045",
+      "change": "blur3",
+      "v5": false,
+      "v6": true,
+      "point": [
+        183.0,
+        276.26433026433017
+      ],
+      "drift_from_original_px": 0.5937683942546615
+    },
+    {
+      "frame": "0045",
+      "change": "jpeg65",
+      "v5": false,
+      "v6": true,
+      "point": [
+        182.0,
+        276.4267894267893
+      ],
+      "drift_from_original_px": 0.6949887818826797
+    },
+    {
+      "frame": "0045",
+      "change": "shift",
+      "v5": false,
+      "v6": true,
+      "point": [
+        187.5,
+        271.94407894736844
+      ],
+      "drift_from_original_px": 5.684341886080802e-14
+    },
+    {
+      "frame": "0045",
+      "change": "lower_rim_occluded",
+      "expected": false,
+      "v6": false
+    },
+    {
+      "frame": "0047",
+      "change": "original",
+      "v5": false,
+      "v6": true,
+      "point": [
+        145.0,
+        234.23225423225415
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0047",
+      "change": "dim",
+      "v5": false,
+      "v6": true,
+      "point": [
+        144.5,
+        234.1312564499484
+      ],
+      "drift_from_original_px": 0.5100985708965254
+    },
+    {
+      "frame": "0047",
+      "change": "bright",
+      "v5": false,
+      "v6": true,
+      "point": [
+        145.0,
+        234.72572384767514
+      ],
+      "drift_from_original_px": 0.49346961542099166
+    },
+    {
+      "frame": "0047",
+      "change": "blur3",
+      "v5": true,
+      "v6": true,
+      "point": [
+        145.0,
+        234.63320463320454
+      ],
+      "drift_from_original_px": 0.4009504009503928
+    },
+    {
+      "frame": "0047",
+      "change": "jpeg65",
+      "v5": false,
+      "v6": true,
+      "point": [
+        144.5,
+        234.64041353383453
+      ],
+      "drift_from_original_px": 0.645440946537006
+    },
+    {
+      "frame": "0047",
+      "change": "shift",
+      "v5": false,
+      "v6": true,
+      "point": [
+        150.0,
+        230.23225423225412
+      ],
+      "drift_from_original_px": 2.842170943040401e-14
+    },
+    {
+      "frame": "0047",
+      "change": "lower_rim_occluded",
+      "expected": false,
+      "v6": false
+    },
+    {
+      "frame": "0049",
+      "change": "original",
+      "v5": false,
+      "v6": true,
+      "point": [
+        250.0,
+        185.19389259389257
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0049",
+      "change": "dim",
+      "v5": false,
+      "v6": true,
+      "point": [
+        250.0,
+        185.3917050691244
+      ],
+      "drift_from_original_px": 0.1978124752318422
+    },
+    {
+      "frame": "0049",
+      "change": "bright",
+      "v5": false,
+      "v6": true,
+      "point": [
+        250.5,
+        185.0579850361198
+      ],
+      "drift_from_original_px": 0.5181417414759808
+    },
+    {
+      "frame": "0049",
+      "change": "blur3",
+      "v5": false,
+      "v6": true,
+      "point": [
+        248.5,
+        185.52631578947367
+      ],
+      "drift_from_original_px": 1.5363935631733006
+    },
+    {
+      "frame": "0049",
+      "change": "jpeg65",
+      "v5": false,
+      "v6": true,
+      "point": [
+        247.5,
+        185.38002819548865
+      ],
+      "drift_from_original_px": 2.5069197159425616
+    },
+    {
+      "frame": "0049",
+      "change": "shift",
+      "v5": false,
+      "v6": true,
+      "point": [
+        255.0,
+        181.19389259389257
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0049",
+      "change": "lower_rim_occluded",
+      "expected": false,
+      "v6": false
+    },
+    {
+      "frame": "0050",
+      "change": "original",
+      "v5": true,
+      "v6": true,
+      "point": [
+        233.0,
+        215.82387882387874
+      ],
+      "drift_from_original_px": 0.0
+    },
+    {
+      "frame": "0050",
+      "change": "dim",
+      "v5": true,
+      "v6": true,
+      "point": [
+        231.5,
+        216.2414215686275
+      ],
+      "drift_from_original_px": 1.5570298467570602
+    },
+    {
+      "frame": "0050",
+      "change": "bright",
+      "v5": true,
+      "v6": true,
+      "point": [
+        233.0,
+        215.54648054648047
+      ],
+      "drift_from_original_px": 0.2773982773982766
+    },
+    {
+      "frame": "0050",
+      "change": "blur3",
+      "v5": true,
+      "v6": true,
+      "point": [
+        233.0,
+        215.41431541431535
+      ],
+      "drift_from_original_px": 0.40956340956338977
+    },
+    {
+      "frame": "0050",
+      "change": "jpeg65",
+      "v5": true,
+      "v6": true,
+      "point": [
+        233.5,
+        215.52147832817334
+      ],
+      "drift_from_original_px": 0.5843338598805233
+    },
+    {
+      "frame": "0050",
+      "change": "shift",
+      "v5": true,
+      "v6": true,
+      "point": [
+        238.0,
+        211.82387882387877
+      ],
+      "drift_from_original_px": 2.842170943040401e-14
+    },
+    {
+      "frame": "0050",
+      "change": "lower_rim_occluded",
+      "expected": false,
+      "v6": false
+    }
+  ]
+}
