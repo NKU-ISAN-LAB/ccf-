@@ -1,0 +1,59 @@
+{
+  "cases": 4,
+  "passed": 4,
+  "records": [
+    {
+      "case": "cup_scale1.0",
+      "original_label": "cup",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "source_crop_xyxy": [
+        407,
+        351,
+        497,
+        446
+      ],
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "cup_scale2.0",
+      "original_label": "cup",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "source_crop_xyxy": [
+        407,
+        351,
+        497,
+        446
+      ],
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "target_scale1.0",
+      "original_label": "target",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "source_crop_xyxy": [
+        337,
+        229,
+        416,
+        297
+      ],
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "target_scale2.0",
+      "original_label": "target",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "source_crop_xyxy": [
+        337,
+        229,
+        416,
+        297
+      ],
+      "detections": [],
+      "passed": true
+    }
+  ],
+  "qualification": "Regression of previous failure. Source episode is now part of training; NOT independent negative validation. Only one open cup and one empty holder at two scales."
+}

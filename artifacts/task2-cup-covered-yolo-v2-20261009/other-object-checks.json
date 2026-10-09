@@ -1,0 +1,162 @@
+{
+  "groups": {
+    "train": {
+      "cases": 10,
+      "passed": 10,
+      "failures": []
+    },
+    "val": {
+      "cases": 5,
+      "passed": 5,
+      "failures": []
+    },
+    "negative_test": {
+      "cases": 5,
+      "passed": 5,
+      "failures": []
+    }
+  },
+  "records": [
+    {
+      "case": "negative_001_full",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_001_cup_scale1.0",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_001_cup_scale2.0",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_001_target_scale1.0",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_001_target_scale2.0",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_005_full",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_005_cup_scale1.0",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_005_cup_scale2.0",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_005_target_scale1.0",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_005_target_scale2.0",
+      "split": "train",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_003_full",
+      "split": "val",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_003_cup_scale1.0",
+      "split": "val",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_003_cup_scale2.0",
+      "split": "val",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_003_target_scale1.0",
+      "split": "val",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_003_target_scale2.0",
+      "split": "val",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_007_full",
+      "split": "negative_test",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_007_cup_scale1.0",
+      "split": "negative_test",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_007_cup_scale2.0",
+      "split": "negative_test",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_007_target_scale1.0",
+      "split": "negative_test",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "detections": [],
+      "passed": true
+    },
+    {
+      "case": "negative_007_target_scale2.0",
+      "split": "negative_test",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "detections": [],
+      "passed": true
+    }
+  ],
+  "qualification": "Only four visually checked source frames from different old episodes, each full image plus four rendered crops. Negative-test source episode 000031 never used in training/selection. Small diagnostic set, not comprehensive open-cup/holder rejection accuracy."
+}

@@ -1,0 +1,28 @@
+{
+  "epochs_completed": 14,
+  "training_best_map_epoch": 6,
+  "packaged_checkpoint": "best",
+  "packaged_epoch": 6,
+  "selected_by": "Each checkpoint threshold selected on training only. Choose maximal development-validation multi-instance F1, then all-correct frames, then mean matched IoU. No test frames read.",
+  "best_validation_map_metrics": {
+    "epoch": "6",
+    "time": "55.7488",
+    "train/box_loss": "0.79098",
+    "train/cls_loss": "0.63214",
+    "train/dfl_loss": "0.85693",
+    "metrics/precision(B)": "0.99272",
+    "metrics/recall(B)": "0.88889",
+    "metrics/mAP50(B)": "0.984",
+    "metrics/mAP50-95(B)": "0.77175",
+    "val/box_loss": "0.84397",
+    "val/cls_loss": "0.8859",
+    "val/dfl_loss": "0.88127",
+    "lr/pg0": "0.000118125",
+    "lr/pg1": "0.000118125",
+    "lr/pg2": "0.000118125"
+  },
+  "hashes": {
+    "best.pt": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+    "best.onnx": "141f20523b622d30a7475443ec5db23df5e795a868b50ac6dc4ccfc866eeea42"
+  }
+}

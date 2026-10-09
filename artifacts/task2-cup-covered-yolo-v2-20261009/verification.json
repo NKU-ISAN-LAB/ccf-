@@ -1,0 +1,189 @@
+{
+  "classes": {
+    "0": "cup_covered"
+  },
+  "confidence_threshold": 0.4,
+  "implementation": {
+    "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+    "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+    "torch": "2.12.1+cu130",
+    "opencv": "5.0.0"
+  },
+  "original_replay": {
+    "frames": 20,
+    "tp": 58,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9830508474576272,
+    "all_correct_frames": 19,
+    "mean_matched_iou": 0.8814468615135538,
+    "failures": [
+      "0013"
+    ]
+  },
+  "train": {
+    "frames": 12,
+    "tp": 35,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "all_correct_frames": 12,
+    "mean_matched_iou": 0.8707352674765728,
+    "failures": []
+  },
+  "validation": {
+    "frames": 3,
+    "tp": 8,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "all_correct_frames": 2,
+    "mean_matched_iou": 0.8872735821102851,
+    "failures": [
+      "0013"
+    ]
+  },
+  "reserved_test": {
+    "frames": 5,
+    "tp": 15,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "all_correct_frames": 5,
+    "mean_matched_iou": 0.9033329966149195,
+    "failures": []
+  },
+  "transformed_reserved_test": {
+    "frames": 50,
+    "tp": 150,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "all_correct_frames": 50,
+    "mean_matched_iou": 0.8622956155340883,
+    "failures": []
+  },
+  "by_transform": {
+    "blur": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.8946564044893464,
+      "failures": []
+    },
+    "bright": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.8965947355543056,
+      "failures": []
+    },
+    "context_removed": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.8920857936547757,
+      "failures": []
+    },
+    "dim": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.9089670371354557,
+      "failures": []
+    },
+    "jpeg60": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.8883805986550125,
+      "failures": []
+    },
+    "perspective": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.8971404853172642,
+      "failures": []
+    },
+    "rotate_-15": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.7462486302450683,
+      "failures": []
+    },
+    "rotate_15": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.7668369050113272,
+      "failures": []
+    },
+    "scale_0.75": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.845293813482209,
+      "failures": []
+    },
+    "scale_1.15": {
+      "frames": 5,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_correct_frames": 5,
+      "mean_matched_iou": 0.8867517517961198,
+      "failures": []
+    }
+  },
+  "synthetic_negatives": {
+    "frames": 23,
+    "passed": 23,
+    "failures": []
+  },
+  "qualification": "20 same-session frames; 0016-0020 excluded from train/checkpoint/threshold, but already evaluated in the initial model and now reused as positive regression. NOT independent field accuracy. Real-source negatives are separately audited and evaluated. Class identifies cover appearance, not sealing quality or 3D grasp."
+}

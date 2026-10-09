@@ -1,0 +1,158 @@
+{
+  "frames": 20,
+  "passed": 20,
+  "pt": {
+    "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+    "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+    "torch": "2.12.1+cu130",
+    "opencv": "5.0.0"
+  },
+  "onnx": {
+    "weights_sha256": "141f20523b622d30a7475443ec5db23df5e795a868b50ac6dc4ccfc866eeea42",
+    "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+    "torch": "2.12.1+cu130",
+    "opencv": "5.0.0"
+  },
+  "records": [
+    {
+      "frame": "0001",
+      "same_count": true,
+      "max_coordinate_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "frame": "0002",
+      "same_count": true,
+      "max_coordinate_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "frame": "0003",
+      "same_count": true,
+      "max_coordinate_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "frame": "0004",
+      "same_count": true,
+      "max_coordinate_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 3.5762786865234375e-07,
+      "passed": true
+    },
+    {
+      "frame": "0005",
+      "same_count": true,
+      "max_coordinate_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "frame": "0006",
+      "same_count": true,
+      "max_coordinate_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "frame": "0007",
+      "same_count": true,
+      "max_coordinate_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 4.172325134277344e-07,
+      "passed": true
+    },
+    {
+      "frame": "0008",
+      "same_count": true,
+      "max_coordinate_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 4.172325134277344e-07,
+      "passed": true
+    },
+    {
+      "frame": "0009",
+      "same_count": true,
+      "max_coordinate_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 3.5762786865234375e-07,
+      "passed": true
+    },
+    {
+      "frame": "0010",
+      "same_count": true,
+      "max_coordinate_difference_px": 0.0,
+      "max_confidence_difference": 1.7881393432617188e-07,
+      "passed": true
+    },
+    {
+      "frame": "0011",
+      "same_count": true,
+      "max_coordinate_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 5.960464477539062e-07,
+      "passed": true
+    },
+    {
+      "frame": "0012",
+      "same_count": true,
+      "max_coordinate_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 2.980232238769531e-07,
+      "passed": true
+    },
+    {
+      "frame": "0013",
+      "same_count": true,
+      "max_coordinate_difference_px": 0.0,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "frame": "0014",
+      "same_count": true,
+      "max_coordinate_difference_px": 0.0,
+      "max_confidence_difference": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "frame": "0015",
+      "same_count": true,
+      "max_coordinate_difference_px": 0.0,
+      "max_confidence_difference": 4.172325134277344e-07,
+      "passed": true
+    },
+    {
+      "frame": "0016",
+      "same_count": true,
+      "max_coordinate_difference_px": 4.57763671875e-05,
+      "max_confidence_difference": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "frame": "0017",
+      "same_count": true,
+      "max_coordinate_difference_px": 3.0517578125e-05,
+      "max_confidence_difference": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "frame": "0018",
+      "same_count": true,
+      "max_coordinate_difference_px": 0.0,
+      "max_confidence_difference": 6.556510925292969e-07,
+      "passed": true
+    },
+    {
+      "frame": "0019",
+      "same_count": true,
+      "max_coordinate_difference_px": 4.57763671875e-05,
+      "max_confidence_difference": 4.172325134277344e-07,
+      "passed": true
+    },
+    {
+      "frame": "0020",
+      "same_count": true,
+      "max_coordinate_difference_px": 6.103515625e-05,
+      "max_confidence_difference": 3.5762786865234375e-07,
+      "passed": true
+    }
+  ]
+}

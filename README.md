@@ -1,5 +1,19 @@
 # CCF 杯子识别模型
 
+## 任务二新增：独立 cup_covered 模型
+
+[cup_covered v2 权重、识别入口与验证说明](artifacts/task2-cup-covered-yolo-v2-20261009/README.md)
+
+- 单独检测人工标注的杯口封膜/盖面区域，仅一个类别 `cup_covered`，不是下方的 `cup` 或 `target`。
+- 支持多个封膜杯同时检测；不合并、覆盖旧模型，也不自动选择抓取目标。
+- 使用 20 张图片、59 个标注；完整原图回放检出 58/59，保留回归图检出 15/15。
+- 已增加敞口杯和空杯托负样本；0013 严重遮挡目标仍漏检，少量离线检查不代表现场可靠性。
+- 默认阈值 **0.40**，请配套使用该目录的 `recognize.py`、`runtime-config.json` 和 `.pt` / `.onnx` 权重。
+- 不要把 `cup_covered` 的 class 0 当成原 `cup+target` 模型中的 class 0；按模型和类别名称区分。
+- 本次仅发布到 GitHub，不更新另一台电脑，不修改机器人控制代码。
+
+![cup_covered 完整画幅回放](artifacts/task2-cup-covered-yolo-v2-20261009/full-frame-grid.jpg)
+
 ## 任务二：桌面杯子与封口机承杯环
 
 [任务二 cup + target 模型与接入说明](artifacts/task2-cup-target-yolo-20261008/README.md)

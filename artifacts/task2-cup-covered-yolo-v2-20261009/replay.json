@@ -1,0 +1,3304 @@
+[
+  {
+    "case": "0001",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 0,
+        "iou": 0.7978471813892175,
+        "confidence": 0.9630116820335388
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.8655197753026743,
+        "confidence": 0.9504062533378601
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.8806727312499831,
+        "confidence": 0.9130058288574219
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9630116820335388,
+          "bbox_xyxy_px": [
+            277.5943603515625,
+            245.86322021484375,
+            321.0428466796875,
+            282.24932861328125
+          ],
+          "center_uv": [
+            299.318603515625,
+            264.0562744140625
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9504062533378601,
+          "bbox_xyxy_px": [
+            322.93743896484375,
+            280.26690673828125,
+            371.53009033203125,
+            322.9202880859375
+          ],
+          "center_uv": [
+            347.2337646484375,
+            301.5935974121094
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9130058288574219,
+          "bbox_xyxy_px": [
+            239.69473266601562,
+            310.4212341308594,
+            290.1452941894531,
+            351.9581604003906
+          ],
+          "center_uv": [
+            264.9200134277344,
+            331.189697265625
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9630116820335388,
+              "bbox_xyxy_px": [
+                277.5943603515625,
+                245.86322021484375,
+                321.0428466796875,
+                282.24932861328125
+              ],
+              "center_uv": [
+                299.318603515625,
+                264.0562744140625
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9504062533378601,
+              "bbox_xyxy_px": [
+                322.93743896484375,
+                280.26690673828125,
+                371.53009033203125,
+                322.9202880859375
+              ],
+              "center_uv": [
+                347.2337646484375,
+                301.5935974121094
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9130058288574219,
+              "bbox_xyxy_px": [
+                239.69473266601562,
+                310.4212341308594,
+                290.1452941894531,
+                351.9581604003906
+              ],
+              "center_uv": [
+                264.9200134277344,
+                331.189697265625
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          299.318603515625,
+          264.0562744140625
+        ],
+        [
+          347.2337646484375,
+          301.5935974121094
+        ],
+        [
+          264.9200134277344,
+          331.189697265625
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 853.86
+    }
+  },
+  {
+    "case": "0002",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 2,
+        "iou": 0.8856795508511267,
+        "confidence": 0.9564715027809143
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.8989248297829829,
+        "confidence": 0.9397189617156982
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.8848738360368442,
+        "confidence": 0.917182981967926
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9564715027809143,
+          "bbox_xyxy_px": [
+            323.3586120605469,
+            280.3854064941406,
+            371.3688049316406,
+            322.7647399902344
+          ],
+          "center_uv": [
+            347.36370849609375,
+            301.5750732421875
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9397189617156982,
+          "bbox_xyxy_px": [
+            234.2796630859375,
+            247.6285400390625,
+            277.2103271484375,
+            283.0465087890625
+          ],
+          "center_uv": [
+            255.7449951171875,
+            265.3375244140625
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.917182981967926,
+          "bbox_xyxy_px": [
+            278.9573669433594,
+            252.196533203125,
+            322.1192321777344,
+            289.53955078125
+          ],
+          "center_uv": [
+            300.5382995605469,
+            270.8680419921875
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9564715027809143,
+              "bbox_xyxy_px": [
+                323.3586120605469,
+                280.3854064941406,
+                371.3688049316406,
+                322.7647399902344
+              ],
+              "center_uv": [
+                347.36370849609375,
+                301.5750732421875
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9397189617156982,
+              "bbox_xyxy_px": [
+                234.2796630859375,
+                247.6285400390625,
+                277.2103271484375,
+                283.0465087890625
+              ],
+              "center_uv": [
+                255.7449951171875,
+                265.3375244140625
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.917182981967926,
+              "bbox_xyxy_px": [
+                278.9573669433594,
+                252.196533203125,
+                322.1192321777344,
+                289.53955078125
+              ],
+              "center_uv": [
+                300.5382995605469,
+                270.8680419921875
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          347.36370849609375,
+          301.5750732421875
+        ],
+        [
+          255.7449951171875,
+          265.3375244140625
+        ],
+        [
+          300.5382995605469,
+          270.8680419921875
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 33.97
+    }
+  },
+  {
+    "case": "0003",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 2,
+        "iou": 0.8224002531496772,
+        "confidence": 0.962627112865448
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.7940618279737074,
+        "confidence": 0.921112060546875
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.8143223071519772,
+        "confidence": 0.9140575528144836
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.962627112865448,
+          "bbox_xyxy_px": [
+            297.0933837890625,
+            276.3489990234375,
+            344.3037109375,
+            318.70361328125
+          ],
+          "center_uv": [
+            320.69854736328125,
+            297.52630615234375
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.921112060546875,
+          "bbox_xyxy_px": [
+            261.941162109375,
+            227.12686157226562,
+            306.9261474609375,
+            262.6997375488281
+          ],
+          "center_uv": [
+            284.43365478515625,
+            244.91329956054688
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9140575528144836,
+          "bbox_xyxy_px": [
+            246.22366333007812,
+            257.0679931640625,
+            292.4795227050781,
+            296.237548828125
+          ],
+          "center_uv": [
+            269.3515930175781,
+            276.65277099609375
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.962627112865448,
+              "bbox_xyxy_px": [
+                297.0933837890625,
+                276.3489990234375,
+                344.3037109375,
+                318.70361328125
+              ],
+              "center_uv": [
+                320.69854736328125,
+                297.52630615234375
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.921112060546875,
+              "bbox_xyxy_px": [
+                261.941162109375,
+                227.12686157226562,
+                306.9261474609375,
+                262.6997375488281
+              ],
+              "center_uv": [
+                284.43365478515625,
+                244.91329956054688
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9140575528144836,
+              "bbox_xyxy_px": [
+                246.22366333007812,
+                257.0679931640625,
+                292.4795227050781,
+                296.237548828125
+              ],
+              "center_uv": [
+                269.3515930175781,
+                276.65277099609375
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          320.69854736328125,
+          297.52630615234375
+        ],
+        [
+          284.43365478515625,
+          244.91329956054688
+        ],
+        [
+          269.3515930175781,
+          276.65277099609375
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 40.43
+    }
+  },
+  {
+    "case": "0004",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 1,
+        "iou": 0.8502440780288346,
+        "confidence": 0.9532716274261475
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.8510274222210432,
+        "confidence": 0.8866228461265564
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.8588620719229267,
+        "confidence": 0.6724598407745361
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9532716274261475,
+          "bbox_xyxy_px": [
+            296.31982421875,
+            276.0247802734375,
+            344.3651123046875,
+            318.88916015625
+          ],
+          "center_uv": [
+            320.34246826171875,
+            297.45697021484375
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8866228461265564,
+          "bbox_xyxy_px": [
+            262.07965087890625,
+            227.13739013671875,
+            306.73602294921875,
+            262.68878173828125
+          ],
+          "center_uv": [
+            284.4078369140625,
+            244.9130859375
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.6724598407745361,
+          "bbox_xyxy_px": [
+            215.81207275390625,
+            276.9924621582031,
+            258.87579345703125,
+            318.5816955566406
+          ],
+          "center_uv": [
+            237.34393310546875,
+            297.7870788574219
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9532716274261475,
+              "bbox_xyxy_px": [
+                296.31982421875,
+                276.0247802734375,
+                344.3651123046875,
+                318.88916015625
+              ],
+              "center_uv": [
+                320.34246826171875,
+                297.45697021484375
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8866228461265564,
+              "bbox_xyxy_px": [
+                262.07965087890625,
+                227.13739013671875,
+                306.73602294921875,
+                262.68878173828125
+              ],
+              "center_uv": [
+                284.4078369140625,
+                244.9130859375
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.6724598407745361,
+              "bbox_xyxy_px": [
+                215.81207275390625,
+                276.9924621582031,
+                258.87579345703125,
+                318.5816955566406
+              ],
+              "center_uv": [
+                237.34393310546875,
+                297.7870788574219
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          320.34246826171875,
+          297.45697021484375
+        ],
+        [
+          284.4078369140625,
+          244.9130859375
+        ],
+        [
+          237.34393310546875,
+          297.7870788574219
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 39.5
+    }
+  },
+  {
+    "case": "0005",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 1,
+        "iou": 0.8830297199388221,
+        "confidence": 0.9557419419288635
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.8516035422639404,
+        "confidence": 0.8235016465187073
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.9356149538108434,
+        "confidence": 0.8189523816108704
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9557419419288635,
+          "bbox_xyxy_px": [
+            208.025146484375,
+            277.0228271484375,
+            256.95965576171875,
+            316.3282470703125
+          ],
+          "center_uv": [
+            232.49240112304688,
+            296.675537109375
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8235016465187073,
+          "bbox_xyxy_px": [
+            303.5781555175781,
+            263.39703369140625,
+            338.2656555175781,
+            293.49847412109375
+          ],
+          "center_uv": [
+            320.9219055175781,
+            278.44775390625
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8189523816108704,
+          "bbox_xyxy_px": [
+            263.28131103515625,
+            227.6031494140625,
+            306.57977294921875,
+            262.047119140625
+          ],
+          "center_uv": [
+            284.9305419921875,
+            244.82513427734375
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9557419419288635,
+              "bbox_xyxy_px": [
+                208.025146484375,
+                277.0228271484375,
+                256.95965576171875,
+                316.3282470703125
+              ],
+              "center_uv": [
+                232.49240112304688,
+                296.675537109375
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8235016465187073,
+              "bbox_xyxy_px": [
+                303.5781555175781,
+                263.39703369140625,
+                338.2656555175781,
+                293.49847412109375
+              ],
+              "center_uv": [
+                320.9219055175781,
+                278.44775390625
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8189523816108704,
+              "bbox_xyxy_px": [
+                263.28131103515625,
+                227.6031494140625,
+                306.57977294921875,
+                262.047119140625
+              ],
+              "center_uv": [
+                284.9305419921875,
+                244.82513427734375
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          232.49240112304688,
+          296.675537109375
+        ],
+        [
+          320.9219055175781,
+          278.44775390625
+        ],
+        [
+          284.9305419921875,
+          244.82513427734375
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 42.29
+    }
+  },
+  {
+    "case": "0006",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 2,
+        "iou": 0.8754455446885442,
+        "confidence": 0.959830105304718
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.8410470143290358,
+        "confidence": 0.9535425901412964
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.7834665066460514,
+        "confidence": 0.8846710920333862
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.959830105304718,
+          "bbox_xyxy_px": [
+            300.7125244140625,
+            262.53558349609375,
+            345.1904296875,
+            302.15704345703125
+          ],
+          "center_uv": [
+            322.95147705078125,
+            282.3463134765625
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9535425901412964,
+          "bbox_xyxy_px": [
+            229.33172607421875,
+            273.78485107421875,
+            270.45672607421875,
+            311.13836669921875
+          ],
+          "center_uv": [
+            249.89422607421875,
+            292.46160888671875
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8846710920333862,
+          "bbox_xyxy_px": [
+            262.07415771484375,
+            227.22232055664062,
+            306.84869384765625,
+            262.6081848144531
+          ],
+          "center_uv": [
+            284.46142578125,
+            244.91525268554688
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.959830105304718,
+              "bbox_xyxy_px": [
+                300.7125244140625,
+                262.53558349609375,
+                345.1904296875,
+                302.15704345703125
+              ],
+              "center_uv": [
+                322.95147705078125,
+                282.3463134765625
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9535425901412964,
+              "bbox_xyxy_px": [
+                229.33172607421875,
+                273.78485107421875,
+                270.45672607421875,
+                311.13836669921875
+              ],
+              "center_uv": [
+                249.89422607421875,
+                292.46160888671875
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8846710920333862,
+              "bbox_xyxy_px": [
+                262.07415771484375,
+                227.22232055664062,
+                306.84869384765625,
+                262.6081848144531
+              ],
+              "center_uv": [
+                284.46142578125,
+                244.91525268554688
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          322.95147705078125,
+          282.3463134765625
+        ],
+        [
+          249.89422607421875,
+          292.46160888671875
+        ],
+        [
+          284.46142578125,
+          244.91525268554688
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 41.62
+    }
+  },
+  {
+    "case": "0007",
+    "split": "train",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 0,
+        "iou": 0.8489599578647762,
+        "confidence": 0.9351887106895447
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.9039630392237581,
+        "confidence": 0.8527265787124634
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9351887106895447,
+          "bbox_xyxy_px": [
+            261.9073486328125,
+            226.4041748046875,
+            304.8548583984375,
+            255.71417236328125
+          ],
+          "center_uv": [
+            283.381103515625,
+            241.05917358398438
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8527265787124634,
+          "bbox_xyxy_px": [
+            300.53924560546875,
+            265.6007080078125,
+            346.6505126953125,
+            304.8114013671875
+          ],
+          "center_uv": [
+            323.5948791503906,
+            285.2060546875
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 2,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9351887106895447,
+              "bbox_xyxy_px": [
+                261.9073486328125,
+                226.4041748046875,
+                304.8548583984375,
+                255.71417236328125
+              ],
+              "center_uv": [
+                283.381103515625,
+                241.05917358398438
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8527265787124634,
+              "bbox_xyxy_px": [
+                300.53924560546875,
+                265.6007080078125,
+                346.6505126953125,
+                304.8114013671875
+              ],
+              "center_uv": [
+                323.5948791503906,
+                285.2060546875
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          283.381103515625,
+          241.05917358398438
+        ],
+        [
+          323.5948791503906,
+          285.2060546875
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 41.45
+    }
+  },
+  {
+    "case": "0008",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 1,
+        "iou": 0.940998651254816,
+        "confidence": 0.9768548011779785
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.9032690409320515,
+        "confidence": 0.9756219387054443
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.8865533165985291,
+        "confidence": 0.8314140439033508
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9768548011779785,
+          "bbox_xyxy_px": [
+            219.43630981445312,
+            267.2879333496094,
+            264.8603210449219,
+            308.2532653808594
+          ],
+          "center_uv": [
+            242.1483154296875,
+            287.7705993652344
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9756219387054443,
+          "bbox_xyxy_px": [
+            261.53765869140625,
+            227.6617431640625,
+            305.59332275390625,
+            262.9720458984375
+          ],
+          "center_uv": [
+            283.56549072265625,
+            245.31689453125
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8314140439033508,
+          "bbox_xyxy_px": [
+            301.05279541015625,
+            265.7802734375,
+            346.81805419921875,
+            304.71923828125
+          ],
+          "center_uv": [
+            323.9354248046875,
+            285.249755859375
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9768548011779785,
+              "bbox_xyxy_px": [
+                219.43630981445312,
+                267.2879333496094,
+                264.8603210449219,
+                308.2532653808594
+              ],
+              "center_uv": [
+                242.1483154296875,
+                287.7705993652344
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9756219387054443,
+              "bbox_xyxy_px": [
+                261.53765869140625,
+                227.6617431640625,
+                305.59332275390625,
+                262.9720458984375
+              ],
+              "center_uv": [
+                283.56549072265625,
+                245.31689453125
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8314140439033508,
+              "bbox_xyxy_px": [
+                301.05279541015625,
+                265.7802734375,
+                346.81805419921875,
+                304.71923828125
+              ],
+              "center_uv": [
+                323.9354248046875,
+                285.249755859375
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          242.1483154296875,
+          287.7705993652344
+        ],
+        [
+          283.56549072265625,
+          245.31689453125
+        ],
+        [
+          323.9354248046875,
+          285.249755859375
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 40.07
+    }
+  },
+  {
+    "case": "0009",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 2,
+        "iou": 0.8455268028054327,
+        "confidence": 0.8962758779525757
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.9451775277739008,
+        "confidence": 0.8871681690216064
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.8621616595621818,
+        "confidence": 0.8608971834182739
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8962758779525757,
+          "bbox_xyxy_px": [
+            344.6649169921875,
+            286.78369140625,
+            387.51031494140625,
+            333.77587890625
+          ],
+          "center_uv": [
+            366.0876159667969,
+            310.27978515625
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8871681690216064,
+          "bbox_xyxy_px": [
+            279.04608154296875,
+            280.46026611328125,
+            325.44476318359375,
+            322.01641845703125
+          ],
+          "center_uv": [
+            302.24542236328125,
+            301.23834228515625
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8608971834182739,
+          "bbox_xyxy_px": [
+            380.27777099609375,
+            229.63162231445312,
+            423.47943115234375,
+            264.5228576660156
+          ],
+          "center_uv": [
+            401.87860107421875,
+            247.07723999023438
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8962758779525757,
+              "bbox_xyxy_px": [
+                344.6649169921875,
+                286.78369140625,
+                387.51031494140625,
+                333.77587890625
+              ],
+              "center_uv": [
+                366.0876159667969,
+                310.27978515625
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8871681690216064,
+              "bbox_xyxy_px": [
+                279.04608154296875,
+                280.46026611328125,
+                325.44476318359375,
+                322.01641845703125
+              ],
+              "center_uv": [
+                302.24542236328125,
+                301.23834228515625
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8608971834182739,
+              "bbox_xyxy_px": [
+                380.27777099609375,
+                229.63162231445312,
+                423.47943115234375,
+                264.5228576660156
+              ],
+              "center_uv": [
+                401.87860107421875,
+                247.07723999023438
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          366.0876159667969,
+          310.27978515625
+        ],
+        [
+          302.24542236328125,
+          301.23834228515625
+        ],
+        [
+          401.87860107421875,
+          247.07723999023438
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 41.55
+    }
+  },
+  {
+    "case": "0010",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 0,
+        "iou": 0.8985191054371341,
+        "confidence": 0.9879998564720154
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.8286750468226729,
+        "confidence": 0.9105868935585022
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.894318846923699,
+        "confidence": 0.907073438167572
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9879998564720154,
+          "bbox_xyxy_px": [
+            307.6167907714844,
+            223.44711303710938,
+            351.2038269042969,
+            259.3084411621094
+          ],
+          "center_uv": [
+            329.4103088378906,
+            241.37777709960938
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9105868935585022,
+          "bbox_xyxy_px": [
+            331.3177490234375,
+            293.88427734375,
+            375.6256103515625,
+            337.5709228515625
+          ],
+          "center_uv": [
+            353.4716796875,
+            315.72760009765625
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.907073438167572,
+          "bbox_xyxy_px": [
+            380.5771789550781,
+            229.88543701171875,
+            423.6974182128906,
+            264.500732421875
+          ],
+          "center_uv": [
+            402.1372985839844,
+            247.19308471679688
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9879998564720154,
+              "bbox_xyxy_px": [
+                307.6167907714844,
+                223.44711303710938,
+                351.2038269042969,
+                259.3084411621094
+              ],
+              "center_uv": [
+                329.4103088378906,
+                241.37777709960938
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9105868935585022,
+              "bbox_xyxy_px": [
+                331.3177490234375,
+                293.88427734375,
+                375.6256103515625,
+                337.5709228515625
+              ],
+              "center_uv": [
+                353.4716796875,
+                315.72760009765625
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.907073438167572,
+              "bbox_xyxy_px": [
+                380.5771789550781,
+                229.88543701171875,
+                423.6974182128906,
+                264.500732421875
+              ],
+              "center_uv": [
+                402.1372985839844,
+                247.19308471679688
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          329.4103088378906,
+          241.37777709960938
+        ],
+        [
+          353.4716796875,
+          315.72760009765625
+        ],
+        [
+          402.1372985839844,
+          247.19308471679688
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 41.09
+    }
+  },
+  {
+    "case": "0011",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 0,
+        "iou": 0.9256801362524438,
+        "confidence": 0.9882424473762512
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.876689176161785,
+        "confidence": 0.9270964860916138
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.8983957148160506,
+        "confidence": 0.6728218793869019
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9882424473762512,
+          "bbox_xyxy_px": [
+            307.1995544433594,
+            223.5252685546875,
+            351.0160827636719,
+            259.5513916015625
+          ],
+          "center_uv": [
+            329.1078186035156,
+            241.538330078125
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9270964860916138,
+          "bbox_xyxy_px": [
+            380.64910888671875,
+            229.46456909179688,
+            423.53472900390625,
+            264.0529479980469
+          ],
+          "center_uv": [
+            402.0919189453125,
+            246.75875854492188
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.6728218793869019,
+          "bbox_xyxy_px": [
+            328.08087158203125,
+            292.8913269042969,
+            371.14971923828125,
+            337.7947082519531
+          ],
+          "center_uv": [
+            349.61529541015625,
+            315.343017578125
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9882424473762512,
+              "bbox_xyxy_px": [
+                307.1995544433594,
+                223.5252685546875,
+                351.0160827636719,
+                259.5513916015625
+              ],
+              "center_uv": [
+                329.1078186035156,
+                241.538330078125
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9270964860916138,
+              "bbox_xyxy_px": [
+                380.64910888671875,
+                229.46456909179688,
+                423.53472900390625,
+                264.0529479980469
+              ],
+              "center_uv": [
+                402.0919189453125,
+                246.75875854492188
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.6728218793869019,
+              "bbox_xyxy_px": [
+                328.08087158203125,
+                292.8913269042969,
+                371.14971923828125,
+                337.7947082519531
+              ],
+              "center_uv": [
+                349.61529541015625,
+                315.343017578125
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          329.1078186035156,
+          241.538330078125
+        ],
+        [
+          402.0919189453125,
+          246.75875854492188
+        ],
+        [
+          349.61529541015625,
+          315.343017578125
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 42.27
+    }
+  },
+  {
+    "case": "0012",
+    "split": "train",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 2,
+        "iou": 0.9193536312519742,
+        "confidence": 0.886333703994751
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.893501356659685,
+        "confidence": 0.8795287013053894
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.8293482046009281,
+        "confidence": 0.8594260215759277
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.886333703994751,
+          "bbox_xyxy_px": [
+            351.4392395019531,
+            295.1402282714844,
+            393.4281921386719,
+            336.7213439941406
+          ],
+          "center_uv": [
+            372.4337158203125,
+            315.9307861328125
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8795287013053894,
+          "bbox_xyxy_px": [
+            288.330322265625,
+            272.4417419433594,
+            337.475341796875,
+            312.6340637207031
+          ],
+          "center_uv": [
+            312.90283203125,
+            292.53790283203125
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8594260215759277,
+          "bbox_xyxy_px": [
+            380.5,
+            229.4176025390625,
+            423.669921875,
+            264.550537109375
+          ],
+          "center_uv": [
+            402.0849609375,
+            246.98406982421875
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.886333703994751,
+              "bbox_xyxy_px": [
+                351.4392395019531,
+                295.1402282714844,
+                393.4281921386719,
+                336.7213439941406
+              ],
+              "center_uv": [
+                372.4337158203125,
+                315.9307861328125
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8795287013053894,
+              "bbox_xyxy_px": [
+                288.330322265625,
+                272.4417419433594,
+                337.475341796875,
+                312.6340637207031
+              ],
+              "center_uv": [
+                312.90283203125,
+                292.53790283203125
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8594260215759277,
+              "bbox_xyxy_px": [
+                380.5,
+                229.4176025390625,
+                423.669921875,
+                264.550537109375
+              ],
+              "center_uv": [
+                402.0849609375,
+                246.98406982421875
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          372.4337158203125,
+          315.9307861328125
+        ],
+        [
+          312.90283203125,
+          292.53790283203125
+        ],
+        [
+          402.0849609375,
+          246.98406982421875
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 44.88
+    }
+  },
+  {
+    "case": "0013",
+    "split": "val",
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "all_correct": false,
+    "matches": [
+      {
+        "gt_index": 0,
+        "iou": 0.8738217484604477,
+        "confidence": 0.8879064321517944
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.8478958832748522,
+        "confidence": 0.8478518724441528
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8879064321517944,
+          "bbox_xyxy_px": [
+            380.46942138671875,
+            229.71212768554688,
+            423.69696044921875,
+            264.4837341308594
+          ],
+          "center_uv": [
+            402.08319091796875,
+            247.09793090820312
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8478518724441528,
+          "bbox_xyxy_px": [
+            286.90936279296875,
+            270.98260498046875,
+            336.12371826171875,
+            312.50762939453125
+          ],
+          "center_uv": [
+            311.51654052734375,
+            291.7451171875
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 2,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8879064321517944,
+              "bbox_xyxy_px": [
+                380.46942138671875,
+                229.71212768554688,
+                423.69696044921875,
+                264.4837341308594
+              ],
+              "center_uv": [
+                402.08319091796875,
+                247.09793090820312
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8478518724441528,
+              "bbox_xyxy_px": [
+                286.90936279296875,
+                270.98260498046875,
+                336.12371826171875,
+                312.50762939453125
+              ],
+              "center_uv": [
+                311.51654052734375,
+                291.7451171875
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          402.08319091796875,
+          247.09793090820312
+        ],
+        [
+          311.51654052734375,
+          291.7451171875
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 40.24
+    }
+  },
+  {
+    "case": "0014",
+    "split": "val",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 0,
+        "iou": 0.889926624727929,
+        "confidence": 0.9107171893119812
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.8815771519076903,
+        "confidence": 0.8508323431015015
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.9195304343081436,
+        "confidence": 0.7275799512863159
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9107171893119812,
+          "bbox_xyxy_px": [
+            380.09478759765625,
+            229.84466552734375,
+            422.28021240234375,
+            264.31768798828125
+          ],
+          "center_uv": [
+            401.1875,
+            247.0811767578125
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8508323431015015,
+          "bbox_xyxy_px": [
+            344.95660400390625,
+            342.9709777832031,
+            391.81744384765625,
+            396.4238586425781
+          ],
+          "center_uv": [
+            368.38702392578125,
+            369.6974182128906
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.7275799512863159,
+          "bbox_xyxy_px": [
+            288.2820129394531,
+            271.918701171875,
+            334.3513488769531,
+            312.0234375
+          ],
+          "center_uv": [
+            311.3166809082031,
+            291.9710693359375
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9107171893119812,
+              "bbox_xyxy_px": [
+                380.09478759765625,
+                229.84466552734375,
+                422.28021240234375,
+                264.31768798828125
+              ],
+              "center_uv": [
+                401.1875,
+                247.0811767578125
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8508323431015015,
+              "bbox_xyxy_px": [
+                344.95660400390625,
+                342.9709777832031,
+                391.81744384765625,
+                396.4238586425781
+              ],
+              "center_uv": [
+                368.38702392578125,
+                369.6974182128906
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.7275799512863159,
+              "bbox_xyxy_px": [
+                288.2820129394531,
+                271.918701171875,
+                334.3513488769531,
+                312.0234375
+              ],
+              "center_uv": [
+                311.3166809082031,
+                291.9710693359375
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          401.1875,
+          247.0811767578125
+        ],
+        [
+          368.38702392578125,
+          369.6974182128906
+        ],
+        [
+          311.3166809082031,
+          291.9710693359375
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 41.58
+    }
+  },
+  {
+    "case": "0015",
+    "split": "val",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 0,
+        "iou": 0.9138683547298647,
+        "confidence": 0.9741060733795166
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.8682056389921293,
+        "confidence": 0.857669472694397
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.9033628204812232,
+        "confidence": 0.7220937609672546
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9741060733795166,
+          "bbox_xyxy_px": [
+            308.9416809082031,
+            252.30947875976562,
+            354.7830505371094,
+            290.8819274902344
+          ],
+          "center_uv": [
+            331.86236572265625,
+            271.595703125
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.857669472694397,
+          "bbox_xyxy_px": [
+            301.6918640136719,
+            324.989013671875,
+            356.6535949707031,
+            379.408447265625
+          ],
+          "center_uv": [
+            329.1727294921875,
+            352.19873046875
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.7220937609672546,
+          "bbox_xyxy_px": [
+            349.9787292480469,
+            286.91217041015625,
+            388.8013000488281,
+            330.43011474609375
+          ],
+          "center_uv": [
+            369.3900146484375,
+            308.671142578125
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9741060733795166,
+              "bbox_xyxy_px": [
+                308.9416809082031,
+                252.30947875976562,
+                354.7830505371094,
+                290.8819274902344
+              ],
+              "center_uv": [
+                331.86236572265625,
+                271.595703125
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.857669472694397,
+              "bbox_xyxy_px": [
+                301.6918640136719,
+                324.989013671875,
+                356.6535949707031,
+                379.408447265625
+              ],
+              "center_uv": [
+                329.1727294921875,
+                352.19873046875
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.7220937609672546,
+              "bbox_xyxy_px": [
+                349.9787292480469,
+                286.91217041015625,
+                388.8013000488281,
+                330.43011474609375
+              ],
+              "center_uv": [
+                369.3900146484375,
+                308.671142578125
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          331.86236572265625,
+          271.595703125
+        ],
+        [
+          329.1727294921875,
+          352.19873046875
+        ],
+        [
+          369.3900146484375,
+          308.671142578125
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 43.31
+    }
+  },
+  {
+    "case": "0016",
+    "split": "test",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 2,
+        "iou": 0.9429882011631326,
+        "confidence": 0.9378073811531067
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.9015753865664452,
+        "confidence": 0.9349921941757202
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.9280039380184745,
+        "confidence": 0.8562788963317871
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9378073811531067,
+          "bbox_xyxy_px": [
+            245.33932495117188,
+            329.1368713378906,
+            299.4822082519531,
+            380.3994445800781
+          ],
+          "center_uv": [
+            272.4107666015625,
+            354.7681579589844
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9349921941757202,
+          "bbox_xyxy_px": [
+            236.90264892578125,
+            276.78216552734375,
+            284.355224609375,
+            318.52008056640625
+          ],
+          "center_uv": [
+            260.6289367675781,
+            297.651123046875
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8562788963317871,
+          "bbox_xyxy_px": [
+            292.79058837890625,
+            289.94439697265625,
+            339.53631591796875,
+            333.71392822265625
+          ],
+          "center_uv": [
+            316.1634521484375,
+            311.82916259765625
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9378073811531067,
+              "bbox_xyxy_px": [
+                245.33932495117188,
+                329.1368713378906,
+                299.4822082519531,
+                380.3994445800781
+              ],
+              "center_uv": [
+                272.4107666015625,
+                354.7681579589844
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9349921941757202,
+              "bbox_xyxy_px": [
+                236.90264892578125,
+                276.78216552734375,
+                284.355224609375,
+                318.52008056640625
+              ],
+              "center_uv": [
+                260.6289367675781,
+                297.651123046875
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8562788963317871,
+              "bbox_xyxy_px": [
+                292.79058837890625,
+                289.94439697265625,
+                339.53631591796875,
+                333.71392822265625
+              ],
+              "center_uv": [
+                316.1634521484375,
+                311.82916259765625
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          272.4107666015625,
+          354.7681579589844
+        ],
+        [
+          260.6289367675781,
+          297.651123046875
+        ],
+        [
+          316.1634521484375,
+          311.82916259765625
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 40.96
+    }
+  },
+  {
+    "case": "0017",
+    "split": "test",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 1,
+        "iou": 0.9392386012526245,
+        "confidence": 0.960176408290863
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.8334970949877487,
+        "confidence": 0.9200968742370605
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.8302836232541145,
+        "confidence": 0.9067986011505127
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.960176408290863,
+          "bbox_xyxy_px": [
+            272.3635559082031,
+            205.05520629882812,
+            308.6579895019531,
+            234.32077026367188
+          ],
+          "center_uv": [
+            290.5107727050781,
+            219.68798828125
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9200968742370605,
+          "bbox_xyxy_px": [
+            227.30450439453125,
+            224.41827392578125,
+            271.5037841796875,
+            259.83233642578125
+          ],
+          "center_uv": [
+            249.40414428710938,
+            242.12530517578125
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9067986011505127,
+          "bbox_xyxy_px": [
+            231.07369995117188,
+            190.37554931640625,
+            269.0168762207031,
+            218.95989990234375
+          ],
+          "center_uv": [
+            250.0452880859375,
+            204.667724609375
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.960176408290863,
+              "bbox_xyxy_px": [
+                272.3635559082031,
+                205.05520629882812,
+                308.6579895019531,
+                234.32077026367188
+              ],
+              "center_uv": [
+                290.5107727050781,
+                219.68798828125
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9200968742370605,
+              "bbox_xyxy_px": [
+                227.30450439453125,
+                224.41827392578125,
+                271.5037841796875,
+                259.83233642578125
+              ],
+              "center_uv": [
+                249.40414428710938,
+                242.12530517578125
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9067986011505127,
+              "bbox_xyxy_px": [
+                231.07369995117188,
+                190.37554931640625,
+                269.0168762207031,
+                218.95989990234375
+              ],
+              "center_uv": [
+                250.0452880859375,
+                204.667724609375
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          290.5107727050781,
+          219.68798828125
+        ],
+        [
+          249.40414428710938,
+          242.12530517578125
+        ],
+        [
+          250.0452880859375,
+          204.667724609375
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 35.9
+    }
+  },
+  {
+    "case": "0018",
+    "split": "test",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 1,
+        "iou": 0.9456864160418391,
+        "confidence": 0.9590458273887634
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.918002746178864,
+        "confidence": 0.89826899766922
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.8928456561905243,
+        "confidence": 0.8969155550003052
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9590458273887634,
+          "bbox_xyxy_px": [
+            243.9787139892578,
+            258.690185546875,
+            289.70892333984375,
+            299.3699951171875
+          ],
+          "center_uv": [
+            266.8438186645508,
+            279.03009033203125
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.89826899766922,
+          "bbox_xyxy_px": [
+            296.3980712890625,
+            242.884033203125,
+            337.8768310546875,
+            279.4849853515625
+          ],
+          "center_uv": [
+            317.137451171875,
+            261.18450927734375
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8969155550003052,
+          "bbox_xyxy_px": [
+            260.58892822265625,
+            219.04623413085938,
+            300.74053955078125,
+            252.14157104492188
+          ],
+          "center_uv": [
+            280.66473388671875,
+            235.59390258789062
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9590458273887634,
+              "bbox_xyxy_px": [
+                243.9787139892578,
+                258.690185546875,
+                289.70892333984375,
+                299.3699951171875
+              ],
+              "center_uv": [
+                266.8438186645508,
+                279.03009033203125
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.89826899766922,
+              "bbox_xyxy_px": [
+                296.3980712890625,
+                242.884033203125,
+                337.8768310546875,
+                279.4849853515625
+              ],
+              "center_uv": [
+                317.137451171875,
+                261.18450927734375
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8969155550003052,
+              "bbox_xyxy_px": [
+                260.58892822265625,
+                219.04623413085938,
+                300.74053955078125,
+                252.14157104492188
+              ],
+              "center_uv": [
+                280.66473388671875,
+                235.59390258789062
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          266.8438186645508,
+          279.03009033203125
+        ],
+        [
+          317.137451171875,
+          261.18450927734375
+        ],
+        [
+          280.66473388671875,
+          235.59390258789062
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 36.03
+    }
+  },
+  {
+    "case": "0019",
+    "split": "test",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 0,
+        "iou": 0.8971940724675762,
+        "confidence": 0.9433299899101257
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.9206970792422696,
+        "confidence": 0.9092597961425781
+      },
+      {
+        "gt_index": 1,
+        "iou": 0.922906483636229,
+        "confidence": 0.8583579063415527
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9433299899101257,
+          "bbox_xyxy_px": [
+            187.64999389648438,
+            271.6789245605469,
+            234.87460327148438,
+            312.5194396972656
+          ],
+          "center_uv": [
+            211.26229858398438,
+            292.09918212890625
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9092597961425781,
+          "bbox_xyxy_px": [
+            263.15478515625,
+            340.54632568359375,
+            317.684326171875,
+            394.80023193359375
+          ],
+          "center_uv": [
+            290.4195556640625,
+            367.67327880859375
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8583579063415527,
+          "bbox_xyxy_px": [
+            242.3541717529297,
+            279.9970703125,
+            287.82672119140625,
+            321.40704345703125
+          ],
+          "center_uv": [
+            265.09044647216797,
+            300.7020568847656
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9433299899101257,
+              "bbox_xyxy_px": [
+                187.64999389648438,
+                271.6789245605469,
+                234.87460327148438,
+                312.5194396972656
+              ],
+              "center_uv": [
+                211.26229858398438,
+                292.09918212890625
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9092597961425781,
+              "bbox_xyxy_px": [
+                263.15478515625,
+                340.54632568359375,
+                317.684326171875,
+                394.80023193359375
+              ],
+              "center_uv": [
+                290.4195556640625,
+                367.67327880859375
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8583579063415527,
+              "bbox_xyxy_px": [
+                242.3541717529297,
+                279.9970703125,
+                287.82672119140625,
+                321.40704345703125
+              ],
+              "center_uv": [
+                265.09044647216797,
+                300.7020568847656
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          211.26229858398438,
+          292.09918212890625
+        ],
+        [
+          290.4195556640625,
+          367.67327880859375
+        ],
+        [
+          265.09044647216797,
+          300.7020568847656
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 34.11
+    }
+  },
+  {
+    "case": "0020",
+    "split": "test",
+    "tp": 3,
+    "fp": 0,
+    "fn": 0,
+    "all_correct": true,
+    "matches": [
+      {
+        "gt_index": 1,
+        "iou": 0.8941497317771333,
+        "confidence": 0.9248397350311279
+      },
+      {
+        "gt_index": 2,
+        "iou": 0.9233496610958405,
+        "confidence": 0.9110881090164185
+      },
+      {
+        "gt_index": 0,
+        "iou": 0.8595762573509764,
+        "confidence": 0.8134554624557495
+      }
+    ],
+    "result": {
+      "ok": true,
+      "algorithm": "task2-cup-covered-yolo11n-v2-hardneg-20261009",
+      "camera_serial": null,
+      "requires_station_registration": false,
+      "detections": [
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9248397350311279,
+          "bbox_xyxy_px": [
+            185.3987579345703,
+            327.67913818359375,
+            239.10911560058594,
+            377.390380859375
+          ],
+          "center_uv": [
+            212.25393676757812,
+            352.5347595214844
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.9110881090164185,
+          "bbox_xyxy_px": [
+            262.9442138671875,
+            340.57879638671875,
+            317.040771484375,
+            394.642822265625
+          ],
+          "center_uv": [
+            289.99249267578125,
+            367.6108093261719
+          ]
+        },
+        {
+          "class_id": 0,
+          "label": "cup_covered",
+          "confidence": 0.8134554624557495,
+          "bbox_xyxy_px": [
+            240.6052703857422,
+            280.27490234375,
+            289.24993896484375,
+            321.80419921875
+          ],
+          "center_uv": [
+            264.92760467529297,
+            301.03955078125
+          ]
+        }
+      ],
+      "objects": {
+        "cup_covered": {
+          "detected": true,
+          "count": 3,
+          "unique": false,
+          "candidates": [
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9248397350311279,
+              "bbox_xyxy_px": [
+                185.3987579345703,
+                327.67913818359375,
+                239.10911560058594,
+                377.390380859375
+              ],
+              "center_uv": [
+                212.25393676757812,
+                352.5347595214844
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.9110881090164185,
+              "bbox_xyxy_px": [
+                262.9442138671875,
+                340.57879638671875,
+                317.040771484375,
+                394.642822265625
+              ],
+              "center_uv": [
+                289.99249267578125,
+                367.6108093261719
+              ]
+            },
+            {
+              "class_id": 0,
+              "label": "cup_covered",
+              "confidence": 0.8134554624557495,
+              "bbox_xyxy_px": [
+                240.6052703857422,
+                280.27490234375,
+                289.24993896484375,
+                321.80419921875
+              ],
+              "center_uv": [
+                264.92760467529297,
+                301.03955078125
+              ]
+            }
+          ]
+        }
+      },
+      "covered_cup_centers_uv": [
+        [
+          212.25393676757812,
+          352.5347595214844
+        ],
+        [
+          289.99249267578125,
+          367.6108093261719
+        ],
+        [
+          264.92760467529297,
+          301.03955078125
+        ]
+      ],
+      "single_covered_cup_center_uv": null,
+      "selected_grasp_candidate": null,
+      "grasp_pose": null,
+      "robot_motion_ready": false,
+      "stable_2d": false,
+      "seal_quality_verified": null,
+      "coordinate_frame": "original_color_image_pixels",
+      "coordinate_semantics": "Centers of user-labeled visible cup-cover regions, not full-body or 3D grasp centers",
+      "confidence_threshold": 0.4,
+      "implementation": {
+        "weights_sha256": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b",
+        "recognize_sha256": "3b999a7f3e10dd1516fe4ccb7c6e66ffb0a79e0e28b9adc2e03ff7602bf70601",
+        "torch": "2.12.1+cu130",
+        "opencv": "5.0.0"
+      },
+      "reasons": [
+        "multiple_cup_covered_candidates_no_grasp_selection"
+      ],
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "inference_ms": 38.2
+    }
+  }
+]

@@ -1,0 +1,225 @@
+{
+  "records": [
+    {
+      "case": "negative_001_full",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_001_full.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "source_sha256": "c73df2823e68c3beacd1fc556b1fed3c292f7a51825e091f2c9f80e1649af073",
+      "episode": "episode_000000",
+      "kind": "full",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_001_cup_scale1.0",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_001_cup_scale1.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "source_sha256": "c73df2823e68c3beacd1fc556b1fed3c292f7a51825e091f2c9f80e1649af073",
+      "episode": "episode_000000",
+      "kind": "cup_scale1.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_001_cup_scale2.0",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_001_cup_scale2.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "source_sha256": "c73df2823e68c3beacd1fc556b1fed3c292f7a51825e091f2c9f80e1649af073",
+      "episode": "episode_000000",
+      "kind": "cup_scale2.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_001_target_scale1.0",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_001_target_scale1.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "source_sha256": "c73df2823e68c3beacd1fc556b1fed3c292f7a51825e091f2c9f80e1649af073",
+      "episode": "episode_000000",
+      "kind": "target_scale1.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_001_target_scale2.0",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_001_target_scale2.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/001_old_s02_episode_000000_f00045.jpg",
+      "source_sha256": "c73df2823e68c3beacd1fc556b1fed3c292f7a51825e091f2c9f80e1649af073",
+      "episode": "episode_000000",
+      "kind": "target_scale2.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_005_full",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_005_full.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "source_sha256": "0039abfbdef5e0f53ca7d9cdd938dbc05860f76796bfcd3b5aa82031152c5615",
+      "episode": "episode_000020",
+      "kind": "full",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_005_cup_scale1.0",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_005_cup_scale1.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "source_sha256": "0039abfbdef5e0f53ca7d9cdd938dbc05860f76796bfcd3b5aa82031152c5615",
+      "episode": "episode_000020",
+      "kind": "cup_scale1.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_005_cup_scale2.0",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_005_cup_scale2.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "source_sha256": "0039abfbdef5e0f53ca7d9cdd938dbc05860f76796bfcd3b5aa82031152c5615",
+      "episode": "episode_000020",
+      "kind": "cup_scale2.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_005_target_scale1.0",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_005_target_scale1.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "source_sha256": "0039abfbdef5e0f53ca7d9cdd938dbc05860f76796bfcd3b5aa82031152c5615",
+      "episode": "episode_000020",
+      "kind": "target_scale1.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_005_target_scale2.0",
+      "split": "train",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/train/negative_005_target_scale2.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/005_old_s02_episode_000020_f00180.jpg",
+      "source_sha256": "0039abfbdef5e0f53ca7d9cdd938dbc05860f76796bfcd3b5aa82031152c5615",
+      "episode": "episode_000020",
+      "kind": "target_scale2.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_003_full",
+      "split": "val",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/val/negative_003_full.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "source_sha256": "feebb89454c40c052c24e5ea6bc621d5683bddd93a4974c69a080811ece514f0",
+      "episode": "episode_000010",
+      "kind": "full",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_003_cup_scale1.0",
+      "split": "val",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/val/negative_003_cup_scale1.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "source_sha256": "feebb89454c40c052c24e5ea6bc621d5683bddd93a4974c69a080811ece514f0",
+      "episode": "episode_000010",
+      "kind": "cup_scale1.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_003_cup_scale2.0",
+      "split": "val",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/val/negative_003_cup_scale2.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "source_sha256": "feebb89454c40c052c24e5ea6bc621d5683bddd93a4974c69a080811ece514f0",
+      "episode": "episode_000010",
+      "kind": "cup_scale2.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_003_target_scale1.0",
+      "split": "val",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/val/negative_003_target_scale1.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "source_sha256": "feebb89454c40c052c24e5ea6bc621d5683bddd93a4974c69a080811ece514f0",
+      "episode": "episode_000010",
+      "kind": "target_scale1.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_003_target_scale2.0",
+      "split": "val",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/val/negative_003_target_scale2.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/003_old_s02_episode_000010_f00121.jpg",
+      "source_sha256": "feebb89454c40c052c24e5ea6bc621d5683bddd93a4974c69a080811ece514f0",
+      "episode": "episode_000010",
+      "kind": "target_scale2.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_007_full",
+      "split": "negative_test",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/negative_test/negative_007_full.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "source_sha256": "fe92471d9a8656cf9fbbfa814ed3d1999a39326ff897bd41420819f95749bc36",
+      "episode": "episode_000031",
+      "kind": "full",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_007_cup_scale1.0",
+      "split": "negative_test",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/negative_test/negative_007_cup_scale1.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "source_sha256": "fe92471d9a8656cf9fbbfa814ed3d1999a39326ff897bd41420819f95749bc36",
+      "episode": "episode_000031",
+      "kind": "cup_scale1.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_007_cup_scale2.0",
+      "split": "negative_test",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/negative_test/negative_007_cup_scale2.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "source_sha256": "fe92471d9a8656cf9fbbfa814ed3d1999a39326ff897bd41420819f95749bc36",
+      "episode": "episode_000031",
+      "kind": "cup_scale2.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_007_target_scale1.0",
+      "split": "negative_test",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/negative_test/negative_007_target_scale1.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "source_sha256": "fe92471d9a8656cf9fbbfa814ed3d1999a39326ff897bd41420819f95749bc36",
+      "episode": "episode_000031",
+      "kind": "target_scale1.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    },
+    {
+      "case": "negative_007_target_scale2.0",
+      "split": "negative_test",
+      "image": "/home/vnv/task2-cup-covered-yolo-v2-20261009/dataset/images/negative_test/negative_007_target_scale2.0.jpg",
+      "source": "/home/vnv/task2-cup-sealing-60-20261008/images/007_old_s02_episode_000031_f00042.jpg",
+      "source_sha256": "fe92471d9a8656cf9fbbfa814ed3d1999a39326ff897bd41420819f95749bc36",
+      "episode": "episode_000031",
+      "kind": "target_scale2.0",
+      "boxes_xyxy": [],
+      "qualification": "Visually checked open cup and empty holder, no cup_covered positive labels"
+    }
+  ],
+  "split_policy": "Negative source episodes 000000/000020 train, 000010 development val, 000031 reserved negative test. Prior observed failure is now explicitly training/regression, not independent test."
+}

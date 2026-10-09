@@ -1,0 +1,117 @@
+[
+  {
+    "case": "0001_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0002_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0003_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0004_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0005_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0006_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0007_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0008_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0009_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0010_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0011_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0012_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0013_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0014_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0015_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0016_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0017_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0018_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0019_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "0020_synthetic_absent",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "black",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "white",
+    "detections": [],
+    "passed": true
+  },
+  {
+    "case": "noise",
+    "detections": [],
+    "passed": true
+  }
+]
