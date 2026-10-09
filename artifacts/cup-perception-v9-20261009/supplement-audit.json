@@ -1,0 +1,448 @@
+{
+  "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651",
+  "label_zip": "/home/vnv/yizhi/yzb2026-competition-ws/labels_my-project-name_2026-10-09-12-52-34.zip",
+  "label_zip_sha256": "973f9fa39d43dc7672a0a5f0051a967b1b6924699bcdc97cf8cc2d9f64be49f3",
+  "count": 19,
+  "class_ids": [
+    0
+  ],
+  "records": [
+    {
+      "frame": "0001",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0001.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        85.95904000000002,
+        209.99975999999998,
+        137.74016,
+        241.64376
+      ],
+      "yolo": [
+        0,
+        0.174765,
+        0.470462,
+        0.080908,
+        0.065925
+      ],
+      "image_sha256": "3a2eec8dbd066deb9b6fb6f7045cfc70ff57304b27e78e54c3375d644b7800b6",
+      "label_sha256": "8c13ff7e22979d9f1a2a87e0686ea7730c96483ec342cfc0257d897fa373b851"
+    },
+    {
+      "frame": "0002",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0002.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        81.43871999999999,
+        210.82175999999998,
+        129.52064000000001,
+        236.30111999999997
+      ],
+      "yolo": [
+        0,
+        0.164812,
+        0.465753,
+        0.075128,
+        0.053082
+      ],
+      "image_sha256": "a11a25a904755ba405855d1d3d433f4d30129e6642ce75ad01c83616156c3d39",
+      "label_sha256": "fa559e36618e0145857471efcb816d06460190a4b5374dfa24e4b1730a16eeac"
+    },
+    {
+      "frame": "0003",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0003.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        84.72608000000001,
+        209.58888000000002,
+        129.10944,
+        236.30136000000002
+      ],
+      "yolo": [
+        0,
+        0.167059,
+        0.464469,
+        0.069349,
+        0.055651
+      ],
+      "image_sha256": "38dc8dc829b3b270e6dafb3a7ca943a1ffc82012454bc5021f2c60bf99f70fd9",
+      "label_sha256": "a1a4fa72432b307f936c1ce45bfb58a174d80cc5ee4a76d0b8f6e7bf1364609b"
+    },
+    {
+      "frame": "0004",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0004.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        86.78048000000001,
+        210.82199999999997,
+        129.52032,
+        233.42472
+      ],
+      "yolo": [
+        0,
+        0.168985,
+        0.462757,
+        0.066781,
+        0.047089
+      ],
+      "image_sha256": "ce63d00de086d8e15831c3ed9dfc19aabf55300e11b3f94d5e649721294b9a34",
+      "label_sha256": "74336812926db9c0e2e2b56bb33b147234c4e0fd5c970e5abf1d20264c3fd00f"
+    },
+    {
+      "frame": "0005",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0005.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        90.47936,
+        198.90384,
+        142.26047999999997,
+        238.35600000000002
+      ],
+      "yolo": [
+        0,
+        0.181828,
+        0.455479,
+        0.080908,
+        0.082192
+      ],
+      "image_sha256": "28fd82edd56049e2a0fe1edfa97ecef1d0b31abd759097a5dfce68826fa2f2a7",
+      "label_sha256": "85ef0086646ba0ba9b8f9db64e8ccfcf369f80f47abf932b3d5823efeb76ca4d"
+    },
+    {
+      "frame": "0006",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0006.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        91.71232,
+        199.72632000000002,
+        141.84928,
+        238.35624
+      ],
+      "yolo": [
+        0,
+        0.18247,
+        0.456336,
+        0.078339,
+        0.080479
+      ],
+      "image_sha256": "ffdb0c97ed7dd8990d19041e35cb712f0f7c201bcc4a6ddaa4a716a6f5477d5d",
+      "label_sha256": "1b9e75dee6473032215909178cb3c4f4c0560515b1ec7732afb2fc7778241a1b"
+    },
+    {
+      "frame": "0007",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0007.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        98.28736,
+        199.72632000000002,
+        144.31488,
+        233.42472
+      ],
+      "yolo": [
+        0,
+        0.189533,
+        0.451199,
+        0.071918,
+        0.070205
+      ],
+      "image_sha256": "791f09ee99df2154ca4d8dff3393ff67cc7f454a3939c4b07efff3f30d3d1927",
+      "label_sha256": "36b00e591358889c5cb2ce02ac2e02e29c4da39415f770a0d740b15315b46b44"
+    },
+    {
+      "frame": "0008",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0008.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        88.01344,
+        208.356,
+        134.86272,
+        237.12336
+      ],
+      "yolo": [
+        0,
+        0.174122,
+        0.464041,
+        0.073202,
+        0.059932
+      ],
+      "image_sha256": "ac4c1f2793d3f0ce4c3ba1b9d2209234ca4027dfbb29068229ba796b4c828aef",
+      "label_sha256": "79cbfebdc0c4750f95f72bec1a0ce18b173dd88c85e1b8efb562f3c8f9e838e3"
+    },
+    {
+      "frame": "0009",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0009.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        86.36992,
+        207.53424,
+        134.45184,
+        236.71247999999997
+      ],
+      "yolo": [
+        0,
+        0.172517,
+        0.462757,
+        0.075128,
+        0.060788
+      ],
+      "image_sha256": "cafc885d18e1be280bb57d8f2db3fd4ba391bff90865c0983eb275748e624d32",
+      "label_sha256": "8c1ff4d1a8dc75118f9ebe6c51d486c328a3b32ccbca10c0487def4b675bfd28"
+    },
+    {
+      "frame": "0010",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0010.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        88.42496,
+        206.3016,
+        136.096,
+        236.71248
+      ],
+      "yolo": [
+        0,
+        0.175407,
+        0.461473,
+        0.074486,
+        0.063356
+      ],
+      "image_sha256": "bc8e8a5b461cd120e72a5e97b56e31be81513bedccd1984edaed006fdf30460a",
+      "label_sha256": "54a7b76e5c45eeffa5e80ef8cd2a2352047c84cf8ac0b25993d20df8842d0e6e"
+    },
+    {
+      "frame": "0011",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0011.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        94.17824000000002,
+        202.19184,
+        137.73984000000002,
+        232.60272
+      ],
+      "yolo": [
+        0,
+        0.181186,
+        0.452911,
+        0.068065,
+        0.063356
+      ],
+      "image_sha256": "b4be002d6ffc10c02368c08d646dd83d6217649c6ced57e09e4f9135f8e4fe11",
+      "label_sha256": "26eecab683dd57b189a6d637a302532e4b822cbb2787258b2a4ffcfc8e79dce4"
+    },
+    {
+      "frame": "0012",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0012.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        87.60288,
+        205.06848,
+        136.09632000000002,
+        236.30112
+      ],
+      "yolo": [
+        0,
+        0.174765,
+        0.45976,
+        0.075771,
+        0.065068
+      ],
+      "image_sha256": "85a1f28e587ee7983e7483900c532deedaa6a6d145c9eeee9ad320f034363561",
+      "label_sha256": "f7a13414819d997551c51d6249d042983deb3ec88f83fae5972e32cbe2ea051a"
+    },
+    {
+      "frame": "0013",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0013.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        85.13728,
+        207.94511999999997,
+        133.2192,
+        237.53424
+      ],
+      "yolo": [
+        0,
+        0.170591,
+        0.464041,
+        0.075128,
+        0.061644
+      ],
+      "image_sha256": "3b51b4e30a57b23130a94ec77a76a5aa99b8a485cea66fe60f9d8b61bceae884",
+      "label_sha256": "6fbe1ee220c2dc997416919968a4ef596447f9da50218712f8c8e2508b1b1135"
+    },
+    {
+      "frame": "0014",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0014.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        83.49343999999999,
+        208.76711999999998,
+        134.04128,
+        240.41111999999995
+      ],
+      "yolo": [
+        0,
+        0.169949,
+        0.467894,
+        0.078981,
+        0.065925
+      ],
+      "image_sha256": "ea80f84dde9c5bbc9b9a9b68b8410e036f16eebf666fe8245c239ac774d884fe",
+      "label_sha256": "df1d6415bc3c4edba873326c62e8c1c0917f16cd0e92f4360d0fb5b6cc57d052"
+    },
+    {
+      "frame": "0015",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0015.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        85.54784,
+        208.76736000000002,
+        129.9312,
+        234.24672
+      ],
+      "yolo": [
+        0,
+        0.168343,
+        0.461473,
+        0.069349,
+        0.053082
+      ],
+      "image_sha256": "bf5c329b2647214ada0330eb3b39016548f62f56350bf9eec6ffdf0ff2b7f76a",
+      "label_sha256": "7b95b2d593bd647236363344b9809b5e4f4db76a5adc2cde526d308f885ae2bc"
+    },
+    {
+      "frame": "0016",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0016.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        85.13728,
+        205.06872,
+        138.56192,
+        243.69864
+      ],
+      "yolo": [
+        0,
+        0.174765,
+        0.467466,
+        0.083476,
+        0.080479
+      ],
+      "image_sha256": "b5d7b1b3f4343e59c066072315723aaa4687e660494ab1267120d28e313fa16e",
+      "label_sha256": "4d071fdc12ef9956a1ebbafeaf55b8f703d86206c8ba97d8eafe4ce896a2e137"
+    },
+    {
+      "frame": "0017",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0017.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        86.7808,
+        208.76711999999998,
+        134.04096,
+        236.71224
+      ],
+      "yolo": [
+        0,
+        0.172517,
+        0.464041,
+        0.073844,
+        0.058219
+      ],
+      "image_sha256": "cc7720e095553af6425ae7c58b1a471bdbeecd8ecb53803310a46aad1fbc76ad",
+      "label_sha256": "163a6fcdda6fb5429a97a9b240ca13e0dcfd7903be33499c05c4e71fe09645b7"
+    },
+    {
+      "frame": "0018",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0018.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        80.61663999999999,
+        210.41088000000002,
+        130.34271999999999,
+        239.58911999999998
+      ],
+      "yolo": [
+        0,
+        0.164812,
+        0.46875,
+        0.077697,
+        0.060788
+      ],
+      "image_sha256": "c54bdbd54f7bcddff2864f34b26b641f727c7cd9caee59d55e66e02a9c747d83",
+      "label_sha256": "2556d3cd4226fecf9c64c6942114ab0fe4acbdb43b532b96c1add9d08eedf0ee"
+    },
+    {
+      "frame": "0019",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0019.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        82.67136,
+        209.58912,
+        128.69888,
+        233.83584
+      ],
+      "yolo": [
+        0,
+        0.165133,
+        0.461901,
+        0.071918,
+        0.050514
+      ],
+      "image_sha256": "b901f7218efd719f81d70a51ffef75aacd857e268efb6d5fcf0a2087ae6b6405",
+      "label_sha256": "0289c6a07eb8cc95894727a1a4f11687551451cb98ccee5ab2c36571df20524f"
+    }
+  ]
+}

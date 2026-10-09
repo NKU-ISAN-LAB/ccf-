@@ -1,0 +1,1666 @@
+{
+  "records": [
+    {
+      "frame": "0001",
+      "split": "train",
+      "bbox_xyxy": [
+        147.19168000000002,
+        242.05488,
+        201.43808,
+        267.94512000000003
+      ],
+      "yolo": [
+        0,
+        0.272367,
+        0.53125,
+        0.08476,
+        0.053938
+      ],
+      "image_sha256": "7f57c753ae9da0d71f9a5476c5011d6484611dcf2ae16fec3b147ffa64231b11",
+      "label_sha256": "4d95ebac0e4792665ed2dfb5b7a937d3dcea4ea32e65aab0e4cc48322f0338c1",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0001",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0001.jpg"
+    },
+    {
+      "frame": "0002",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        147.60288,
+        242.46552,
+        198.5616,
+        269.99976000000004
+      ],
+      "yolo": [
+        0,
+        0.270441,
+        0.533818,
+        0.079623,
+        0.057363
+      ],
+      "image_sha256": "ecf6179ff6dd937cc7fb6ddb62296410bcaf020e9536c6751e548653503fd290",
+      "label_sha256": "e78549038ba8017226ec52ce2b25950c6c7bb6995b9fef28c3e442cf1a4933d6",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0002",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0002.jpg"
+    },
+    {
+      "frame": "0003",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.89024,
+        239.17824000000002,
+        197.73952000000003,
+        270.0
+      ],
+      "yolo": [
+        0,
+        0.272367,
+        0.530394,
+        0.073202,
+        0.064212
+      ],
+      "image_sha256": "07adf8b303c5003c9d10438273815843d0cf59e43f95788c66eed60173950b1a",
+      "label_sha256": "dad4ca12d2b43b48ab0b1e120cc1f3df9b47dafa3f0cfa6e4f067cccff28e529",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0003",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0003.jpg"
+    },
+    {
+      "frame": "0004",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.06848000000002,
+        238.76736,
+        196.91776000000002,
+        268.76736
+      ],
+      "yolo": [
+        0,
+        0.271083,
+        0.528682,
+        0.073202,
+        0.0625
+      ],
+      "image_sha256": "16ad979aecf7f539609e048d6a0fd7a7bb7a0739d397ad67e4525d803dc750cb",
+      "label_sha256": "60bc8697ac7ebcf67524281580d1b8d2a10f5cd9786aaddbc92c36b744bc2ac2",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0004",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0004.jpg"
+    },
+    {
+      "frame": "0005",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        148.83551999999997,
+        240.0,
+        198.5616,
+        268.76736000000005
+      ],
+      "yolo": [
+        0,
+        0.271404,
+        0.529966,
+        0.077697,
+        0.059932
+      ],
+      "image_sha256": "283581345954fd0ce048e125deb10b251e082834e41c7d3a4658b9616926cbb7",
+      "label_sha256": "46cd1885f64c9f23d8fd0a5e6337769453f96c9f28ea25bfe288e12886dc2322",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0005",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0005.jpg"
+    },
+    {
+      "frame": "0006",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        148.83552,
+        241.23288,
+        197.73984,
+        269.178
+      ],
+      "yolo": [
+        0,
+        0.270762,
+        0.531678,
+        0.076413,
+        0.058219
+      ],
+      "image_sha256": "f527671b2a440ad991c203c02ce71c414b696a4e70571ff4a0988844aa34d2db",
+      "label_sha256": "6fa83d904629d9503f3da4aed95bde3793dbd8555f60f874826f6b451edabf72",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0006",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0006.jpg"
+    },
+    {
+      "frame": "0007",
+      "split": "train",
+      "bbox_xyxy": [
+        150.89024,
+        240.822,
+        197.32864,
+        268.76712000000003
+      ],
+      "yolo": [
+        0,
+        0.272046,
+        0.530822,
+        0.07256,
+        0.058219
+      ],
+      "image_sha256": "4a5641fc6bdb50b91c6205b9107b9d5b4846a0a8b3851318150faa064699fcca",
+      "label_sha256": "c8cc10806d79256647a82feec6b4e0e6c521baa2efa540540ead09b722544f9f",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0007",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0007.jpg"
+    },
+    {
+      "frame": "0008",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        148.83551999999997,
+        239.58936,
+        197.32896,
+        267.94536
+      ],
+      "yolo": [
+        0,
+        0.270441,
+        0.528682,
+        0.075771,
+        0.059075
+      ],
+      "image_sha256": "67537849d3cc0a374c3b15395c4654742a33439663b058e8db8bddbaad516205",
+      "label_sha256": "58ce0379e0b5f4e315b17dcc185436576b74705e90592536048cbfe26b31a9bf",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0008",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0008.jpg"
+    },
+    {
+      "frame": "0009",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.47935999999999,
+        241.64376000000001,
+        198.56127999999998,
+        268.35623999999996
+      ],
+      "yolo": [
+        0,
+        0.272688,
+        0.53125,
+        0.075128,
+        0.055651
+      ],
+      "image_sha256": "a72a87b8a1646ecb977f65c720e914dd46b0c787524fb9b60d461193c74d4a63",
+      "label_sha256": "e3d34bd26a57c09a897580cec789ae62a8bb01d9e69e4f63fcec5309089c3f05",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0009",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0009.jpg"
+    },
+    {
+      "frame": "0010",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        148.42464,
+        239.17824000000002,
+        198.15072,
+        268.35648000000003
+      ],
+      "yolo": [
+        0,
+        0.270762,
+        0.528682,
+        0.077697,
+        0.060788
+      ],
+      "image_sha256": "a0f8ebdb0d3d9b0ac72729e1b765338d67643bc35d67d5b4bdd0cbcda554119c",
+      "label_sha256": "74996e89564c8ac1ad046644333c2c7a3cb6638613496e00a60bc8219cc26b24",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0010",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0010.jpg"
+    },
+    {
+      "frame": "0011",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        148.01376000000002,
+        240.0,
+        197.73984000000002,
+        269.58912000000004
+      ],
+      "yolo": [
+        0,
+        0.27012,
+        0.530822,
+        0.077697,
+        0.061644
+      ],
+      "image_sha256": "b6211f4c1917bf60287269576efc63a5137cccd0c27214b3fcb906e86ce035bc",
+      "label_sha256": "6a755a9fe0406f98a5dd65321efb02c4568dd3d8ecc43f8e317a0c52227f9276",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0011",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0011.jpg"
+    },
+    {
+      "frame": "0012",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        149.24672,
+        239.58911999999998,
+        197.32864,
+        268.76736
+      ],
+      "yolo": [
+        0,
+        0.270762,
+        0.529538,
+        0.075128,
+        0.060788
+      ],
+      "image_sha256": "fb6da1a01441770ecb5d24d76b8799c41462300fa2f87c0d2b58a1c9398a8422",
+      "label_sha256": "578851c926260adca6899f842e0e3d28d34eb10028a4cae12aff22bd0fa626d0",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0012",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0012.jpg"
+    },
+    {
+      "frame": "0013",
+      "split": "train",
+      "bbox_xyxy": [
+        148.83552000000003,
+        239.58912,
+        198.15072,
+        269.58912000000004
+      ],
+      "yolo": [
+        0,
+        0.271083,
+        0.530394,
+        0.077055,
+        0.0625
+      ],
+      "image_sha256": "be5c291cdc099db966f96e0b14373ac4cf6dc887b024d1d975d87dfd107215db",
+      "label_sha256": "25d114a86df2d69134bfcb92ef0e67aebe4d90cab99415255e08b48b6a7c34db",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0013",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0013.jpg"
+    },
+    {
+      "frame": "0014",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        149.2464,
+        238.76735999999997,
+        198.15071999999998,
+        269.58912
+      ],
+      "yolo": [
+        0,
+        0.271404,
+        0.529538,
+        0.076413,
+        0.064212
+      ],
+      "image_sha256": "a575570d380ce3e728408ab2ae68923eeb0f96775e3d6abef34f6ce215704f62",
+      "label_sha256": "2b651dca58caa597ea6df2a8b28f8dfdaf6b16d6e3d489540ba098b914b3e6b7",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0014",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0014.jpg"
+    },
+    {
+      "frame": "0015",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        148.01376,
+        239.17824,
+        198.15072,
+        268.76736
+      ],
+      "yolo": [
+        0,
+        0.270441,
+        0.52911,
+        0.078339,
+        0.061644
+      ],
+      "image_sha256": "38c8019f3aa470c63d62208dc601d84e5f61ebe02219f6c53b8f8f9bbb852296",
+      "label_sha256": "7170c3c6e58c30c0f3c5012598a803deb80bfa1ad7649f05cd0c9901bf0dd1f5",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0015",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0015.jpg"
+    },
+    {
+      "frame": "0016",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.06847999999997,
+        240.00024,
+        197.32864,
+        268.35623999999996
+      ],
+      "yolo": [
+        0,
+        0.271404,
+        0.529538,
+        0.073844,
+        0.059075
+      ],
+      "image_sha256": "bbb8b933caa63249cd94eb960b3f76448a0f04eb9e8bbe10789150ceb84b375a",
+      "label_sha256": "d3227a11cb49aa366649fd02c419868489c4f8e525207560ab128a981bcde0e2",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0016",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0016.jpg"
+    },
+    {
+      "frame": "0017",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.89023999999998,
+        240.0,
+        198.1504,
+        268.76736000000005
+      ],
+      "yolo": [
+        0,
+        0.272688,
+        0.529966,
+        0.073844,
+        0.059932
+      ],
+      "image_sha256": "5cd73004f64547c3b8c052eb4c8146f57be99f3ecac7de3a03155637a24336b7",
+      "label_sha256": "595694cfea3aaf6751b21d0d8f357a700706dacdea6be22ab68dad8ba48dbfb6",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0017",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0017.jpg"
+    },
+    {
+      "frame": "0018",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.06848000000002,
+        238.35647999999998,
+        196.91776000000002,
+        269.17823999999996
+      ],
+      "yolo": [
+        0,
+        0.271083,
+        0.528682,
+        0.073202,
+        0.064212
+      ],
+      "image_sha256": "b589ee9207268b740bd9b4affb12e66711e06c7a1b34cae3ccd821b42194df34",
+      "label_sha256": "ce71ea302913fc9d14665d2416fbf04ca7db8b7574a47f2d00d8953b7b78ae2a",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0018",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0018.jpg"
+    },
+    {
+      "frame": "0019",
+      "split": "train",
+      "bbox_xyxy": [
+        150.06815999999998,
+        238.76736,
+        198.97247999999996,
+        268.76736
+      ],
+      "yolo": [
+        0,
+        0.272688,
+        0.528682,
+        0.076413,
+        0.0625
+      ],
+      "image_sha256": "a8345d4db9425b4904ee3452ad5e2e8a2d4af735aa886520523d5a0fc01b105b",
+      "label_sha256": "c16ff629f2fddc6caf54e32f1584a74475ab3a3b724b9d928ac579d007077237",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0019",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0019.jpg"
+    },
+    {
+      "frame": "0020",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.47935999999999,
+        238.35647999999998,
+        198.56127999999998,
+        269.58912
+      ],
+      "yolo": [
+        0,
+        0.272688,
+        0.52911,
+        0.075128,
+        0.065068
+      ],
+      "image_sha256": "e03bfa4f6fcb22d2555432c9be3b385f536c6d4465812f6fd40cbb6bd8e0af48",
+      "label_sha256": "f3a431c4eb997d2481778deb08c8de2d1c9e1476fc254a7e6454272bb6b8c9ea",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0020",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0020.jpg"
+    },
+    {
+      "frame": "0021",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        149.24671999999998,
+        238.76736,
+        196.91776,
+        268.76736
+      ],
+      "yolo": [
+        0,
+        0.270441,
+        0.528682,
+        0.074486,
+        0.0625
+      ],
+      "image_sha256": "52fa504e8f0575c825e410eb22e7f592d937f4589181d56a23110c6e8796c43d",
+      "label_sha256": "5b77fa81c5732c75a68a59c0ab9acb45b5f2183413c295bcbfc78cb94ad596ca",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0021",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0021.jpg"
+    },
+    {
+      "frame": "0022",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        148.42464,
+        238.76736,
+        198.15072,
+        269.17823999999996
+      ],
+      "yolo": [
+        0,
+        0.270762,
+        0.52911,
+        0.077697,
+        0.063356
+      ],
+      "image_sha256": "b849fb861932c8a0a7dd8fdd580b1886420ac3ad09ee5d5a24f859c5b3979046",
+      "label_sha256": "0b7829a28a650acd0d307b140661e300cb6b0b4073a66fc95fa85899ff25b422",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0022",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0022.jpg"
+    },
+    {
+      "frame": "0023",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.06848,
+        239.17824,
+        197.73952000000003,
+        268.76736
+      ],
+      "yolo": [
+        0,
+        0.271725,
+        0.52911,
+        0.074486,
+        0.061644
+      ],
+      "image_sha256": "55db19913b1c578eae667e96ca4f767166fc65b05ce29073c4b16a9c32d7710e",
+      "label_sha256": "38ef4a149c0d4069d5d99269e406523b01a8e953e8f7532e364195196250c4a0",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0023",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0023.jpg"
+    },
+    {
+      "frame": "0024",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.06848000000002,
+        240.00024,
+        198.1504,
+        268.35623999999996
+      ],
+      "yolo": [
+        0,
+        0.272046,
+        0.529538,
+        0.075128,
+        0.059075
+      ],
+      "image_sha256": "623f8fc0b91914eacb406a7ee01755d86d3eb56b2a3726fd396a81a2af1c827e",
+      "label_sha256": "76cb429e65d8a2f4d740f2e226a54225455b957a0fca10f959758377710171a6",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0024",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0024.jpg"
+    },
+    {
+      "frame": "0025",
+      "split": "train",
+      "bbox_xyxy": [
+        149.2464,
+        239.58912,
+        198.97248000000002,
+        269.58912000000004
+      ],
+      "yolo": [
+        0,
+        0.272046,
+        0.530394,
+        0.077697,
+        0.0625
+      ],
+      "image_sha256": "69fbc1d303ad3a0037d73a15a4f6044394cdea089fcafe40b5c50b15354575f1",
+      "label_sha256": "3d26095168673f6ab7e1c01d2a690acd01f0fae39782c2d0da51fb766817f2c8",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0025",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0025.jpg"
+    },
+    {
+      "frame": "0026",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        149.2464,
+        239.58912,
+        198.15071999999998,
+        269.17824
+      ],
+      "yolo": [
+        0,
+        0.271404,
+        0.529966,
+        0.076413,
+        0.061644
+      ],
+      "image_sha256": "7d1723812981d9a51048c76e5d8e38790738a8083e810af2f58a422c3b9c1f95",
+      "label_sha256": "a1f040aa6cd0514d67bae126a1709a359bd5ebc14f7526889ef586bfc84a60d6",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0026",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0026.jpg"
+    },
+    {
+      "frame": "0027",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        149.65728,
+        237.534,
+        198.15072,
+        269.178
+      ],
+      "yolo": [
+        0,
+        0.271725,
+        0.527825,
+        0.075771,
+        0.065925
+      ],
+      "image_sha256": "f4fd85f54feceab53c3ddd2230a078a290af652caab305b730c271c960075450",
+      "label_sha256": "9aa6d11eb90b47ccd713e9b82bd9ed7460c0f8bd5bbab51430b0572259516b4f",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0027",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0027.jpg"
+    },
+    {
+      "frame": "0028",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        148.01376000000002,
+        237.53424,
+        198.5616,
+        268.76687999999996
+      ],
+      "yolo": [
+        0,
+        0.270762,
+        0.527397,
+        0.078981,
+        0.065068
+      ],
+      "image_sha256": "0e44ed28a18c46de0800284e9fb6a9ffde7577762bab42364d0622e7b42befaf",
+      "label_sha256": "5e5a0ce02f4de077676f9c2dd8f9173f5d8a0b383ea510166e01d58a5883ffb2",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0028",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0028.jpg"
+    },
+    {
+      "frame": "0029",
+      "split": "unused_near_duplicate",
+      "bbox_xyxy": [
+        150.89023999999998,
+        240.41088,
+        198.1504,
+        269.17824
+      ],
+      "yolo": [
+        0,
+        0.272688,
+        0.530822,
+        0.073844,
+        0.059932
+      ],
+      "image_sha256": "178239e4b137d3143375a07c04b044ea65622792e880434158d9446dd469f11c",
+      "label_sha256": "1f05f0166be22a7b100daf2430edee90d9e1f4c3c42dd4b47fe173088c8fca25",
+      "previous_split": "unused_near_duplicate",
+      "source": "20261008",
+      "id": "old_0029",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0029.jpg"
+    },
+    {
+      "frame": "0030",
+      "split": "train",
+      "bbox_xyxy": [
+        150.47935999999999,
+        239.58911999999998,
+        197.32864,
+        268.35648000000003
+      ],
+      "yolo": [
+        0,
+        0.271725,
+        0.52911,
+        0.073202,
+        0.059932
+      ],
+      "image_sha256": "6b96cc4824fab0661bb6f2d215aac29fd54d7b6aeb2e1ff072b48f8aa9b1318e",
+      "label_sha256": "6295cf132973d197b9683f925ef1d5d16a7086a1d37cd681e154feeb6f227268",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0030",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0030.jpg"
+    },
+    {
+      "frame": "0031",
+      "split": "train",
+      "bbox_xyxy": [
+        130.7536,
+        216.57528,
+        179.65792,
+        249.45191999999997
+      ],
+      "yolo": [
+        0,
+        0.242509,
+        0.485445,
+        0.076413,
+        0.068493
+      ],
+      "image_sha256": "3be0f1f5871e621d689d93eadc46c46de9b22deafc12b4f35f0842b78b90299a",
+      "label_sha256": "d223de308fdda25b5ba987c6009ad8ca6ca75d5671b4347bb38370d077c464ad",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0031",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0031.jpg"
+    },
+    {
+      "frame": "0032",
+      "split": "train",
+      "bbox_xyxy": [
+        99.52064,
+        232.60296,
+        152.94528,
+        270.41112000000004
+      ],
+      "yolo": [
+        0,
+        0.197239,
+        0.523973,
+        0.083476,
+        0.078767
+      ],
+      "image_sha256": "f5b430b4b447c6eb8151a576326909a2fa2425c49a6bd048eb416664ccd26295",
+      "label_sha256": "9a02d37f776caca8069088e0086c26756e9e7fb2e20b7e8605172b227c0341b9",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0032",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0032.jpg"
+    },
+    {
+      "frame": "0033",
+      "split": "train",
+      "bbox_xyxy": [
+        229.79456,
+        181.23288,
+        270.47936,
+        207.53448
+      ],
+      "yolo": [
+        0,
+        0.390839,
+        0.404966,
+        0.06357,
+        0.054795
+      ],
+      "image_sha256": "43a614214377e38b9b4fb4ddd5cf7d3d511ec5b3328d87be3b76ba984bca4195",
+      "label_sha256": "e113c044bfdf20430e4f2a879d624162435413ead1b777a5f3c096693c94a686",
+      "previous_split": "test",
+      "source": "20261008",
+      "id": "old_0033",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0033.jpg"
+    },
+    {
+      "frame": "0034",
+      "split": "train",
+      "bbox_xyxy": [
+        57.60287999999999,
+        207.53424,
+        113.08256,
+        243.6984
+      ],
+      "yolo": [
+        0,
+        0.133348,
+        0.470034,
+        0.086687,
+        0.075342
+      ],
+      "image_sha256": "334320824aff0ac2dfa1ed44f1265cf0222d365f556538099c0243a22eaae64c",
+      "label_sha256": "568ca374047d9553465049187fc59d961efacfd89a9af377d22ca23626bb0e8c",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0034",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0034.jpg"
+    },
+    {
+      "frame": "0035",
+      "split": "train",
+      "bbox_xyxy": [
+        71.16416000000001,
+        205.89072,
+        124.5888,
+        241.644
+      ],
+      "yolo": [
+        0,
+        0.152932,
+        0.466182,
+        0.083476,
+        0.074486
+      ],
+      "image_sha256": "b7e0bc31ff659cdab3fdae1985c25a6f1088170daed622cd76e5c7d47f0131b3",
+      "label_sha256": "525768db4e27ecfcc0bade49dcba59a03ece3a9c8c5e64fa3e2dbb11546e089f",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0035",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0035.jpg"
+    },
+    {
+      "frame": "0036",
+      "split": "train",
+      "bbox_xyxy": [
+        88.83520000000001,
+        211.644,
+        140.61632,
+        247.80816000000002
+      ],
+      "yolo": [
+        0,
+        0.179259,
+        0.478596,
+        0.080908,
+        0.075342
+      ],
+      "image_sha256": "688b92689427b2934cd4adcc7b0b9f39368620c3093b91d7b289bfdc95f5fb04",
+      "label_sha256": "ab1c2b103b3b679cb94bffd48b446e0c3d8e5df7da9103d230849a6abdc0508a",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0036",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0036.jpg"
+    },
+    {
+      "frame": "0037",
+      "split": "train",
+      "bbox_xyxy": [
+        138.15072,
+        221.50704000000002,
+        187.46591999999998,
+        251.50704000000002
+      ],
+      "yolo": [
+        0,
+        0.254388,
+        0.492723,
+        0.077055,
+        0.0625
+      ],
+      "image_sha256": "87db2abe2ada92186686792f0699a608d8559dd45513e8768c0238a1252b24f5",
+      "label_sha256": "8a30876d3171b25acfc520764e2a422645eece73c2b6eab94edfcc7541495121",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0037",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0037.jpg"
+    },
+    {
+      "frame": "0038",
+      "split": "train",
+      "bbox_xyxy": [
+        197.32896,
+        182.87640000000002,
+        240.06879999999998,
+        209.58888000000002
+      ],
+      "yolo": [
+        0,
+        0.341717,
+        0.408818,
+        0.066781,
+        0.055651
+      ],
+      "image_sha256": "59256403e014d0d2cd676c18b5e2b64fe0dafc88cc1298af68c475aa714ee880",
+      "label_sha256": "044ad28a1a517e17c146b543dddb781557deebd39fea7f3d48e89feea05867f9",
+      "previous_split": "test",
+      "source": "20261008",
+      "id": "old_0038",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0038.jpg"
+    },
+    {
+      "frame": "0039",
+      "split": "train",
+      "bbox_xyxy": [
+        212.9456,
+        205.89048,
+        257.32896,
+        233.42472000000004
+      ],
+      "yolo": [
+        0,
+        0.367402,
+        0.45762,
+        0.069349,
+        0.057363
+      ],
+      "image_sha256": "dcae037773d823f472f2b654e0eed2775c2150654f791b10e16174582a20a92d",
+      "label_sha256": "27d847138d32a0eecdafba7c5f848ca5b390fd4828c58c8d62c9e3dff7cfbbcd",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0039",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0039.jpg"
+    },
+    {
+      "frame": "0040",
+      "split": "train",
+      "bbox_xyxy": [
+        309.52064,
+        212.46599999999998,
+        351.0272,
+        235.06872
+      ],
+      "yolo": [
+        0,
+        0.516053,
+        0.466182,
+        0.064854,
+        0.047089
+      ],
+      "image_sha256": "ceefd5cf96ac85dd1fe1e202230f9224118f0cc96f80ee4ce27c31fc4da5b451",
+      "label_sha256": "5a20b21051bd99f26d1cad86b045b8895444fc786ae5e51ae732ed2f8246b76a",
+      "previous_split": "test",
+      "source": "20261008",
+      "id": "old_0040",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0040.jpg"
+    },
+    {
+      "frame": "0041",
+      "split": "val",
+      "bbox_xyxy": [
+        86.7808,
+        208.35648,
+        138.9728,
+        244.52064000000001
+      ],
+      "yolo": [
+        0,
+        0.17637,
+        0.471747,
+        0.08155,
+        0.075342
+      ],
+      "image_sha256": "141f4481493be3dafcc28f1bd6da3124bcddd1b4a8f9ab0e10e8e9d58bfe014d",
+      "label_sha256": "bf795cb15490900677e4d1b179ea7d7ad6e1503c219e06abd6dd1ca4d68cb0b5",
+      "previous_split": "val",
+      "source": "20261008",
+      "id": "old_0041",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0041.jpg"
+    },
+    {
+      "frame": "0042",
+      "split": "val",
+      "bbox_xyxy": [
+        223.21920000000003,
+        212.8764,
+        268.42496,
+        239.178
+      ],
+      "yolo": [
+        0,
+        0.384097,
+        0.47089,
+        0.070634,
+        0.054795
+      ],
+      "image_sha256": "0c78d065ae24a64f938444b29ee8d3c54fa7638b248e9eb1f85c8da2abbd6dce",
+      "label_sha256": "100b8c7b00b5028843604ace95e5c4d5cb540031376bb22334400bdd05dcbf88",
+      "previous_split": "val",
+      "source": "20261008",
+      "id": "old_0042",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0042.jpg"
+    },
+    {
+      "frame": "0043",
+      "split": "val",
+      "bbox_xyxy": [
+        220.75328,
+        222.73968,
+        266.36992,
+        248.62991999999997
+      ],
+      "yolo": [
+        0,
+        0.380565,
+        0.49101,
+        0.071276,
+        0.053938
+      ],
+      "image_sha256": "49a9f767716ffb32d62fa45cda51416ac8697814b697f61487e8e4a240a407c1",
+      "label_sha256": "4d6f8d572c512bd157d7c1a4bc3815a7bce25baa6edd1e68b913341eea060b0a",
+      "previous_split": "val",
+      "source": "20261008",
+      "id": "old_0043",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0043.jpg"
+    },
+    {
+      "frame": "0044",
+      "split": "val",
+      "bbox_xyxy": [
+        99.93152,
+        243.28752,
+        152.5344,
+        279.04080000000005
+      ],
+      "yolo": [
+        0,
+        0.197239,
+        0.544092,
+        0.082192,
+        0.074486
+      ],
+      "image_sha256": "f0e696793536deb690eed56e8d983217472c8a31133733548634a80940a39c75",
+      "label_sha256": "145b40c2f29cfc19c355811f7118374f2e8523b1b7ce3dfa9181e84536ea4116",
+      "previous_split": "val",
+      "source": "20261008",
+      "id": "old_0044",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0044.jpg"
+    },
+    {
+      "frame": "0045",
+      "split": "train",
+      "bbox_xyxy": [
+        157.87648000000002,
+        251.50679999999997,
+        205.13664000000003,
+        279.8628
+      ],
+      "yolo": [
+        0,
+        0.283604,
+        0.55351,
+        0.073844,
+        0.059075
+      ],
+      "image_sha256": "c1566a0decfed49ba7b47916954a9ded4b7798d9f91e96b7d2df962d6d53afa8",
+      "label_sha256": "ce58dc1cc2618133983fa53fb6d7e499157275c2f0597dd06f8faa547f7f4123",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0045",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0045.jpg"
+    },
+    {
+      "frame": "0046",
+      "split": "train",
+      "bbox_xyxy": [
+        137.32864,
+        273.69864,
+        184.5888,
+        305.34264
+      ],
+      "yolo": [
+        0,
+        0.251498,
+        0.603168,
+        0.073844,
+        0.065925
+      ],
+      "image_sha256": "608e533eddaa298bbbbc6de39a890404b7f121f11aea2ac56ca596dc755bef5d",
+      "label_sha256": "9ef5cdcf0360195e02c1870df1871af1776450e1d5794e79515444d91e42a8db",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0046",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0046.jpg"
+    },
+    {
+      "frame": "0047",
+      "split": "train",
+      "bbox_xyxy": [
+        119.6576,
+        205.47959999999998,
+        167.73952000000003,
+        238.35624
+      ],
+      "yolo": [
+        0,
+        0.224529,
+        0.462329,
+        0.075128,
+        0.068493
+      ],
+      "image_sha256": "0929116a9a176ebe217e91f53b9de0dd1a0b3f07f36124783c9e42a7b80b5632",
+      "label_sha256": "f533b3ac994b021f21ba0ba2e486b1c0bdab251fc4ee1f4c2ba5a916775c24c8",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0047",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0047.jpg"
+    },
+    {
+      "frame": "0048",
+      "split": "train",
+      "bbox_xyxy": [
+        109.79423999999997,
+        204.24648000000002,
+        158.28768,
+        237.94488
+      ],
+      "yolo": [
+        0,
+        0.209439,
+        0.460616,
+        0.075771,
+        0.070205
+      ],
+      "image_sha256": "e5d83138821dc797ee050d82348453f12173718c8ec4279e843070182c4fb00e",
+      "label_sha256": "85a799f7bc27ccc5623e7fd8983f3e1933b8b0d6cb2bdc1d0b884d4c3561e53e",
+      "previous_split": "train",
+      "source": "20261008",
+      "id": "old_0048",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0048.jpg"
+    },
+    {
+      "frame": "0049",
+      "split": "train",
+      "bbox_xyxy": [
+        230.20543999999998,
+        165.20543999999998,
+        269.6576,
+        189.04127999999997
+      ],
+      "yolo": [
+        0,
+        0.390518,
+        0.369007,
+        0.061644,
+        0.049658
+      ],
+      "image_sha256": "b04040eaef2383754ccb85661d0a9936aaa3ca61fe3a63b7e158396fada81faf",
+      "label_sha256": "09f155fe217c08401c22917c56ec101aa134b362fee0fd74146770e44a1d2893",
+      "previous_split": "test",
+      "source": "20261008",
+      "id": "old_0049",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0049.jpg"
+    },
+    {
+      "frame": "0050",
+      "split": "train",
+      "bbox_xyxy": [
+        208.83552000000003,
+        193.56168,
+        251.57536,
+        219.86328
+      ],
+      "yolo": [
+        0,
+        0.359696,
+        0.430651,
+        0.066781,
+        0.054795
+      ],
+      "image_sha256": "5f65d2228379ecd6c402af3e8060bcdd702a38c503a90335f88066b9facffbfe",
+      "label_sha256": "7744abc18192a25af20c9dac98dbfd5437fdb58f353a03be489ad996ed29f24a",
+      "previous_split": "test",
+      "source": "20261008",
+      "id": "old_0050",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261008-120100/color/0050.jpg"
+    },
+    {
+      "frame": "0001",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0001.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        85.95904000000002,
+        209.99975999999998,
+        137.74016,
+        241.64376
+      ],
+      "yolo": [
+        0,
+        0.174765,
+        0.470462,
+        0.080908,
+        0.065925
+      ],
+      "image_sha256": "3a2eec8dbd066deb9b6fb6f7045cfc70ff57304b27e78e54c3375d644b7800b6",
+      "label_sha256": "8c13ff7e22979d9f1a2a87e0686ea7730c96483ec342cfc0257d897fa373b851",
+      "source": "20261009",
+      "id": "new_0001",
+      "split": "train"
+    },
+    {
+      "frame": "0002",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0002.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        81.43871999999999,
+        210.82175999999998,
+        129.52064000000001,
+        236.30111999999997
+      ],
+      "yolo": [
+        0,
+        0.164812,
+        0.465753,
+        0.075128,
+        0.053082
+      ],
+      "image_sha256": "a11a25a904755ba405855d1d3d433f4d30129e6642ce75ad01c83616156c3d39",
+      "label_sha256": "fa559e36618e0145857471efcb816d06460190a4b5374dfa24e4b1730a16eeac",
+      "source": "20261009",
+      "id": "new_0002",
+      "split": "train"
+    },
+    {
+      "frame": "0003",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0003.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        84.72608000000001,
+        209.58888000000002,
+        129.10944,
+        236.30136000000002
+      ],
+      "yolo": [
+        0,
+        0.167059,
+        0.464469,
+        0.069349,
+        0.055651
+      ],
+      "image_sha256": "38dc8dc829b3b270e6dafb3a7ca943a1ffc82012454bc5021f2c60bf99f70fd9",
+      "label_sha256": "a1a4fa72432b307f936c1ce45bfb58a174d80cc5ee4a76d0b8f6e7bf1364609b",
+      "source": "20261009",
+      "id": "new_0003",
+      "split": "train"
+    },
+    {
+      "frame": "0004",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0004.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        86.78048000000001,
+        210.82199999999997,
+        129.52032,
+        233.42472
+      ],
+      "yolo": [
+        0,
+        0.168985,
+        0.462757,
+        0.066781,
+        0.047089
+      ],
+      "image_sha256": "ce63d00de086d8e15831c3ed9dfc19aabf55300e11b3f94d5e649721294b9a34",
+      "label_sha256": "74336812926db9c0e2e2b56bb33b147234c4e0fd5c970e5abf1d20264c3fd00f",
+      "source": "20261009",
+      "id": "new_0004",
+      "split": "train"
+    },
+    {
+      "frame": "0005",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0005.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        90.47936,
+        198.90384,
+        142.26047999999997,
+        238.35600000000002
+      ],
+      "yolo": [
+        0,
+        0.181828,
+        0.455479,
+        0.080908,
+        0.082192
+      ],
+      "image_sha256": "28fd82edd56049e2a0fe1edfa97ecef1d0b31abd759097a5dfce68826fa2f2a7",
+      "label_sha256": "85ef0086646ba0ba9b8f9db64e8ccfcf369f80f47abf932b3d5823efeb76ca4d",
+      "source": "20261009",
+      "id": "new_0005",
+      "split": "train"
+    },
+    {
+      "frame": "0006",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0006.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        91.71232,
+        199.72632000000002,
+        141.84928,
+        238.35624
+      ],
+      "yolo": [
+        0,
+        0.18247,
+        0.456336,
+        0.078339,
+        0.080479
+      ],
+      "image_sha256": "ffdb0c97ed7dd8990d19041e35cb712f0f7c201bcc4a6ddaa4a716a6f5477d5d",
+      "label_sha256": "1b9e75dee6473032215909178cb3c4f4c0560515b1ec7732afb2fc7778241a1b",
+      "source": "20261009",
+      "id": "new_0006",
+      "split": "train"
+    },
+    {
+      "frame": "0007",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0007.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        98.28736,
+        199.72632000000002,
+        144.31488,
+        233.42472
+      ],
+      "yolo": [
+        0,
+        0.189533,
+        0.451199,
+        0.071918,
+        0.070205
+      ],
+      "image_sha256": "791f09ee99df2154ca4d8dff3393ff67cc7f454a3939c4b07efff3f30d3d1927",
+      "label_sha256": "36b00e591358889c5cb2ce02ac2e02e29c4da39415f770a0d740b15315b46b44",
+      "source": "20261009",
+      "id": "new_0007",
+      "split": "train"
+    },
+    {
+      "frame": "0008",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0008.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        88.01344,
+        208.356,
+        134.86272,
+        237.12336
+      ],
+      "yolo": [
+        0,
+        0.174122,
+        0.464041,
+        0.073202,
+        0.059932
+      ],
+      "image_sha256": "ac4c1f2793d3f0ce4c3ba1b9d2209234ca4027dfbb29068229ba796b4c828aef",
+      "label_sha256": "79cbfebdc0c4750f95f72bec1a0ce18b173dd88c85e1b8efb562f3c8f9e838e3",
+      "source": "20261009",
+      "id": "new_0008",
+      "split": "train"
+    },
+    {
+      "frame": "0009",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0009.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        86.36992,
+        207.53424,
+        134.45184,
+        236.71247999999997
+      ],
+      "yolo": [
+        0,
+        0.172517,
+        0.462757,
+        0.075128,
+        0.060788
+      ],
+      "image_sha256": "cafc885d18e1be280bb57d8f2db3fd4ba391bff90865c0983eb275748e624d32",
+      "label_sha256": "8c1ff4d1a8dc75118f9ebe6c51d486c328a3b32ccbca10c0487def4b675bfd28",
+      "source": "20261009",
+      "id": "new_0009",
+      "split": "train"
+    },
+    {
+      "frame": "0010",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0010.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        88.42496,
+        206.3016,
+        136.096,
+        236.71248
+      ],
+      "yolo": [
+        0,
+        0.175407,
+        0.461473,
+        0.074486,
+        0.063356
+      ],
+      "image_sha256": "bc8e8a5b461cd120e72a5e97b56e31be81513bedccd1984edaed006fdf30460a",
+      "label_sha256": "54a7b76e5c45eeffa5e80ef8cd2a2352047c84cf8ac0b25993d20df8842d0e6e",
+      "source": "20261009",
+      "id": "new_0010",
+      "split": "train"
+    },
+    {
+      "frame": "0011",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0011.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        94.17824000000002,
+        202.19184,
+        137.73984000000002,
+        232.60272
+      ],
+      "yolo": [
+        0,
+        0.181186,
+        0.452911,
+        0.068065,
+        0.063356
+      ],
+      "image_sha256": "b4be002d6ffc10c02368c08d646dd83d6217649c6ced57e09e4f9135f8e4fe11",
+      "label_sha256": "26eecab683dd57b189a6d637a302532e4b822cbb2787258b2a4ffcfc8e79dce4",
+      "source": "20261009",
+      "id": "new_0011",
+      "split": "train"
+    },
+    {
+      "frame": "0012",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0012.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        87.60288,
+        205.06848,
+        136.09632000000002,
+        236.30112
+      ],
+      "yolo": [
+        0,
+        0.174765,
+        0.45976,
+        0.075771,
+        0.065068
+      ],
+      "image_sha256": "85a1f28e587ee7983e7483900c532deedaa6a6d145c9eeee9ad320f034363561",
+      "label_sha256": "f7a13414819d997551c51d6249d042983deb3ec88f83fae5972e32cbe2ea051a",
+      "source": "20261009",
+      "id": "new_0012",
+      "split": "train"
+    },
+    {
+      "frame": "0013",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0013.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        85.13728,
+        207.94511999999997,
+        133.2192,
+        237.53424
+      ],
+      "yolo": [
+        0,
+        0.170591,
+        0.464041,
+        0.075128,
+        0.061644
+      ],
+      "image_sha256": "3b51b4e30a57b23130a94ec77a76a5aa99b8a485cea66fe60f9d8b61bceae884",
+      "label_sha256": "6fbe1ee220c2dc997416919968a4ef596447f9da50218712f8c8e2508b1b1135",
+      "source": "20261009",
+      "id": "new_0013",
+      "split": "val"
+    },
+    {
+      "frame": "0014",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0014.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        83.49343999999999,
+        208.76711999999998,
+        134.04128,
+        240.41111999999995
+      ],
+      "yolo": [
+        0,
+        0.169949,
+        0.467894,
+        0.078981,
+        0.065925
+      ],
+      "image_sha256": "ea80f84dde9c5bbc9b9a9b68b8410e036f16eebf666fe8245c239ac774d884fe",
+      "label_sha256": "df1d6415bc3c4edba873326c62e8c1c0917f16cd0e92f4360d0fb5b6cc57d052",
+      "source": "20261009",
+      "id": "new_0014",
+      "split": "val"
+    },
+    {
+      "frame": "0015",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0015.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        85.54784,
+        208.76736000000002,
+        129.9312,
+        234.24672
+      ],
+      "yolo": [
+        0,
+        0.168343,
+        0.461473,
+        0.069349,
+        0.053082
+      ],
+      "image_sha256": "bf5c329b2647214ada0330eb3b39016548f62f56350bf9eec6ffdf0ff2b7f76a",
+      "label_sha256": "7b95b2d593bd647236363344b9809b5e4f4db76a5adc2cde526d308f885ae2bc",
+      "source": "20261009",
+      "id": "new_0015",
+      "split": "val"
+    },
+    {
+      "frame": "0016",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0016.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        85.13728,
+        205.06872,
+        138.56192,
+        243.69864
+      ],
+      "yolo": [
+        0,
+        0.174765,
+        0.467466,
+        0.083476,
+        0.080479
+      ],
+      "image_sha256": "b5d7b1b3f4343e59c066072315723aaa4687e660494ab1267120d28e313fa16e",
+      "label_sha256": "4d071fdc12ef9956a1ebbafeaf55b8f703d86206c8ba97d8eafe4ce896a2e137",
+      "source": "20261009",
+      "id": "new_0016",
+      "split": "test"
+    },
+    {
+      "frame": "0017",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0017.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        86.7808,
+        208.76711999999998,
+        134.04096,
+        236.71224
+      ],
+      "yolo": [
+        0,
+        0.172517,
+        0.464041,
+        0.073844,
+        0.058219
+      ],
+      "image_sha256": "cc7720e095553af6425ae7c58b1a471bdbeecd8ecb53803310a46aad1fbc76ad",
+      "label_sha256": "163a6fcdda6fb5429a97a9b240ca13e0dcfd7903be33499c05c4e71fe09645b7",
+      "source": "20261009",
+      "id": "new_0017",
+      "split": "test"
+    },
+    {
+      "frame": "0018",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0018.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        80.61663999999999,
+        210.41088000000002,
+        130.34271999999999,
+        239.58911999999998
+      ],
+      "yolo": [
+        0,
+        0.164812,
+        0.46875,
+        0.077697,
+        0.060788
+      ],
+      "image_sha256": "c54bdbd54f7bcddff2864f34b26b641f727c7cd9caee59d55e66e02a9c747d83",
+      "label_sha256": "2556d3cd4226fecf9c64c6942114ab0fe4acbdb43b532b96c1add9d08eedf0ee",
+      "source": "20261009",
+      "id": "new_0018",
+      "split": "test"
+    },
+    {
+      "frame": "0019",
+      "image": "/home/vnv/yizhi/yzb2026-competition-ws/CCF数据集-20261009-123651/color/0019.jpg",
+      "image_size_wh": [
+        640,
+        480
+      ],
+      "bbox_xyxy": [
+        82.67136,
+        209.58912,
+        128.69888,
+        233.83584
+      ],
+      "yolo": [
+        0,
+        0.165133,
+        0.461901,
+        0.071918,
+        0.050514
+      ],
+      "image_sha256": "b901f7218efd719f81d70a51ffef75aacd857e268efb6d5fcf0a2087ae6b6405",
+      "label_sha256": "0289c6a07eb8cc95894727a1a4f11687551451cb98ccee5ab2c36571df20524f",
+      "source": "20261009",
+      "id": "new_0019",
+      "split": "test"
+    }
+  ],
+  "classes": {
+    "0": "exposed_cup"
+  },
+  "label_zip_hashes": {
+    "20261008": "193e312f2e7d01bdd8ad9fdc8b299caf12eca1f1eee251eb089ec62df5bd5175",
+    "20261009": "973f9fa39d43dc7672a0a5f0051a967b1b6924699bcdc97cf8cc2d9f64be49f3"
+  },
+  "split_policy": "Old: 22 train, 4 development validation, 24 unused near-duplicates. New: 0001-0012 train, 0013-0015 validation, 0016-0019 reserved chronological test. Old v8 held-out views are now training/regression examples, not independent test. New test never used in v8 initialization or this training/threshold selection; same-session similar viewpoints still limit independence.",
+  "counts": {
+    "train": 34,
+    "val": 7,
+    "test": 4,
+    "unused_near_duplicate": 24
+  },
+  "training_images": 117,
+  "augmentation": "Each train image: original + context removed + local scale; even-index train frames add synthetic removed-cup negative. No real absent-cup labels.",
+  "init_weights": "/home/vnv/cup-perception-v8-20261009/weights/best.pt",
+  "init_sha256": "b4e75b8113e85d26148875ea703f9fab085d1f6b0e8143130d274fc265250ad3"
+}

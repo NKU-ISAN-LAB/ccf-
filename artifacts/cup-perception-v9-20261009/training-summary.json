@@ -1,0 +1,26 @@
+{
+  "epochs_completed": 20,
+  "best_validation_epoch": 5,
+  "selected_by": "7-frame development validation mAP50-95 (4 old + 3 new), never reserved new test",
+  "best_validation_metrics": {
+    "epoch": "5",
+    "time": "103.549",
+    "train/box_loss": "0.8349",
+    "train/cls_loss": "0.6082",
+    "train/dfl_loss": "0.93964",
+    "metrics/precision(B)": "1",
+    "metrics/recall(B)": "0.99797",
+    "metrics/mAP50(B)": "0.995",
+    "metrics/mAP50-95(B)": "0.822",
+    "val/box_loss": "0.82112",
+    "val/cls_loss": "0.70494",
+    "val/dfl_loss": "0.91384",
+    "lr/pg0": "9.02857e-05",
+    "lr/pg1": "9.02857e-05",
+    "lr/pg2": "9.02857e-05"
+  },
+  "hashes": {
+    "best.pt": "ad2b1e27e2ba8e146c80697e1be53b9302e70e5fbb4b331c294f549c9899eafc",
+    "best.onnx": "2c2872941cf47bad5e48c9a689b43e760b3f3cf1e7e3d725f3d536fc0c4e4179"
+  }
+}

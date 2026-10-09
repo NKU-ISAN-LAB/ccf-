@@ -1,0 +1,8 @@
+{
+  "confidence_threshold": 0.3,
+  "weights_sha256": "ad2b1e27e2ba8e146c80697e1be53b9302e70e5fbb4b331c294f549c9899eafc",
+  "compatible_weights_sha256": [
+    "2c2872941cf47bad5e48c9a689b43e760b3f3cf1e7e3d725f3d536fc0c4e4179"
+  ],
+  "source": "training-only threshold-calibration.json"
+}

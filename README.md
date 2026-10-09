@@ -16,6 +16,21 @@
 
 ## 任务一：杯筒出口露出的待取杯子
 
+### 最新候选：v9 补充数据微调
+
+[v9 模型、运行说明和验证结果](artifacts/cup-perception-v9-20261009/README.md)
+
+- 合并 2026-10-09 新增的 19 张人工标注；仅检测露出的待取杯子，不匹配整台封口机。
+- 新增 19 张原图回放 19/19，旧 50 张回归 50/50；新增数据中保留的 4 张测试图为 4/4。
+- 保留测试图的 48 次图像变换为 46/48；两张目标缩小后的图片仍漏检，不代表任意视角稳定。
+- 默认阈值 **0.30**；请将 `recognize.py`、`runtime-config.json`、`weights/` 配套使用，不沿用 v7 的阈值。
+- 包含 `.pt` / `.onnx` 权重和对比报告，69 张原图的导出一致性检查通过。
+- 同次采集的小样本离线结果，不是现场准确率；未自动更新另一台电脑，任务二保持不变。
+
+![v9 新增数据的完整画幅回放](artifacts/cup-perception-v9-20261009/v9_candidate-new-data-grid.jpg)
+
+### 历史版本：v7
+
 [v7 直接杯子检测模型与运行说明](artifacts/cup-perception-v7-20261008/README.md)
 
 历史版本：[v6](artifacts/cup-perception-v6-20261008/README.md) · [v5](artifacts/cup-perception-v5-20261008/README.md)
