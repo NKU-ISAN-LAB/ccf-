@@ -1,0 +1,28 @@
+{
+  "epochs_completed": 60,
+  "trainer_best_map_epoch": 58,
+  "packaged_checkpoint": "best",
+  "packaged_epoch": 58,
+  "trainer_best_metrics": {
+    "epoch": "58",
+    "time": "812.465",
+    "train/box_loss": "0.72696",
+    "train/cls_loss": "0.61778",
+    "train/dfl_loss": "0.87391",
+    "metrics/precision(B)": "0.97596",
+    "metrics/recall(B)": "0.97917",
+    "metrics/mAP50(B)": "0.9942",
+    "metrics/mAP50-95(B)": "0.70289",
+    "val/box_loss": "1.02729",
+    "val/cls_loss": "0.66638",
+    "val/dfl_loss": "0.95607",
+    "lr/pg0": "7.25e-05",
+    "lr/pg1": "7.25e-05",
+    "lr/pg2": "7.25e-05"
+  },
+  "trainer_metrics_note": "Validation mixes six full frames and six GT-derived crops; end-to-end verification.json uses only full frames and predicted crops.",
+  "hashes": {
+    "best.pt": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+    "best.onnx": "094477cc6d250942a2118aa74a8130b3c5826895002628da07b389657b371f43"
+  }
+}

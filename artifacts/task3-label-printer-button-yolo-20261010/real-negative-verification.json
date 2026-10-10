@@ -1,0 +1,833 @@
+{
+  "frames": 20,
+  "passed": 17,
+  "rows": [
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0001.jpg",
+      "sha256": "348061327868d34cb4e09ec82c4374076cbdeca6d277cd9652afd733d03f4ad8",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 923.13
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0002.jpg",
+      "sha256": "32e6a6ca8828c92eb50c6655e1a9dd4a42e70c2f7d54e16735d426345193287f",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 39.83
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0003.jpg",
+      "sha256": "24524a175a5c20f96a7e9ce80108c44028650c1c1be4512ac50f977a791a5d72",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 69.38
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0004.jpg",
+      "sha256": "95b0ec68ae68ee0ccc2668507342f0552e25ad61b1e52233486e93d1f8273093",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 67.69
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0005.jpg",
+      "sha256": "3f1627ce36549ed267177505fe018dfe5fc172683db05ceeeab62d5d9898ed18",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 68.57
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0006.jpg",
+      "sha256": "25dc698b9bf426c01294bacc897b805bec10beee62a55a22ab4d182aafb434ec",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 35.03
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0007.jpg",
+      "sha256": "d8d3d87bcbf26241109c3bbe737e1f8d5869501af371878b0c8550157f9d99ca",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 66.67
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0008.jpg",
+      "sha256": "d8908777b6063b2af3e356b36f5f10ced689baacdf8c4415907cfcd2820c61eb",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 34.43
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0009.jpg",
+      "sha256": "e02a24b7edd27b99db93de7443a98bc7d297046a8dbb2c24e45e3bfff3c5103c",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 32.99
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0010.jpg",
+      "sha256": "404cd5f55469fabff641754de8be63540ecc8b8cfe81e5fadd785794ab382ecc",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 33.96
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0011.jpg",
+      "sha256": "7f9a79e9d05be14e625a59a198e32b069bd60c2c3bd5dcea6bb57a6fab8b6e4f",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 33.5
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0012.jpg",
+      "sha256": "2f72642d170efd6ccee30043df91eaa31a71409a90816e6468cf7d21512255a7",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 33.08
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0013.jpg",
+      "sha256": "33556efa59ef08e4c301d21fd6dfd9cdbad1226cb0b4d6831a62c50c29528774",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 34.97
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0014.jpg",
+      "sha256": "b1dc991941b35cb088eff7808b7590812cff3afb8f7d251a707051bf5b72ee31",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 34.88
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0015.jpg",
+      "sha256": "dd37a6c9ffe46e5f309994f5d4725a4a2d6f772cffcd8cc3d6a9a6c6378d1320",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 34.14
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0016.jpg",
+      "sha256": "e9d6132f51334e5c1eefc5fde58d8c82284c33ca1c534c08fdc9ee5fa9621337",
+      "passed": false,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [
+          {
+            "class_id": 0,
+            "label": "label_printer",
+            "confidence": 0.5890267491340637,
+            "bbox_xyxy_px": [
+              434.33642578125,
+              53.016632080078125,
+              563.9334716796875,
+              142.36105346679688
+            ],
+            "center_uv": [
+              499.13494873046875,
+              97.6888427734375
+            ],
+            "method": "full_frame",
+            "parent_printer_confidence": null
+          }
+        ],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [
+            {
+              "class_id": 0,
+              "label": "label_printer",
+              "confidence": 0.5890267491340637,
+              "bbox_xyxy_px": [
+                434.33642578125,
+                53.016632080078125,
+                563.9334716796875,
+                142.36105346679688
+              ],
+              "center_uv": [
+                499.13494873046875,
+                97.6888427734375
+              ],
+              "method": "full_frame",
+              "parent_printer_confidence": null
+            }
+          ],
+          "button": []
+        },
+        "inference_ms": 68.82
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0017.jpg",
+      "sha256": "c422bb570eb03c78d5b2c105ed6d017b451ec21c38807df6987902998c73ac35",
+      "passed": false,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [
+          {
+            "class_id": 0,
+            "label": "label_printer",
+            "confidence": 0.5481137633323669,
+            "bbox_xyxy_px": [
+              434.9798583984375,
+              38.263916015625,
+              565.9442138671875,
+              129.32916259765625
+            ],
+            "center_uv": [
+              500.4620361328125,
+              83.79653930664062
+            ],
+            "method": "full_frame",
+            "parent_printer_confidence": null
+          }
+        ],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [
+            {
+              "class_id": 0,
+              "label": "label_printer",
+              "confidence": 0.5481137633323669,
+              "bbox_xyxy_px": [
+                434.9798583984375,
+                38.263916015625,
+                565.9442138671875,
+                129.32916259765625
+              ],
+              "center_uv": [
+                500.4620361328125,
+                83.79653930664062
+              ],
+              "method": "full_frame",
+              "parent_printer_confidence": null
+            }
+          ],
+          "button": []
+        },
+        "inference_ms": 74.06
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0018.jpg",
+      "sha256": "9cbda13ff54aa52e3ccb9df629afdd2b827c51c870360fb97b8d552562ca0135",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 68.91
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0019.jpg",
+      "sha256": "747e0f7ab6d9d5211c323725a8ccddd14466613cac26719d52bbb6a4b6b6f201",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "label_printer_not_detected",
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [],
+          "button": []
+        },
+        "inference_ms": 69.12
+      }
+    },
+    {
+      "source": "/home/vnv/yizhi/yzb2026-competition-ws/CCF\u6570\u636e\u96c6-20261009-154730/color/0020.jpg",
+      "sha256": "00976ca273456f082a9ca561c392bffeec76053a3d7196c7cc34a7cc027ec3da",
+      "passed": false,
+      "result": {
+        "ok": true,
+        "algorithm": "task3-printer-button-yolo11n-20261010",
+        "detections": [
+          {
+            "class_id": 0,
+            "label": "label_printer",
+            "confidence": 0.491414338350296,
+            "bbox_xyxy_px": [
+              378.1293029785156,
+              48.072845458984375,
+              490.4189758300781,
+              124.46182250976562
+            ],
+            "center_uv": [
+              434.2741394042969,
+              86.267333984375
+            ],
+            "method": "full_frame",
+            "parent_printer_confidence": null
+          }
+        ],
+        "confidence_thresholds": {
+          "label_printer": 0.475,
+          "button": 0.4
+        },
+        "implementation": {
+          "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+          "recognize_sha256": "5ec666636c119ec1aefaeef8596635420421cc208968aed77b517877ca34fddf"
+        },
+        "coordinate_frame": "original_color_image_pixels",
+        "coordinate_semantics": "2D bounding-box centers; not physical button centers or 3D press poses",
+        "button_function": null,
+        "press_pose": null,
+        "robot_motion_ready": false,
+        "reasons": [
+          "button_not_detected"
+        ],
+        "image_size_wh": [
+          640,
+          480
+        ],
+        "objects": {
+          "label_printer": [
+            {
+              "class_id": 0,
+              "label": "label_printer",
+              "confidence": 0.491414338350296,
+              "bbox_xyxy_px": [
+                378.1293029785156,
+                48.072845458984375,
+                490.4189758300781,
+                124.46182250976562
+              ],
+              "center_uv": [
+                434.2741394042969,
+                86.267333984375
+              ],
+              "method": "full_frame",
+              "parent_printer_confidence": null
+            }
+          ],
+          "button": []
+        },
+        "inference_ms": 67.8
+      }
+    }
+  ],
+  "meaning": "No target label printer or its buttons. One separate physical scene with 20 related frames, not 20 independent environments. Not used for training/selection.",
+  "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449"
+}

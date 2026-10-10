@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+dataset/
+runs/
+previews/
+training.log
+calibration.log
+export.log
+verification.log
+onnx-parity.log
+negative-verification.log
+cli-smoke.*

@@ -1,0 +1,19 @@
+test_all_correct_requires_all_buttons (test_runtime.RuntimeTests.test_all_correct_requires_all_buttons) ... ok
+test_bad_detection (test_runtime.RuntimeTests.test_bad_detection) ... ok
+test_class_aware_nms (test_runtime.RuntimeTests.test_class_aware_nms) ... ok
+test_coordinate_mapping (test_runtime.RuntimeTests.test_coordinate_mapping) ... ok
+test_crop_at_edges (test_runtime.RuntimeTests.test_crop_at_edges) ... ok
+test_each_button_matches_only_once (test_runtime.RuntimeTests.test_each_button_matches_only_once) ... ok
+test_invalid_image_no_inference (test_runtime.RuntimeTests.test_invalid_image_no_inference) ... ok
+test_invalid_threshold_rejected (test_runtime.RuntimeTests.test_invalid_threshold_rejected) ... ok
+test_invisible_buttons_can_be_absent (test_runtime.RuntimeTests.test_invisible_buttons_can_be_absent) ... ok
+test_multiple_buttons_no_arbitrary_press (test_runtime.RuntimeTests.test_multiple_buttons_no_arbitrary_press) ... ok
+test_predicted_crop_not_gt (test_runtime.RuntimeTests.test_predicted_crop_not_gt) ... ok
+test_threshold_parent_gate (test_runtime.RuntimeTests.test_threshold_parent_gate) ... ok
+test_wrong_class_mapping_rejected (test_runtime.RuntimeTests.test_wrong_class_mapping_rejected) ... ok
+test_wrong_hash_rejected (test_runtime.RuntimeTests.test_wrong_hash_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.003s
+
+OK

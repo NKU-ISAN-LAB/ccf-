@@ -1,0 +1,278 @@
+{
+  "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+  "confidence_thresholds": {
+    "label_printer": 0.475,
+    "button": 0.4
+  },
+  "matching": "class-aware one-to-one IoU >= 0.5",
+  "all_originals": {
+    "frames": 60,
+    "per_class": {
+      "label_printer": {
+        "tp": 60,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_matched_iou": 0.9209596872556224,
+        "mean_matched_center_error_px": 0.9568981044251447,
+        "failures": []
+      },
+      "button": {
+        "tp": 114,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_matched_iou": 0.8387783516405184,
+        "mean_matched_center_error_px": 0.41122187331354965,
+        "failures": []
+      }
+    },
+    "all_objects_correct": 60
+  },
+  "splits": {
+    "train": {
+      "frames": 45,
+      "per_class": {
+        "label_printer": {
+          "tp": 45,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.9263668006969717,
+          "mean_matched_center_error_px": 0.837819892572283,
+          "failures": []
+        },
+        "button": {
+          "tp": 86,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.8480767584220188,
+          "mean_matched_center_error_px": 0.3698185085455332,
+          "failures": []
+        }
+      },
+      "all_objects_correct": 45
+    },
+    "val": {
+      "frames": 6,
+      "per_class": {
+        "label_printer": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.9205455172492488,
+          "mean_matched_center_error_px": 0.7767770058905811,
+          "failures": []
+        },
+        "button": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.7794467357862707,
+          "mean_matched_center_error_px": 0.5993536818470976,
+          "failures": []
+        }
+      },
+      "all_objects_correct": 6
+    },
+    "test": {
+      "frames": 9,
+      "per_class": {
+        "label_printer": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.8942002333864569,
+          "mean_matched_center_error_px": 1.6723698960458302,
+          "failures": []
+        },
+        "button": {
+          "tp": 16,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.8332981270806397,
+          "mean_matched_center_error_px": 0.4926661025414771,
+          "failures": []
+        }
+      },
+      "all_objects_correct": 9
+    }
+  },
+  "full_frame_only_diagnostic": {
+    "train": {
+      "frames": 45,
+      "per_class": {
+        "label_printer": {
+          "tp": 45,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.9263668006969717,
+          "mean_matched_center_error_px": 0.837819892572283,
+          "failures": []
+        },
+        "button": {
+          "tp": 83,
+          "fp": 2,
+          "fn": 3,
+          "precision": 0.9764705882352941,
+          "recall": 0.9651162790697675,
+          "f1": 0.9707602339181286,
+          "mean_matched_iou": 0.7586181498948187,
+          "mean_matched_center_error_px": 0.690975631101119,
+          "failures": [
+            "044_rgb_20261008_0039.jpg",
+            "046_rgb_20261008_0041.jpg",
+            "051_rgb_20261008_0046.jpg"
+          ]
+        }
+      },
+      "all_objects_correct": 42
+    },
+    "val": {
+      "frames": 6,
+      "per_class": {
+        "label_printer": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.9205455172492488,
+          "mean_matched_center_error_px": 0.7767770058905811,
+          "failures": []
+        },
+        "button": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.7259630135796238,
+          "mean_matched_center_error_px": 0.7939238344437781,
+          "failures": []
+        }
+      },
+      "all_objects_correct": 6
+    },
+    "test": {
+      "frames": 9,
+      "per_class": {
+        "label_printer": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.8942002333864569,
+          "mean_matched_center_error_px": 1.6723698960458302,
+          "failures": []
+        },
+        "button": {
+          "tp": 16,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "mean_matched_iou": 0.7580698588383026,
+          "mean_matched_center_error_px": 0.8613291563189505,
+          "failures": []
+        }
+      },
+      "all_objects_correct": 9
+    }
+  },
+  "full_frame_only_note": "Same weights and thresholds as crop-refined runtime; diagnostic ablation, not a separately calibrated competitor.",
+  "test_synthetic_variants": {
+    "frames": 54,
+    "per_class": {
+      "label_printer": {
+        "tp": 52,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9629629629629629,
+        "f1": 0.9811320754716981,
+        "mean_matched_iou": 0.9156958530640739,
+        "mean_matched_center_error_px": 1.6435166504663719,
+        "failures": [
+          "045_rgb_20261008_0040.jpg:rotate_minus8",
+          "045_rgb_20261008_0040.jpg:scale_080"
+        ]
+      },
+      "button": {
+        "tp": 96,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_matched_iou": 0.8253392471129102,
+        "mean_matched_center_error_px": 0.4927556353541546,
+        "failures": []
+      }
+    },
+    "all_objects_correct": 52
+  },
+  "test_synthetic_absent": {
+    "frames": 9,
+    "per_class": {
+      "label_printer": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_matched_iou": null,
+        "mean_matched_center_error_px": null,
+        "failures": []
+      },
+      "button": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_matched_iou": null,
+        "mean_matched_center_error_px": null,
+        "failures": []
+      }
+    },
+    "all_objects_correct": 9
+  },
+  "limitations": [
+    "Same physical device and mostly similar views; test results are not field accuracy.",
+    "Synthetic variants/erased-object negatives do not establish novel viewpoints or real negative-scene robustness.",
+    "Mean pixel error is only against manual box centers on matched boxes, not robot coordinate accuracy.",
+    "Button class does not distinguish functions; no automatic button selection or pressing."
+  ]
+}

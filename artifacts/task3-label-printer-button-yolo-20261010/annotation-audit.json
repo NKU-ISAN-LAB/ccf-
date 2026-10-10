@@ -1,0 +1,2498 @@
+{
+  "classes": {
+    "0": "label_printer",
+    "1": "button"
+  },
+  "label_zip": "/home/vnv/yizhi/yzb2026-competition-ws/labels_my-project-name_2026-10-10-10-32-46.zip",
+  "label_zip_sha256": "19e9b08f87ae0df7cf99c461343436adad7fc4309d421e331d8f92f2f042a019",
+  "records": [
+    {
+      "filename": "001_old_step_01_episode_000100_f00032.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/001_old_step_01_episode_000100_f00032.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000100",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            449.2464,
+            243.288,
+            545.0,
+            349.3152
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            513.35616,
+            294.24648,
+            520.99136,
+            302.41752
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            522.44128,
+            293.47296,
+            528.72672,
+            302.41728
+          ]
+        }
+      ],
+      "image_sha256": "1676039c602d88ba6bc1062490b8cd2bfcc156a7c3644110868f4fedf3bd5602",
+      "label_sha256": "f611a0e8557dc9026655e854e741cb79559df16095803b7958bed4cf0307ab9b"
+    },
+    {
+      "filename": "002_old_step_01_episode_000105_f00105.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/002_old_step_01_episode_000105_f00105.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000105",
+      "original_name": null,
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            448.42464000000007,
+            241.64376,
+            545.0,
+            349.31496
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            513.72704,
+            295.0344,
+            520.23392,
+            302.56848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            521.77504,
+            294.86304,
+            528.45344,
+            302.73984
+          ]
+        }
+      ],
+      "image_sha256": "a7d43705b1db0407abe7aad91d7d3b2904907a91704a514f118610bd419af0a9",
+      "label_sha256": "ae5abe5169443a5f41afbdc90e6476bbe4a464596e4fad23ce44d37001c3cdcf"
+    },
+    {
+      "filename": "003_old_step_01_episode_000111_f00209.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/003_old_step_01_episode_000111_f00209.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000111",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12288,
+            245.75327999999996,
+            551.16416,
+            354.6576
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.39072,
+            300.14184,
+            525.76768,
+            308.07768
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.03488,
+            299.99976,
+            534.55328,
+            308.36088
+          ]
+        }
+      ],
+      "image_sha256": "b114ec93e4d11cdf9a433bf7869a7ba1a203803829759239052e95aa37ec7b39",
+      "label_sha256": "4754a8e9bbf4be21c90f0abb36d6b3746dd7c71b8a2ff4f8628ccc597581e482"
+    },
+    {
+      "filename": "004_old_step_01_episode_000117_f00306.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/004_old_step_01_episode_000117_f00306.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000117",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            244.52064000000001,
+            552.39744,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.33344,
+            299.43984,
+            527.1792,
+            307.47216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.11328,
+            299.43935999999997,
+            534.65152,
+            307.09824000000003
+          ]
+        }
+      ],
+      "image_sha256": "1f006d4b2960d985ae6ed3a04a5b9976017c436db54e42db8c3288e6ec240928",
+      "label_sha256": "562d866860a7bfed0d2a39a09452be60f094b9ebaf4e5fdba5da031d1b39ea59"
+    },
+    {
+      "filename": "005_old_step_01_episode_000123_f00406.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/005_old_step_01_episode_000123_f00406.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000123",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.71264,
+            244.52064000000001,
+            552.39744,
+            355.47936
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.32864,
+            299.58887999999996,
+            534.3148799999999,
+            307.80791999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            299.58887999999996,
+            526.5068799999999,
+            307.39704
+          ]
+        }
+      ],
+      "image_sha256": "9491d7debbe582c3b5ffe9e0addb7947c9b17834eb757ab93868f209eaca4b87",
+      "label_sha256": "c83250a6220f7df2a591ed756f89958ac0f6edc5e59e9332f304c984cc3a89f3"
+    },
+    {
+      "filename": "006_old_step_01_episode_000129_f00486.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/006_old_step_01_episode_000129_f00486.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000129",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.30111999999997,
+            245.3424,
+            551.16416,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            298.76736,
+            535.1366399999999,
+            309.04128
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            520.3424,
+            298.76687999999996,
+            526.50688,
+            308.62991999999997
+          ]
+        }
+      ],
+      "image_sha256": "e7bd31881657f134d41f8137e6826ed0c23af3dcf0f003b417e9b8944fc5a84e",
+      "label_sha256": "ee492674296a6e28f48d8204348a5dc8ceb884c4542a47ecaa27e15318b156ad"
+    },
+    {
+      "filename": "007_old_step_01_episode_000134_f00023.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/007_old_step_01_episode_000134_f00023.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000134",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.71263999999996,
+            245.3424,
+            551.98656,
+            354.24672000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.32864,
+            298.76736,
+            535.1366399999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            298.35648000000003,
+            526.5068799999999,
+            309.45216
+          ]
+        }
+      ],
+      "image_sha256": "e64903aa98b61a518110fc66849bbb567c77e2baf5b5758372617b3e9bb9964a",
+      "label_sha256": "fd0b3efbbe0d1b2f58d731c8edd3070ebd9cf82b4802aebbc7c7aa9f12eb1259"
+    },
+    {
+      "filename": "008_old_step_01_episode_000140_f00084.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/008_old_step_01_episode_000140_f00084.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000140",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            246.16415999999995,
+            551.98656,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            299.17823999999996,
+            534.7257599999999,
+            308.6304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.17823999999996,
+            526.9177599999999,
+            308.6304
+          ]
+        }
+      ],
+      "image_sha256": "585c596ca42fceee437cedad08a192eba44351b32a54dfb3742dff1b58502271",
+      "label_sha256": "12aef0c97540b1001c921735248f6ae112361aa34be797bb1277449afc941fdb"
+    },
+    {
+      "filename": "009_old_step_01_episode_000146_f00176.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/009_old_step_01_episode_000146_f00176.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000146",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            245.75327999999996,
+            551.5756799999999,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.73952,
+            299.58912000000004,
+            535.1366399999999,
+            310.27392
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.58912000000004,
+            526.5068799999999,
+            309.86304
+          ]
+        }
+      ],
+      "image_sha256": "15d019055817e24bd0c94e37d086fba73d48a6cd3db549dd97151017832eb4a2",
+      "label_sha256": "4c7958319350c47a9d435f9bbe2f673ffb82525ee06ef02eb6f873f9a9db6a9b"
+    },
+    {
+      "filename": "010_old_step_01_episode_000152_f00278.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/010_old_step_01_episode_000152_f00278.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000152",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            245.75352,
+            551.98656,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.73952,
+            299.58912,
+            534.7257599999999,
+            308.6304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            299.58912000000004,
+            526.5068799999999,
+            309.04128000000003
+          ]
+        }
+      ],
+      "image_sha256": "837fcc6cfc9418e832d81735dcf601eb159e5ce0a6cef284262654ab8aafb5ea",
+      "label_sha256": "3e6a533f4425c358fc59c14eae75ca317009d129427f4279fdb564d78d365716"
+    },
+    {
+      "filename": "011_old_step_01_episode_000158_f00429.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/011_old_step_01_episode_000158_f00429.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000158",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.712,
+            246.1644,
+            551.5750400000001,
+            354.65736
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.74016,
+            299.58912000000004,
+            535.95904,
+            309.04128000000003
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.58912000000004,
+            526.5068799999999,
+            309.04128000000003
+          ]
+        }
+      ],
+      "image_sha256": "c7bbcf16478a793783508988e0a099b16d9ef70c93960e923bd45800ca8a6376",
+      "label_sha256": "24a3330815d9743facff8559d9f9ab4e187bffe6deb87975a345798055aa1b8f"
+    },
+    {
+      "filename": "012_old_step_01_episode_000164_f00430.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/012_old_step_01_episode_000164_f00430.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000164",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            245.3424,
+            551.98656,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.9728,
+            300.00024,
+            535.5481599999999,
+            308.63016000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            298.76736,
+            526.5068799999999,
+            309.04128
+          ]
+        }
+      ],
+      "image_sha256": "ce83ec0b5c5523829418b4db33f37d80199fb8a47bf6a5164dac9870c380ac01",
+      "label_sha256": "2a57bb61ce6266d933cc35c307d069b8689be4621959e3624fc631d92e375775"
+    },
+    {
+      "filename": "013_old_step_01_episode_000169_f00028.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/013_old_step_01_episode_000169_f00028.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000169",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            246.57527999999996,
+            551.98656,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            300.41087999999996,
+            535.1366399999999,
+            309.86304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            520.75328,
+            299.58912000000004,
+            526.50688,
+            309.04128000000003
+          ]
+        }
+      ],
+      "image_sha256": "283ed2b482436f7f21eb0d2c193f6544c3efff7a6b7f240401dbf58105fd42a1",
+      "label_sha256": "73208ecb3e83d7511c3ff4ee5b23025cee1b17ec7adcb55758a3f951800f0351"
+    },
+    {
+      "filename": "014_old_step_01_episode_000175_f00112.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/014_old_step_01_episode_000175_f00112.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000175",
+      "original_name": null,
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.71263999999996,
+            244.93152,
+            551.98656,
+            354.24672000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.73952,
+            299.58912000000004,
+            535.54752,
+            309.86304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.17823999999996,
+            526.5068799999999,
+            309.04128
+          ]
+        }
+      ],
+      "image_sha256": "ce778324d787576a925cea96b92875a09839b4d744d7a9f8fbe6aac7d13c2440",
+      "label_sha256": "66839edcf185ff74d657b620f10ad787ffe3a3b60ea1f12358e639afbe260d9d"
+    },
+    {
+      "filename": "015_old_step_01_episode_000181_f00156.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/015_old_step_01_episode_000181_f00156.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000181",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            245.3424,
+            551.98656,
+            354.6576
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            300.0,
+            534.31488,
+            309.04128000000003
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            300.00024,
+            526.5068799999999,
+            308.63016000000005
+          ]
+        }
+      ],
+      "image_sha256": "66eddcdc6a087cc6e2fe6f155560d32e422b55195def9d2c10fb4351b0555fcd",
+      "label_sha256": "8dbc599d92dfb307a688e55c03fd361f75c7c3cd3d64b7e89dd2ee2f141d81b3"
+    },
+    {
+      "filename": "016_old_step_01_episode_000187_f00270.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/016_old_step_01_episode_000187_f00270.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000187",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.71263999999996,
+            245.75327999999996,
+            551.98656,
+            354.6576
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.9728,
+            299.58912000000004,
+            535.95904,
+            309.04128000000003
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            300.0,
+            526.9177599999999,
+            309.45216000000005
+          ]
+        }
+      ],
+      "image_sha256": "9e2e6c5e587b682333d57bbcd0ce59bc384273a2878229c4a438aaa68b866b45",
+      "label_sha256": "5333e3a69ba9526aa2c5e71e28330839257c27402d253569c03d6b7a53f60311"
+    },
+    {
+      "filename": "017_old_step_01_episode_000193_f00390.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/017_old_step_01_episode_000193_f00390.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000193",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            247.39704,
+            551.98656,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            300.0,
+            535.5481599999999,
+            309.45216000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            300.00024,
+            526.9177599999999,
+            308.63016000000005
+          ]
+        }
+      ],
+      "image_sha256": "4a8db4a95a13a717e5f2a357750531b5e97f42a771b9c77f2a6ab7240db42e18",
+      "label_sha256": "98195272a1de43da8dbb080a6487f9ce6a3078c41e961e54023c58ac5084c14e"
+    },
+    {
+      "filename": "018_old_step_01_episode_000199_f00612.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/018_old_step_01_episode_000199_f00612.jpg",
+      "source_group": "old_step_01",
+      "episode": "episode_000199",
+      "original_name": null,
+      "split": "test",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            245.3424,
+            552.39744,
+            354.6576
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.32864,
+            299.58912000000004,
+            535.1366399999999,
+            309.04128000000003
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            518.6988799999999,
+            299.58912000000004,
+            526.9177599999999,
+            309.04128000000003
+          ]
+        }
+      ],
+      "image_sha256": "8d53c5765c700643ea6b1325df37f65483da5162a5d8b11cf01c3fa46d68b9e9",
+      "label_sha256": "267e9c61972dccf0ccf3a7a35e7dc22002c4ded2eb3e4eb86811a788cf2ba054"
+    },
+    {
+      "filename": "019_old_step_02_episode_000000_f00056.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/019_old_step_02_episode_000000_f00056.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000000",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            448.83552,
+            241.23288,
+            545.0,
+            348.90408
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            521.98656,
+            294.24672,
+            528.1510400000001,
+            303.288
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            514.1779200000001,
+            294.6576,
+            520.75328,
+            304.10976000000005
+          ]
+        }
+      ],
+      "image_sha256": "f793a35248b92eeef01ec79a75d149c07c847ba1a74e6e9141dd5673a408ce38",
+      "label_sha256": "85920bf561d199c55d433c5769e4c54a305532fc49c074dbbef4a51864ea6aed"
+    },
+    {
+      "filename": "020_old_step_02_episode_000011_f00220.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/020_old_step_02_episode_000011_f00220.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000011",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            449.65728,
+            241.23288,
+            546.2326400000001,
+            348.90408
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            521.5756799999999,
+            294.24672,
+            529.79456,
+            304.10976
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            513.7670400000001,
+            294.65783999999996,
+            521.5750400000001,
+            303.28776
+          ]
+        }
+      ],
+      "image_sha256": "df77d73bb12a7d7f2f35c987b0a28a4b6eee3489655bc8942d44773febd8633f",
+      "label_sha256": "872d333c30b1971ef20e2fe4ec59fb4b0a544576b39072ef4bcbf4bf678a5399"
+    },
+    {
+      "filename": "021_old_step_02_episode_000023_f00397.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/021_old_step_02_episode_000023_f00397.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000023",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94496000000004,
+            271.23287999999997,
+            528.97248,
+            354.65736000000004
+          ]
+        }
+      ],
+      "image_sha256": "fd259b94f24b8a2c01f2f9f168b15089de79a21a2133ee506d869bb1cac56725",
+      "label_sha256": "e3e1eecc4e049b9aba9b925a56227c19f66de0dae54e2ceb96bc7d35064417f7"
+    },
+    {
+      "filename": "022_old_step_02_episode_000035_f00605.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/022_old_step_02_episode_000035_f00605.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000035",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94528,
+            245.75327999999996,
+            551.98656,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15072,
+            298.76736000000005,
+            536.78112,
+            309.86304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            298.76736000000005,
+            526.9177599999999,
+            309.86304
+          ]
+        }
+      ],
+      "image_sha256": "8146e8f51e5bad5b0ecc0d2f710848aa2c68f95db34ca3695256deb255e1b3de",
+      "label_sha256": "f86afa5b0caf3d0b47f1a65df0d141d6b1e66effbcec0ce513d83f2354ed0340"
+    },
+    {
+      "filename": "023_old_step_02_episode_000046_f00094.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/023_old_step_02_episode_000046_f00094.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000046",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            245.34264000000002,
+            551.98656,
+            353.42472000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.9728,
+            298.35648000000003,
+            535.5481599999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            299.17823999999996,
+            526.9177599999999,
+            309.04128
+          ]
+        }
+      ],
+      "image_sha256": "6baf87f1fb7f3498fc2ff2e001233308ba25a1b668f58ca98fa5ccb40311de25",
+      "label_sha256": "035968f6fe91e1c401a2cf695b039316350eae03d8a69ba9378144be2b4f3014"
+    },
+    {
+      "filename": "024_old_step_02_episode_000058_f00092.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/024_old_step_02_episode_000058_f00092.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000058",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            245.34263999999996,
+            551.1648,
+            353.01383999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            298.35648000000003,
+            535.5481599999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            298.76736,
+            526.9177599999999,
+            309.04128
+          ]
+        }
+      ],
+      "image_sha256": "a142b90cdeece0e8530c5b92ceb919c22cc9d1a0f154b956a594a1458f80d51c",
+      "label_sha256": "ae09d2b2858fc6d03a8bda883310a5fec2cf44daf12e14c73d358d9c0942eb9d"
+    },
+    {
+      "filename": "025_old_step_02_episode_000070_f00057.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/025_old_step_02_episode_000070_f00057.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000070",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94528,
+            246.16440000000006,
+            552.8083200000001,
+            353.01383999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            298.76736,
+            535.1366399999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.17823999999996,
+            526.9177599999999,
+            308.6304
+          ]
+        }
+      ],
+      "image_sha256": "6583d925442fb2c6a07fa3f00bbd184235854a269fbaf70c4118d03729b9802f",
+      "label_sha256": "f787834bcbf4c100d4476fb9ba65da45cbcf0d915b70f5a43c2c15d306064300"
+    },
+    {
+      "filename": "026_old_step_02_episode_000081_f00190.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/026_old_step_02_episode_000081_f00190.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000081",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.53440000000006,
+            246.16463999999996,
+            553.2192,
+            341.50704
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            298.76736,
+            535.95904,
+            309.04128
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            298.356,
+            526.9177599999999,
+            308.62991999999997
+          ]
+        }
+      ],
+      "image_sha256": "f669091ac8395ec6514e2d36a6708fb83ac6e62d007e1774107157a89d5da67c",
+      "label_sha256": "beb30a296ef53c497bc37f205916bf8a699de9c2782c5afd1caa3f4ea0c2c133"
+    },
+    {
+      "filename": "027_old_step_02_episode_000093_f00088.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/027_old_step_02_episode_000093_f00088.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000093",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            245.75352,
+            551.5756799999999,
+            353.8356
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.73952,
+            298.76687999999996,
+            535.54752,
+            307.80816000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            520.3424,
+            299.17823999999996,
+            527.32864,
+            309.04128
+          ]
+        }
+      ],
+      "image_sha256": "f55fa13d38a9ad9cafddedf583f42b6cbe68bad814ea8764db1592b1f65ece21",
+      "label_sha256": "2bff7a8021b785dbd0e64cb41ae4a31245d83cd8f1aeedd55ad00cba0e141162"
+    },
+    {
+      "filename": "028_old_step_02_episode_000105_f00568.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/028_old_step_02_episode_000105_f00568.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000105",
+      "original_name": null,
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12288,
+            246.1644,
+            551.16416,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.9728,
+            298.356,
+            535.95904,
+            307.80816000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            298.356,
+            526.9177599999999,
+            307.80816000000004
+          ]
+        }
+      ],
+      "image_sha256": "ad89a898b250a881bcfce734d9902ae2232d761df5093315bc2b125a288ca9b4",
+      "label_sha256": "a2116846ab8ec27474a425dcbec4a5770a2ca9f8aa1f5c6f4471282fd0491e11"
+    },
+    {
+      "filename": "029_old_step_02_episode_000117_f00634.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/029_old_step_02_episode_000117_f00634.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000117",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5340799999999,
+            246.98616,
+            549.10944,
+            353.42472
+          ]
+        }
+      ],
+      "image_sha256": "d8d1a1336abd2260f96abd64b164b32ca14d34ef13a619422461d0865a4104ee",
+      "label_sha256": "0b4b2504ed33edf9b4a1dc1cd33e7d437c74ce0176f5c17307f86ff5fe734aaf"
+    },
+    {
+      "filename": "030_old_step_02_episode_000128_f00082.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/030_old_step_02_episode_000128_f00082.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000128",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            246.57528000000002,
+            551.98656,
+            355.06824
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15072,
+            299.17823999999996,
+            536.78112,
+            309.04128
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            298.356,
+            526.9177599999999,
+            309.0408
+          ]
+        }
+      ],
+      "image_sha256": "95a8c78f31dbc826d7c08140b227f252ebf6ea093ef2ef9c19e7173c95038147",
+      "label_sha256": "9b56d4ecc760e9fdb9b6173fafd8365bbad64651435b09cb725d26e01269fabc"
+    },
+    {
+      "filename": "031_old_step_02_episode_000140_f00052.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/031_old_step_02_episode_000140_f00052.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000140",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.712,
+            244.93152,
+            551.16416,
+            353.83584
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.32864,
+            299.17823999999996,
+            535.54752,
+            309.04128
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            520.3424,
+            299.58912,
+            526.9177599999999,
+            308.6304
+          ]
+        }
+      ],
+      "image_sha256": "de5427a82ad2591fff53fa0bb7bfaad210d42ac6579b52348d3c4552792108e7",
+      "label_sha256": "a90f8a3c3d56533a0fca3716f80d646fa0e5e83824d04326916859db7a2b8abd"
+    },
+    {
+      "filename": "032_old_step_02_episode_000152_f00190.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/032_old_step_02_episode_000152_f00190.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000152",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.53408,
+            245.3424,
+            550.34208,
+            324.24672000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            298.76736,
+            535.5481599999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            299.178,
+            526.9177599999999,
+            307.80791999999997
+          ]
+        }
+      ],
+      "image_sha256": "ab5ff0e3a959fc83dd99fd4968d510a59c1ebe62bafc2b4031f90805f5a3925a",
+      "label_sha256": "103374af06cb728ca1012ae234f5c981ec00ec2584b5477d5c98ec992bb6428e"
+    },
+    {
+      "filename": "033_old_step_02_episode_000163_f00416.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/033_old_step_02_episode_000163_f00416.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000163",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94528,
+            245.34264000000002,
+            551.5756799999999,
+            353.8356
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            298.76687999999996,
+            535.95904,
+            307.80816000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.17823999999996,
+            526.9177599999999,
+            308.6304
+          ]
+        }
+      ],
+      "image_sha256": "311ff21fae0d2462993e58c718b894680f771cfc5c92ea537c58f275b453d320",
+      "label_sha256": "3f4f25057a12ed7904111e80610b22d6a3c0d712c9b1a28c59c5f8b3e63af72f"
+    },
+    {
+      "filename": "034_old_step_02_episode_000175_f00485.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/034_old_step_02_episode_000175_f00485.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000175",
+      "original_name": null,
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            453.35648,
+            246.1644,
+            551.57536,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            299.58912,
+            535.95904,
+            308.6304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            298.356,
+            526.9177599999999,
+            307.80816000000004
+          ]
+        }
+      ],
+      "image_sha256": "a1c263cfec9e7621224978e18490e87f2519eaeccd5149986c7b23a2d221b7b1",
+      "label_sha256": "1de7eabb00b3992860bc8ca243955ed2482448199bd5a6fc06ff849f44e9608a"
+    },
+    {
+      "filename": "035_old_step_02_episode_000187_f00072.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/035_old_step_02_episode_000187_f00072.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000187",
+      "original_name": null,
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            453.76736,
+            245.34264000000002,
+            551.57536,
+            353.8356
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            526.9177599999999,
+            299.17823999999996,
+            535.1366399999999,
+            308.6304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            517.0544,
+            298.356,
+            526.09568,
+            307.80816000000004
+          ]
+        }
+      ],
+      "image_sha256": "f75be85d9a544f523c3f0ed0d74cf0e83285e8ac9033e7b7e2516b2b463c9558",
+      "label_sha256": "d939064459c6b1136758b8a1bfef9d9ebf99a69670d6678e8fdf0bf90a8674f0"
+    },
+    {
+      "filename": "036_old_step_02_episode_000199_f00080.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/036_old_step_02_episode_000199_f00080.jpg",
+      "source_group": "old_step_02",
+      "episode": "episode_000199",
+      "original_name": null,
+      "split": "test",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            453.76735999999994,
+            244.93152,
+            549.93184,
+            353.83584
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.32864,
+            299.58912,
+            534.7257599999999,
+            308.6304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.58887999999996,
+            526.0959999999999,
+            307.80791999999997
+          ]
+        }
+      ],
+      "image_sha256": "86333e08228a7b8c590e0f0d3fc312f2271bb68faf5e97d3942c67e19cf08d06",
+      "label_sha256": "acced0a9f98e0e454599c4d216f3ed61756a3a3f6e787bda5a0bad9e8ef17a58"
+    },
+    {
+      "filename": "037_rgb_20261008_0001.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/037_rgb_20261008_0001.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0001.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            467.32864,
+            190.27391999999998,
+            553.63008,
+            290.95871999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            533.4928,
+            236.71248,
+            542.1232,
+            247.39727999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            523.6304,
+            236.71248,
+            533.0825600000001,
+            246.57552
+          ]
+        }
+      ],
+      "image_sha256": "7f57c753ae9da0d71f9a5476c5011d6484611dcf2ae16fec3b147ffa64231b11",
+      "label_sha256": "e9f40a39756bedd6d54fc43a9ea2d03e03b8d2cf9b67d2e8152e35a3409cdc5a"
+    },
+    {
+      "filename": "038_rgb_20261008_0032.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/038_rgb_20261008_0032.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0032.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            434.86336,
+            183.28776,
+            515.82208,
+            281.09592
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            495.27424,
+            228.90408000000002,
+            503.08224,
+            237.534
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            486.64383999999995,
+            228.08208000000002,
+            494.86271999999997,
+            237.12336
+          ]
+        }
+      ],
+      "image_sha256": "f5b430b4b447c6eb8151a576326909a2fa2425c49a6bd048eb416664ccd26295",
+      "label_sha256": "b7fd39f2fa57a0e103eda08818033a7ccd6229876933652bfe4c9367b2afe6c2"
+    },
+    {
+      "filename": "039_rgb_20261008_0033.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/039_rgb_20261008_0033.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0033.jpg",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            524.8630400000001,
+            199.72583999999998,
+            614.04128,
+            307.39704
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            592.67136,
+            250.68480000000002,
+            600.06848,
+            260.95872
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            583.2192,
+            249.04127999999997,
+            591.43808,
+            259.31519999999995
+          ]
+        }
+      ],
+      "image_sha256": "43a614214377e38b9b4fb4ddd5cf7d3d511ec5b3328d87be3b76ba984bca4195",
+      "label_sha256": "558b831e27a004bee25b019806b44fb63c30a428ef3901927ae9fc0d6b420340"
+    },
+    {
+      "filename": "040_rgb_20261008_0034.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/040_rgb_20261008_0034.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0034.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            405.2736,
+            167.26008000000002,
+            478.01344,
+            259.72583999999995
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            457.05440000000004,
+            207.12336,
+            466.09568,
+            218.21904
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            450.06847999999997,
+            208.356,
+            457.46559999999994,
+            218.21904
+          ]
+        }
+      ],
+      "image_sha256": "334320824aff0ac2dfa1ed44f1265cf0222d365f556538099c0243a22eaae64c",
+      "label_sha256": "5ae61e01a6b17245cd6074ab4c8abb72ff64c5411b27bef8ada61a16ea6ed978"
+    },
+    {
+      "filename": "041_rgb_20261008_0036.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/041_rgb_20261008_0036.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0036.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            425.41088,
+            177.12336000000002,
+            501.4384,
+            272.46576000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            481.30176,
+            219.45216,
+            488.69888,
+            229.3152
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            473.08224,
+            219.86304,
+            480.47936,
+            229.72608000000002
+          ]
+        }
+      ],
+      "image_sha256": "688b92689427b2934cd4adcc7b0b9f39368620c3093b91d7b289bfdc95f5fb04",
+      "label_sha256": "e6d683e90441df2aa947cd4547f4a8ccf4a7eb21974bbd8724d6d4526fdc038a"
+    },
+    {
+      "filename": "042_rgb_20261008_0037.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/042_rgb_20261008_0037.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0037.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94528,
+            183.69864,
+            534.31488,
+            280.68504
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            513.76672,
+            226.84944,
+            522.39712,
+            237.12336
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            505.95903999999996,
+            226.84944000000002,
+            513.76704,
+            237.53424
+          ]
+        }
+      ],
+      "image_sha256": "87db2abe2ada92186686792f0699a608d8559dd45513e8768c0238a1252b24f5",
+      "label_sha256": "71c675010e916fe956b4d912ba6d8072b42a43fffc439529f1c79af6d18ee33a"
+    },
+    {
+      "filename": "043_rgb_20261008_0038.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/043_rgb_20261008_0038.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0038.jpg",
+      "split": "val",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            470.61632000000003,
+            163.97279999999998,
+            551.16416,
+            255.20543999999998
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            532.26048,
+            202.60272,
+            540.47936,
+            213.69840000000002
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            524.8633600000001,
+            203.42472,
+            533.0822400000001,
+            212.05463999999998
+          ]
+        }
+      ],
+      "image_sha256": "59256403e014d0d2cd676c18b5e2b64fe0dafc88cc1298af68c475aa714ee880",
+      "label_sha256": "8f38323f95424c351fd2e7f9ec5fbf02dba01f9bdc270d3169136d29ef33efbc"
+    },
+    {
+      "filename": "044_rgb_20261008_0039.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/044_rgb_20261008_0039.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0039.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            486.23295999999993,
+            170.95896,
+            572.5344,
+            264.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            554.4518400000001,
+            213.6984,
+            561.84896,
+            223.15056
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            545.00032,
+            212.05488,
+            552.80832,
+            221.91791999999998
+          ]
+        }
+      ],
+      "image_sha256": "dcae037773d823f472f2b654e0eed2775c2150654f791b10e16174582a20a92d",
+      "label_sha256": "4978daec99f9dafcaf6a47e66f26c691144d89a705f4e66623a4aa41765f87bf"
+    },
+    {
+      "filename": "045_rgb_20261008_0040.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/045_rgb_20261008_0040.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0040.jpg",
+      "split": "test",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            585.6851200000001,
+            216.16464,
+            639.52064,
+            321.37008000000003
+          ]
+        }
+      ],
+      "image_sha256": "ceefd5cf96ac85dd1fe1e202230f9224118f0cc96f80ee4ce27c31fc4da5b451",
+      "label_sha256": "64e459f7a63aa4aab43414a0e77d94bf68ec51880523010bdae6a250baec1555"
+    },
+    {
+      "filename": "046_rgb_20261008_0041.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/046_rgb_20261008_0041.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0041.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            383.08224,
+            137.6712,
+            455.00032,
+            226.43856
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            437.32864,
+            171.78096,
+            443.08224,
+            181.23312
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            429.93152000000003,
+            174.24648,
+            436.91776,
+            182.05464
+          ]
+        }
+      ],
+      "image_sha256": "141f4481493be3dafcc28f1bd6da3124bcddd1b4a8f9ab0e10e8e9d58bfe014d",
+      "label_sha256": "330608ce48a42ffa90b0e835d0682051cda83172dd1655e37839eb4f18853561"
+    },
+    {
+      "filename": "047_rgb_20261008_0042.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/047_rgb_20261008_0042.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0042.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            510.06847999999997,
+            182.87664,
+            604.5888,
+            287.26032
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            584.4518400000001,
+            231.37008,
+            591.43808,
+            241.23311999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            576.23296,
+            230.13696,
+            583.2192,
+            240.0
+          ]
+        }
+      ],
+      "image_sha256": "0c78d065ae24a64f938444b29ee8d3c54fa7638b248e9eb1f85c8da2abbd6dce",
+      "label_sha256": "c0092579d05d7a40fb437fbd7a9c7796c25f1686c2e0f2d5266aec195c14f087"
+    },
+    {
+      "filename": "048_rgb_20261008_0043.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/048_rgb_20261008_0043.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0043.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            501.0272,
+            176.71248,
+            595.1366399999999,
+            276.9864
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            575.00032,
+            222.73968000000002,
+            582.80832,
+            233.42448
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            567.60256,
+            221.91791999999998,
+            573.7670400000001,
+            232.19183999999998
+          ]
+        }
+      ],
+      "image_sha256": "49a9f767716ffb32d62fa45cda51416ac8697814b697f61487e8e4a240a407c1",
+      "label_sha256": "1184be403100680be1abf3dce94c36b3484316f72de4f1259f6fc35e523c891c"
+    },
+    {
+      "filename": "049_rgb_20261008_0044.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/049_rgb_20261008_0044.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0044.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            426.64383999999995,
+            174.24672,
+            508.01344,
+            270.41087999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            487.05472,
+            216.98664,
+            494.45183999999995,
+            225.61656
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            478.42495999999994,
+            216.16416,
+            486.23295999999993,
+            226.02720000000002
+          ]
+        }
+      ],
+      "image_sha256": "f0e696793536deb690eed56e8d983217472c8a31133733548634a80940a39c75",
+      "label_sha256": "9d18f0ecd73cf95e4d483cd1eae468d46be8bb892808606a334aa5da946c6833"
+    },
+    {
+      "filename": "050_rgb_20261008_0045.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/050_rgb_20261008_0045.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0045.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            479.2464,
+            200.54808,
+            570.47904,
+            303.69863999999995
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            549.5203200000001,
+            249.86304,
+            558.5616,
+            260.13696
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            540.8902400000001,
+            249.04127999999997,
+            548.28736,
+            259.31519999999995
+          ]
+        }
+      ],
+      "image_sha256": "c1566a0decfed49ba7b47916954a9ded4b7798d9f91e96b7d2df962d6d53afa8",
+      "label_sha256": "0beba00e099b31bff1ab7f745159ba720eb43835d44734559c70a1f02f9d118b"
+    },
+    {
+      "filename": "051_rgb_20261008_0046.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/051_rgb_20261008_0046.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0046.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            440.616,
+            181.23288,
+            528.97248,
+            278.63016000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            508.83583999999996,
+            225.20568,
+            516.2329599999999,
+            233.83559999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            500.61632000000003,
+            225.61632,
+            508.42432,
+            234.65759999999997
+          ]
+        }
+      ],
+      "image_sha256": "608e533eddaa298bbbbc6de39a890404b7f121f11aea2ac56ca596dc755bef5d",
+      "label_sha256": "7ef228107eb79b3569432acbe6e4e2aed61584de29e692e718d7c7a93c77b4a7"
+    },
+    {
+      "filename": "052_rgb_20261008_0047.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/052_rgb_20261008_0047.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0047.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            442.67103999999995,
+            178.76736,
+            520.34208,
+            274.93152
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            501.43808,
+            221.50704000000002,
+            508.01343999999995,
+            231.37008000000003
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            492.80832000000004,
+            220.6848,
+            500.20544,
+            230.13696000000002
+          ]
+        }
+      ],
+      "image_sha256": "0929116a9a176ebe217e91f53b9de0dd1a0b3f07f36124783c9e42a7b80b5632",
+      "label_sha256": "10b16ac4fd3c789ee7fce97febfebbcb41e080f9fbc1397f3cb179b9fd72f962"
+    },
+    {
+      "filename": "053_rgb_20261008_0049.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/053_rgb_20261008_0049.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0049.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            487.4656,
+            156.57552,
+            567.60256,
+            247.80816000000002
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            549.93152,
+            195.20543999999998,
+            556.5068799999999,
+            205.47935999999999
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            541.71264,
+            195.20544,
+            549.52064,
+            204.24672
+          ]
+        }
+      ],
+      "image_sha256": "b04040eaef2383754ccb85661d0a9936aaa3ca61fe3a63b7e158396fada81faf",
+      "label_sha256": "27697189c40aaba49bc10f6d715b27e29dcac4452e2093f51c083a07cb55e390"
+    },
+    {
+      "filename": "054_rgb_20261008_0050.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/054_rgb_20261008_0050.jpg",
+      "source_group": "rgb_20261008",
+      "episode": null,
+      "original_name": "0050.jpg",
+      "split": "train",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            506.78048,
+            181.23264,
+            595.95872,
+            285.20544
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            575.0,
+            229.72608000000002,
+            584.8630400000001,
+            240.41088
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            566.3696,
+            228.08208000000002,
+            575.0,
+            239.17776
+          ]
+        }
+      ],
+      "image_sha256": "5f65d2228379ecd6c402af3e8060bcdd702a38c503a90335f88066b9facffbfe",
+      "label_sha256": "cd0e4a43e5f03051a3cd7cd87e2c4d226a441d986a433d0d32168409c2216ec1"
+    },
+    {
+      "filename": "055_rgb_20261009_0001.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/055_rgb_20261009_0001.jpg",
+      "source_group": "rgb_20261009",
+      "episode": null,
+      "original_name": "0001.jpg",
+      "split": "test",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            435.68479999999994,
+            211.23311999999999,
+            524.04128,
+            316.43856
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            501.84959999999995,
+            262.19183999999996,
+            510.06847999999997,
+            272.46576
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            492.39712000000003,
+            261.37008000000003,
+            501.02752000000004,
+            272.05487999999997
+          ]
+        }
+      ],
+      "image_sha256": "3a2eec8dbd066deb9b6fb6f7045cfc70ff57304b27e78e54c3375d644b7800b6",
+      "label_sha256": "f5904dff6300d7feb6a956ee31568c4794a8c14004da78a3d4f0dbcdab6c6105"
+    },
+    {
+      "filename": "056_rgb_20261009_0004.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/056_rgb_20261009_0004.jpg",
+      "source_group": "rgb_20261009",
+      "episode": null,
+      "original_name": "0004.jpg",
+      "split": "test",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            434.86304000000007,
+            210.82175999999998,
+            523.6304,
+            316.43808
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            501.02752000000004,
+            262.19184,
+            510.47968000000003,
+            273.28752
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            491.57536,
+            261.37008000000003,
+            500.61664,
+            272.05487999999997
+          ]
+        }
+      ],
+      "image_sha256": "ce63d00de086d8e15831c3ed9dfc19aabf55300e11b3f94d5e649721294b9a34",
+      "label_sha256": "bf116a6c666ce7b3f64e5d13c8f39f0cfb1593e0cc7b7deb196bb4b2d67da285"
+    },
+    {
+      "filename": "057_rgb_20261009_0014.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/057_rgb_20261009_0014.jpg",
+      "source_group": "rgb_20261009",
+      "episode": null,
+      "original_name": "0014.jpg",
+      "split": "test",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            434.45216000000005,
+            210.82175999999998,
+            523.21952,
+            316.43808
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            501.43872,
+            262.19183999999996,
+            509.24672,
+            271.644
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            492.39744,
+            261.78096,
+            499.79456,
+            270.82224
+          ]
+        }
+      ],
+      "image_sha256": "ea80f84dde9c5bbc9b9a9b68b8410e036f16eebf666fe8245c239ac774d884fe",
+      "label_sha256": "779608ca502d0fc07898af35b977853ad5ae5c4a399645ac114b9402aca7149d"
+    },
+    {
+      "filename": "058_rgb_20261009_0016.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/058_rgb_20261009_0016.jpg",
+      "source_group": "rgb_20261009",
+      "episode": null,
+      "original_name": "0016.jpg",
+      "split": "test",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            436.096,
+            211.23263999999998,
+            523.2192,
+            316.02719999999994
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            501.02752000000004,
+            263.0136,
+            510.0688,
+            272.87664
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            492.80832000000004,
+            262.19183999999996,
+            500.61632000000003,
+            272.46576
+          ]
+        }
+      ],
+      "image_sha256": "b5d7b1b3f4343e59c066072315723aaa4687e660494ab1267120d28e313fa16e",
+      "label_sha256": "e62d14cf9bf1c6ceb470a3d19bc1a91c4a49160f6305f6474433c0af8cb410ec"
+    },
+    {
+      "filename": "059_rgb_20261009_0017.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/059_rgb_20261009_0017.jpg",
+      "source_group": "rgb_20261009",
+      "episode": null,
+      "original_name": "0017.jpg",
+      "split": "test",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            436.096,
+            210.82224,
+            523.6300799999999,
+            316.84944
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            492.80832000000004,
+            262.19184,
+            500.61632000000003,
+            272.87664
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            501.8496,
+            262.19183999999996,
+            509.24672,
+            272.05487999999997
+          ]
+        }
+      ],
+      "image_sha256": "cc7720e095553af6425ae7c58b1a471bdbeecd8ecb53803310a46aad1fbc76ad",
+      "label_sha256": "40cf33de600b0df5d4f942ce990955b0b193fb684164e163a7be79ab57e771bf"
+    },
+    {
+      "filename": "060_rgb_20261009_0019.jpg",
+      "source": "/home/vnv/label-printer-60-20261010/images/060_rgb_20261009_0019.jpg",
+      "source_group": "rgb_20261009",
+      "episode": null,
+      "original_name": "0019.jpg",
+      "split": "test",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            436.096,
+            210.82175999999998,
+            522.8083200000001,
+            316.0272
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            492.32192,
+            261.71616,
+            500.75712,
+            273.17951999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            501.62208,
+            261.93216,
+            508.97631999999993,
+            273.17951999999997
+          ]
+        }
+      ],
+      "image_sha256": "b901f7218efd719f81d70a51ffef75aacd857e268efb6d5fcf0a2087ae6b6405",
+      "label_sha256": "9411412155a0c43225f7aa76a3846d14b0711f74b87b23d1daafdaa5740b322a"
+    }
+  ],
+  "split_counts": {
+    "train": {
+      "images": 45,
+      "classes": {
+        "label_printer": 45,
+        "button": 86
+      }
+    },
+    "val": {
+      "images": 6,
+      "classes": {
+        "label_printer": 6,
+        "button": 12
+      }
+    },
+    "test": {
+      "images": 9,
+      "classes": {
+        "label_printer": 9,
+        "button": 16
+      }
+    }
+  },
+  "training_images": 100,
+  "validation_images_with_gt_crops": 12,
+  "policy": "Same episode across steps kept together. Test: entire Oct09 capture (6), old episode199 (2), truncated Oct08 frame0040 (1). Val: old episodes105/175 plus Oct08 frames0033/0038. Test excluded from training, threshold selection and checkpoint selection. GT crops only used for train/development; test inference must use predicted printer boxes.",
+  "qualification": "Only one physical setup/device. Old episodes share nearly identical printer views. This is not independent field accuracy or arbitrary-model generalization.",
+  "button_semantics": "Two same-class button instances, no function identity; pixel detections are not robot pressing coordinates."
+}

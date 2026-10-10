@@ -1,0 +1,4556 @@
+{
+  "train": [
+    {
+      "filename": "001_old_step_01_episode_000100_f00032.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            449.2464,
+            243.288,
+            545.0,
+            349.3152
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            513.35616,
+            294.24648,
+            520.99136,
+            302.41752
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            522.44128,
+            293.47296,
+            528.72672,
+            302.41728
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9834270477294922,
+          "bbox_xyxy_px": [
+            447.85760498046875,
+            240.9486083984375,
+            547.2200317382812,
+            350.04296875
+          ],
+          "center_uv": [
+            497.538818359375,
+            295.49578857421875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9058976769447327,
+          "bbox_xyxy_px": [
+            513.3906707763672,
+            294.4273986816406,
+            520.8235473632812,
+            303.23400115966797
+          ],
+          "center_uv": [
+            517.1071090698242,
+            298.8306999206543
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9834270477294922
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.7697567939758301,
+          "bbox_xyxy_px": [
+            521.8552703857422,
+            294.1463088989258,
+            528.767333984375,
+            302.9053649902344
+          ],
+          "center_uv": [
+            525.3113021850586,
+            298.5258369445801
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9834270477294922
+        }
+      ]
+    },
+    {
+      "filename": "003_old_step_01_episode_000111_f00209.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12288,
+            245.75327999999996,
+            551.16416,
+            354.6576
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.39072,
+            300.14184,
+            525.76768,
+            308.07768
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.03488,
+            299.99976,
+            534.55328,
+            308.36088
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.948672890663147,
+          "bbox_xyxy_px": [
+            450.37451171875,
+            244.51568603515625,
+            554.259033203125,
+            355.82977294921875
+          ],
+          "center_uv": [
+            502.3167724609375,
+            300.1727294921875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9086222052574158,
+          "bbox_xyxy_px": [
+            527.6929244995117,
+            299.4262924194336,
+            534.9656677246094,
+            308.5104522705078
+          ],
+          "center_uv": [
+            531.3292961120605,
+            303.9683723449707
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.948672890663147
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.804379940032959,
+          "bbox_xyxy_px": [
+            519.4858856201172,
+            299.3612747192383,
+            526.8506698608398,
+            308.2526321411133
+          ],
+          "center_uv": [
+            523.1682777404785,
+            303.8069534301758
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.948672890663147
+        }
+      ]
+    },
+    {
+      "filename": "004_old_step_01_episode_000117_f00306.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            244.52064000000001,
+            552.39744,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.33344,
+            299.43984,
+            527.1792,
+            307.47216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.11328,
+            299.43935999999997,
+            534.65152,
+            307.09824000000003
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9538396596908569,
+          "bbox_xyxy_px": [
+            450.40167236328125,
+            244.19219970703125,
+            554.3059692382812,
+            355.72552490234375
+          ],
+          "center_uv": [
+            502.35382080078125,
+            299.9588623046875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8455584049224854,
+          "bbox_xyxy_px": [
+            519.6763534545898,
+            299.18202209472656,
+            527.1333465576172,
+            307.9553451538086
+          ],
+          "center_uv": [
+            523.4048500061035,
+            303.5686836242676
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9538396596908569
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.7793808579444885,
+          "bbox_xyxy_px": [
+            528.2344360351562,
+            299.29261016845703,
+            535.5498199462891,
+            308.34180450439453
+          ],
+          "center_uv": [
+            531.8921279907227,
+            303.8172073364258
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9538396596908569
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.07119084149599075,
+          "bbox_xyxy_px": [
+            527.3786239624023,
+            299.07083892822266,
+            531.0887908935547,
+            308.03973388671875
+          ],
+          "center_uv": [
+            529.2337074279785,
+            303.5552864074707
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9538396596908569
+        }
+      ]
+    },
+    {
+      "filename": "005_old_step_01_episode_000123_f00406.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.71264,
+            244.52064000000001,
+            552.39744,
+            355.47936
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.32864,
+            299.58887999999996,
+            534.3148799999999,
+            307.80791999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            299.58887999999996,
+            526.5068799999999,
+            307.39704
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9541932940483093,
+          "bbox_xyxy_px": [
+            449.633056640625,
+            244.70123291015625,
+            553.716064453125,
+            356.12445068359375
+          ],
+          "center_uv": [
+            501.674560546875,
+            300.412841796875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8963969349861145,
+          "bbox_xyxy_px": [
+            519.3440322875977,
+            299.7141342163086,
+            526.6847076416016,
+            308.598876953125
+          ],
+          "center_uv": [
+            523.0143699645996,
+            304.1565055847168
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9541932940483093
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.86628657579422,
+          "bbox_xyxy_px": [
+            527.6720199584961,
+            299.74779510498047,
+            535.0373077392578,
+            308.9328155517578
+          ],
+          "center_uv": [
+            531.354663848877,
+            304.34030532836914
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9541932940483093
+        }
+      ]
+    },
+    {
+      "filename": "006_old_step_01_episode_000129_f00486.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.30111999999997,
+            245.3424,
+            551.16416,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            298.76736,
+            535.1366399999999,
+            309.04128
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            520.3424,
+            298.76687999999996,
+            526.50688,
+            308.62991999999997
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9513760209083557,
+          "bbox_xyxy_px": [
+            449.76055908203125,
+            244.69952392578125,
+            553.5404663085938,
+            356.24456787109375
+          ],
+          "center_uv": [
+            501.6505126953125,
+            300.4720458984375
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9027032256126404,
+          "bbox_xyxy_px": [
+            519.4699630737305,
+            299.63414001464844,
+            526.9229125976562,
+            308.6886291503906
+          ],
+          "center_uv": [
+            523.1964378356934,
+            304.16138458251953
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9513760209083557
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.856411337852478,
+          "bbox_xyxy_px": [
+            527.7670288085938,
+            299.48707580566406,
+            535.1849365234375,
+            308.71277618408203
+          ],
+          "center_uv": [
+            531.4759826660156,
+            304.09992599487305
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9513760209083557
+        }
+      ]
+    },
+    {
+      "filename": "007_old_step_01_episode_000134_f00023.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.71263999999996,
+            245.3424,
+            551.98656,
+            354.24672000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.32864,
+            298.76736,
+            535.1366399999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            298.35648000000003,
+            526.5068799999999,
+            309.45216
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9469318389892578,
+          "bbox_xyxy_px": [
+            450.1171875,
+            244.8309326171875,
+            553.6951904296875,
+            356.39288330078125
+          ],
+          "center_uv": [
+            501.90618896484375,
+            300.6119079589844
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9013474583625793,
+          "bbox_xyxy_px": [
+            519.4043960571289,
+            299.52344512939453,
+            526.8332672119141,
+            308.7857894897461
+          ],
+          "center_uv": [
+            523.1188316345215,
+            304.1546173095703
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9469318389892578
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8502871990203857,
+          "bbox_xyxy_px": [
+            527.7111358642578,
+            299.55894470214844,
+            535.0502319335938,
+            308.6980743408203
+          ],
+          "center_uv": [
+            531.3806838989258,
+            304.1285095214844
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9469318389892578
+        }
+      ]
+    },
+    {
+      "filename": "008_old_step_01_episode_000140_f00084.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            246.16415999999995,
+            551.98656,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            299.17823999999996,
+            534.7257599999999,
+            308.6304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.17823999999996,
+            526.9177599999999,
+            308.6304
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9462035298347473,
+          "bbox_xyxy_px": [
+            449.9166259765625,
+            244.59844970703125,
+            553.9808349609375,
+            356.58624267578125
+          ],
+          "center_uv": [
+            501.94873046875,
+            300.59234619140625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9484955072402954,
+          "bbox_xyxy_px": [
+            519.4528121948242,
+            299.31646728515625,
+            526.9727172851562,
+            308.7643356323242
+          ],
+          "center_uv": [
+            523.2127647399902,
+            304.04040145874023
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9462035298347473
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8897848725318909,
+          "bbox_xyxy_px": [
+            527.6475296020508,
+            299.44476318359375,
+            534.9389801025391,
+            308.6466293334961
+          ],
+          "center_uv": [
+            531.2932548522949,
+            304.0456962585449
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9462035298347473
+        }
+      ]
+    },
+    {
+      "filename": "009_old_step_01_episode_000146_f00176.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            245.75327999999996,
+            551.5756799999999,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.73952,
+            299.58912000000004,
+            535.1366399999999,
+            310.27392
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.58912000000004,
+            526.5068799999999,
+            309.86304
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9415836334228516,
+          "bbox_xyxy_px": [
+            450.30145263671875,
+            244.7239990234375,
+            554.4664916992188,
+            357.991455078125
+          ],
+          "center_uv": [
+            502.38397216796875,
+            301.35772705078125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9565936326980591,
+          "bbox_xyxy_px": [
+            527.9243621826172,
+            299.47180938720703,
+            535.5018310546875,
+            309.5526885986328
+          ],
+          "center_uv": [
+            531.7130966186523,
+            304.5122489929199
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9415836334228516
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8854424953460693,
+          "bbox_xyxy_px": [
+            519.4441452026367,
+            299.6414566040039,
+            526.8489151000977,
+            309.6186981201172
+          ],
+          "center_uv": [
+            523.1465301513672,
+            304.63007736206055
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9415836334228516
+        }
+      ]
+    },
+    {
+      "filename": "010_old_step_01_episode_000152_f00278.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            245.75352,
+            551.98656,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.73952,
+            299.58912,
+            534.7257599999999,
+            308.6304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            299.58912000000004,
+            526.5068799999999,
+            309.04128000000003
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9440727233886719,
+          "bbox_xyxy_px": [
+            449.957275390625,
+            244.59332275390625,
+            554.3883056640625,
+            356.28369140625
+          ],
+          "center_uv": [
+            502.17279052734375,
+            300.4385070800781
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8888606429100037,
+          "bbox_xyxy_px": [
+            519.9549942016602,
+            299.59190368652344,
+            527.1032562255859,
+            308.83131408691406
+          ],
+          "center_uv": [
+            523.529125213623,
+            304.21160888671875
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9440727233886719
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8854640126228333,
+          "bbox_xyxy_px": [
+            527.9660339355469,
+            299.4118423461914,
+            535.3586730957031,
+            308.6719970703125
+          ],
+          "center_uv": [
+            531.662353515625,
+            304.04191970825195
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9440727233886719
+        }
+      ]
+    },
+    {
+      "filename": "011_old_step_01_episode_000158_f00429.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.712,
+            246.1644,
+            551.5750400000001,
+            354.65736
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.74016,
+            299.58912000000004,
+            535.95904,
+            309.04128000000003
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.58912000000004,
+            526.5068799999999,
+            309.04128000000003
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9528407454490662,
+          "bbox_xyxy_px": [
+            449.780029296875,
+            244.51336669921875,
+            553.8222045898438,
+            356.36871337890625
+          ],
+          "center_uv": [
+            501.8011169433594,
+            300.4410400390625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9289631843566895,
+          "bbox_xyxy_px": [
+            519.5164642333984,
+            299.6246337890625,
+            527.063835144043,
+            308.9645080566406
+          ],
+          "center_uv": [
+            523.2901496887207,
+            304.29457092285156
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9528407454490662
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8544051647186279,
+          "bbox_xyxy_px": [
+            527.7652816772461,
+            299.4291458129883,
+            535.5198974609375,
+            309.1519470214844
+          ],
+          "center_uv": [
+            531.6425895690918,
+            304.2905464172363
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9528407454490662
+        }
+      ]
+    },
+    {
+      "filename": "012_old_step_01_episode_000164_f00430.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            245.3424,
+            551.98656,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.9728,
+            300.00024,
+            535.5481599999999,
+            308.63016000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            298.76736,
+            526.5068799999999,
+            309.04128
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9474971294403076,
+          "bbox_xyxy_px": [
+            450.1259765625,
+            244.57257080078125,
+            553.79638671875,
+            356.30963134765625
+          ],
+          "center_uv": [
+            501.961181640625,
+            300.44110107421875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9254944920539856,
+          "bbox_xyxy_px": [
+            519.6001281738281,
+            299.64256286621094,
+            526.9750442504883,
+            308.70086669921875
+          ],
+          "center_uv": [
+            523.2875862121582,
+            304.17171478271484
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9474971294403076
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8784759640693665,
+          "bbox_xyxy_px": [
+            527.8511276245117,
+            299.35607147216797,
+            535.3925323486328,
+            308.6716766357422
+          ],
+          "center_uv": [
+            531.6218299865723,
+            304.0138740539551
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9474971294403076
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.10938956588506699,
+          "bbox_xyxy_px": [
+            526.8754043579102,
+            299.33875274658203,
+            530.5357818603516,
+            308.51468658447266
+          ],
+          "center_uv": [
+            528.7055931091309,
+            303.92671966552734
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9474971294403076
+        }
+      ]
+    },
+    {
+      "filename": "013_old_step_01_episode_000169_f00028.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            246.57527999999996,
+            551.98656,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            300.41087999999996,
+            535.1366399999999,
+            309.86304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            520.75328,
+            299.58912000000004,
+            526.50688,
+            309.04128000000003
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9475317001342773,
+          "bbox_xyxy_px": [
+            449.979736328125,
+            244.87127685546875,
+            554.09814453125,
+            356.12481689453125
+          ],
+          "center_uv": [
+            502.0389404296875,
+            300.498046875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9155480265617371,
+          "bbox_xyxy_px": [
+            519.3328247070312,
+            299.7719192504883,
+            527.022216796875,
+            309.22049713134766
+          ],
+          "center_uv": [
+            523.1775207519531,
+            304.49620819091797
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9475317001342773
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.816741943359375,
+          "bbox_xyxy_px": [
+            527.8747100830078,
+            299.5868911743164,
+            535.34423828125,
+            308.9049835205078
+          ],
+          "center_uv": [
+            531.6094741821289,
+            304.2459373474121
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9475317001342773
+        }
+      ]
+    },
+    {
+      "filename": "015_old_step_01_episode_000181_f00156.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            245.3424,
+            551.98656,
+            354.6576
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            300.0,
+            534.31488,
+            309.04128000000003
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            300.00024,
+            526.5068799999999,
+            308.63016000000005
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9436398148536682,
+          "bbox_xyxy_px": [
+            450.35687255859375,
+            244.5435791015625,
+            554.441162109375,
+            356.974853515625
+          ],
+          "center_uv": [
+            502.3990173339844,
+            300.75921630859375
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9117307066917419,
+          "bbox_xyxy_px": [
+            519.6639862060547,
+            299.5570373535156,
+            526.7312774658203,
+            308.41927337646484
+          ],
+          "center_uv": [
+            523.1976318359375,
+            303.98815536499023
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9436398148536682
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8865722417831421,
+          "bbox_xyxy_px": [
+            527.7261962890625,
+            299.5064697265625,
+            535.1203002929688,
+            308.66426849365234
+          ],
+          "center_uv": [
+            531.4232482910156,
+            304.0853691101074
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9436398148536682
+        }
+      ]
+    },
+    {
+      "filename": "016_old_step_01_episode_000187_f00270.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.71263999999996,
+            245.75327999999996,
+            551.98656,
+            354.6576
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.9728,
+            299.58912000000004,
+            535.95904,
+            309.04128000000003
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            300.0,
+            526.9177599999999,
+            309.45216000000005
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9498786330223083,
+          "bbox_xyxy_px": [
+            450.21502685546875,
+            244.554443359375,
+            553.9435424804688,
+            356.52783203125
+          ],
+          "center_uv": [
+            502.07928466796875,
+            300.5411376953125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9145563244819641,
+          "bbox_xyxy_px": [
+            519.1943664550781,
+            299.40211486816406,
+            526.6708679199219,
+            309.0534133911133
+          ],
+          "center_uv": [
+            522.9326171875,
+            304.2277641296387
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9498786330223083
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8704045414924622,
+          "bbox_xyxy_px": [
+            528.1230163574219,
+            299.5329360961914,
+            535.3267974853516,
+            308.82923889160156
+          ],
+          "center_uv": [
+            531.7249069213867,
+            304.1810874938965
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9498786330223083
+        }
+      ]
+    },
+    {
+      "filename": "017_old_step_01_episode_000193_f00390.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            247.39704,
+            551.98656,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            300.0,
+            535.5481599999999,
+            309.45216000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            300.00024,
+            526.9177599999999,
+            308.63016000000005
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.948127269744873,
+          "bbox_xyxy_px": [
+            450.01702880859375,
+            244.538818359375,
+            553.9915161132812,
+            355.90087890625
+          ],
+          "center_uv": [
+            502.0042724609375,
+            300.2198486328125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9015670418739319,
+          "bbox_xyxy_px": [
+            519.8146286010742,
+            299.6314392089844,
+            527.1689910888672,
+            308.8835144042969
+          ],
+          "center_uv": [
+            523.4918098449707,
+            304.2574768066406
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.948127269744873
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8434631824493408,
+          "bbox_xyxy_px": [
+            527.9612579345703,
+            299.5046157836914,
+            535.4522705078125,
+            309.05672454833984
+          ],
+          "center_uv": [
+            531.7067642211914,
+            304.2806701660156
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.948127269744873
+        }
+      ]
+    },
+    {
+      "filename": "019_old_step_02_episode_000000_f00056.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            448.83552,
+            241.23288,
+            545.0,
+            348.90408
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            521.98656,
+            294.24672,
+            528.1510400000001,
+            303.288
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            514.1779200000001,
+            294.6576,
+            520.75328,
+            304.10976000000005
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9904721975326538,
+          "bbox_xyxy_px": [
+            448.0723876953125,
+            240.848388671875,
+            547.1478271484375,
+            349.5003662109375
+          ],
+          "center_uv": [
+            497.610107421875,
+            295.17437744140625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8801388740539551,
+          "bbox_xyxy_px": [
+            513.5442657470703,
+            294.39742279052734,
+            520.845588684082,
+            303.58604431152344
+          ],
+          "center_uv": [
+            517.1949272155762,
+            298.9917335510254
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9904721975326538
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8368805646896362,
+          "bbox_xyxy_px": [
+            521.7902297973633,
+            294.0405578613281,
+            528.7960662841797,
+            303.3447265625
+          ],
+          "center_uv": [
+            525.2931480407715,
+            298.69264221191406
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9904721975326538
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.0926520973443985,
+          "bbox_xyxy_px": [
+            511.7517547607422,
+            295.25299072265625,
+            514.564079284668,
+            303.5590133666992
+          ],
+          "center_uv": [
+            513.1579170227051,
+            299.40600204467773
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9904721975326538
+        }
+      ]
+    },
+    {
+      "filename": "020_old_step_02_episode_000011_f00220.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            449.65728,
+            241.23288,
+            546.2326400000001,
+            348.90408
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            521.5756799999999,
+            294.24672,
+            529.79456,
+            304.10976
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            513.7670400000001,
+            294.65783999999996,
+            521.5750400000001,
+            303.28776
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9820234179496765,
+          "bbox_xyxy_px": [
+            447.85394287109375,
+            240.9337158203125,
+            546.7975463867188,
+            349.2203369140625
+          ],
+          "center_uv": [
+            497.32574462890625,
+            295.0770263671875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9269722700119019,
+          "bbox_xyxy_px": [
+            521.6947402954102,
+            294.1683120727539,
+            529.2869262695312,
+            303.59515380859375
+          ],
+          "center_uv": [
+            525.4908332824707,
+            298.8817329406738
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9820234179496765
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8843503594398499,
+          "bbox_xyxy_px": [
+            513.694091796875,
+            294.5272445678711,
+            520.8625030517578,
+            303.14820098876953
+          ],
+          "center_uv": [
+            517.2782974243164,
+            298.8377227783203
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9820234179496765
+        }
+      ]
+    },
+    {
+      "filename": "021_old_step_02_episode_000023_f00397.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94496000000004,
+            271.23287999999997,
+            528.97248,
+            354.65736000000004
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9996472597122192,
+          "bbox_xyxy_px": [
+            452.9971923828125,
+            269.68646240234375,
+            529.3896484375,
+            357.63397216796875
+          ],
+          "center_uv": [
+            491.19342041015625,
+            313.66021728515625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        }
+      ]
+    },
+    {
+      "filename": "022_old_step_02_episode_000035_f00605.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94528,
+            245.75327999999996,
+            551.98656,
+            355.06848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15072,
+            298.76736000000005,
+            536.78112,
+            309.86304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            298.76736000000005,
+            526.9177599999999,
+            309.86304
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9449634552001953,
+          "bbox_xyxy_px": [
+            450.23492431640625,
+            244.227783203125,
+            554.23388671875,
+            356.9429931640625
+          ],
+          "center_uv": [
+            502.2344055175781,
+            300.58538818359375
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9389082193374634,
+          "bbox_xyxy_px": [
+            527.9515686035156,
+            299.4714660644531,
+            535.4588775634766,
+            309.0615463256836
+          ],
+          "center_uv": [
+            531.7052230834961,
+            304.26650619506836
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9449634552001953
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8975604176521301,
+          "bbox_xyxy_px": [
+            519.7572326660156,
+            299.42208099365234,
+            527.1709823608398,
+            309.0585479736328
+          ],
+          "center_uv": [
+            523.4641075134277,
+            304.2403144836426
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9449634552001953
+        }
+      ]
+    },
+    {
+      "filename": "023_old_step_02_episode_000046_f00094.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            245.34264000000002,
+            551.98656,
+            353.42472000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.9728,
+            298.35648000000003,
+            535.5481599999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            299.17823999999996,
+            526.9177599999999,
+            309.04128
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9398783445358276,
+          "bbox_xyxy_px": [
+            450.50042724609375,
+            243.8818359375,
+            554.5575561523438,
+            354.9276123046875
+          ],
+          "center_uv": [
+            502.52899169921875,
+            299.40472412109375
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9525642991065979,
+          "bbox_xyxy_px": [
+            527.8506546020508,
+            298.78179931640625,
+            535.6402740478516,
+            308.7417449951172
+          ],
+          "center_uv": [
+            531.7454643249512,
+            303.7617721557617
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9398783445358276
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9294731020927429,
+          "bbox_xyxy_px": [
+            519.4051284790039,
+            299.38191986083984,
+            527.2194213867188,
+            309.1373596191406
+          ],
+          "center_uv": [
+            523.3122749328613,
+            304.25963973999023
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9398783445358276
+        }
+      ]
+    },
+    {
+      "filename": "024_old_step_02_episode_000058_f00092.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            245.34263999999996,
+            551.1648,
+            353.01383999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            298.35648000000003,
+            535.5481599999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            298.76736,
+            526.9177599999999,
+            309.04128
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9457837343215942,
+          "bbox_xyxy_px": [
+            450.2548828125,
+            243.77545166015625,
+            554.1109619140625,
+            353.74444580078125
+          ],
+          "center_uv": [
+            502.18292236328125,
+            298.75994873046875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8700103759765625,
+          "bbox_xyxy_px": [
+            527.6934967041016,
+            298.8125915527344,
+            535.5526123046875,
+            309.0330505371094
+          ],
+          "center_uv": [
+            531.6230545043945,
+            303.9228210449219
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9457837343215942
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8679096698760986,
+          "bbox_xyxy_px": [
+            519.3586730957031,
+            299.08679962158203,
+            527.2400512695312,
+            309.0329895019531
+          ],
+          "center_uv": [
+            523.2993621826172,
+            304.0598945617676
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9457837343215942
+        }
+      ]
+    },
+    {
+      "filename": "025_old_step_02_episode_000070_f00057.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94528,
+            246.16440000000006,
+            552.8083200000001,
+            353.01383999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.1504,
+            298.76736,
+            535.1366399999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.17823999999996,
+            526.9177599999999,
+            308.6304
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9490867853164673,
+          "bbox_xyxy_px": [
+            450.17022705078125,
+            244.2598876953125,
+            555.12060546875,
+            355.458984375
+          ],
+          "center_uv": [
+            502.6454162597656,
+            299.85943603515625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9327250123023987,
+          "bbox_xyxy_px": [
+            519.5772399902344,
+            298.8624267578125,
+            527.1519317626953,
+            308.9966506958008
+          ],
+          "center_uv": [
+            523.3645858764648,
+            303.92953872680664
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9490867853164673
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9196434020996094,
+          "bbox_xyxy_px": [
+            527.7216110229492,
+            298.93631744384766,
+            535.7458953857422,
+            309.3710021972656
+          ],
+          "center_uv": [
+            531.7337532043457,
+            304.15365982055664
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9490867853164673
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.07041016966104507,
+          "bbox_xyxy_px": [
+            517.0884857177734,
+            299.442626953125,
+            519.6319198608398,
+            308.4230422973633
+          ],
+          "center_uv": [
+            518.3602027893066,
+            303.93283462524414
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9490867853164673
+        }
+      ]
+    },
+    {
+      "filename": "026_old_step_02_episode_000081_f00190.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.53440000000006,
+            246.16463999999996,
+            553.2192,
+            341.50704
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            298.76736,
+            535.95904,
+            309.04128
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            298.356,
+            526.9177599999999,
+            308.62991999999997
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9420148134231567,
+          "bbox_xyxy_px": [
+            450.31732177734375,
+            243.85220336914062,
+            553.6913452148438,
+            344.1665344238281
+          ],
+          "center_uv": [
+            502.00433349609375,
+            294.0093688964844
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9673748016357422,
+          "bbox_xyxy_px": [
+            527.9976654052734,
+            298.9649963378906,
+            536.1629028320312,
+            309.4890823364258
+          ],
+          "center_uv": [
+            532.0802841186523,
+            304.2270393371582
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9420148134231567
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.941677451133728,
+          "bbox_xyxy_px": [
+            519.506591796875,
+            299.05682373046875,
+            527.3182907104492,
+            309.16383361816406
+          ],
+          "center_uv": [
+            523.4124412536621,
+            304.1103286743164
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9420148134231567
+        }
+      ]
+    },
+    {
+      "filename": "027_old_step_02_episode_000093_f00088.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12352,
+            245.75352,
+            551.5756799999999,
+            353.8356
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.73952,
+            298.76687999999996,
+            535.54752,
+            307.80816000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            520.3424,
+            299.17823999999996,
+            527.32864,
+            309.04128
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9485459923744202,
+          "bbox_xyxy_px": [
+            450.3743896484375,
+            244.21636962890625,
+            553.9603271484375,
+            355.88970947265625
+          ],
+          "center_uv": [
+            502.1673583984375,
+            300.05303955078125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8687277436256409,
+          "bbox_xyxy_px": [
+            528.0379257202148,
+            298.9216079711914,
+            535.3722839355469,
+            308.40291595458984
+          ],
+          "center_uv": [
+            531.7051048278809,
+            303.6622619628906
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9485459923744202
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8334911465644836,
+          "bbox_xyxy_px": [
+            519.5607376098633,
+            299.154052734375,
+            527.04931640625,
+            309.0181427001953
+          ],
+          "center_uv": [
+            523.3050270080566,
+            304.08609771728516
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9485459923744202
+        }
+      ]
+    },
+    {
+      "filename": "029_old_step_02_episode_000117_f00634.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5340799999999,
+            246.98616,
+            549.10944,
+            353.42472
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9315771460533142,
+          "bbox_xyxy_px": [
+            448.440673828125,
+            246.16552734375,
+            556.634033203125,
+            356.14190673828125
+          ],
+          "center_uv": [
+            502.537353515625,
+            301.1537170410156
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        }
+      ]
+    },
+    {
+      "filename": "030_old_step_02_episode_000128_f00082.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.5344,
+            246.57528000000002,
+            551.98656,
+            355.06824
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15072,
+            299.17823999999996,
+            536.78112,
+            309.04128
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            298.356,
+            526.9177599999999,
+            309.0408
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9478816986083984,
+          "bbox_xyxy_px": [
+            450.67352294921875,
+            244.1353759765625,
+            554.4102172851562,
+            355.0816650390625
+          ],
+          "center_uv": [
+            502.5418701171875,
+            299.6085205078125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8930683732032776,
+          "bbox_xyxy_px": [
+            527.9629974365234,
+            299.0291213989258,
+            535.9201202392578,
+            309.42552947998047
+          ],
+          "center_uv": [
+            531.9415588378906,
+            304.2273254394531
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9478816986083984
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8396129012107849,
+          "bbox_xyxy_px": [
+            519.4473495483398,
+            299.3907165527344,
+            527.4255599975586,
+            308.97499084472656
+          ],
+          "center_uv": [
+            523.4364547729492,
+            304.18285369873047
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9478816986083984
+        }
+      ]
+    },
+    {
+      "filename": "031_old_step_02_episode_000140_f00052.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.712,
+            244.93152,
+            551.16416,
+            353.83584
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.32864,
+            299.17823999999996,
+            535.54752,
+            309.04128
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            520.3424,
+            299.58912,
+            526.9177599999999,
+            308.6304
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9462812542915344,
+          "bbox_xyxy_px": [
+            449.78216552734375,
+            243.83673095703125,
+            554.8065795898438,
+            356.43255615234375
+          ],
+          "center_uv": [
+            502.29437255859375,
+            300.1346435546875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9547253251075745,
+          "bbox_xyxy_px": [
+            519.7619400024414,
+            299.2601776123047,
+            527.2488403320312,
+            308.4622573852539
+          ],
+          "center_uv": [
+            523.5053901672363,
+            303.8612174987793
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9462812542915344
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.948481023311615,
+          "bbox_xyxy_px": [
+            528.0336151123047,
+            299.1402053833008,
+            535.7766418457031,
+            308.85681915283203
+          ],
+          "center_uv": [
+            531.9051284790039,
+            303.9985122680664
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9462812542915344
+        }
+      ]
+    },
+    {
+      "filename": "032_old_step_02_episode_000152_f00190.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.53408,
+            245.3424,
+            550.34208,
+            324.24672000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            298.76736,
+            535.5481599999999,
+            309.45216
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.93152,
+            299.178,
+            526.9177599999999,
+            307.80791999999997
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9268755912780762,
+          "bbox_xyxy_px": [
+            453.50677490234375,
+            243.78338623046875,
+            552.4892578125,
+            334.97479248046875
+          ],
+          "center_uv": [
+            502.9980163574219,
+            289.37908935546875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9400365352630615,
+          "bbox_xyxy_px": [
+            527.5452651977539,
+            298.9103698730469,
+            535.837028503418,
+            309.5612030029297
+          ],
+          "center_uv": [
+            531.6911468505859,
+            304.2357864379883
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9268755912780762
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9080900549888611,
+          "bbox_xyxy_px": [
+            519.7755355834961,
+            298.90941619873047,
+            527.2492904663086,
+            308.1053009033203
+          ],
+          "center_uv": [
+            523.5124130249023,
+            303.5073585510254
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9268755912780762
+        }
+      ]
+    },
+    {
+      "filename": "033_old_step_02_episode_000163_f00416.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94528,
+            245.34264000000002,
+            551.5756799999999,
+            353.8356
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            298.76687999999996,
+            535.95904,
+            307.80816000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.17823999999996,
+            526.9177599999999,
+            308.6304
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9493151307106018,
+          "bbox_xyxy_px": [
+            450.180419921875,
+            244.21014404296875,
+            554.0655517578125,
+            355.23956298828125
+          ],
+          "center_uv": [
+            502.12298583984375,
+            299.724853515625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9507960081100464,
+          "bbox_xyxy_px": [
+            527.9191665649414,
+            299.16841888427734,
+            535.3896789550781,
+            308.4134521484375
+          ],
+          "center_uv": [
+            531.6544227600098,
+            303.7909355163574
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9493151307106018
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9410111308097839,
+          "bbox_xyxy_px": [
+            519.5588302612305,
+            299.3037796020508,
+            527.1375274658203,
+            308.38600158691406
+          ],
+          "center_uv": [
+            523.3481788635254,
+            303.8448905944824
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9493151307106018
+        }
+      ]
+    },
+    {
+      "filename": "035_old_step_02_episode_000187_f00072.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            453.76736,
+            245.34264000000002,
+            551.57536,
+            353.8356
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            526.9177599999999,
+            299.17823999999996,
+            535.1366399999999,
+            308.6304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            517.0544,
+            298.356,
+            526.09568,
+            307.80816000000004
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9515058398246765,
+          "bbox_xyxy_px": [
+            450.64288330078125,
+            244.21429443359375,
+            554.0052490234375,
+            354.44451904296875
+          ],
+          "center_uv": [
+            502.3240661621094,
+            299.32940673828125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8705040812492371,
+          "bbox_xyxy_px": [
+            518.3669662475586,
+            298.4386444091797,
+            525.9317016601562,
+            307.72078704833984
+          ],
+          "center_uv": [
+            522.1493339538574,
+            303.07971572875977
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9515058398246765
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8366323709487915,
+          "bbox_xyxy_px": [
+            527.2710342407227,
+            299.38834381103516,
+            535.0221557617188,
+            308.64080810546875
+          ],
+          "center_uv": [
+            531.1465950012207,
+            304.01457595825195
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9515058398246765
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.05288228765130043,
+          "bbox_xyxy_px": [
+            515.2152938842773,
+            300.22911834716797,
+            518.1837387084961,
+            307.605224609375
+          ],
+          "center_uv": [
+            516.6995162963867,
+            303.9171714782715
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9515058398246765
+        }
+      ]
+    },
+    {
+      "filename": "037_rgb_20261008_0001.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            467.32864,
+            190.27391999999998,
+            553.63008,
+            290.95871999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            533.4928,
+            236.71248,
+            542.1232,
+            247.39727999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            523.6304,
+            236.71248,
+            533.0825600000001,
+            246.57552
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9676654934883118,
+          "bbox_xyxy_px": [
+            465.50335693359375,
+            190.15802001953125,
+            556.5499267578125,
+            293.50592041015625
+          ],
+          "center_uv": [
+            511.0266418457031,
+            241.83197021484375
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9180154204368591,
+          "bbox_xyxy_px": [
+            533.6004867553711,
+            237.04605102539062,
+            542.2154922485352,
+            247.8712921142578
+          ],
+          "center_uv": [
+            537.9079895019531,
+            242.45867156982422
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9676654934883118
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9005613923072815,
+          "bbox_xyxy_px": [
+            524.6197357177734,
+            236.80873107910156,
+            532.6260375976562,
+            247.04820251464844
+          ],
+          "center_uv": [
+            528.6228866577148,
+            241.928466796875
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9676654934883118
+        }
+      ]
+    },
+    {
+      "filename": "038_rgb_20261008_0032.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            434.86336,
+            183.28776,
+            515.82208,
+            281.09592
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            495.27424,
+            228.90408000000002,
+            503.08224,
+            237.534
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            486.64383999999995,
+            228.08208000000002,
+            494.86271999999997,
+            237.12336
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.8954287767410278,
+          "bbox_xyxy_px": [
+            432.2994384765625,
+            182.59765625,
+            517.168212890625,
+            282.3228759765625
+          ],
+          "center_uv": [
+            474.73382568359375,
+            232.46026611328125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.910426139831543,
+          "bbox_xyxy_px": [
+            495.24168395996094,
+            228.34625244140625,
+            502.8236770629883,
+            237.90055084228516
+          ],
+          "center_uv": [
+            499.0326805114746,
+            233.1234016418457
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.8954287767410278
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8818062543869019,
+          "bbox_xyxy_px": [
+            487.1772232055664,
+            227.98464965820312,
+            494.73988342285156,
+            237.5224151611328
+          ],
+          "center_uv": [
+            490.958553314209,
+            232.75353240966797
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.8954287767410278
+        }
+      ]
+    },
+    {
+      "filename": "040_rgb_20261008_0034.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            405.2736,
+            167.26008000000002,
+            478.01344,
+            259.72583999999995
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            457.05440000000004,
+            207.12336,
+            466.09568,
+            218.21904
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            450.06847999999997,
+            208.356,
+            457.46559999999994,
+            218.21904
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9759424328804016,
+          "bbox_xyxy_px": [
+            402.1060791015625,
+            166.82040405273438,
+            480.29345703125,
+            262.5655212402344
+          ],
+          "center_uv": [
+            441.19976806640625,
+            214.69296264648438
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9460093975067139,
+          "bbox_xyxy_px": [
+            449.2401809692383,
+            207.91373443603516,
+            457.30672454833984,
+            218.20411682128906
+          ],
+          "center_uv": [
+            453.27345275878906,
+            213.0589256286621
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9759424328804016
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.7979371547698975,
+          "bbox_xyxy_px": [
+            457.2837600708008,
+            207.59698486328125,
+            465.58138275146484,
+            218.96607971191406
+          ],
+          "center_uv": [
+            461.4325714111328,
+            213.28153228759766
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9759424328804016
+        }
+      ]
+    },
+    {
+      "filename": "041_rgb_20261008_0036.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            425.41088,
+            177.12336000000002,
+            501.4384,
+            272.46576000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            481.30176,
+            219.45216,
+            488.69888,
+            229.3152
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            473.08224,
+            219.86304,
+            480.47936,
+            229.72608000000002
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9693421125411987,
+          "bbox_xyxy_px": [
+            423.39886474609375,
+            176.6937255859375,
+            502.92706298828125,
+            274.6458740234375
+          ],
+          "center_uv": [
+            463.1629638671875,
+            225.6697998046875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9536315202713013,
+          "bbox_xyxy_px": [
+            480.91243743896484,
+            219.3824462890625,
+            489.1543502807617,
+            229.7527313232422
+          ],
+          "center_uv": [
+            485.0333938598633,
+            224.56758880615234
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9693421125411987
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8121673464775085,
+          "bbox_xyxy_px": [
+            472.9680862426758,
+            219.36112213134766,
+            481.29264068603516,
+            230.12812042236328
+          ],
+          "center_uv": [
+            477.13036346435547,
+            224.74462127685547
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9693421125411987
+        }
+      ]
+    },
+    {
+      "filename": "042_rgb_20261008_0037.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.94528,
+            183.69864,
+            534.31488,
+            280.68504
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            513.76672,
+            226.84944,
+            522.39712,
+            237.12336
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            505.95903999999996,
+            226.84944000000002,
+            513.76704,
+            237.53424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9112364053726196,
+          "bbox_xyxy_px": [
+            450.2694091796875,
+            182.97967529296875,
+            536.8978271484375,
+            282.07220458984375
+          ],
+          "center_uv": [
+            493.5836181640625,
+            232.52593994140625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8630143404006958,
+          "bbox_xyxy_px": [
+            505.80931854248047,
+            227.11461639404297,
+            514.095329284668,
+            237.42771911621094
+          ],
+          "center_uv": [
+            509.9523239135742,
+            232.27116775512695
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9112364053726196
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.857159435749054,
+          "bbox_xyxy_px": [
+            513.8410034179688,
+            226.54259490966797,
+            522.8708419799805,
+            237.54098510742188
+          ],
+          "center_uv": [
+            518.3559226989746,
+            232.04179000854492
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9112364053726196
+        }
+      ]
+    },
+    {
+      "filename": "044_rgb_20261008_0039.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            486.23295999999993,
+            170.95896,
+            572.5344,
+            264.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            554.4518400000001,
+            213.6984,
+            561.84896,
+            223.15056
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            545.00032,
+            212.05488,
+            552.80832,
+            221.91791999999998
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9271826148033142,
+          "bbox_xyxy_px": [
+            484.3016357421875,
+            168.46572875976562,
+            576.577392578125,
+            267.7818298339844
+          ],
+          "center_uv": [
+            530.4395141601562,
+            218.123779296875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9078618288040161,
+          "bbox_xyxy_px": [
+            545.013542175293,
+            212.052490234375,
+            553.1261520385742,
+            222.2700958251953
+          ],
+          "center_uv": [
+            549.0698471069336,
+            217.16129302978516
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9271826148033142
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.7909010648727417,
+          "bbox_xyxy_px": [
+            553.5084838867188,
+            212.51338958740234,
+            561.8960571289062,
+            222.9620361328125
+          ],
+          "center_uv": [
+            557.7022705078125,
+            217.73771286010742
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9271826148033142
+        }
+      ]
+    },
+    {
+      "filename": "046_rgb_20261008_0041.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            383.08224,
+            137.6712,
+            455.00032,
+            226.43856
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            437.32864,
+            171.78096,
+            443.08224,
+            181.23312
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            429.93152000000003,
+            174.24648,
+            436.91776,
+            182.05464
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9750564694404602,
+          "bbox_xyxy_px": [
+            378.68267822265625,
+            134.68057250976562,
+            458.34295654296875,
+            229.34542846679688
+          ],
+          "center_uv": [
+            418.5128173828125,
+            182.01300048828125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.962833821773529,
+          "bbox_xyxy_px": [
+            429.5464096069336,
+            173.4370880126953,
+            436.92041778564453,
+            182.48294830322266
+          ],
+          "center_uv": [
+            433.23341369628906,
+            177.96001815795898
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9750564694404602
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.63651442527771,
+          "bbox_xyxy_px": [
+            436.82562255859375,
+            172.1538543701172,
+            443.90657806396484,
+            181.68512725830078
+          ],
+          "center_uv": [
+            440.3661003112793,
+            176.91949081420898
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9750564694404602
+        }
+      ]
+    },
+    {
+      "filename": "047_rgb_20261008_0042.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            510.06847999999997,
+            182.87664,
+            604.5888,
+            287.26032
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            584.4518400000001,
+            231.37008,
+            591.43808,
+            241.23311999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            576.23296,
+            230.13696,
+            583.2192,
+            240.0
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9329817891120911,
+          "bbox_xyxy_px": [
+            507.86236572265625,
+            181.09619140625,
+            609.0001831054688,
+            287.83642578125
+          ],
+          "center_uv": [
+            558.4312744140625,
+            234.46630859375
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.894870400428772,
+          "bbox_xyxy_px": [
+            575.6384429931641,
+            230.14728546142578,
+            583.4342193603516,
+            240.00645446777344
+          ],
+          "center_uv": [
+            579.5363311767578,
+            235.0768699645996
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9329817891120911
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8834670782089233,
+          "bbox_xyxy_px": [
+            584.2482604980469,
+            230.87181854248047,
+            592.0747528076172,
+            240.68048095703125
+          ],
+          "center_uv": [
+            588.161506652832,
+            235.77614974975586
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9329817891120911
+        }
+      ]
+    },
+    {
+      "filename": "048_rgb_20261008_0043.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            501.0272,
+            176.71248,
+            595.1366399999999,
+            276.9864
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            575.00032,
+            222.73968000000002,
+            582.80832,
+            233.42448
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            567.60256,
+            221.91791999999998,
+            573.7670400000001,
+            232.19183999999998
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.915786623954773,
+          "bbox_xyxy_px": [
+            499.56585693359375,
+            175.00442504882812,
+            596.3212280273438,
+            279.3775939941406
+          ],
+          "center_uv": [
+            547.9435424804688,
+            227.19100952148438
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9236398339271545,
+          "bbox_xyxy_px": [
+            566.2724914550781,
+            222.21910095214844,
+            574.5843811035156,
+            232.30189514160156
+          ],
+          "center_uv": [
+            570.4284362792969,
+            227.260498046875
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.915786623954773
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9128395915031433,
+          "bbox_xyxy_px": [
+            574.8176193237305,
+            222.8780517578125,
+            583.0491027832031,
+            233.1570587158203
+          ],
+          "center_uv": [
+            578.9333610534668,
+            228.0175552368164
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.915786623954773
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.07679437845945358,
+          "bbox_xyxy_px": [
+            564.9906921386719,
+            223.37841796875,
+            566.6451110839844,
+            231.69947814941406
+          ],
+          "center_uv": [
+            565.8179016113281,
+            227.53894805908203
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.915786623954773
+        }
+      ]
+    },
+    {
+      "filename": "049_rgb_20261008_0044.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            426.64383999999995,
+            174.24672,
+            508.01344,
+            270.41087999999996
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            487.05472,
+            216.98664,
+            494.45183999999995,
+            225.61656
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            478.42495999999994,
+            216.16416,
+            486.23295999999993,
+            226.02720000000002
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9509966373443604,
+          "bbox_xyxy_px": [
+            424.08062744140625,
+            171.30947875976562,
+            509.33941650390625,
+            273.2185363769531
+          ],
+          "center_uv": [
+            466.71002197265625,
+            222.26400756835938
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9029684662818909,
+          "bbox_xyxy_px": [
+            487.0857162475586,
+            216.08890533447266,
+            494.11192321777344,
+            225.5856170654297
+          ],
+          "center_uv": [
+            490.598819732666,
+            220.83726119995117
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9509966373443604
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8218578696250916,
+          "bbox_xyxy_px": [
+            478.8482360839844,
+            216.07471466064453,
+            486.81046295166016,
+            226.22970581054688
+          ],
+          "center_uv": [
+            482.82934951782227,
+            221.1522102355957
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9509966373443604
+        }
+      ]
+    },
+    {
+      "filename": "050_rgb_20261008_0045.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            479.2464,
+            200.54808,
+            570.47904,
+            303.69863999999995
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            549.5203200000001,
+            249.86304,
+            558.5616,
+            260.13696
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            540.8902400000001,
+            249.04127999999997,
+            548.28736,
+            259.31519999999995
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9041118025779724,
+          "bbox_xyxy_px": [
+            475.869384765625,
+            197.503662109375,
+            572.8106689453125,
+            306.6829833984375
+          ],
+          "center_uv": [
+            524.3400268554688,
+            252.09332275390625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8917484283447266,
+          "bbox_xyxy_px": [
+            549.1910018920898,
+            249.71846771240234,
+            558.3765716552734,
+            260.8809356689453
+          ],
+          "center_uv": [
+            553.7837867736816,
+            255.29970169067383
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9041118025779724
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.6903800964355469,
+          "bbox_xyxy_px": [
+            540.7503128051758,
+            249.07827758789062,
+            548.5418548583984,
+            259.1184616088867
+          ],
+          "center_uv": [
+            544.6460838317871,
+            254.09836959838867
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9041118025779724
+        }
+      ]
+    },
+    {
+      "filename": "051_rgb_20261008_0046.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            440.616,
+            181.23288,
+            528.97248,
+            278.63016000000005
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            508.83583999999996,
+            225.20568,
+            516.2329599999999,
+            233.83559999999997
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            500.61632000000003,
+            225.61632,
+            508.42432,
+            234.65759999999997
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9644480347633362,
+          "bbox_xyxy_px": [
+            438.7203369140625,
+            179.0538330078125,
+            532.0084228515625,
+            283.782470703125
+          ],
+          "center_uv": [
+            485.3643798828125,
+            231.41815185546875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.962141215801239,
+          "bbox_xyxy_px": [
+            500.3432159423828,
+            225.01043701171875,
+            509.32872772216797,
+            235.59122467041016
+          ],
+          "center_uv": [
+            504.8359718322754,
+            230.30083084106445
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9644480347633362
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9540662169456482,
+          "bbox_xyxy_px": [
+            508.94068145751953,
+            224.8477325439453,
+            516.6767349243164,
+            234.2233657836914
+          ],
+          "center_uv": [
+            512.808708190918,
+            229.53554916381836
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9644480347633362
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.060053855180740356,
+          "bbox_xyxy_px": [
+            507.4415512084961,
+            225.7393035888672,
+            511.091064453125,
+            234.794189453125
+          ],
+          "center_uv": [
+            509.26630783081055,
+            230.2667465209961
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9644480347633362
+        }
+      ]
+    },
+    {
+      "filename": "052_rgb_20261008_0047.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            442.67103999999995,
+            178.76736,
+            520.34208,
+            274.93152
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            501.43808,
+            221.50704000000002,
+            508.01343999999995,
+            231.37008000000003
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            492.80832000000004,
+            220.6848,
+            500.20544,
+            230.13696000000002
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9874403476715088,
+          "bbox_xyxy_px": [
+            441.46148681640625,
+            176.55096435546875,
+            523.1604614257812,
+            276.96270751953125
+          ],
+          "center_uv": [
+            482.31097412109375,
+            226.7568359375
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9542456269264221,
+          "bbox_xyxy_px": [
+            492.6965560913086,
+            220.46137237548828,
+            500.57450103759766,
+            230.5563507080078
+          ],
+          "center_uv": [
+            496.6355285644531,
+            225.50886154174805
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9874403476715088
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9464412927627563,
+          "bbox_xyxy_px": [
+            500.90367126464844,
+            221.2989730834961,
+            508.76766204833984,
+            231.25450897216797
+          ],
+          "center_uv": [
+            504.83566665649414,
+            226.27674102783203
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9874403476715088
+        }
+      ]
+    },
+    {
+      "filename": "053_rgb_20261008_0049.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            487.4656,
+            156.57552,
+            567.60256,
+            247.80816000000002
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            549.93152,
+            195.20543999999998,
+            556.5068799999999,
+            205.47935999999999
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            541.71264,
+            195.20544,
+            549.52064,
+            204.24672
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9348179697990417,
+          "bbox_xyxy_px": [
+            485.2478942871094,
+            154.769775390625,
+            569.8465576171875,
+            247.79052734375
+          ],
+          "center_uv": [
+            527.5472259521484,
+            201.2801513671875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9258350133895874,
+          "bbox_xyxy_px": [
+            549.1681289672852,
+            195.3467788696289,
+            557.6288375854492,
+            205.83251953125
+          ],
+          "center_uv": [
+            553.3984832763672,
+            200.58964920043945
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9348179697990417
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8931149244308472,
+          "bbox_xyxy_px": [
+            541.7990493774414,
+            194.73780822753906,
+            549.2111282348633,
+            204.44271850585938
+          ],
+          "center_uv": [
+            545.5050888061523,
+            199.59026336669922
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9348179697990417
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.05437096953392029,
+          "bbox_xyxy_px": [
+            546.051628112793,
+            195.48049926757812,
+            551.5127639770508,
+            204.6644058227539
+          ],
+          "center_uv": [
+            548.7821960449219,
+            200.07245254516602
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9348179697990417
+        }
+      ]
+    },
+    {
+      "filename": "054_rgb_20261008_0050.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            506.78048,
+            181.23264,
+            595.95872,
+            285.20544
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            575.0,
+            229.72608000000002,
+            584.8630400000001,
+            240.41088
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            566.3696,
+            228.08208000000002,
+            575.0,
+            239.17776
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9246834516525269,
+          "bbox_xyxy_px": [
+            502.37872314453125,
+            179.00482177734375,
+            601.0582885742188,
+            287.12640380859375
+          ],
+          "center_uv": [
+            551.718505859375,
+            233.06561279296875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9565538167953491,
+          "bbox_xyxy_px": [
+            574.9470367431641,
+            229.29544067382812,
+            584.1646575927734,
+            240.38655853271484
+          ],
+          "center_uv": [
+            579.5558471679688,
+            234.84099960327148
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9246834516525269
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9302778840065002,
+          "bbox_xyxy_px": [
+            566.0183639526367,
+            228.15766143798828,
+            574.7808837890625,
+            239.15914154052734
+          ],
+          "center_uv": [
+            570.3996238708496,
+            233.6584014892578
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9246834516525269
+        }
+      ]
+    }
+  ],
+  "val": [
+    {
+      "filename": "002_old_step_01_episode_000105_f00105.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            448.42464000000007,
+            241.64376,
+            545.0,
+            349.31496
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            513.72704,
+            295.0344,
+            520.23392,
+            302.56848
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            521.77504,
+            294.86304,
+            528.45344,
+            302.73984
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9823503494262695,
+          "bbox_xyxy_px": [
+            448.02972412109375,
+            240.93896484375,
+            547.0625,
+            349.8409423828125
+          ],
+          "center_uv": [
+            497.5461120605469,
+            295.38995361328125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9405003786087036,
+          "bbox_xyxy_px": [
+            513.1611938476562,
+            294.32750701904297,
+            520.7216491699219,
+            303.2470245361328
+          ],
+          "center_uv": [
+            516.9414215087891,
+            298.7872657775879
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9823503494262695
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8317397236824036,
+          "bbox_xyxy_px": [
+            521.7732620239258,
+            294.213623046875,
+            528.7824554443359,
+            303.08612060546875
+          ],
+          "center_uv": [
+            525.2778587341309,
+            298.6498718261719
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9823503494262695
+        }
+      ]
+    },
+    {
+      "filename": "014_old_step_01_episode_000175_f00112.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            451.71263999999996,
+            244.93152,
+            551.98656,
+            354.24672000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            527.73952,
+            299.58912000000004,
+            535.54752,
+            309.86304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            299.17823999999996,
+            526.5068799999999,
+            309.04128
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9502109885215759,
+          "bbox_xyxy_px": [
+            449.6610107421875,
+            244.6544189453125,
+            553.8648681640625,
+            356.2484130859375
+          ],
+          "center_uv": [
+            501.762939453125,
+            300.451416015625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9318671822547913,
+          "bbox_xyxy_px": [
+            519.5606536865234,
+            299.4957733154297,
+            526.9949493408203,
+            309.16333770751953
+          ],
+          "center_uv": [
+            523.2778015136719,
+            304.3295555114746
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9502109885215759
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8517951369285583,
+          "bbox_xyxy_px": [
+            527.7712020874023,
+            299.5706558227539,
+            535.0805969238281,
+            308.87560272216797
+          ],
+          "center_uv": [
+            531.4258995056152,
+            304.22312927246094
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9502109885215759
+        }
+      ]
+    },
+    {
+      "filename": "028_old_step_02_episode_000105_f00568.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            452.12288,
+            246.1644,
+            551.16416,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.9728,
+            298.356,
+            535.95904,
+            307.80816000000004
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.52064,
+            298.356,
+            526.9177599999999,
+            307.80816000000004
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9514790773391724,
+          "bbox_xyxy_px": [
+            450.01055908203125,
+            244.0631103515625,
+            554.2268676757812,
+            356.7113037109375
+          ],
+          "center_uv": [
+            502.11871337890625,
+            300.38720703125
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9168633222579956,
+          "bbox_xyxy_px": [
+            519.6471099853516,
+            299.23853302001953,
+            527.150634765625,
+            308.5128631591797
+          ],
+          "center_uv": [
+            523.3988723754883,
+            303.8756980895996
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9514790773391724
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8830516338348389,
+          "bbox_xyxy_px": [
+            527.9462356567383,
+            299.3352355957031,
+            535.4440002441406,
+            308.514892578125
+          ],
+          "center_uv": [
+            531.6951179504395,
+            303.92506408691406
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9514790773391724
+        }
+      ]
+    },
+    {
+      "filename": "034_old_step_02_episode_000175_f00485.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            453.35648,
+            246.1644,
+            551.57536,
+            354.24648
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            528.15104,
+            299.58912,
+            535.95904,
+            308.6304
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            519.1097599999999,
+            298.356,
+            526.9177599999999,
+            307.80816000000004
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9368203282356262,
+          "bbox_xyxy_px": [
+            451.454345703125,
+            243.660400390625,
+            554.5252685546875,
+            355.4693603515625
+          ],
+          "center_uv": [
+            502.98980712890625,
+            299.56488037109375
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9082193374633789,
+          "bbox_xyxy_px": [
+            519.587646484375,
+            299.1796646118164,
+            526.8825454711914,
+            308.3882522583008
+          ],
+          "center_uv": [
+            523.2350959777832,
+            303.7839584350586
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9368203282356262
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8786574006080627,
+          "bbox_xyxy_px": [
+            527.9340744018555,
+            299.21299743652344,
+            535.3123321533203,
+            308.57203674316406
+          ],
+          "center_uv": [
+            531.6232032775879,
+            303.89251708984375
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9368203282356262
+        }
+      ]
+    },
+    {
+      "filename": "039_rgb_20261008_0033.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            524.8630400000001,
+            199.72583999999998,
+            614.04128,
+            307.39704
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            592.67136,
+            250.68480000000002,
+            600.06848,
+            260.95872
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            583.2192,
+            249.04127999999997,
+            591.43808,
+            259.31519999999995
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9611284732818604,
+          "bbox_xyxy_px": [
+            517.140869140625,
+            196.3775634765625,
+            619.802001953125,
+            309.459716796875
+          ],
+          "center_uv": [
+            568.471435546875,
+            252.91864013671875
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.07109244912862778,
+          "bbox_xyxy_px": [
+            520.6295166015625,
+            96.30865478515625,
+            639.7117919921875,
+            171.34805297851562
+          ],
+          "center_uv": [
+            580.170654296875,
+            133.82835388183594
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9166539311408997,
+          "bbox_xyxy_px": [
+            582.7745513916016,
+            247.888427734375,
+            591.4830474853516,
+            258.81351470947266
+          ],
+          "center_uv": [
+            587.1287994384766,
+            253.35097122192383
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9611284732818604
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8412595391273499,
+          "bbox_xyxy_px": [
+            591.5534210205078,
+            249.9256362915039,
+            601.5582122802734,
+            262.1508560180664
+          ],
+          "center_uv": [
+            596.5558166503906,
+            256.03824615478516
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9611284732818604
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.0862700492143631,
+          "bbox_xyxy_px": [
+            575.2526092529297,
+            248.85873413085938,
+            582.3513488769531,
+            257.45935821533203
+          ],
+          "center_uv": [
+            578.8019790649414,
+            253.1590461730957
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9611284732818604
+        }
+      ]
+    },
+    {
+      "filename": "043_rgb_20261008_0038.jpg",
+      "boxes": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "bbox_xyxy_px": [
+            470.61632000000003,
+            163.97279999999998,
+            551.16416,
+            255.20543999999998
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            532.26048,
+            202.60272,
+            540.47936,
+            213.69840000000002
+          ]
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "bbox_xyxy_px": [
+            524.8633600000001,
+            203.42472,
+            533.0822400000001,
+            212.05463999999998
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "class_id": 0,
+          "label": "label_printer",
+          "confidence": 0.9784108400344849,
+          "bbox_xyxy_px": [
+            468.6820068359375,
+            161.76434326171875,
+            553.4467163085938,
+            256.63714599609375
+          ],
+          "center_uv": [
+            511.0643615722656,
+            209.20074462890625
+          ],
+          "method": "full_frame",
+          "parent_printer_confidence": null
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.9350330829620361,
+          "bbox_xyxy_px": [
+            532.0212020874023,
+            202.92611694335938,
+            539.3965759277344,
+            212.23245239257812
+          ],
+          "center_uv": [
+            535.7088890075684,
+            207.57928466796875
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9784108400344849
+        },
+        {
+          "class_id": 1,
+          "label": "button",
+          "confidence": 0.8519582152366638,
+          "bbox_xyxy_px": [
+            524.0258712768555,
+            202.0631332397461,
+            532.0641098022461,
+            212.02581787109375
+          ],
+          "center_uv": [
+            528.0449905395508,
+            207.04447555541992
+          ],
+          "method": "predicted_printer_crop",
+          "parent_printer_confidence": 0.9784108400344849
+        }
+      ]
+    }
+  ]
+}

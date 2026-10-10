@@ -1,0 +1,23 @@
+{
+  "algorithm": "task3-printer-button-yolo11n-20261010",
+  "classes": {
+    "0": "label_printer",
+    "1": "button"
+  },
+  "confidence_thresholds": {
+    "label_printer": 0.475,
+    "button": 0.4
+  },
+  "weights_sha256": "b10d38564f2a733bffc22d05e3253cfedbef9201de6f79a4f684701009f13449",
+  "compatible_weights_sha256": [
+    "094477cc6d250942a2118aa74a8130b3c5826895002628da07b389657b371f43"
+  ],
+  "imgsz": 640,
+  "rect": false,
+  "agnostic_nms": false,
+  "predicted_printer_roi_proposal_threshold": 0.1,
+  "roi_max_count": 10,
+  "crop_policy": "square max(160, 1.8 * max predicted printer side), clipped to image",
+  "button_function": null,
+  "robot_motion_ready": false
+}

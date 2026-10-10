@@ -1,0 +1,9 @@
+{
+  "previous_weights_unchanged": {
+    "/home/vnv/cup-perception-v9-20261009/weights/best.pt": "ad2b1e27e2ba8e146c80697e1be53b9302e70e5fbb4b331c294f549c9899eafc",
+    "/home/vnv/task2-cup-target-yolo-20261008/weights/best.pt": "f51e8527d8caec8f2608c2d4eb1c60c49bc5a6693b60e3ebddf1f6453af9fec5",
+    "/home/vnv/task2-cup-covered-yolo-v2-20261009/weights/best.pt": "1a042dbd1ccd17368db53b763cb29c7088a27ca7c11ab8906f5b8a698366c51b"
+  },
+  "original_images_unchanged": 60,
+  "label_zip_unchanged": true
+}
